@@ -1,0 +1,21 @@
+## Lab 01 slides cover the following topics:
+
+- Syllabus
+  - Introduction
+  - Grading
+  - Contact info
+- Fundamental Types
+- Type-Casting
+- Variables
+  - Variable naming conventions
+  - Illegal variable names
+- Assignment Operator
+- Mathematical Operators
+- Compound Assignment Operators
+- Intro to the Python Standard Library
+  - Intro to Modules
+  - `print()`
+  - `round()`
+  - `input()`
+- Comments
+- Reading Error Messages
