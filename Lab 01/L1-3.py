@@ -40,7 +40,7 @@ print(int_5)
 
 int_5 = 5
 
-int_5 = int_5 + 5    # This is an equivalent way of accomplishing this effect
+int_5 = int_5 + 5    # This is an equivalent way of accomplishing that effect
 
 print(int_5)
 
