@@ -1,4 +1,4 @@
-## Lab 01 slides cover the following topics:
+## Lab 01 Covers:
 
 - Syllabus
   - Introduction
