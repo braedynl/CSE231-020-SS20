@@ -75,7 +75,7 @@ If you're willing to get through the pain, this tutorial on how to set it up for
 
 https://www.youtube.com/watch?v=dNFgRUD2w68
 
-The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both Spyder and VSCode. 
+The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both IDEs. 
 
 ### Extra content we haven't discussed
 
