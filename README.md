@@ -41,9 +41,27 @@ Schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~c
 
 Links may not be direct because of a required login for some websites.
 
+## Section Information
+
+Leading Professor: Dr. Enbody
+
+Section Instructor: Braedyn Lettinga
+
+Section: XXX
+
+Location/Time: 
+
 ## Announcements This Week (X/X/20)
 
-![](confused_travolta.gif)
+Hi everyone! Welcome to CSE231! My name is Braedyn Lettinga, and I'll be leading your guys's section this semester. For a bit of background, I'm a sophomore computer science major, my focuses are mainly software engineering and data science. I've been tutoring other students for this class, CSE232, MTH132, and MTH133 for a while now, but I've finally been upgraded to a TA. 
+
+To ensure you guys get a good programming background going forward into future CSE classes, I have specially created lab presentations that build upon Dr. Enbody's presentations that he would traditionally give us TAs to show. There's also this GitHub repository that no other section has! I made this to compile all of the many links that are required for this class so you can easily navigate to where you need to go for an assignment. We'll discuss more about this in class. 
+
+This section of the README is for announcements and other sidenotes I think you guys should have. I'll send out an email once a week telling you guys what's changed in the repository and what to check. My specifically created lab presentations and demonstrations can be found in the corresponding "Lab XX" folder in the "code" section of the repository. After a lab is finished, I will provide an example solution in the corresponding lab folder. This, of course, will be talked about in my weekly email. 
+
+Usually, announcements here will be discussing smaller, extra details about the content we covered in lecture and lab. I'll sometimes link recommended videos or just have further explanations on a topic we discussed.
+
+I hope you guys have a great semester! Tell me in-person, or email me if you have questions, comments or concerns.
 
 ## Contact Information
 
