@@ -33,7 +33,7 @@ Links will be updated for the corresponding week every Sunday. Currently showing
 
 | Sunday X/X/20 | Monday X/X/20 | Tuesday X/X/20 | Wednesday X/X/20 | Thursday X/X/20 | Friday X/X/20 | Saturday X/X/20 |
 | :---:  | :---:  | :---:   | :---:     | :---:    | :---:  | :---:    |
-|| No Project This Week! ||| [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home)/[Lab 00](https://www.cse.msu.edu/~cse231/Labs/Lab00/) | No Exercises This Week! |
+|| No Project! ||| [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home)/[Lab 00](https://www.cse.msu.edu/~cse231/Labs/Lab00/) | No Exercises! |
 
 Next week's project (due on X/X/20): [Project XX](), **get started early!**
 
