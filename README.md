@@ -56,7 +56,7 @@ This also gives you time to get answers to questions from instructors or Piazza.
 
 **Use your IDE's debugger.** The debugger is an incredible tool that can break down your code line-by-line and show you what's happening with it.
 
-**When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see what went wrong.
+**When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
 
 ## Announcements This Week (X/X/20)
 
