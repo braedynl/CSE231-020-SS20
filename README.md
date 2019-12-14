@@ -39,6 +39,10 @@ Schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~c
 
 Links may not be direct because of a required login for some websites.
 
+## Announcements This Week (X/X/20)
+
+![](confused_travolta.gif)
+
 ## Contact Information
 Email: letting4@msu.edu or braedynlettinga@gmail.com
 
@@ -63,10 +67,6 @@ This also gives you time to get answers to questions from instructors or Piazza.
 **Use your IDE's debugger.** The debugger is an incredible tool that can break down your code line-by-line and show you what's happening with it.
 
 **When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
-
-## Announcements This Week (X/X/20)
-
-![](confused_travolta.gif)
 
 ## Extra
 
