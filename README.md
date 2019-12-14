@@ -61,7 +61,7 @@ Email: enbody@cse.msu.edu
 
 Website: https://www.cse.msu.edu/~enbody/
 
-Office: [Engineering Building, Room 3145](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
+Office: [Engineering Building (EB), Room 3145](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
 
 Office Hours: Instructions on his website
 
