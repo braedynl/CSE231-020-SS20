@@ -1,6 +1,8 @@
 # Braedyn Lettinga's CSE231 Section of Wonder & Amazement
 This repository is for CSE231 - Introduction to Programming I, Section XXX for SS20 at Michigan State University. It includes all presentations and demonstration code used during Braedyn Lettinga's in-class lab.
 
+This repository also acts as a hub for everything you need in this class. There is an overwhelming amount different websites you need to go to for this course, and so I created this repository for the benefit of you, beautiful people.
+
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
   - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
