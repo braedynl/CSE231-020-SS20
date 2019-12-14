@@ -9,11 +9,14 @@ Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
   - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
   - [Help Room Schedule]()
-  - [Piazza](https://piazza.com/)
+  - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
+  - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
+  - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
   - [Old Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   
-Homework Sites:
+Essential Sites:
+  - [Piazza](https://piazza.com/)
   - [D2L](https://d2l.msu.edu/d2l/home)
   - [Mimir](https://class.mimir.io/)
 
