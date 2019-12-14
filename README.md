@@ -44,6 +44,8 @@ Links may not be direct because of a required login for some websites.
 ![](confused_travolta.gif)
 
 ## Contact Information
+
+### Braedyn Lettinga
 Email: letting4@msu.edu or braedynlettinga@gmail.com
 
 I do not have office hours. If you want to meet me outside of lab, please email me and we can set something up. Talk to me in-person if you want my phone number or social media.
@@ -51,6 +53,15 @@ I do not have office hours. If you want to meet me outside of lab, please email 
 If you are having trouble with a project or exercise, think through it first, use your debugger, ask friends/acquaintances, ask on Piazza, *and then* ask me for help. Use me as a last resource.
 
 **Do not** meet me outside lab with no progress on an assignment, especially on the day that it's due. I will not walk you through an entire assignment. It is for **you** to figure out for the most part. I will only help you with simpler dilemmas.
+
+### Dr. Enbody
+Email: enbody@cse.msu.edu
+
+Website: https://www.cse.msu.edu/~enbody/
+
+Office: Engineering Building, Room 3145
+
+Office Hours: Instructions on his website
 
 ## General Tips
 
