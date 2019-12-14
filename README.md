@@ -29,13 +29,13 @@ Watching the lecture videos a day before lab is merely a recommendation, and the
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video/code.**
 
-Links will be updated for the corresponding week every Sunday. Currently showing week of: X/X/20
+Links will be updated for the corresponding week every Sunday. Currently showing week of: X/X/20 (Week 0)
 
 | Sunday X/X/20 | Monday X/X/20 | Tuesday X/X/20 | Wednesday X/X/20 | Thursday X/X/20 | Friday X/X/20 | Saturday X/X/20 |
 | :---:  | :---:  | :---:   | :---:     | :---:    | :---:  | :---:    |
-|| [Project 0X]() ||| [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home)/[Lab 0X]() | [Exercise Ch.0X](https://class.mimir.io/) |
+|| No Project This Week! ||| [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home)/[Lab 00](https://www.cse.msu.edu/~cse231/Labs/Lab00/) | No Exercises This Week! |
 
-Next week's project (due on X/X/20): [Project 0X](), **get started early!**
+Next week's project (due on X/X/20): [Project XX](), **get started early!**
 
 Schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes on this schedule, please notify me immediately.
 
@@ -62,6 +62,20 @@ This section of the README is for announcements and other sidenotes I think you 
 Usually, announcements here will be discussing smaller, extra details about the content we covered in lecture and lab. I'll sometimes link recommended videos or just have further explanations on a topic we discussed.
 
 I hope you guys have a great semester! Tell me in-person, or email me if you have questions, comments or concerns.
+
+### Notes for this week
+
+Dr. Enbody wants everyone to install Spyder (instructions in [Lab 00](https://www.cse.msu.edu/~cse231/Online/week0.html))
+
+Spyder is a fairly clean and easy to setup IDE. At some point (hopefully soon), we'll be talking about it's debugger, which is an amazing tool to help diagnose problems with your code. 
+
+Alternatively, you can setup [Visual Studio Code](https://code.visualstudio.com/) (which is what I use, and will be using for in-class demonstrations). Visual Studio Code is widely used by developers everywhere and has a ton of customizability and features compared to Spyder, in my opinion. The downside is that it can be a pain to setup.
+
+If you're willing to get through the pain, this tutorial on how to set it up for Python is the best: 
+
+https://www.youtube.com/watch?v=dNFgRUD2w68
+
+The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both Spyder and VSCode. 
 
 ## Contact Information
 
