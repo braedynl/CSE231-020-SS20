@@ -71,7 +71,7 @@ This also gives you time to get answers to questions from instructors or Piazza.
 
 **Always, always, always test your code as you're writing it.** Make sure that every step of the way, you're writing a block or line that is doing what you're expecting it to do.
 
-**Talk with your friends and acquaintances.** If you can't figure out how to code something, discuss an algorithm or write pseudocode with your buds. Remember that you **cannot**, under any circumstance, share code for the projects. Even looking at another person's implementation of a solution may lead you to doing something similar. Everything else is in this fair game to be collaborated on. Please check the [Office of the University Ombudsperson website about ADR](https://ombud.msu.edu/academic-integrity/academic_dishonesty_report.html) for more details about plaigarism.
+**Talk with your friends and acquaintances.** If you can't figure out how to code something, discuss an algorithm or write pseudocode with your buds. Remember that you **cannot**, under any circumstance, share code for the projects. Even looking at another person's implementation of a solution may lead you to doing something similar. Everything else is in this course is fair game to be collaborated on. Please check the [Office of the University Ombudsperson website about ADR](https://ombud.msu.edu/academic-integrity/academic_dishonesty_report.html) for more details about plaigarism.
 
 **Take advantage of Piazza and the help room.** These are two amazing resources to use if you're having trouble with your code. You can ask questions anonymously on Piazza and get quick responses from other students and instructors.
 
