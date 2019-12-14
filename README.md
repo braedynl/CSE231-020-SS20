@@ -83,4 +83,4 @@ This also gives you time to get answers to questions from instructors or Piazza.
 
 Want to become a TA/ULA for a CSE course? You can apply [here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). Undergraduate students wanting to become a ULA for CSE231 must complete CSE232 - Introduction to Programming II to be recruited.
 
-How do people usually perform in this course? If you've ever wondered, you can look at the performance statistics [here](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY).
+How do people usually perform in this course? If you've ever wondered, you can look at past performance statistics [here](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY).
