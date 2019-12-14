@@ -69,13 +69,17 @@ Dr. Enbody wants everyone to install Spyder (instructions in [Lab 00](https://ww
 
 Spyder is a fairly clean and easy to setup IDE. At some point (hopefully soon), we'll be talking about it's debugger, which is an amazing tool to help diagnose problems with your code. 
 
-Alternatively, you can setup [Visual Studio Code](https://code.visualstudio.com/) (which is what I use, and will be using for in-class demonstrations). Visual Studio Code is widely used by developers everywhere and has a ton of customizability and features compared to Spyder, in my opinion. The downside is that it can be a pain to setup.
+Alternatively, you can setup [Visual Studio Code](https://code.visualstudio.com/) (which is what I use, and will be using for in-class demonstrations). Visual Studio Code is widely used by developers everywhere and has a ton of customizability and features compared to Spyder when you get to know it's full potential. The downside is that it can be a pain to setup.
 
 If you're willing to get through the pain, this tutorial on how to set it up for Python is the best: 
 
 https://www.youtube.com/watch?v=dNFgRUD2w68
 
 The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both Spyder and VSCode. 
+
+### Extra content we haven't discussed
+
+None
 
 ## Contact Information
 
