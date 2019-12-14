@@ -13,7 +13,8 @@ Course Website: https://web.cse.msu.edu/~cse231/
   - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
   - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
-  - [Old Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
+  - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
+  - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
   
 Essential Sites:
   - [Piazza](https://piazza.com/)
