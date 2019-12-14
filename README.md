@@ -58,4 +58,4 @@ This also gives you time to get answers to questions from instructors or Piazza.
 
 ## Announcements This Week (X/X/20)
 
-None
+![](confused_travolta.gif)
