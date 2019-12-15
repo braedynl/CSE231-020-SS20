@@ -25,7 +25,7 @@ Essential Sites:
 
 The course follows a regular due date pattern. I have laid out the pattern below so that you can check when something is due for the week. 
 Assignments listed supply links to the corresponding website they are hosted on.
-Watching the lecture videos a day before lab is merely a recommendation, and the Pre-Lab/Lab table cell has two different links.
+Watching the lecture videos and doing the pre-lab can be done at any point during the week as long as you do them before the in-class lab.
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video/code.**
 
@@ -33,7 +33,7 @@ Links will be updated for the corresponding week every Sunday. Currently showing
 
 | Sunday X/X/20 | Monday X/X/20 | Tuesday X/X/20 | Wednesday X/X/20 | Thursday X/X/20 | Friday X/X/20 | Saturday X/X/20 |
 | :---:  | :---:  | :---:   | :---:     | :---:    | :---:  | :---:    |
-|| [Project XX]() ||| [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home)/[Lab 00](https://www.cse.msu.edu/~cse231/Labs/Lab00/) | [Exercises Ch.XX]() |
+|| [Project XX]() || [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home) | [Lab 00](https://www.cse.msu.edu/~cse231/Labs/Lab00/) | [Exercises Ch.XX]() |
 
 Next week's project (due on X/X/20): [Project XX](), **get started early!**
 
