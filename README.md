@@ -29,13 +29,13 @@ Watching the lecture videos and doing the pre-lab can be done at any point durin
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video/code.**
 
-Links will be updated for the corresponding week every Sunday. Currently showing week of: X/X/20 (Week 0)
+Links will be updated for the corresponding week every Sunday. Currently showing week of: 1/X/20 (Week 0)
 
-| Sunday X/X/20 | Monday X/X/20 | Tuesday X/X/20 | Wednesday X/X/20 | Thursday X/X/20 | Friday X/X/20 | Saturday X/X/20 |
+| Sunday 1/X/20 | Monday 1/X/20 | Tuesday 1/X/20 | Wednesday 1/X/20 | Thursday 1/X/20 | Friday 1/X/20 | Saturday 1/X/20 |
 | :---:  | :---:  | :---:   | :---:     | :---:    | :---:  | :---:    |
 || [Project XX]() || [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home) | [Lab 00](https://www.cse.msu.edu/~cse231/Labs/Lab00/) | [Exercises Ch.XX]() |
 
-Next week's project (due on X/X/20): [Project XX](), **get started early!**
+Next week's project (due on 1/X/20): [Project XX](), **get started early!**
 
 Schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes on this schedule, please notify me immediately.
 
