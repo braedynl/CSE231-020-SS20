@@ -23,19 +23,31 @@ Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
   - [Mimir](https://class.mimir.io/)
 
-The course follows a regular due date pattern. I have laid out the pattern below so that you can check when something is due for the week. 
+Laid out below is the course schedule (taken directly from the course website) so that you can check when something is due with ease.
 Assignments listed supply links to the corresponding website they are hosted on.
 Watching the lecture videos and doing the pre-lab can be done at any point during the week as long as you do them before the in-class lab.
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video/code.**
 
-Links will be updated for the corresponding week every Sunday. Currently showing week of: 1/X/20 (Week 0)
-
-| Sunday 1/X/20 | Monday 1/X/20 | Tuesday 1/X/20 | Wednesday 1/X/20 | Thursday 1/X/20 | Friday 1/X/20 | Saturday 1/X/20 |
-| :---:  | :---:  | :---:   | :---:     | :---:    | :---:  | :---:    |
-|| [Project XX]() || [Lecture Videos]() | [Pre-Lab](https://d2l.msu.edu/d2l/home) | [Lab 00](https://www.cse.msu.edu/~cse231/Labs/Lab00/) | [Exercises Ch.XX]() |
-
-Next week's project (due on 1/X/20): [Project XX](), **get started early!**
+| Week of...  |     | Sunday | Monday     | Tuesday | Wednesday      | Thursday   | Friday | Saturday        |     |
+| :---:       |:---:| :---:  | :---:      | :---:   | :---:          | :---:      | :---:  | :---:           |:---:|
+| 0: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 1: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 2: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 3: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 4: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 5: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 6: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 7: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 8: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 9: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 10: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 11: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 12: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 13: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 14: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 15: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| 16: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
 
 Schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes on this schedule, please notify me immediately.
 
@@ -49,7 +61,7 @@ Section Instructor: Braedyn Lettinga
 
 Section: XXX
 
-Location/Time: 
+Location/Time: XXX
 
 ## Announcements This Week (X/X/20)
 
@@ -113,7 +125,7 @@ This also gives you time to get answers to questions from instructors or Piazza.
 
 **Take advantage of Piazza and the help room.** These are two amazing resources to use if you're having trouble with your code. You can ask questions anonymously on Piazza and get quick responses from other students and instructors.
 
-**Use your IDE's debugger.** The debugger is an incredible tool that can break down your code line-by-line and show you what's happening with it.
+**Use your IDE's debugger.** The debugger is an incredible tool that can break down your code line-by-line and show you what's happening with it. We'll be covering how to use the debugger during one of the labs.
 
 **When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
 
