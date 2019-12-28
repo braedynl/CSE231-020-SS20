@@ -88,7 +88,7 @@ https://www.youtube.com/watch?v=dNFgRUD2w68
 
 He also goes through how to install Python. The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both IDEs. 
 
-### Extra content we haven't discussed
+### Extra content we haven't discussed this week
 
 None
 
