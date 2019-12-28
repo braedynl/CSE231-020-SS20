@@ -29,25 +29,24 @@ Watching the lecture videos and doing the pre-lab can be done at any point durin
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video/code.**
 
-| Week of...  |     | Sunday | Monday     | Tuesday | Wednesday      | Thursday   | Friday | Saturday        |     |
-| :---:       |:---:| :---:  | :---:      | :---:   | :---:          | :---:      | :---:  | :---:           |:---:|
-| 0: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 1: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 2: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 3: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 4: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 5: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 6: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 7: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 8: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 9: X/X/20   |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 10: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 11: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 12: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 13: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 14: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 15: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
-| 16: X/X/20  |     |        | Project XX |         | Lecture Videos | Pre-Lab XX | Lab XX | Exercises Ch.XX |     |
+| Week of...  |     | Sunday | Monday     | Tuesday | Wednesday      | Thursday   | Friday | Saturday           |     |
+| :---:       |:---:| :---:  | :---:      | :---:   | :---:          | :---:      | :---:  | :---:              |:---:|
+| 01: 1/05/20 |     |        | Lab 00     |         | Lecture Videos | Pre-Lab 01 | Lab 01 | Exercises Ch.01    |     |
+| 02: 1/12/20 |     |        | Project 01 |         | Lecture Videos | Pre-Lab 02 | Lab 02 | Exercises Ch.02    |     |
+| 03: 1/19/20 |     |        | Project 02 |         | Lecture Videos | Pre-Lab 03 | Lab 03 | Exercises Ch.04    |     |
+| 04: 1/26/20 |     |        | Project 03 |         | Lecture Videos | Pre-Lab 04 | Lab 04 | Exercises Ch.05    |     |
+| 05: 2/02/20 |     |        |            | Exam 1  | Lecture Videos | Pre-Lab 05 | Lab 05 | Exercises Ch.06    |     |
+| 06: 2/09/20 |     |        | Project 04 |         | Lecture Videos | Pre-Lab 06 | Lab 06 |                    |     |
+| 07: 2/16/20 |     |        | Project 05 |         | Lecture Videos | Pre-Lab 07 | Lab 07 | Exercises Ch.07    |     |
+| 08: 2/23/20 |     |        | Project 06 |         | Lecture Videos | Pre-Lab 08 | Lab 08 |                    |     |
+| 09: 3/08/20 |     |        |            |         | Lecture Videos | Pre-Lab 09 | Lab 09 | Exercises Ch.08/09 |     |
+| 10: 3/15/20 |     |        |            | Exam 2  | Lecture Videos | Pre-Lab 10 | Lab 10 |                    |     |
+| 11: 3/22/20 |     |        | Project 07 |         | Lecture Videos | Pre-Lab 11 | Lab 11 | Exercises Ch.11    |     |
+| 12: 3/29/20 |     |        | Project 08 |         | Lecture Videos | Pre-Lab 12 | Lab 12 |                    |     |
+| 13: 4/05/20 |     |        | Project 09 |         | Lecture Videos | Pre-Lab 13 | Lab 13 | Exercises Ch.12    |     |
+| 14: 4/12/20 |     |        | Project 10 |         | Lecture Videos | Pre-Lab 14 | Lab 14 |                    |     |
+| 15: 4/19/20 |     |        | Project 11 |         | Lecture Videos | Pre-Lab 15 | Lab 15 |                    |     |
+| 16: 4/26/20 |     |        | Final Exam |         |                |            |        |                    |     |
 
 Schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes on this schedule, please notify me immediately.
 
