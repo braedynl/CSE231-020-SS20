@@ -82,11 +82,11 @@ Spyder is a fairly clean and easy to setup IDE. At some point (hopefully soon), 
 
 Alternatively, you can setup [Visual Studio Code](https://code.visualstudio.com/) (which is what I use, and will be using for in-class demonstrations). Visual Studio Code is widely used by developers everywhere and has a ton of customizability and features compared to Spyder when you get to know it's full potential. The downside is that it can be a pain to setup.
 
-If you're willing to get through the pain, this tutorial on how to set it up for Python is the best: 
+If you're willing to get through the pain, this tutorial on how to set it up for Python is the best in my opinion: 
 
 https://www.youtube.com/watch?v=dNFgRUD2w68
 
-The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both IDEs. 
+He also goes through how to install Python. The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both IDEs. 
 
 ### Extra content we haven't discussed
 
