@@ -3,7 +3,7 @@ This repository is for CSE231 - Introduction to Programming I, Section XXX for S
 
 My lab slides and demonstration code lightly build upon Dr. Enbody's already laid-out TA slides. No content is omitted, content is only added. The content I add are things I believe you guys should be aware of going into later topics, exams and homework, in hopes that you guys can come out of the course with a 4.0 and a great coding experience.
 
-This repository also acts as a hub for everything you need in this class. There is an overwhelming amount different websites you need to go to for this course, and so I created this repository for the benefit of you beautiful people.
+This repository also acts as a hub for everything you need in this class. There is an overwhelming amount of websites you need to go to for this course, and so hopefully this readme lays out everything you'll need for convenience sake.
 
 After a lab is done, I will upload an example solution to it in the corresponding lab folder here in this repository.
 
