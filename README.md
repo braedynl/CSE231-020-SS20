@@ -1,7 +1,7 @@
 # Braedyn Lettinga's CSE231 Section of Wonder & Amazement
 This repository is for CSE231 - Introduction to Programming I, Section XXX for SS20 at Michigan State University. It includes all presentations and demonstration code used during my specific in-class lab.
 
-My :star:***exclusive***:star: lab slides and demonstration code build upon Dr. Enbody's already laid-out TA slides. No content is omitted, content is only added upon. The content I add are things I believe you guys should be aware of going into later topics, exams and homework, in hopes that you guys can come out of the course with a 4.0 and a great coding experience.
+My lab slides and demonstration code lightly build upon Dr. Enbody's already laid-out TA slides. No content is omitted, content is only added. The content I add are things I believe you guys should be aware of going into later topics, exams and homework, in hopes that you guys can come out of the course with a 4.0 and a great coding experience.
 
 This repository also acts as a hub for everything you need in this class. There is an overwhelming amount different websites you need to go to for this course, and so I created this repository for the benefit of you beautiful people.
 
@@ -114,7 +114,7 @@ Office Hours: Instructions on his website
 
 ## General Tips
 
-**Start projects early, I cannot stress this enough**. There is always a link for next week's project supplied below the above table so you can get started as early as possible.
+**Start projects early, I cannot stress this enough**.
 Sometimes, you might be faced with a problem that you have no idea how to implement an algorithm for. Coming back to a problem the next day, or simply taking a break and doing something else for a bit can seriously help.
 This also gives you time to get answers to questions from instructors or Piazza.
 
