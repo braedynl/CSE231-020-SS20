@@ -27,7 +27,7 @@ Essential Sites:
 
 Laid out below is the course schedule (taken directly from the course website) so that you can check when something is due with ease.
 Assignments listed supply links to the corresponding website they are hosted on.
-Watching the lecture videos and doing the pre-lab can be done at any point during the week as long as you do them before the in-class lab.
+Reading the book chapters, watching the lecture videos and doing the pre-lab can be done at any point during the week as long as you do them before the in-class lab.
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video/code.**
 
