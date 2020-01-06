@@ -1,4 +1,4 @@
-# CSE231 Section 020
+# CSE231 - Section 020 - Spring Semester 2020
 This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab.
 
 My lab slides and demonstration code lightly build upon Dr. Enbody's already laid-out TA slides. No content is omitted, content is only added. The content I add are things I believe you guys should be aware of going into later topics, exams and homework, in hopes that you guys can come out of the course with a 4.0 and a great coding experience.
