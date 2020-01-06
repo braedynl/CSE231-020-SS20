@@ -64,7 +64,7 @@ Section: 020
 
 Location/Time: [Engineering Building (EB), Room 3320 from 5:00-6:50PM](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
 
-## Announcements This Week (X/X/20)
+## Announcements This Week (1/5/20)
 
 Hi everyone! Welcome to CSE231! My name is Braedyn Lettinga, and I'll be leading your guys's section this semester. For a bit of background, I'm a sophomore computer science major, my focuses are mainly software engineering and data science. I've been tutoring other students for this class, CSE232, MTH132, and MTH133 for a while now, but I've finally been upgraded to a TA. 
 
