@@ -36,6 +36,8 @@ Laid out below is the course schedule (taken directly from the course website) s
 Assignments listed supply links to the corresponding website they are hosted on.
 Reading the book chapters, watching the lecture videos and doing the pre-lab can be done at any point during the week as long as you do them before the in-class lab.
 
+If you do not have the book yet, a draft of chapters 0 and 1 can be found [here.](https://web.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) 
+
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video/code.**
 
 | Week of...  |     | Sunday | Monday         | Tuesday | Wednesday          | Thursday       | Friday | Saturday               |
