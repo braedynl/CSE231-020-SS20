@@ -89,7 +89,7 @@ I do not have office hours. If you want to meet me outside of lab, please email 
 
 If you are having trouble with a project or exercise, think through it first, use your debugger, ask friends/acquaintances, ask on Piazza, *and then* ask me for help. Use me as a last resource.
 
-**I cannot meet on Mondays, and I will be in the help-room on Sundays from 4-6:30PM.**
+**I will not meet or do email/text help on Mondays, and I will be in the help-room on Sundays from 4-6:30PM.**
 
 ### Dr. Enbody
 Email: enbody@cse.msu.edu
