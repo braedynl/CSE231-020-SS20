@@ -38,6 +38,7 @@ The lecture videos for each week are supplemental to the book readings. You can 
 The Mimir chapter exercises are then pretty much summations of all the content we learned for the week. These tend to be short coding exercises where you have to complete test cases to get full points for the problem. 
 
 You might have noticed that I didn't mention Lab01 anywhere, and that's because labs are strictly to be done during the physical lab meeting. You **cannot** start the lab outside of... lab. This is Dr. Enbody's rule, not mine. (Trust me, I would have done the lab early every week to get out of there, too). We'll talk about the how the lab assignments work this week.
+
 **Next week Monday**, is the first project due date. Project submissions are on Mimir, with associated introduction videos either on the course website, or on the project link supplied by my GitHub README calendar (they bring you to the same place).
 
 **Start projects early.**
