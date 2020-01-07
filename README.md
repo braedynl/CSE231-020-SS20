@@ -12,7 +12,7 @@ I think it goes without saying that using this page **is an option**. You can wo
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
   - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
-  - [Help Room Schedule]()
+  - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
   - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
   - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
   - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
