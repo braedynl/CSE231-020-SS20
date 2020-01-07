@@ -19,6 +19,7 @@ Course Website: https://web.cse.msu.edu/~cse231/
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
+  - [PythonTutor](http://pythontutor.com/)
   
 Essential Sites:
   - [Piazza](https://piazza.com/)
