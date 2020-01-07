@@ -19,12 +19,18 @@ Course Website: https://web.cse.msu.edu/~cse231/
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
+  - [General Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
+  - [Lab Schedules](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
   - [PythonTutor](http://pythontutor.com/)
   
 Essential Sites:
   - [Piazza](https://piazza.com/)
   - [D2L](https://d2l.msu.edu/d2l/home)
   - [Mimir](https://class.mimir.io/)
+  
+Extra:
+  - [Dr. Enbody's Exam-Taking Guide](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
+  - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
 
 Laid out below is the course schedule (taken directly from the course website) so that you can check when something is due with ease.
 Assignments listed supply links to the corresponding website they are hosted on.
