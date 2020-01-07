@@ -76,20 +76,6 @@ Usually, announcements here will be discussing smaller, extra details about the 
 
 I hope you guys have a great semester! Tell me in-person, or email me if you have questions, comments or concerns.
 
-### Notes for this week
-
-Dr. Enbody wants everyone to install Spyder (instructions in [Lab 00](https://www.cse.msu.edu/~cse231/Online/week0.html))
-
-Spyder is a fairly clean and easy to setup IDE. At some point (hopefully soon), we'll be talking about it's debugger, which is an amazing tool to help diagnose problems with your code. 
-
-Alternatively, you can setup [Visual Studio Code](https://code.visualstudio.com/) (which is what I use, and will be using for in-class demonstrations). Visual Studio Code is widely used by developers everywhere and has a ton of customizability and features compared to Spyder when you get to know it's full potential. The downside is that it can be a pain to setup.
-
-If you're willing to get through the pain, this tutorial on how to set it up for Python is the best in my opinion: 
-
-https://www.youtube.com/watch?v=dNFgRUD2w68
-
-He also goes through how to install Python. The debugger is a lot more user-friendly on VSCode compared to Spyder. When it comes time to learn about the debugger, I will show you how to use it in both IDEs. 
-
 ### Extra content we haven't discussed this week
 
 None
