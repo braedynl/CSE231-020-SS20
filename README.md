@@ -73,22 +73,6 @@ Section: 020
 
 Location/Time: [Engineering Building (EB), Room 3320 from 5:00-6:50PM](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
 
-## Announcements This Week (1/5/20)
-
-Hi everyone! Welcome to CSE231! My name is Braedyn Lettinga, and I'll be leading your guys's section this semester. For a bit of background, I'm a sophomore computer science major, my focuses are mainly software engineering and data science. I've been tutoring other students for this class, CSE232, MTH132, and MTH133 for a while now, but I've finally been upgraded to a TA. 
-
-To ensure you guys get a good programming background going forward into future CSE classes, I have specially created lab presentations that build upon Dr. Enbody's presentations that he would traditionally give us TAs to show. There's also this GitHub repository that no other section has! I made this to compile all of the many links that are required for this class so you can easily navigate to where you need to go for an assignment. We'll discuss more about this in class. 
-
-This section of the README is for announcements and other sidenotes I think you guys should have. I'll send out an email once a week telling you guys what's changed in the repository and what to check. My specifically created lab presentations and demonstrations can be found in the corresponding "Lab XX" folder in the "code" section of the repository. After a lab is finished, I will provide an example solution in the corresponding lab folder. This, of course, will be talked about in my weekly email. 
-
-Usually, announcements here will be discussing smaller, extra details about the content we covered in lecture and lab. I'll sometimes link recommended videos or just have further explanations on a topic we discussed.
-
-I hope you guys have a great semester! Tell me in-person, or email me if you have questions, comments or concerns.
-
-### Extra content we haven't discussed this week
-
-None
-
 ## Contact Information
 
 ### Braedyn Lettinga
@@ -130,7 +114,3 @@ This also gives you time to get answers to questions from instructors or Piazza.
 Want to become a TA/ULA for a CSE course? You can apply [here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). Undergraduate students wanting to become a ULA for CSE231 must complete CSE232 - Introduction to Programming II to be recruited.
 
 How do people usually perform in this course? If you've ever wondered, you can look at past performance statistics [here](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY).
-
-## Past Announcements
-
-![](confused_travolta.gif)
