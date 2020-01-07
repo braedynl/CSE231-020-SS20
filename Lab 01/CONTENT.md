@@ -3,7 +3,10 @@
 - Syllabus
   - Introduction
   - Grading
-  - Contact info
+  - Contact Information
+  - Projects
+  - Project Grading
+  - The Textbook
 - Fundamental Types
 - Type-Casting
 - Variables
