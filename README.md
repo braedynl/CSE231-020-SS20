@@ -39,6 +39,8 @@ Reading the book chapters, watching the lecture videos and doing the pre-lab can
 
 If you do not have the book yet, a draft of chapters 0 and 1 can be found [here.](https://web.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) 
 
+Labs (outside of Lab 00) must be completed in-class, they are not homework assignments.
+
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
 
 | Week of...  |     | Sunday | Monday         | Tuesday | Wednesday          | Thursday       | Friday | Saturday               |
