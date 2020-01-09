@@ -1,4 +1,8 @@
+Subject: CSE231 Sec 020 - TA Notes (Week of 1/5/20)
+
 Sent: Mon 1/6/2020 8:45PM
+
+__________________________________________________________________________________________
 
 Hi everyone! Sorry, this is going to be a long email...
 
