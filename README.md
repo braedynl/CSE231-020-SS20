@@ -22,7 +22,6 @@ Course Website: https://web.cse.msu.edu/~cse231/
   - [General Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
   - [Lab Schedules](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
   - [PythonTutor](http://pythontutor.com/)
-  - [PythonTutor Mirror](https://cscircles.cemc.uwaterloo.ca/visualize)
   
 Essential Sites:
   - [Piazza](https://piazza.com/)
