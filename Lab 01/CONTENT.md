@@ -15,8 +15,9 @@
 - Assignment Operator
 - Mathematical Operators
 - Compound Assignment Operators
-- Intro to the Python Standard Library
-  - Intro to Modules
+- Intro to Modules
+  - `math`
+- Base-Language Functions
   - `print()`
   - `round()`
   - `input()`
