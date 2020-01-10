@@ -111,6 +111,8 @@ This also gives you time to get answers to questions from instructors or Piazza.
 
 **When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
 
+**Try [PythonTutor](http://pythontutor.com/)!** PythonTutor visualizes your code and can help so much with comprehension. It can, however, only run a certain amount of lines. Good to use for small chunks of code.  
+
 ## Extra
 
 Want to become a TA/ULA for a CSE course? You can apply [here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). Undergraduate students wanting to become a ULA for CSE231 must complete CSE232 - Introduction to Programming II (or an equivalent) to be recruited.
