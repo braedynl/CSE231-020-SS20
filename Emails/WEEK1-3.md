@@ -1,3 +1,8 @@
+Subject: CSE231 Sec 020 - Grades, Reminders and Confusion (Week of 1/5/20)
+
+Sent: Fri 1/10/2020 9:46PM
+_________________________________________________________________________________________
+
 Hi everyone,
 
 So it seems like section transferring has finally calmed down a bit, which means hopefully I can now address all of you easily. 
