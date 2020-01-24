@@ -1,0 +1,21 @@
+## Lab 03 Covers:
+
+- Strings
+  - Indices
+  - Substrings/Slicing
+  - Strings w/ '+' Operator
+  - Strings w/ Comparison Operators
+  - String Methods
+    - `.isupper()`
+    - `.islower()`
+    - `.isdigit()`
+    - `.isalpha()`
+    - `.lower()`
+    - `.upper()`
+    - `.find()`
+    - `.rfind()`
+    - `.replace()`
+    - `.format()`
+      - `.format()` Arguments
+- `enumerate()`
+- `in`
