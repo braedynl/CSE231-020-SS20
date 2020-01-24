@@ -1,13 +1,5 @@
 # CSE231-020-SS20
-This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab.
-
-My lab slides and demonstration code lightly build upon Dr. Enbody's already laid-out TA slides. No content is omitted, content is only added. The content I add are things I believe you guys should be aware of going into later topics, exams and homework, in hopes that you guys can come out of the course with a 4.0 and a great coding experience.
-
-This repository also acts as a hub for everything you need in this class. There is an overwhelming amount of websites you need to go to for this course, and so hopefully this README file lays out everything you'll need for convenience sake.
-
-After a lab is done, I will upload an example solution (with documentation) to it in the corresponding lab folder here in this repository. You will be notified in a weekly email.
-
-I think it goes without saying that using this page **is an option**. You can work from the main CSE website if you'd prefer. All my lab slides will be posted here, but I will also include them in my weekly email, as well as announcements and notes I have for the week.
+This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the class. You can use this instead of the main course website if you so choose. 
 
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
