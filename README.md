@@ -1,5 +1,5 @@
 # CSE231-020-SS20
-This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the class. You can use this instead of the main course website if you so choose. 
+This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose. 
 
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
