@@ -1,3 +1,9 @@
+Subject: CSE231 Sec 020 - Another Weekly Email From Your Talkative TA (Week of 1/19/2020)
+
+Sent: Sat 1/25/2020 4:51PM
+
+_________________________________________________________
+
 Hello all, 
 
 [As always, content from this week's lab can be found here.](https://github.com/braedynl/CSE231-020-SS20/tree/master/Lab%2003)
