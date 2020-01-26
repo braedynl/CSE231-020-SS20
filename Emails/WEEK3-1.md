@@ -15,4 +15,5 @@ Project 02 grades and feedback should be coming back at some point this weekend.
 Mimir Exercises Ch.4 is due tonight (1/25) at 11:59PM, and Project 03 is due Monday (1/27) at 11:59PM, both are on Mimir like always.
 
 Best,
+
 Braedyn Lettinga 
