@@ -1,3 +1,9 @@
+Subject: CSE231 Sec 020 - Exam 1 Prep & Yet Another Pre-Lab Reminder (Week of 1/26/2020)
+
+Sent: Fri 1/31/2020 11:09PM
+
+______________________________________
+
 Howdy ya'll, 
 
 Last email for this week, I promise. This is my "official" weekly email.
