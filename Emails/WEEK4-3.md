@@ -18,7 +18,7 @@ Make sure to pack that note-sheet, btw. Make it stuff you don't have memorized, 
 
 Okay so I'm also going to, again, remind you all about the Pre-Labs. Here is a hastily drawn arrow I plastered onto a screenshot in MSPaint that depicts the location of the Pre-Labs on D2L, since I heard some people were having trouble finding it. 
 
-![](Emails/WEEK4-3IMG1.png)
+![](WEEK4-3IMG1.png)
 
 Follow the due dates and times as shown on D2L. You have unlimited submissions before the deadline. As stated many times now, I cannot give you credit for the in-class lab if you don't do the pre-lab. A couple of you got that talk today and I apologize for it -- I really don't like giving out 0s. Most of you have not missed a pre-lab or a lab. If you got 100% on all of the labs so far on D2L, then you know that you haven't missed either. Most of the time, students will save their 2 free lab absences to use for the end of the semester. 
 
