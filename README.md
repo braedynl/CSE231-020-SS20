@@ -85,7 +85,14 @@ Website: https://www.cse.msu.edu/~enbody/
 
 Office: [Engineering Building (EB), Room 3145](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
 
-Office Hours: Instructions on his website
+Office Hours: Find an available timeslot on [Dr. Enbody's calendar](https://calendar.google.com/calendar/embed?src=enbody@gmail.com&ctz=America/New_York) and send an email to him requesting for that time.
+
+### Dr. Zaabar
+Email: zaabarim@cse.msu.edu
+
+Office: [Engineering Building (EB), Room 3581](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
+
+Office Hours: Find an available timeslot on [Dr. Zaabar's calendar](https://calendar.google.com/calendar/embed?src=imenzaabar7%40gmail.com&ctz=America%2FDetroit) and send an email to her requesting for that time.
 
 ## General Tips
 
