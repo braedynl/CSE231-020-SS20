@@ -70,11 +70,9 @@ Location/Time: [Engineering Building (EB), Room 3320 from 5:00-6:50PM](https://w
 ## Contact Information
 
 ### Braedyn Lettinga
-Email: letting4@msu.edu or braedynlettinga@gmail.com
+Email: letting4@msu.edu
 
-I do not have office hours. If you want to meet me outside of lab, please email me and we can set something up. Talk to me in-person if you want my phone number or social media. If your problem is a bit smaller, we might be able to just solve it over text/email. 
-
-If you are having trouble with a project or exercise, think through it first, use your debugger, ask friends/acquaintances, ask on Piazza, *and then* ask me for help. Use me as a last resource.
+I do not have office hours. If you want to meet me outside of lab, please email me and we can set something up. I'll typically want to meet at the MSU Main Library. Talk to me in-person if you want my phone number or social media. I can solve most problems over just email/text. 
 
 **I will usually not meet or do email/text help on Mondays, and I will be in the help-room on Sundays from 4-6:30PM.**
 
