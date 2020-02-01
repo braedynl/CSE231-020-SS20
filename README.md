@@ -59,9 +59,9 @@ Links may not be direct because of a required login for some websites.
 
 ## Section Information
 
-Leading Professor: Dr. Enbody
+Leading Professors: Dr. Enbody / Dr. Zaabar
 
-Section Instructor: Braedyn Lettinga
+Section TA: Braedyn Lettinga
 
 Section: 020
 
