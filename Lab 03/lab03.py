@@ -1,4 +1,4 @@
-# Lab03 - Example Answer (No Documentation)
+# Lab03 - Example Answer (Undocumented)
 # Braedyn Lettinga
 
 VOWELS = "aeiou"
