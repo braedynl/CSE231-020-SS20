@@ -1,4 +1,4 @@
-# Lab05 (a) - Example Answer (No Comments)
+# Lab05 (a) - Example Answer (Undocumented)
 # Braedyn Lettinga
 
 in_file = open("data.txt", "r")
