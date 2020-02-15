@@ -1,4 +1,4 @@
-# Lab04 - Example Answer (No Documentation)
+# Lab04 - Example Answer (Undocumented)
 # Braedyn Lettinga
 # Noelle and Vinay for amazing float_check() function
 
