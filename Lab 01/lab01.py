@@ -1,4 +1,4 @@
-# Lab01 - Example Answer (No Documentation)
+# Lab01 - Example Answer (Undocumented)
 # Braedyn Lettinga
 
 import math
