@@ -1,4 +1,4 @@
-# Lab02 - Example Answer (No Documentation)
+# Lab02 - Example Answer (Undocumented)
 # Braedyn Lettinga
 
 in_int = int(input("Input an integer (0 terminates): "))
