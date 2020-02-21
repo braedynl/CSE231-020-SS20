@@ -52,6 +52,10 @@ def get_largest_states(L):
 def get_industry_counts(L): 
     # The template for the return looks like:
     # [ [{industry name}, {count}], [{industry name, count}], ... ]
+    
+    # My Lists, Tuples and Sorting notebook talks more about list comprehension
+    # and sort functions if you need a refresher.
+    # (In this repository, Extra/ folder)
 
     # You can quickly create a list like this with list comprehension,
     # and using the list of industries already given to us at the beginning
