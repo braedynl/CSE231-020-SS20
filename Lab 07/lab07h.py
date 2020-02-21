@@ -56,6 +56,7 @@ def get_industry_counts(L):
     # My Lists, Tuples and Sorting notebook talks more about list comprehension
     # and sort functions if you need a refresher.
     # (In this repository, Extra/ folder)
+    # https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Lists%2C%20Tuples%20and%20Sorting.ipynb
 
     # You can quickly create a list like this with list comprehension,
     # and using the list of industries already given to us at the beginning
