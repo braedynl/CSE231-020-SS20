@@ -3,7 +3,7 @@ There are many, many ways to go about this. Dr. Enbody
 intentionally left this one open-ended to see where you guys
 go and how you think. 
 I'll be giving you guys a game-plan, but we want to see how
-ya'll organize.
+y'all organize.
 '''
 
 # open the two datasets, "data1.txt" and "data2.txt",
