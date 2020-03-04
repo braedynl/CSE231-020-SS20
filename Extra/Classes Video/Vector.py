@@ -3,6 +3,7 @@ from math import sqrt
 '''
 This example is associated with a video I did on classes:
 https://www.youtube.com/watch?v=gEd5WZ4LwuQ
+(best if watched at higher speed!)
 
 Create a class called Vector() that has attributes: "i" and "j".
 It has a constructor with two int/float parameters, i and j. 
