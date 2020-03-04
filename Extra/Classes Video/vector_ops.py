@@ -4,6 +4,7 @@ from math import acos
 '''
 This example is associated with a video I did on classes:
 https://www.youtube.com/watch?v=gEd5WZ4LwuQ
+(best if watched at higher speed!)
 
 With your vector class, develop two functions:
 
