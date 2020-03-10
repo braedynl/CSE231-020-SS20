@@ -118,4 +118,6 @@ How do people usually perform in this course? If you've ever wondered, you can l
 
 In this repository is a PDF of a book called "Cracking the Coding Interview". If you're looking to be a software engineer (or similar) in the future, this book is a good read before heading into a technical interview. I'm pretty sure me hosting it here is illegal, but for some reason you can find it online with just a single Google-search?? If anyone comes after me for this I would be surprised. 
 
-In the Extra/ folder in this repository are some exam notes that I've created. They detail some weird and whacky things you can do in Python that Dr. Enbody will sometimes have on his exams. Exam 1's notes can be found [here](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Exam01.ipynb). I will be creating more of these for the future midterms and final as well.
+In the Extra/ folder of this repository are some Python notebooks that detail some of the tricky things you'll see on Dr. Enbody's exams. Hopefully these help!
+- [Exam 1 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2001.ipynb)
+- [Exam 2 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2002.ipynb)
