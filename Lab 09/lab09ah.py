@@ -53,7 +53,7 @@ data_map = {
 # Keys are the continents
 print(data_map.keys())    # Out: dict_keys(["continent1", "continent2"])
 
-# Accessing the country dictionary
+# Accessing the continent's dictionary
 print(data_map["continent1"])     # Out: {"country1": ["city1", "city2"], "country2": ["city1", "city2", "city3"]}
 
 # Accessing the cities within a continent/country
