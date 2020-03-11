@@ -1,6 +1,7 @@
 ## Lab 09 Covers:
 
 - Administrative announcements relating to COVID-19
+- Exam 2 Details
 - Nested Dictionaries
 - Sets
   - Preliminary Info
