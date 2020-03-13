@@ -2,6 +2,8 @@ Subject: CSE231 Sec 020 - Important Lab Information (Week of 3/8/2020)
 
 Sent: Fri 3/13/2020 12:42 AM
 
+\**This email has been edited due to a mistake that was previously written.*
+
 __________________________________________
 
 Howdy,
@@ -26,11 +28,11 @@ On the Zoom desktop client, the channels look like this: (I'm currently in the G
 
 I made all of the channels so I have all of them listed on my sidebar. You should be able to add/delete these channels to your sidebar willy-nilly and enter any of them.
 
-In terms of how lab will be assessed will be similar to the in-class lab. As you probably know, the lab grade is traditionally attendance-based. Dr. Enbody wants to keep this format and so we'll be conducting a group Zoom meeting at the same time as the traditional lab, __4:00 PM to 6:50 PM on Fridays__. Like the traditional lab, I'll have to do my mini-lecture and keep track of who attends. If you get finished early, you can of course leave the session early. If you're about to leave the session early, __make sure I know you finished__. 
+In terms of how lab will be assessed will be similar to the in-class lab. As you probably know, the lab grade is traditionally attendance-based. Dr. Enbody wants to keep this format and so we'll be conducting a group Zoom meeting at the same time as the traditional lab, __5:00 PM to 6:50 PM on Fridays__. Like the traditional lab, I'll have to do my mini-lecture and keep track of who attends. If you get finished early, you can of course leave the session early. If you're about to leave the session early, __make sure I know you finished__. 
 
 Like traditional lab, contact me ahead of time if you're going to miss the meeting. This will usually mean that you'll have to complete the lab on your own time. 
 
-I'll be starting the meeting itself at 3:30-3:45 PM each Friday, and I'll begin the mini-lecture at 4:00-4:05 PM. I'll be staying after 6:50 PM as well if you guys have anymore lingering questions relating to projects, Mimir exercises, etc.. 
+I'll be starting the meeting itself at 4:30-4:45 PM each Friday, and I'll begin the mini-lecture at 5:00-5:05 PM. I'll be staying after 6:50 PM as well if you guys have anymore lingering questions relating to projects, Mimir exercises, etc.. 
 
 Since this week has been wild af, I'll be giving anyone who forgot to do the pre-lab credit for it this week. If you're running into trouble setting up Zoom and can't make it to this first meeting, contact me. 
 
