@@ -2,7 +2,7 @@ Subject: CSE231 Sec 020 - Important Lab Information (Week of 3/8/2020)
 
 Sent: Fri 3/13/2020 12:42 AM
 
-\**This email has been edited due to a mistake that was previously written.*
+\**This email has been slightly edited due to a previously written mistake.*
 
 __________________________________________
 
