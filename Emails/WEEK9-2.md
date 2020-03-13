@@ -21,7 +21,7 @@ For our section, I created Zoom Channels where, after my "mini-lecture", you guy
 
 On the Zoom desktop client, the channels look like this: (I'm currently in the General one)
 
-![](Emails/WEEK9-2IMG1.png)
+![](WEEK9-2IMG1.png)
 
 I made all of the channels so I have all of them listed on my sidebar. You should be able to add/delete these channels to your sidebar willy-nilly and enter any of them.
 
