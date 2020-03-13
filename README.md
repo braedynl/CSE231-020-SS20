@@ -18,6 +18,7 @@ Course Website: https://web.cse.msu.edu/~cse231/
   - [PythonTutor](http://pythontutor.com/)
   
 Essential Sites:
+  - [Zoom](https://msu.zoom.us/meeting)
   - [Piazza](https://piazza.com/)
   - [D2L](https://d2l.msu.edu/d2l/home)
   - [Mimir](https://class.mimir.io/)
