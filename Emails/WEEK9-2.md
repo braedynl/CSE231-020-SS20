@@ -6,7 +6,7 @@ __________________________________________
 
 Howdy,
 
-We *__ARE__* having lab today. This is email contains important information on how we're going to operate, tentatively.
+We *__ARE__* having lab today. This email contains important information on how we're going to operate, tentatively.
 
 Bear with me here, I'm new to Zoom so don't be surprised if this first lab goes to shit. If you haven't yet registered for Zoom, you can do that here: https://msu.zoom.us/ . Our meeting credentials are below: (make sure you create a Zoom account associated with your MSU login. If you see a page that requests your "company domain", ours is "msu")
 
