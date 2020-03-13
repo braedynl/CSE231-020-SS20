@@ -1,6 +1,8 @@
 # CSE231-020-SS20
 This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose. 
 
+**As of 3/11/2020 at 12:00 PM, in-person class meetings have been suspended by MSU due to the potential spread of the coronavirus, COVID-19. All operations of this course are now online. See "Section Information" below.**
+
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
   - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
@@ -65,7 +67,13 @@ Section TA: Braedyn Lettinga
 
 Section: 020
 
-Location/Time: [Engineering Building (EB), Room 3320 from 5:00-6:50PM](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
+~~Location/Time: [Engineering Building (EB), Room 3320 from 5:00-6:50PM](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)~~
+
+All lab meetings are now conducted via [Zoom](https://msu.zoom.us/meeting). Meetings will begin at the same day and time, **5:00-6:50 PM on Fridays.**
+
+Meeting ID: 275-988-897
+
+Meeting URL: https://msu.zoom.us/j/275988897
 
 ## Contact Information
 
