@@ -11,6 +11,7 @@ We *__ARE__* having lab today. This email contains important information on how 
 Bear with me here, I'm new to Zoom so don't be surprised if this first lab goes to shit. If you haven't yet registered for Zoom, you can do that here: https://msu.zoom.us/ . Our meeting credentials are below: (make sure you create a Zoom account associated with your MSU login. If you see a page that requests your "company domain", ours is "msu")
 
 Meeting ID: 275-988-897
+
 Meeting URL: https://msu.zoom.us/j/275988897
 
 I'll be putting this on Piazza and the GitHub page in a bit. If you don't know how Zoom works, there should be some informational resources about it on the Zoom website. Feel free to contact me about it if you're having trouble.
