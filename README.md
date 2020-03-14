@@ -3,6 +3,8 @@ This repository is for CSE231 - Introduction to Programming I, Section 020 for S
 
 **As of 3/11/2020 at 12:00 PM, in-person class meetings have been suspended by MSU due to potential spread of the coronavirus, COVID-19. All operations of this course are now online. See "Section Information" below.**
 
+**If you're on campus, you can probably still meet with Dr. Enbody or Dr. Zaabar in-person. Otherwise, you can probably contact them about arranging a Zoom meeting.**
+
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
   - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
@@ -90,6 +92,10 @@ Contact me via email/text if you want to meet with me over Zoom.
 My Personal Meeting ID: 240-572-4237
 
 Meeting URL: https://msu.zoom.us/j/2405724237
+
+Additionally, you may contact me via text/call through my personal phone number. I will respond near-immediately if you need help on something. 
+
+Phone: (616) 334-8085
 
 ### Dr. Enbody
 Email: enbody@cse.msu.edu
