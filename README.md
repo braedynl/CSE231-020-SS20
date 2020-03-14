@@ -81,9 +81,15 @@ Meeting URL: https://msu.zoom.us/j/275988897
 ### Braedyn Lettinga
 Email: letting4@msu.edu
 
-I do not have office hours. If you want to meet me outside of lab, please email me and we can set something up. I'll typically want to meet at the MSU Main Library. Talk to me in-person if you want my phone number or social media. I can solve most problems over just email/text. 
+~~I do not have office hours. If you want to meet me outside of lab, please email me and we can set something up. I'll typically want to meet at the MSU Main Library. Talk to me in-person if you want my phone number or social media. I can solve most problems over just email/text. ~~
 
-**I will usually not meet or do email/text help on Mondays, and I will be in the help-room on Sundays from 4-6:30PM.**
+~~**I will usually not meet or do email/text help on Mondays, and I will be in the help-room on Sundays from 4-6:30PM.**~~
+
+Contact me via email/text if you want to meet with me over Zoom.
+
+My Personal Meeting ID: 240-572-4237
+
+Meeting URL: https://msu.zoom.us/j/2405724237
 
 ### Dr. Enbody
 Email: enbody@cse.msu.edu
