@@ -144,5 +144,5 @@ In the Extra/ folder of this repository are some Python notebooks that detail so
 - [Exam 1 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2001.ipynb)
 - [Exam 2 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2002.ipynb)
 
-Ya boi also makes videos sometimes! I take a lot of inspiration from Dr. Nahum, who would sometimes do example problems from the start and go through them from scratch. I always found them extremely helpful so hopefully you guys do too:
+Ya boi also makes videos sometimes! I take a lot of inspiration from Dr. Nahum, who would sometimes do example problems from the start. I always found them extremely helpful so hopefully you guys do too:
 - [Videos Playlist](https://www.youtube.com/playlist?list=PLyAd-14xWo5qmHtj6bZ2-6DeT82TqfqdF)
