@@ -28,6 +28,7 @@ Essential Sites:
 Extra:
   - [Dr. Enbody's Exam-Taking Guide](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
+  - [Videos by Yours Truly](https://www.youtube.com/playlist?list=PLyAd-14xWo5qmHtj6bZ2-6DeT82TqfqdF)
 
 Laid out below is the course schedule (taken directly from the course website) so that you can check when something is due with ease.
 Assignments listed supply links to the corresponding website they are hosted on.
