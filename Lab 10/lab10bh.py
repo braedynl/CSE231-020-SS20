@@ -7,8 +7,7 @@ import cards
 # Create the deck of cards
 the_deck = cards.Deck()
 
-# DO NOT SHUFFLE THE DECK, I HAVE NO IDEA WHY ENBODY HAD THIS,
-# IT FUCKS UP MIMIR TESTING
+# DO NOT SHUFFLE THE DECK, IT MESSES WITH MIMIR TESTING
 # the_deck.shuffle()
 
 # I would start out by creating a list for
