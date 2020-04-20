@@ -13,6 +13,8 @@ You will be proctored via our traditional Zoom lab session. See "[Section Inform
 
 You must access Zoom via your phone, and prop it up such that you and your computer screen are in view. Please arrive to the Zoom meeting 30 minutes early to prepare.
 
+This GitHub page will shutdown on final exam day.
+
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
   - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
