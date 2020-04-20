@@ -3,6 +3,16 @@ This repository is for CSE231 - Introduction to Programming I, Section 020 for S
 
 **As of 3/11/2020 at 12:00 PM, in-person class meetings have been suspended by MSU due to potential spread of the coronavirus, COVID-19. All operations of this course are now online. See "Section Information" below.**
 
+## Final Exam Information
+
+The final exam will be on __Monday, April 27th from 10:00 AM to 12:00 PM.__ It is worth 23% of your overall course grade. Like the midterms, you are allowed one sheet of notes (both sides), but no electronic devices. Non-native English speakers may bring a paper dictionary. 
+
+The final exam will be on Mimir. It will contain a mixture of coding problems, matching, and multiple choice. I recommend reviewing old Mimir exercises and projects, alongside the past final exams (found below). 
+
+You will be proctored via our traditional Zoom lab session. See "Section Information" below for Zoom session details.
+
+You must access Zoom via your phone, and prop it up such that you and your computer screen are in view. Please arrive to the Zoom meeting 30 minutes early to prepare.
+
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
   - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
