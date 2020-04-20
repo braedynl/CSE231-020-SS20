@@ -1,7 +1,7 @@
 # CSE231-020-SS20
 This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose. 
 
-**As of 3/11/2020 at 12:00 PM, in-person class meetings have been suspended by MSU due to potential spread of the coronavirus, COVID-19. All operations of this course are now online. See "Section Information" below.**
+**As of 3/11/2020 at 12:00 PM, in-person class meetings have been suspended by MSU due to potential spread of the coronavirus, COVID-19. All operations of this course are now online. See "[Section Information](#section-information)" below.**
 
 ## Final Exam Information
 
@@ -9,7 +9,7 @@ The final exam will be on __Monday, April 27th from 10:00 AM to 12:00 PM.__ It i
 
 The final exam will be on Mimir. It will contain a mixture of coding problems, matching, and multiple choice. I recommend reviewing old Mimir exercises and projects, alongside the past final exams (found below). 
 
-You will be proctored via our traditional Zoom lab session. See "Section Information" below for Zoom session details.
+You will be proctored via our traditional Zoom lab session. See "[Section Information](#section-information)" below for Zoom session details.
 
 You must access Zoom via your phone, and prop it up such that you and your computer screen are in view. Please arrive to the Zoom meeting 30 minutes early to prepare.
 
