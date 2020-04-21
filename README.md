@@ -7,7 +7,7 @@ This repository is for CSE231 - Introduction to Programming I, Section 020 for S
 
 The final exam will be on __Monday, April 27th from 10:00 AM to 12:00 PM.__ It is worth 23% of your overall course grade. Like the midterms, you are allowed one sheet of notes (both sides), but no electronic devices. Non-native English speakers may bring a paper dictionary. 
 
-The final exam will be on Mimir. It will contain a mixture of coding problems, matching, and multiple choice. I recommend reviewing old Mimir exercises and projects, alongside the past final exams (found below). 
+The final exam will be on Mimir. It will contain a mixture of coding problems, matching, and multiple choice. I recommend reviewing old labs and projects, alongside the past final exams (found below). 
 
 You will be proctored via our traditional Zoom lab session. See [Section Information](#section-information) below for session details.
 
