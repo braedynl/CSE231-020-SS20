@@ -38,11 +38,11 @@ def main():
     data_frame = read_csv_2(filename)    # replace with the appropriate function call
 
     print("First 5 rows of columns mpg and horsepower:")
-    print(data_frame.head())    # replace with the correct statement
+    print(data_frame[ ["mpg", "horsepower"] ].head())    # replace with the correct statement
     print()
 
     print("Last 5 rows of columns mpg, horsepower, model_year, and name:")
-    print(data_frame.tail())    # replace with the correct statement
+    print(data_frame[ ["mpg", "horsepower", "model_year", "name"] ].tail())    # replace with the correct statement
     print()
     
     acc_median = find_median_2(data_frame, "acceleration")    # replace with the appropriate function call
