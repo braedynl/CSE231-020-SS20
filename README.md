@@ -153,6 +153,8 @@ In this repository is a PDF of a book called "Cracking the Coding Interview". If
 In the Extra/ folder of this repository are some Python notebooks that detail some of the tricky things you'll see on Dr. Enbody's exams. Hopefully these help!
 - [Exam 1 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2001.ipynb)
 - [Exam 2 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2002.ipynb)
+- [More on Lists, Tuples and Sorting](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Lists%2C%20Tuples%20and%20Sorting.ipynb)
+- [Exam 3 Notes / More on Classes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/More%20on%20Classes.ipynb)
 
 Ya boi also makes videos sometimes! I take a lot of inspiration from Dr. Nahum, who would sometimes do example problems from the start. I always found them extremely helpful so hopefully you guys do too:
 - [Videos Playlist](https://www.youtube.com/playlist?list=PLyAd-14xWo5qmHtj6bZ2-6DeT82TqfqdF)
