@@ -24,7 +24,7 @@ This is another reason why C++ is so fast. The Python interpreter has to figure 
 
 With all of that being said though, Python is becoming increasingly popular among companies for things that don't require that kind of fast arithmetic. Most of the time, you just need to run a simple simulation, store user data, graph something -- whatever company time you lose in execution-time, you make up for in write-time.
 
-Low-level languages like C++ tend to be hard to read and write. The error messages are extremely vague, and the syntax is horribly unforgiving. Most non-video game companies stay away from lower-level languages because there's so much time spent debugging and writing. 
+Low-level languages like C++ tend to be hard to read and write. The error messages are extremely vague, and the syntax is horribly unforgiving. Most non-video game companies stay away from lower-level languages because there's so much time spent debugging and writing. Unless, of course, they have a particular reason for using a lower-level language. 
 
 We teach you Python first so that it will be easier to make the transition into harder languages like this. You'll find that a majority of the concepts are the same as in Python, while the syntax varies.  
 
