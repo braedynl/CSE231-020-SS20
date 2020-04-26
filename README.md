@@ -9,7 +9,7 @@ The final exam will be on __Monday, April 27th from 10:00 AM to 12:00 PM.__ It i
 
 The final exam will be on Mimir. It will contain a mixture of coding problems, matching, and multiple choice. I recommend reviewing old labs and projects, alongside the past final exams (found below). 
 
-You will be proctored via Zoom. Zoom session URL: https://msu.zoom.us/j/91662652687
+You will be proctored via Zoom. Session URL: https://msu.zoom.us/j/91662652687
 
 See latest email for authentication and password. 
 
