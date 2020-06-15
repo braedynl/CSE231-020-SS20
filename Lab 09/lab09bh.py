@@ -4,12 +4,10 @@ Copy and paste your part a file into here!
 Remember our structure from earlier? This one:
 data_map = {
     "continent1": {
-        "country1": ["city1", "city2"],
-        "country2": ["city1", "city2", "city3"]
+        "country1": ["city1", ...],
+        ...
     },
-    "continent2": {
-        "country1": ["city1"],
-    }
+    ...
 }
 
 Instead of lists inside the [continent][country] path, 
