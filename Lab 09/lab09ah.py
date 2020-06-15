@@ -42,12 +42,10 @@ are lists of strings of cities that are within whatever country.
 
 data_map = {
     "continent1": {
-        "country1": ["city1", "city2"],
-        "country2": ["city1", "city2", "city3"]
+        "country1": ["city1", ...],
+        ...
     },
-    "continent2": {
-        "country1": ["city1"],
-    }
+    ...
 }
 
 # Keys are the continents
