@@ -112,5 +112,3 @@ This also gives you time to get answers to questions from instructors or Piazza.
 Want to become a TA/ULA for a CSE course? You can apply [here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). Undergraduate students wanting to become a ULA for CSE231 must complete CSE232 - Introduction to Programming II (or an equivalent) to be recruited.
 
 How do people usually perform in this course? If you've ever wondered, you can look at past performance statistics [here](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY).
-
-In this repository is a PDF of a book called "Cracking the Coding Interview". If you're looking to be a software engineer (or similar) in the future, this book is a good read before heading into a technical interview. I'm pretty sure me hosting it here is illegal, but for some reason you can find it online with just a single Google-search?? If anyone comes after me for this I would be surprised. 
