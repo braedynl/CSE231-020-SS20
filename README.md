@@ -71,7 +71,11 @@ Location/Time: [LOCATION] [TIME]
 ### Braedyn Lettinga
 Email: letting4@msu.edu
 
-[FILL]
+Website: you're on it right now
+
+Office: I wish lol
+
+Office Hours: don't think so
 
 ### Dr. Enbody
 Email: enbody@cse.msu.edu
