@@ -1,50 +1,31 @@
-# CSE231-020-SS20
-This repository is for CSE231 - Introduction to Programming I, Section 020 for SS20 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose. 
-
-**As of 3/11/2020 at 12:00 PM, in-person class meetings have been suspended by MSU due to potential spread of the coronavirus, COVID-19. All operations of this course are now online. See [Section Information](#section-information) below.**
-
-## Final Exam Information
-
-The final exam will be on __Monday, April 27th from 10:00 AM to 12:00 PM.__ It is worth 23% of your overall course grade. Like the midterms, you are allowed one sheet of notes (both sides), but no electronic devices. Non-native English speakers may bring a paper dictionary. 
-
-The final exam will be on Mimir. It will contain a mixture of coding problems, matching, and multiple choice. I recommend reviewing old labs and projects, alongside the past final exams (found below). 
-
-You will be proctored via Zoom. Session URL: https://msu.zoom.us/j/91662652687
-
-See latest email for authentication and password. 
-
-You must access Zoom via your phone, and prop it up such that you and your computer screen are in view. Please arrive to the Zoom meeting 30 minutes early to prepare.
-
-This GitHub page will shutdown on final exam day.
+# CSE231 - Introduction to Programming I
+This repository is for CSE231 - Introduction to Programming I, Section [SECTION] for [SEMESTER] at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose.
 
 Course Website: https://web.cse.msu.edu/~cse231/
-  - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
-  - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
-  - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
-  - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
-  - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
-  - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
-  - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
-  - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
+  - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
+  - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
   - [General Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
-  - [Lab Schedules](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
+  - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
+  - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
+  - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
+  - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [PythonTutor](http://pythontutor.com/)
+  - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
+  - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
+  - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
   
 Essential Sites:
-  - [Zoom](https://msu.zoom.us/meeting)
-  - [Piazza](https://piazza.com/)
   - [D2L](https://d2l.msu.edu/d2l/home)
   - [Mimir](https://class.mimir.io/)
+  - [Piazza](https://piazza.com/)
+  - [Zoom](https://msu.zoom.us/meeting)
   
 Extra:
-  - [Dr. Enbody's Exam-Taking Guide](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
+  - [Dr. Enbody's Exam-Taking Chat](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
-  - [Videos by Yours Truly](https://www.youtube.com/playlist?list=PLyAd-14xWo5qmHtj6bZ2-6DeT82TqfqdF)
 
-Laid out below is the course schedule (taken directly from the course website) so that you can check when something is due with ease.
-Assignments listed supply links to the corresponding website they are hosted on.
-Reading the book chapters, and watching the lecture videos can be done at any point during the week as long as you do them before the in-class lab.
+Below is the course schedule, so that you may check when something is due with ease. The assignments provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. 
 
 If you do not have the book yet, a draft of chapters 0 and 1 can be found [here.](https://web.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) 
 
@@ -71,7 +52,7 @@ Labs (outside of Lab 00) must be completed in-class, they are not homework assig
 | 15: 4/19    |     | Read Ch.13       |  |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/last_week.html) | | [Project 11](https://www.cse.msu.edu/~cse231/Online/Projects/Project11)/[Lab 15](https://www.cse.msu.edu/~cse231/Online/Labs/Lab15/) |                        |     
 | 16: 4/26    |     |        | Final Exam     |         |                    |                |        |                        |     
 
-Schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes on this schedule, please notify me immediately.
+The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes on this schedule, please notify me immediately.
 
 Links may not be direct because of a required login for some websites.
 
@@ -81,34 +62,16 @@ Leading Professors: Dr. Enbody / Dr. Zaabar
 
 Section TA: Braedyn Lettinga
 
-Section: 020
+Section: [SECTION]
 
-~~Location/Time: [Engineering Building (EB), Room 3320 from 5:00-6:50PM](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)~~
-
-All lab meetings are now conducted via [Zoom](https://msu.zoom.us/meeting). Meetings will begin on the same day and time, **5:00-6:50 PM on Fridays.**
-
-Meeting ID: 275-988-897
-
-Meeting URL: https://msu.zoom.us/j/275988897
+Location/Time: [LOCATION] [TIME]
 
 ## Contact Information
 
 ### Braedyn Lettinga
 Email: letting4@msu.edu
 
-~~I do not have office hours. If you want to meet me outside of lab, please email me and we can set something up. I'll typically want to meet at the MSU Main Library. Talk to me in-person if you want my phone number or social media. I can solve most problems over just email/text.~~
-
-~~**I will usually not meet or do email/text help on Mondays, and I will be in the help-room on Sundays from 4-6:30PM.**~~
-
-Contact me via email/text if you want to meet with me over Zoom.
-
-My Personal Meeting ID: 240-572-4237
-
-Meeting URL: https://msu.zoom.us/j/2405724237
-
-Additionally, you may contact me via text/call through my personal phone number. I will respond near-immediately if you need help on something. 
-
-Phone: (616) 334-8085
+[FILL]
 
 ### Dr. Enbody
 Email: enbody@cse.msu.edu
@@ -151,12 +114,3 @@ Want to become a TA/ULA for a CSE course? You can apply [here](https://www.cse.m
 How do people usually perform in this course? If you've ever wondered, you can look at past performance statistics [here](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY).
 
 In this repository is a PDF of a book called "Cracking the Coding Interview". If you're looking to be a software engineer (or similar) in the future, this book is a good read before heading into a technical interview. I'm pretty sure me hosting it here is illegal, but for some reason you can find it online with just a single Google-search?? If anyone comes after me for this I would be surprised. 
-
-In the Extra/ folder of this repository are some Python notebooks that detail some of the tricky things you'll see on Dr. Enbody's exams. Hopefully these help!
-- [Exam 1 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2001.ipynb)
-- [Exam 2 Notes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Quirky%20Things%20in%20Python%2002.ipynb)
-- [More on Lists, Tuples and Sorting](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/Lists%2C%20Tuples%20and%20Sorting.ipynb)
-- [Exam 3 Notes / More on Classes](https://github.com/braedynl/CSE231-020-SS20/blob/master/Extra/More%20on%20Classes.ipynb)
-
-Ya boi also makes videos sometimes! I take a lot of inspiration from Dr. Nahum, who would sometimes do example problems from the start. I always found them extremely helpful so hopefully you guys do too:
-- [Videos Playlist](https://www.youtube.com/playlist?list=PLyAd-14xWo5qmHtj6bZ2-6DeT82TqfqdF)
