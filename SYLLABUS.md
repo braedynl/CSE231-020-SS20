@@ -68,7 +68,7 @@ To allow some flexibility:
 
 There is an exception for extreme circumstances, (e.g. a car crash puts you overnight in a hospital), there will be no other extensions.
 
-Times are in U.S. Eastern Standard Time. Mimir uses your computer's time setting to display time in your browser, so if your computer's time is set to a different time zone, you will be misled by displayed due dates and times.
+It should be assumed that all times coming from us, (the TAs and professors), are in Eastern Standard Time (EST). If you are in a different timezone, do _not_ adjust your computer's clock. Mimir will do the conversion for you.
 
 ## Course Grades
 Each student's course grade will be based on the sum of points earned in the following categories:
