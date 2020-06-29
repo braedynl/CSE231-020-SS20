@@ -11,7 +11,7 @@ Course Website: https://web.cse.msu.edu/~cse231/
   - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [PythonTutor](http://pythontutor.com/)
-  - [Syllabus](https://web.cse.msu.edu/~cse231/Online/General/syllabus.html)
+  - [Syllabus](SYLLABUS.md)
   - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
   - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
   
