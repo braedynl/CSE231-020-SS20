@@ -16,7 +16,7 @@ You are responsible for all of the details in the syllabus below, here are some 
 - Grade Points: 1000 points are accrued from weekly programming projects, exercises, and three exams.
 - Labs, including pre-labs, are required: your final grade will be reduced if you miss more than two.
 - If you collaborate on programming projects, you will get a zero. Usage of Chegg and other sites like it is disallowed.
-- We frequently send email from @msu.edu and @cse.msu.edu . It is important that your email client isn't routing our emails to Junk -- otherwise you will miss critical emails about the course.
+- We frequently send emails from the @msu.edu and @cse.msu.edu domains. It is important that your email client isn't routing our emails to Junk -- otherwise you will miss critical emails about the course.
 
 ## Instructors
 
