@@ -1,13 +1,62 @@
-# Lab09a - Example Answer
-# Braedyn Lettinga
-
-'''
-You can watch a walkthrough of what I did on YouTube:
-https://youtu.be/qiKkxTfpYNg
-(Best if watched at higher speed!)
-'''
-
 data_map = {}
+
+'''
+This is a modified version of Enbody's lab09, since his is a mess.
+
+When you see a single-line comment that is all uppercase,
+replace/write a line below that will accomplish
+the described desired effect.
+
+I encourage use of the debugger on this! The Variable Explorer
+in Spyder comes in real handy alongside the debugger.
+
+                        IMPORTANT:
+When you move onto part b, DO NOT RENAME THE FILE LIKE THE PDF SAYS!
+Make a copy of the part a file you're working on, and rename that copy!
+Part b has you make some changes to the part a file, but Mimir wants BOTH files!
+
+This program is meant to read in two text files, continents.txt and 
+cities.txt, into a dictionary that organizes all of the data into
+continents, countries, and cities. The dictionary is declared in the
+global namespace above as `data_map` (Dictionaries are mutable, so
+we can edit it everywhere in the program!). The program, however, is
+incomplete. Can you help me out with it? 🥺
+
+Functions main() and open_file() are completed for you. You must edit
+functions build_map() and display_map(). Feel free to create the functions
+from scratch if it makes more sense to you that way.
+
+Throughout the program, treat the variable `in_file1` as continents.txt,
+and treat the variable `in_file2` as cities.txt. Meaning that, to test
+the program locally, input "continents.txt" to the first prompt and
+"cities.txt" for the second prompt.
+
+`data_map` is going to be a dictionary, whose keys are strings
+of the continents, and the values are other dictionaries
+where the keys within those other dictionaries are
+strings of countries within whatever continent, and whose values 
+are lists of strings of cities that are within whatever country.
+
+`data_map` will have a structure akin to the example here:
+
+data_map = {
+    "continent1": {
+        "country1": ["city1", ...],
+        ...
+    },
+    ...
+}
+
+# Keys are the continents
+print(data_map.keys())    # Out: dict_keys(["continent1", "continent2"])
+
+# Accessing the continent's dictionary
+print(data_map["continent1"])     # Out: {"country1": ["city1", "city2"], "country2": ["city1", "city2", "city3"]}
+
+# Accessing the cities within a continent/country
+print(data_map["continent2"]["country1"])    # Out: ["city1"]
+
+'''
 
 def build_map( in_file1, in_file2 ):
     '''This function builds a dictionary called `data_map`
@@ -17,34 +66,22 @@ def build_map( in_file1, in_file2 ):
     in_file2.readline()
 
     # ITERATE THROUGH EACH `line` IN FILE 1 (continents.txt)
-    for line in in_file1:    # ADDED
         continent_list = line.strip().split()  
         
-        continent = continent_list[0].strip().title()  
+        continent = continent_list[0].strip().title()    
         country = continent_list[1].strip().title()
 
         if continent != "":
 
             # IF `continent` ISN'T IN `data_map`:
                 # INSERT THE CONTINENT AS THE KEY, WITH AN EMPTY DICTIONARY VALUE
-
-            # ADDED: Lines 32-33
-            if continent not in data_map.keys():    
-                data_map[continent] = dict()
-
             
             # IF `country` ISN'T AN EMPTY STRING:
                 # IF `country` ISN'T IN THE CONTINENT'S DICTIONARY:
                     # INSERT THE COUNTRY INTO THE CONTINENT'S INNER-DICTIONARY, WITH AN EMPTY LIST VALUE
-
-            # ADDED: Lines 41-43
-            if country != "":
-                if country not in data_map[continent].keys():
-                    data_map[continent][country] = list()
             
     
     # ITERATE THROUGH EACH `line` IN FILE 2 (cities.txt)
-    for line in in_file2:    # ADDED
         countries_list = line.strip().split()    
         
         country = countries_list[0].strip().title()   
@@ -54,15 +91,10 @@ def build_map( in_file1, in_file2 ):
             for continent in data_map:
                 if country in data_map[continent]:
 
-                    # IF `city` NOT IN THE `data_map[continent][country]` LIST:
+                    # IF `city` NOT IN THE `data_map[continent][country]` DICTIONARY:
                         # APPEND `city` TO THE LIST OF CITIES
-                    
-                    # ADDED: Lines 61-62
-                    if city not in data_map[continent][country]:
-                        data_map[continent][country].append(city)
 
     # RETURN `data_map`
-    return data_map    # ADDED
 
 
 def display_map( data_map ):
@@ -71,23 +103,19 @@ def display_map( data_map ):
 
     # OBTAIN A LIST OF ALL THE CONTINENT NAMES AND SORT IT
     # continents_list = sorted(...)
-    continents_list = sorted(data_map.keys())    # ADDED
 
     # ITERATE THROUGH THE `continents` IN `continents_list`
-    for continents in continents_list:    # ADDED
         print("{}:".format(continents))
 
         # OBTAIN A LIST OF ALL THE COUNTRIES ASSOCIATED WITH THE CURRENT CONTINENT AND SORT IT
         # countries_list = sorted(...)
-        countries_list = sorted(data_map[continents].keys())    # ADDED
 
         # ITERATE THROUGH THE `countries` IN `countries_list`
-        for countries in countries_list:    # ADDED
-            print("{:>10s} --> ".format(countries), end='') 
+            print("{:>10s} --> ".format(countries),end = '') 
 
             # OBTAIN A LIST OF ALL THE `cities` ASSOCIATED WITH THE CURRENT CONTINENT/COUNTRY AND SORT IT
             # cities = sorted(...)
-            cities = sorted(data_map[continents][countries])    # ADDED
+
 
             # I did this part below for you guys since it's irrelevant to the 
             # main takeaway of this lab problem. No work needs to be done here.

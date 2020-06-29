@@ -1,6 +1,3 @@
-# Lab10a - Example Answer (Undocumented)
-# Braedyn Lettinga
-
 ##
 ## Demonstrate some of the operations of the Deck and Card classes
 ##
@@ -55,7 +52,6 @@ my_deck.display()
 player1_card = player1_list.pop( 0 )
 
 print( "First card dealt to player #1:", player1_card )
-print("Player #1 hand:", player1_list) 
 
 
 # First card dealt to Player #2
@@ -63,7 +59,6 @@ print("Player #1 hand:", player1_list)
 player2_card = player2_list.pop( 0 )
 
 print( "First card dealt to player #2:", player2_card )
-print("Player #2 hand:", player2_list) 
 
 
 # Compare the ranks of the two cards
@@ -75,26 +70,3 @@ elif player1_card.rank() > player2_card.rank():
     print( "Player #1 wins:", player1_card, "of higher rank than", player2_card )
 else:
     print( "Player #2 wins:", player2_card, "of higher rank than", player1_card )
-
-player1_card = player1_list.pop(0)
-print( "\nSecond card dealt to player #1:", player1_card )
-print("Player #1 hand:", player1_list) 
-
-player2_card = player2_list.pop(0)
-print( "\nSecond card dealt to player #2:", player2_card )
-print("Player #2 hand:", player2_list) 
-
-player1_last_card = player1_list.pop()
-player2_last_card = player2_list.pop()
-
-print()
-print("Last card in hand of player #1:", format(player1_last_card))
-print("Last card in hand of player #2:", format(player2_last_card))
-
-print()
-if player1_last_card.rank() == player2_last_card.rank():
-    print(player2_last_card, "and", player2_last_card, "of equal rank" )
-elif player1_last_card.rank() > player2_last_card.rank():
-    print(player1_last_card, "of higher rank than", player2_last_card )
-else:
-    print(player2_last_card, "of higher rank than", player1_last_card )

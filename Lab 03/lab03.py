@@ -1,23 +1,5 @@
-# Lab03 - Example Answer (Undocumented)
-# Braedyn Lettinga
-
 VOWELS = "aeiou"
-word = input("Enter a word ('quit' to quit): ").lower()
-
-while word != "quit":
-
-    if word[0] in VOWELS:
-        print(word + "way")
-
-    else:
-        for char in word:
-
-            if char not in VOWELS:
-                word = word[1:] + word[0]
-            
-            else:
-                break
+word = input("Enter a word ('quit' to quit): ")
         
-        print(word + "ay")
-
-    word = input("Enter a word ('quit' to quit): ").lower()
+# Error message used in Mimir test
+#print("Can't convert empty string.  Try again.")
