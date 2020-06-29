@@ -44,6 +44,16 @@ Email: zaabarim@cse.msu.edu (email is, by far, the best way to contact me.)
 
 Office Hours: To schedule an appointment, go to my Google calendar, find an available slot, and send an email requesting an appointment at that time -- the email handles overlapping requests.
 
+### Braedyn Lettinga
+
+Office: Lmao I wish
+
+Office Phone: Nope
+
+Email: letting4@msu.edu
+
+Office Hours: Just hit me up whenever I'm available, really.
+
 ## Websites
 
 Main Course Website: https://www.cse.msu.edu/~cse231
