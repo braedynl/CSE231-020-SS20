@@ -1,6 +1,6 @@
 # CSE 231 - Introduction to Programming I
 
-_Fall, 2020_
+_:semester:, :year:_
 
 ## Description
 Introduction to programming using Python. Design, implementation and testing of programs to solve problems primarily in engineering, mathematics and science. Programming fundamentals, functions, classes, lists, and dictionaries.
@@ -96,9 +96,9 @@ __Important__: Students who get a zero ("no credit") on more than two (2) labora
 There will be two midterms and a final examination during the semester, and will constitute 45% of your total course grade. You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
 
 Students will take exams remotely through Zoom. We require a camera (e.g., cellphone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
-- Vet Med Center, Room E100 at 9:30 AM EST
-- Vet Med Center, Room E100 at 9:30 AM EST
-- Vet Med Center, Room E100 at 9:30 AM EST
+- Exam 1: :exam1_details:
+- Exam 2: :exam2_details:
+- Exam 3: :exam3_details:
 
 All issues related to the final examination will follow the policies and schedule of the University.
 

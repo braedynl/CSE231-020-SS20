@@ -1,7 +1,18 @@
 {
-    "section": "",
+    "__formats__": {
+        "__section__": ["0X", "XX", "730-0X", "730-XX"], 
+        "__semester__": ["Fall", "Spring", "Summer"], 
+        "__year__": ["XXXX"], 
+        "__location__": ["Building Name, Room Number", "Online"],
+        "__time__": ["XX:XX AM/PM EST"],
+        "__exam_details__": ["Building Name, Room Number at XX:XX AM/PM EST", "Online at XX:XX AM/PM EST"]
+    },
+    "section": "07",
     "semester": "Fall",
     "year": "2020",
-    "location": "",
-    "time": ""
+    "location": "Engineering Building, Room 121",
+    "time": "9:30 AM EST",
+    "exam1_details": "Vet Med Center, Room E100 at 9:30 AM EST",
+    "exam2_details": "Vet Med Center, Room E100 at 9:30 AM EST",
+    "exam3_details": "Vet Med Center, Room E100 at 9:30 AM EST"
 }

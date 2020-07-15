@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose.
+This repository is for CSE231 - Introduction to Programming I, Section 07 for Fall 2020 at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose.
 
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
@@ -37,145 +37,145 @@ If this section is online: labs may be treated as homework assignments. This rul
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
 
 <table>
-    <thead>
-      <tr>
-        <th>Week</th>
-        <th>Sunday</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="center">00: 08/30</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/week0.html">Read Ch.00; Videos: Welcome, Getting Python</a></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2000">Lab 00</a></td>
-        <td align="center"></td>
-      </tr>
-      <tr>
-        <td align="center">01: 09/06</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/beginnings.html">Read Ch.01; Videos: Beginnings</a></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2001">Lab 01</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch.01</a></td>
-      </tr>
-      <tr>
-        <td align="center">02: 09/13</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/control.html">Read Ch.02; Videos: Control</a></td>
-        <td align="center"><a href="Project%2001">Project 01</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2002">Lab 02</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch.02</a></td>
-      </tr>
-      <tr>
-        <td align="center">03: 09/20</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/strings.html">Read Ch.04; Videos: Strings</a></td>
-        <td align="center"><a href="Project%2002">Project 02</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2003">Lab 03</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch.04</a></td>
-      </tr>
-      <tr>
-        <td align="center">04: 09/27</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/functions.html">Read Ch.05; Videos: Functions</a></td>
-        <td align="center"><a href="Project%2003">Project 03</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2004">Lab 04</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch.05</a></td>
-      </tr>
-      <tr>
-        <td align="center">05: 10/04</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/files1.html">Read Ch. 6; Videos: Files &amp; Exceptions 1</a></td>
-        <td align="center"></td>
-        <td align="center">Exam 1</td>
-        <td align="center"><a href="Lab%2005">Lab 05</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch.06</a></td>
-      </tr>
-      <tr>
-        <td align="center">06: 10/11</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/lists.html">Read Ch.07; Videos: Lists &amp; Tuples</a></td>
-        <td align="center"><a href="Project%2004">Project 04</a></td>
-        <td align="center"></td>
-        <td align="center"><a href=Lab%2006">Lab 06</a></td>
-        <td align="center"></td>
-      </tr>
-      <tr>
-        <td align="center">07: 10/18</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/algorithms.html">Read Ch.03; Algorithms</a></td>
-        <td align="center"><a href="Project%2005">Project 05</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2007">Lab 07</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch. 07</a></td>
-      </tr>
-      <tr>
-        <td align="center">08: 10/25</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/dictionaries.html">Read Ch.09; Videos: Dictionaries &amp; Sets</a></td>
-        <td align="center"><a href="Project%2006">Project 06</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2008">Lab 08</a></td>
-      </tr>
-      <tr>
-        <td align="center">09: 11/01</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/functionsII.html">Read Ch.08; Videos: More Functions</a></td>
-        <td align="center"><a href="Project%2007">Project 07</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2009">Lab 09</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch.08/09</a></td>
-      </tr>
-      <tr>
-        <td align="center">10: 11/08</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/program_development.html">Read Ch.10 Program Development</a></td>
-        <td align="center"></td>
-        <td align="center">Exam 2</td>
-        <td align="center"><a href="Lab%2010">Lab 10</a></td>
-        <td align="center"></td>
-      </tr>
-      <tr>
-        <td align="center">11: 11/15</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/classesI.html">Read Ch.11; Videos: Classes I</a></td>
-        <td align="center"><a href="Project%2008">Project 08</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2011">Lab 11</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch. 11</a></td>
-      </tr>
-      <tr>
-        <td align="center">12: 11/22</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch.12; Videos: More on Classes</a></td>
-        <td align="center"><a href="Project%2009">Project 09</a></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-      </tr>
-      <tr>
-        <td align="center">13: 11/29</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Project%2010">Project 10</a></td>
-        <td align="center"><a href="Lab%2012">Lab 12</a></td>
-        <td align="center"><a href="https://class.mimir.io">Exercises: Ch.12</a></td>
-      </tr>
-      <tr>
-        <td align="center">14: 12/06</td>
-        <td><a href="https://www.cse.msu.edu/~cse231/Online/exceptions.html">Read Ch.14; More Files &amp; Exceptions</a></td>
-        <td align="center"><a href="Project%2011">Project 11</a></td>
-        <td align="center"></td>
-        <td align="center"><a href="Lab%2013">Lab 13</a></td>
-        <td align="center"></td>
-      </tr>
-      <tr>
-        <td align="center">15: 12/13</td>
-        <td></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-      </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Sunday</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">00: 08/30</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/week0.html">Read Ch.00; Videos: Welcome, Getting Python</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2000">Lab 00</a></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">01: 09/06</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/beginnings.html">Read Ch.01; Videos: Beginnings</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2001">Lab 01</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch.01</a></td>
+    </tr>
+    <tr>
+      <td align="center">02: 09/13</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/control.html">Read Ch.02; Videos: Control</a></td>
+      <td align="center"><a href="Project%2001">Project 01</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2002">Lab 02</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch.02</a></td>
+    </tr>
+    <tr>
+      <td align="center">03: 09/20</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/strings.html">Read Ch.04; Videos: Strings</a></td>
+      <td align="center"><a href="Project%2002">Project 02</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2003">Lab 03</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch.04</a></td>
+    </tr>
+    <tr>
+      <td align="center">04: 09/27</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/functions.html">Read Ch.05; Videos: Functions</a></td>
+      <td align="center"><a href="Project%2003">Project 03</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2004">Lab 04</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch.05</a></td>
+    </tr>
+    <tr>
+      <td align="center">05: 10/04</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/files1.html">Read Ch. 6; Videos: Files &amp; Exceptions 1</a></td>
+      <td align="center"></td>
+      <td align="center">Exam 1</td>
+      <td align="center"><a href="Lab%2005">Lab 05</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch.06</a></td>
+    </tr>
+    <tr>
+      <td align="center">06: 10/11</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/lists.html">Read Ch.07; Videos: Lists &amp; Tuples</a></td>
+      <td align="center"><a href="Project%2004">Project 04</a></td>
+      <td align="center"></td>
+      <td align="center"><a href=Lab%2006">Lab 06</a></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">07: 10/18</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/algorithms.html">Read Ch.03; Algorithms</a></td>
+      <td align="center"><a href="Project%2005">Project 05</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2007">Lab 07</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch. 07</a></td>
+    </tr>
+    <tr>
+      <td align="center">08: 10/25</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/dictionaries.html">Read Ch.09; Videos: Dictionaries &amp; Sets</a></td>
+      <td align="center"><a href="Project%2006">Project 06</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2008">Lab 08</a></td>
+    </tr>
+    <tr>
+      <td align="center">09: 11/01</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/functionsII.html">Read Ch.08; Videos: More Functions</a></td>
+      <td align="center"><a href="Project%2007">Project 07</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2009">Lab 09</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch.08/09</a></td>
+    </tr>
+    <tr>
+      <td align="center">10: 11/08</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/program_development.html">Read Ch.10 Program Development</a></td>
+      <td align="center"></td>
+      <td align="center">Exam 2</td>
+      <td align="center"><a href="Lab%2010">Lab 10</a></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">11: 11/15</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/classesI.html">Read Ch.11; Videos: Classes I</a></td>
+      <td align="center"><a href="Project%2008">Project 08</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2011">Lab 11</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch. 11</a></td>
+    </tr>
+    <tr>
+      <td align="center">12: 11/22</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch.12; Videos: More on Classes</a></td>
+      <td align="center"><a href="Project%2009">Project 09</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">13: 11/29</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Project%2010">Project 10</a></td>
+      <td align="center"><a href="Lab%2012">Lab 12</a></td>
+      <td align="center"><a href="https://class.mimir.io">Exercises: Ch.12</a></td>
+    </tr>
+    <tr>
+      <td align="center">14: 12/06</td>
+      <td><a href="https://www.cse.msu.edu/~cse231/Online/exceptions.html">Read Ch.14; More Files &amp; Exceptions</a></td>
+      <td align="center"><a href="Project%2011">Project 11</a></td>
+      <td align="center"></td>
+      <td align="center"><a href="Lab%2013">Lab 13</a></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">15: 12/13</td>
+      <td></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+  </tbody>
 </table>
 
 The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes here, please notify me immediately.
@@ -188,9 +188,9 @@ Leading Professors: Dr. Enbody / Dr. Zaabar
 
 Section TA: Braedyn Lettinga
 
-Section: :section:
+Section: 07
 
-Location/Time: :location: :time:
+Location/Time: Engineering Building, Room 121 at 9:30 AM EST
 
 ## Contact Information
 
