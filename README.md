@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section [SECTION] for [SEMESTER] at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose.
+This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose.
 
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
@@ -22,14 +22,17 @@ Essential Sites:
   - [Zoom](https://msu.zoom.us/meeting)
   
 Extra:
-  - [Dr. Enbody's Exam-Taking Chat](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
+  - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
+  - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
 
-Below is the course schedule, so that you may check when something is due with ease. The assignments provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. 
+Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. 
 
 If you do not have the book yet, a draft of chapters 0 and 1 can be found [here.](https://web.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) 
 
-Labs (outside of Lab 00) must be completed in-class, they are not homework assignments.
+If this section is in-person: labs are *not* homework assignments, they must be done in-class. 
+
+If this section is online: labs may be treated as homework assignments. This rule also applies if there are no in-person meetings due to COVID-19, even if your section would be considered in-person by tradition. 
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
 
@@ -52,7 +55,7 @@ Labs (outside of Lab 00) must be completed in-class, they are not homework assig
 | 15: 4/19    |     | Read Ch.13       |  |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/last_week.html) | | [Project 11](https://www.cse.msu.edu/~cse231/Online/Projects/Project11)/[Lab 15](https://www.cse.msu.edu/~cse231/Online/Labs/Lab15/) |                        |     
 | 16: 4/26    |     |        | Final Exam     |         |                    |                |        |                        |     
 
-The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes on this schedule, please notify me immediately.
+The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes here, please notify me immediately.
 
 Links may not be direct because of a required login for some websites.
 
@@ -62,16 +65,16 @@ Leading Professors: Dr. Enbody / Dr. Zaabar
 
 Section TA: Braedyn Lettinga
 
-Section: [SECTION]
+Section: :section:
 
-Location/Time: [LOCATION] [TIME]
+Location/Time: :location: :time:
 
 ## Contact Information
 
 ### Braedyn Lettinga
 Email: letting4@msu.edu
 
-Website: you're on it right now
+Website: https://github.com/braedynl
 
 Office: I wish lol
 
@@ -95,24 +98,24 @@ Office Hours: Find an available timeslot on [Dr. Zaabar's calendar](https://cale
 
 ## General Tips
 
-**Start projects early, I cannot stress this enough**.
+**Start projects early, I cannot stress this enough.**
 Sometimes, you might be faced with a problem that you have no idea how to implement an algorithm for. Coming back to a problem the next day, or simply taking a break and doing something else for a bit can seriously help.
 This also gives you time to get answers to questions from instructors or Piazza.
 
-**Always, always, always test your code as you're writing it.** Make sure that every step of the way, you're writing a block or line that is doing what you're expecting it to do.
+**Take it slow.** Rushing through the coding process is bound to cause problems. You should always test as you're writing, as described by the points below. 
 
-**Talk with your friends and acquaintances.** If you can't figure out how to code something, discuss an algorithm or write pseudocode with your buds. Remember that you **cannot**, under any circumstance, share code for the projects. Even looking at another person's implementation of a solution may lead you to do something similar. Everything else in this course is fair game to be collaborated on. Please check the [Office of the University Ombudsperson website about ADR](https://ombud.msu.edu/academic-integrity/academic_dishonesty_report.html) for more details about plaigarism.
+**Always, always, always test your code as you're writing it.** Make sure that every step of the way, you're writing a block or line that is doing what you're expecting it to do. Using `print()` or the debugger is good for this. 
 
-**Take advantage of Piazza and the help room.** These are two amazing resources to use if you're having trouble with your code. You can ask questions anonymously on Piazza and get quick responses from other students and instructors.
+**Talk with your friends/acquaintances.** If you can't figure out how to code something, discuss an algorithm or write pseudocode with your buds. Remember that you **cannot**, under any circumstances, share code for the projects. Even looking at another person's implementation of a solution may lead you to do something similar. Everything else in this course is fair game to be collaborated on. Please check the [Office of the University Ombudsperson website about ADR](https://ombud.msu.edu) for more details on plaigarism.
 
-**Use your IDE's debugger.** The debugger is an incredible tool that can break down your code line-by-line and show you what's happening with it. We'll be covering how to use the debugger during one of the labs.
+**Take advantage of Piazza and the help room.** These are two amazing resources to use if you're having trouble with your code. You can ask questions anonymously on Piazza and get quick responses from other students and/or instructors.
+
+**Use your IDE's debugger.** The debugger is an incredible tool that executes your code line-by-line. We'll be covering how to use the debugger during lab 2. Feel free to look into it on your own time as well. 
 
 **When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
 
-**Try [PythonTutor](http://pythontutor.com/)!** PythonTutor visualizes your code and can help so much with comprehension. It can, however, only run a certain amount of lines. Good to use for small chunks of code.  
+**Try [PythonTutor](http://pythontutor.com/).** PythonTutor visualizes your code, and gives execution control similar to an IDE debugger.
 
 ## Extra
 
-Want to become a TA/ULA for a CSE course? You can apply [here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). Undergraduate students wanting to become a ULA for CSE231 must complete CSE232 - Introduction to Programming II (or an equivalent) to be recruited.
-
-How do people usually perform in this course? If you've ever wondered, you can look at past performance statistics [here](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY).
+You can apply to become a CSE ULA [here](https://www.cse.msu.edu/Resources/EmploymentStudents.php).
