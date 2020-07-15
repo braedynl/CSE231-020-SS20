@@ -36,24 +36,151 @@ If this section is online: labs may be treated as homework assignments. This rul
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
 
-| Week of... |     | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday           | Saturday |
-| :---:      |:---:| :---:  | :---:  | :---:   | :---:     | :---:    | :---:            | :---:    |
-| 00: 08/30  |     |        |        |         |           |          | [Lab 00](Lab 00) |          |
-| 01: 09/06  |     
-| 02: 09/13  |
-| 03: 09/20  |
-| 04: 09/27  |
-| 05: 10/04  |
-| 06: 10/11  |
-| 07: 10/18  |
-| 08: 10/25  |
-| 09: 11/01  |
-| 10: 11/08  |
-| 11: 11/15  |
-| 12: 11/22  |
-| 13: 11/29  |
-| 14: 12/06  |
-| 15: 12/13  | 
+<div>
+  <table style="text-align:center">
+    <thead>
+      <tr>
+        <th>Week</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>00: 08/30</td>
+        <td> Read Ch.00; Videos: Welcome, Getting Python</td>
+        <td> </td>
+        <td> </td>
+        <td>Lab 00</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>01: 09/06</td>
+        <td> Read Ch.01; Videos: Beginnings</td>
+        <td> </td>
+        <td> </td>
+        <td>Lab 01</td>
+        <td>Exercises: Ch.01 </td>
+      </tr>
+      <tr>
+        <td>02: 09/13</td>
+        <td>Read Ch.02; Videos: Control </td>
+        <td>Project 01</td>
+        <td> </td>
+        <td>Lab 02</td>
+        <td>Exercises: Ch.02 </td>
+      </tr>
+      <tr>
+        <td>03: 09/20</td>
+        <td>Read Ch.04; Videos: Strings</td>
+        <td>Project 02</td>
+        <td> </td>
+        <td>Lab 03</td>
+        <td>Exercises: Ch.04 </td>
+      </tr>
+      <tr>
+        <td>04: 09/27</td>
+        <td>Read Ch.05; Videos: Functions </td>
+        <td>Project 03</td>
+        <td></td>
+        <td>Lab 04</td>
+        <td>Exercises: Ch.05 </td>
+      </tr>
+      <tr>
+        <td>05: 10/04</td>
+        <td>Read Ch. 6; Videos: Files &amp; Exceptions 1 </td>
+        <td></td>
+        <td>Exam 1</td>
+        <td>Lab 05</td>
+        <td>Exercises: Ch.06 </td>
+      </tr>
+      <tr>
+        <td>06: 10/11</td>
+        <td>Read Ch.07; Videos: Lists &amp; Tuples</td>
+        <td>Project 04</td>
+        <td></td>
+        <td>Lab 06</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>07: 10/18</td>
+        <td>Read Ch.03; Algorithms </td>
+        <td>Project 05</td>
+        <td></td>
+        <td>Lab 07</td>
+        <td>Exercises: Ch. 07 </td>
+      </tr>
+      <tr>
+        <td>08: 10/25</td>
+        <td>Read Ch.09; Videos: Dictionaries &amp; Sets</td>
+        <td>Project 06 </td>
+        <td></td>
+        <td>Lab 08</td>
+        <!-- <td>Exercises: Ch. 08 </td> -->
+      </tr>
+      <tr>
+        <td>09: 11/01</td>
+        <td>Read Ch.08; Videos: More Functions</td>
+        <td>Project 07 </td>
+        <td></td>
+        <td>Lab 09</td>
+        <td>Exercises: Ch.08/09 </td>
+      </tr>
+      <tr>
+        <td>10: 11/08</td>
+        <td>Read Ch.10 Program Development</td>
+        <td></td>
+        <td>Exam 2</td>
+        <td>Lab 10</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11: 11/15</td>
+        <td>Read Ch.11; Videos: Classes I</td>
+        <td>Project 08 </td>
+        <td></td>
+        <td>Lab 11</td>
+        <td>Exercises: Ch. 11 </td>
+      </tr>
+      <tr>
+        <td>12: 11/22</td>
+        <td>Read Ch.12; Videos: More on Classes</td>
+        <td>Project 09 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>13: 11/29</td>
+        <td>Read Section 9.6; Videos: Scope </td>
+        <td></td>
+        <td>Project 10</td>
+        <td>Lab 12</td>
+        <td>Exercises: Ch.12 </td>
+      </tr>
+      <tr>
+        <td>14: 12/06</td>
+        <td>Read Ch.14; More Files &amp; Exceptions</td>
+        <td>Project 11</td>
+        <td></td>
+        <td>Lab 13 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>15: 12/13</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
 
 The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes here, please notify me immediately.
 
