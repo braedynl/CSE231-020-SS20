@@ -36,24 +36,24 @@ If this section is online: labs may be treated as homework assignments. This rul
 
 **Project submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
 
-| Week of...  |     | Sunday | Monday         | Tuesday | Wednesday          | Thursday       | Friday | Saturday               |
-| :---:       |:---:| :---:  | :---:          | :---:   | :---:              | :---:          | :---:  | :---:                  |
-| 01: 1/05    |     | Read Ch.0/1       |      |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/beginnings.html) | [Pre-Lab 01](https://d2l.msu.edu/d2l/loginh/) | Lab [00](https://www.cse.msu.edu/~cse231/Labs/Lab00/)/[01](https://www.cse.msu.edu/~cse231/Online/Labs/Lab01/) | [Exercises Ch.01](https://class.mimir.io/)    |     
-| 02: 1/12    |     | Read Ch.2       | [Project 01](https://www.cse.msu.edu/~cse231/Online/Projects/Project01/) |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/control.html) | [Pre-Lab 02](https://d2l.msu.edu/d2l/loginh/) | [Lab 02](https://www.cse.msu.edu/~cse231/Online/Labs/Lab02/) | [Exercises Ch.02](https://class.mimir.io/)    |     
-| 03: 1/19    |     | Read Ch.4       | [Project 02](https://www.cse.msu.edu/~cse231/Online/Projects/Project02/) |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/strings.html) | [Pre-Lab 03](https://d2l.msu.edu/d2l/loginh/) | [Lab 03](https://www.cse.msu.edu/~cse231/Online/Labs/Lab03/) | [Exercises Ch.04](https://class.mimir.io/)    |     
-| 04: 1/26    |     | Read Ch.5       | [Project 03](https://www.cse.msu.edu/~cse231/Online/Projects/Project03/) |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/functions.html) | [Pre-Lab 04](https://d2l.msu.edu/d2l/loginh/) | [Lab 04](https://www.cse.msu.edu/~cse231/Online/Labs/Lab04/) | [Exercises Ch.05](https://class.mimir.io/)    |     
-| 05: 2/02    |     | Read Ch.6       |                | Exam 1  | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/files1.html) | [Pre-Lab 05](https://d2l.msu.edu/d2l/loginh/) | [Lab 05](https://www.cse.msu.edu/~cse231/Online/Labs/Lab05/) | [Exercises Ch.06](https://class.mimir.io/)    |     
-| 06: 2/09    |     | Read Ch.7       | [Project 04](https://www.cse.msu.edu/~cse231/Online/Projects/Project04) |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/lists.html) | [Pre-Lab 06](https://d2l.msu.edu/d2l/loginh/) | [Lab 06](https://www.cse.msu.edu/~cse231/Online/Labs/Lab06/) |                        |     
-| 07: 2/16    |     | Read Ch.3       | [Project 05](https://www.cse.msu.edu/~cse231/Online/Projects/Project05) |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/algorithms.html) | [Pre-Lab 07](https://d2l.msu.edu/d2l/loginh/) | [Lab 07](https://www.cse.msu.edu/~cse231/Online/Labs/Lab07/) | [Exercises Ch.07](https://class.mimir.io/)    |     
-| 08: 2/23    |     | Read Ch.9       | [Project 06](https://www.cse.msu.edu/~cse231/Online/Projects/Project06) |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/dictionaries.html) | [Pre-Lab 08](https://d2l.msu.edu/d2l/loginh/) | [Lab 08](https://www.cse.msu.edu/~cse231/Online/Labs/Lab08/) |                        |     
-| 09: 3/08    |     | Read Ch.8       |                |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/functionsII.html) | [Pre-Lab 09](https://d2l.msu.edu/d2l/loginh/) | [Lab 09](https://www.cse.msu.edu/~cse231/Online/Labs/Lab09/) | [Exercises Ch.08/09](https://class.mimir.io/) |     
-| 10: 3/15    |     | Read Ch.10       |                | Exam 2  | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/program_development.html) | [Pre-Lab 10](https://d2l.msu.edu/d2l/loginh/) | [Lab 10](https://www.cse.msu.edu/~cse231/Online/Labs/Lab10/) |                        |     
-| 11: 3/22    |     | Read Ch.11       | [Project 07](https://www.cse.msu.edu/~cse231/Online/Projects/Project07) |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/classesI_spring.html) | [Pre-Lab 11](https://d2l.msu.edu/d2l/loginh/) | [Lab 11](https://www.cse.msu.edu/~cse231/Online/Labs/Lab11/) | [Exercises Ch.11](https://class.mimir.io/)    |     
-| 12: 3/29    |     | Read Ch.9.6       |  | [Project 08](https://www.cse.msu.edu/~cse231/Online/Projects/Project08)        | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/scope_spring.html) | [Pre-Lab 12](https://d2l.msu.edu/d2l/loginh/) | [Lab 12](https://www.cse.msu.edu/~cse231/Online/Labs/Lab12/) |                        |     
-| 13: 4/05    |     | Read Ch.12       |  |         | [Project 09](https://www.cse.msu.edu/~cse231/Online/Projects/Project09)/[Lecture Videos](https://www.cse.msu.edu/~cse231/Online/classesII_spring.html) | [Pre-Lab 13](https://d2l.msu.edu/d2l/loginh/) | [Lab 13](https://www.cse.msu.edu/~cse231/Online/Labs/Lab13/) | [Exercises Ch.12](https://class.mimir.io/)    |     
-| 14: 4/12    |     | Read Ch.14       |  |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/exceptions_spring.html) | [Project 10](https://www.cse.msu.edu/~cse231/Online/Projects/Project10)/[Pre-Lab 14](https://d2l.msu.edu/d2l/loginh/) | [Lab 14](https://www.cse.msu.edu/~cse231/Online/Labs/Lab14/) |                        |     
-| 15: 4/19    |     | Read Ch.13       |  |         | [Lecture Videos](https://www.cse.msu.edu/~cse231/Online/last_week.html) | | [Project 11](https://www.cse.msu.edu/~cse231/Online/Projects/Project11)/[Lab 15](https://www.cse.msu.edu/~cse231/Online/Labs/Lab15/) |                        |     
-| 16: 4/26    |     |        | Final Exam     |         |                    |                |        |                        |     
+| Week of... |     | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday           | Saturday |
+| :---:      |:---:| :---:  | :---:  | :---:   | :---:     | :---:    | :---:            | :---:    |
+| 00: 08/30  |     |        |        |         |           |          | [Lab 00](Lab 00) |          |
+| 01: 09/06  |     
+| 02: 09/13  |
+| 03: 09/20  |
+| 04: 09/27  |
+| 05: 10/04  |
+| 06: 10/11  |
+| 07: 10/18  |
+| 08: 10/25  |
+| 09: 11/01  |
+| 10: 11/08  |
+| 11: 11/15  |
+| 12: 11/22  |
+| 13: 11/29  |
+| 14: 12/06  |
+| 15: 12/13  | 
 
 The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes here, please notify me immediately.
 
