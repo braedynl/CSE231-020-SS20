@@ -1,6 +1,6 @@
 # CSE 231 - Introduction to Programming I
 
-_Fall Semester, 2020_
+_:semester:, :year:_
 
 ## Description
 Introduction to programming using Python. Design, implementation and testing of programs to solve problems primarily in engineering, mathematics and science. Programming fundamentals, functions, classes, lists, and dictionaries.
@@ -14,7 +14,7 @@ At the end of this course, when presented with a problem, we expect that a stude
 You are responsible for all of the details in the syllabus below, here are some of the main highlights:
 
 - Grade Points: 1000 points are accrued from weekly programming projects, exercises, and three exams.
-- Labs, including pre-labs, are required: your final grade will be reduced if you miss more than two.
+- Labs, including pre-labs, are required. Your final grade will be reduced if you miss more than two.
 - If you collaborate on programming projects, you will get a zero. Usage of Chegg and other sites like it is disallowed.
 - We frequently send emails from the @msu.edu and @cse.msu.edu domains. It is important that your email client isn't routing our emails to Junk -- otherwise you will miss critical emails about the course.
 
@@ -43,16 +43,6 @@ Office Phone: 517-355-4747
 Email: zaabarim@cse.msu.edu (email is, by far, the best way to contact me.)
 
 Office Hours: To schedule an appointment, go to my Google calendar, find an available slot, and send an email requesting an appointment at that time -- the email handles overlapping requests.
-
-### Braedyn Lettinga
-
-Office: Lmao I wish
-
-Office Phone: Nope
-
-Email: letting4@msu.edu
-
-Office Hours: Just hit me up whenever I'm available, really.
 
 ## Websites
 
@@ -106,9 +96,9 @@ __Important__: Students who get a zero ("no credit") on more than two (2) labora
 There will be two midterms and a final examination during the semester, and will constitute 45% of your total course grade. You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
 
 Students will take exams remotely through Zoom. We require a camera (e.g., cellphone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
-- [MIDTERM 1 DETAILS]
-- [MIDTERM 2 DETAILS]
-- [FINAL DETAILS]
+- :exam1_details:
+- :exam2_details:
+- :exam3_details:
 
 All issues related to the final examination will follow the policies and schedule of the University.
 
