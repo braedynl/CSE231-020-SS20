@@ -28,7 +28,7 @@ for n in range(1, 13):
         if not any(href.endswith(ex) for ex in extensions):
             if 'youtube' in href:
                 print("YouTube link encountered: {}\n".format(file_url))
-                yt_link = href
+                video_link = href
             else:
                 print("Unrecognized file extension/href encountered: {}\n".format(file_url))
             continue
@@ -50,5 +50,10 @@ for n in range(1, 13):
         print("Project {:02d} file not found. Creating an empty one...".format(n))
         open('proj{:02d}.py'.format(n), 'w+').close()
         print("Done.\n")
-    
+
+    readme_temp = open('../assets/templates/project_info_temp.md', 'r').read()
+    readme_temp = readme_temp.replace(':video_link:', video_link).replace(':n:', str(n))
+
+    print(readme_temp, file=open('README.md', 'w+'), end='')
+
     os.chdir('..')
