@@ -1,12 +1,12 @@
 # Project 3
 
-Refer back to the [course schedule](README.md) to see this project's due date.  
+Refer back to the [course schedule](../README.md) to see this project's due date.  
 
 Video introduction: https://www.youtube.com/watch?v=OqRQ8sJmNk8
 
 Projects are meant to be completed alone. Collaboration and/or copying code from online, (e.g. Chegg), is strictly prohibited. A plagiarism-checker is ran through all projects, and checks for similarities with other students in the course and many online sources. 
 
-Contacting your TA, using Piazza, and attending help-room is encouraged if you are struggling. Take full advtange of `print()`, [PythonTutor](http://pythontutor.com/visualize.html#mode=edit), and your code editor's debugger (taught in [lab 02](Lab%2002)). 
+Contacting your TA, using Piazza, and attending help-room is encouraged if you are struggling. Take full advtange of `print()`, [PythonTutor](http://pythontutor.com/visualize.html#mode=edit), and your code editor's debugger (taught in [lab 02](../Lab%2002)). 
 
 Always read through the PDF instructions carefully and thoroughly. If you are having trouble comprehending the instructions, please don't hesitate to ask us on Piazza.
 
