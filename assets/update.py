@@ -1,6 +1,8 @@
 '''
 CURRENT TEMPLATE VARIABLES:
 
+    :schedule:  // uniquely replaced by course_schedule.html
+
     :section:
     :semester:
     :year:
@@ -21,12 +23,9 @@ schedule = open('assets/course_schedule.html', 'r').read()
 readme = open('assets/readme_template.md', 'r').read().replace(':schedule:', schedule)
 syllabus = open('assets/syllabus_template.md', 'r').read() 
 
-out_readme = open('README.md', 'w+')
-out_syllabus = open('SYLLABUS.md', 'w+')
-
 for key, value in course_info.items():
     readme = readme.replace(':{}:'.format(key), value)
     syllabus = syllabus.replace(':{}:'.format(key), value)
 
-print(readme, file=out_readme, end='')
-print(syllabus, file=out_syllabus, end='')
+print(readme, file=open('README.md', 'w+'), end='')
+print(syllabus, file=open('SYLLABUS.md', 'w+'), end='')
