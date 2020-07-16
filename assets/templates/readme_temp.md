@@ -54,16 +54,8 @@ Location/Time: :location: at :time:
 
 ## Contact Information
 
-### Braedyn Lettinga
-Email: letting4@msu.edu
-
-Website: https://github.com/braedynl
-
-Office: I wish lol
-
-Office Hours: don't think so
-
 ### Dr. Enbody
+
 Email: enbody@cse.msu.edu
 
 Website: https://www.cse.msu.edu/~enbody/
@@ -73,23 +65,37 @@ Office: [Engineering Building (EB), Room 3145](https://www.google.com/maps/place
 Office Hours: Find an available timeslot on [Dr. Enbody's calendar](https://calendar.google.com/calendar/embed?src=enbody@gmail.com&ctz=America/New_York) and send an email to him requesting for that time.
 
 ### Dr. Zaabar
+
 Email: zaabarim@cse.msu.edu
 
 Office: [Engineering Building (EB), Room 3581](https://www.google.com/maps/place/Engineering+Building/@42.7249397,-84.4835239,17z/data=!3m1!4b1!4m5!3m4!1s0x8822c27d94c0dddf:0x5bad697ea8a8837c!8m2!3d42.7249358!4d-84.4813352)
 
 Office Hours: Find an available timeslot on [Dr. Zaabar's calendar](https://calendar.google.com/calendar/embed?src=imenzaabar7%40gmail.com&ctz=America%2FDetroit) and send an email to her requesting for that time.
 
+### Braedyn Lettinga
+
+Email: letting4@msu.edu
+
+Website: https://github.com/braedynl
+
+I sadly don't have an office or office hours since I'm a measly and pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Zoom, Discord, etc.), and I'll get back to you as soon as I can.  
+
+I will occasionally host help rooms of my own when I feel it to be necessary. This is dependent on how well the section is doing as a whole, however. 
+
+Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is entirely online), I play no role in grading them. 
+
+If this is a summer semester: I will be sending out an email during the first week in regards to a Discord server for the section. The link to join said server will be in that email, and will not be posted on this page for sake of course privacy. (I only host Discord servers for the summer sections since the summer version of this course is a lot more intense)
+
 ## General Tips
 
 **Start projects early, I cannot stress this enough.**
-Sometimes, you might be faced with a problem that you have no idea how to implement an algorithm for. Coming back to a problem the next day, or simply taking a break and doing something else for a bit can seriously help.
-This also gives you time to get answers to questions from instructors or Piazza.
+Sometimes, you might be faced with a problem that you just have no idea how to implement an algorithm for. Simply taking a break and doing something else for a bit can seriously help. This also gives you time to get answers to questions you might have.
 
-**Take it slow.** Rushing through the coding process is bound to cause problems. You should always test as you're writing, as described by the points below. 
+**Take it slow.** Rushing through the coding process is bound to cause issues. You should always test as you're writing, as described by the points below. 
 
-**Always, always, always test your code as you're writing it.** Make sure that every step of the way, you're writing a block or line that is doing what you're expecting it to do. Using `print()` or the debugger is good for this. 
+**Always, always, always test your code as you're writing it.** Ensure that, every step of the way, you're writing a chunk or line that is doing what you're expecting it to do. Using `print()` or the debugger is good for this. 
 
-**Talk with your friends/acquaintances.** If you can't figure out how to code something, discuss an algorithm or write pseudocode with your buds. Remember that you **cannot**, under any circumstances, share code for the projects. Even looking at another person's implementation of a solution may lead you to do something similar. Everything else in this course is fair game to be collaborated on. Please check the [Office of the University Ombudsperson website about ADR](https://ombud.msu.edu) for more details on plaigarism.
+**Talk with your friends/acquaintances.** If you can't figure out how to code something, discuss an algorithm or write pseudocode with your buds. Remember that you **cannot**, under any circumstance, share code for the projects. Even _looking_ at another person's implementation of a solution may lead you to do something similar. Simply _talking_ with another student about a project is fine. Everything else in this course is fair game to be collaborated on. Visit the [Office of the University Ombudsperson website about ADR](https://ombud.msu.edu) for more details on plaigarism.
 
 **Take advantage of Piazza and the help room.** These are two amazing resources to use if you're having trouble with your code. You can ask questions anonymously on Piazza and get quick responses from other students and/or instructors.
 
@@ -98,7 +104,3 @@ This also gives you time to get answers to questions from instructors or Piazza.
 **When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
 
 **Try [PythonTutor](http://pythontutor.com/).** PythonTutor visualizes your code, and gives execution control similar to an IDE debugger.
-
-## Extra
-
-You can apply to become a CSE ULA [here](https://www.cse.msu.edu/Resources/EmploymentStudents.php).
