@@ -34,7 +34,7 @@ If this section is in-person: labs are *not* homework assignments, they must be 
 
 If this section is online: labs may be treated as homework assignments. This rule also applies if there are no in-person meetings due to COVID-19, even if your section would be considered in-person by tradition. 
 
-**Project submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
+**Project and lab submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
 
 <table>
   <thead>
