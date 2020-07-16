@@ -14,11 +14,11 @@ Starter-code is given for certain projects. If the project's Python file is empt
 
 When submitting to [Mimir](https://class.mimir.io/), ensure that your file is properly named. The format is "projXX.py", where "XX" is the project's corresponding number. A leading '0' is used for single-digit project numbers, and the alphabetical characters are always kept as lowercase. If you download the files directly from this repository, this shouldn't be much of an issue, as I have scripts written to create and properly name them.
 
-If you see a chunk of code at the bottom of a project's starter-code that looks like this...
+If you see these two lines at the bottom of a project file...
 
 ```python
 if __name__ == "__main__":
     main()
 ```
 
-...do **not** delete it. This chunk is used by Mimir to test your program. What this does is mostly unimportant, but you can [learn about it here](https://www.youtube.com/watch?v=sugvnHA7ElY) (will likely only make sense after week 5). 
+...do **not** delete them. It will cause a sigpipe error (an indication that your program ran for an infinite amount of time -- can also occur if Mimir can't find your project's file) if you do. What these lines do is mostly unimportant, but you can [learn about it here](https://www.youtube.com/watch?v=sugvnHA7ElY). 
