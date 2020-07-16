@@ -26,7 +26,7 @@ Extra:
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
   - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
 
-Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. 
+Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. You can hover over the assignment's text to see its precise due date. 
 
 If you do not have the book yet, a draft of chapters 0 and 1 can be found [here.](https://web.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) 
 
@@ -34,7 +34,7 @@ If this section is in-person: labs are *not* homework assignments, they must be 
 
 If this section is online: labs may be treated as homework assignments. This rule also applies if there are no in-person meetings due to COVID-19, even if your section would be considered in-person by tradition. 
 
-**Project submissions are on Mimir. The project link provided in the table brings you to the introductory video, skeleton code and project procedure.**
+**Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the sub-directory's README.**
 
 :schedule:
 
