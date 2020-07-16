@@ -5,14 +5,15 @@
         "__year__": ["XXXX"], 
         "__location__": ["Building Name, Room Number", "Online"],
         "__time__": ["XX:XX AM/PM EST"],
-        "__exam_details__": ["Building Name, Room Number at XX:XX AM/PM EST", "Online at XX:XX AM/PM EST"]
+        "__exam_details__": ["Building Name, Room Number, XX/XX/XX at XX:XX AM/PM EST", "Online, XX/XX/XX at XX:XX AM/PM EST"],
+        "__placeholder__": ["TBA"]
     },
-    "section": "",
-    "semester": "",
-    "year": "",
-    "location": "",
-    "time": "",
-    "exam1_details": "",
-    "exam2_details": "",
-    "exam3_details": ""
+    "section": "TBA",
+    "semester": "Fall",
+    "year": "2020",
+    "location": "Online",
+    "time": "TBA",
+    "exam1_details": "Online, 10/06/20 at 7:00 PM EST",
+    "exam2_details": "Online, 11/10/20 at 7:00 PM EST",
+    "exam3_details": "TBA"
 }
