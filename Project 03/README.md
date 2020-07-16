@@ -1,6 +1,6 @@
 # Project 3
 
-Refer back to the [course schedule](../README.md) to see this project's due date.  
+Due: Monday, September 28th (9/28/20)
 
 Video introduction: https://www.youtube.com/watch?v=OqRQ8sJmNk8
 

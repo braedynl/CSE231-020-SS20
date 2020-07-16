@@ -1,8 +1,10 @@
+import json
 import os
 from urllib.request import urlopen, urlretrieve
 from urllib.error import HTTPError
 from bs4 import BeautifulSoup
 
+due_dates = json.load(open('assets/project_dates.json'))
 extensions = ['.py', '.txt', '.csv', '.pdf']
 url = 'https://www.cse.msu.edu/~cse231/Online/Projects/Project{:02d}/'
 
@@ -52,7 +54,7 @@ for n in range(1, 13):
         print("Done.\n")
 
     readme_temp = open('../assets/templates/project_info_temp.md', 'r').read()
-    readme_temp = readme_temp.replace(':video_link:', video_link).replace(':n:', str(n))
+    readme_temp = readme_temp.replace(':video_link:', video_link).replace(':n:', str(n)).replace(':due:', due_dates['Project {:02d}'.format(n)])
 
     print(readme_temp, file=open('README.md', 'w+'), end='')
 

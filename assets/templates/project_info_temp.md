@@ -1,6 +1,6 @@
 # Project :n:
 
-Refer back to the [course schedule](../README.md) to see this project's due date.  
+Due: :due:
 
 Video introduction: :video_link:
 
