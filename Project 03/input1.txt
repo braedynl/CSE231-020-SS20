@@ -1,0 +1,6 @@
+yes
+freshman
+no
+no
+12
+no

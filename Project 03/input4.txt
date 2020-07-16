@@ -1,0 +1,12 @@
+yes
+xxx
+yyy
+junior
+abcd
+yes
+no
+0
+ab
+3.5
+11
+no

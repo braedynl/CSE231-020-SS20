@@ -1,0 +1,22 @@
+BANNER = "\nWelcome to car rentals. \
+\n\nAt the prompts, please enter the following: \
+\n\tCustomer's classification code (a character: BDW) \
+\n\tNumber of days the vehicle was rented (int)\
+\n\tOdometer reading at the start of the rental period (int)\
+\n\tOdometer reading at the end of the rental period (int)" 
+ 
+PROMPT = '''\nWould you like to continue (Y/N)? '''
+
+"\nCustomer code (BDW): "
+"\nNumber of days: "
+"Odometer reading at the start: "
+"Odometer reading at the end:   "
+"\n\t*** Invalid customer code. Try again. ***"
+"\nCustomer summary:"
+"\tclassification code:"
+"\trental period (days):"
+"\todometer reading at start:"
+"\todometer reading at end:  "
+"\tnumber of miles driven: "
+"\tamount due: $"
+"Thank you for your loyalty."

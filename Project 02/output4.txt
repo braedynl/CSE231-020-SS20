@@ -1,0 +1,43 @@
+
+Welcome to car rentals. 
+
+At the prompts, please enter the following: 
+	Customer's classification code (a character: BDW) 
+	Number of days the vehicle was rented (int)
+	Odometer reading at the start of the rental period (int)
+	Odometer reading at the end of the rental period (int)
+
+Would you like to continue (Y/N)? Y
+
+Customer code (BDW): W
+
+Number of days: 8
+Odometer reading at the start: 000100
+Odometer reading at the end:   040100
+
+Customer summary:
+	classification code: W
+	rental period (days): 8
+	odometer reading at start: 100
+	odometer reading at end:   40100
+	number of miles driven:  4000.0
+	amount due: $ 1030.0
+
+Would you like to continue (Y/N)? Y
+
+Customer code (BDW): W
+
+Number of days: 6
+Odometer reading at the start: 000100
+Odometer reading at the end:   001000
+
+Customer summary:
+	classification code: W
+	rental period (days): 6
+	odometer reading at start: 100
+	odometer reading at end:   1000
+	number of miles driven:  90.0
+	amount due: $ 190.0
+
+Would you like to continue (Y/N)? N
+Thank you for your loyalty.

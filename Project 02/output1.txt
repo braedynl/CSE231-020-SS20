@@ -1,0 +1,11 @@
+
+Welcome to car rentals. 
+
+At the prompts, please enter the following: 
+	Customer's classification code (a character: BDW) 
+	Number of days the vehicle was rented (int)
+	Odometer reading at the start of the rental period (int)
+	Odometer reading at the end of the rental period (int)
+
+Would you like to continue (Y/N)? N
+Thank you for your loyalty.

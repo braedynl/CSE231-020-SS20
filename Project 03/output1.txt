@@ -1,0 +1,9 @@
+2019 MSU Undergraduate Tuition Calculator.
+
+Resident (yes/no): yes
+Enter Level as freshman, sophomore, junior, senior: freshman
+Are you admitted to the College of Engineering (yes/no): no
+Are you in the James Madison College (yes/no): no
+Credits: 12
+Tuition is $7,259.00.
+Do you want to do another calculation (yes/no): no

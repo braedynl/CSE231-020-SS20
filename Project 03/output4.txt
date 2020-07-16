@@ -1,0 +1,20 @@
+2019 MSU Undergraduate Tuition Calculator.
+
+Resident (yes/no): yes
+Level—freshman, sophomore, junior, senior: xxx
+Invalid input. Try again.
+Level—freshman, sophomore, junior, senior: yyy
+Invalid input. Try again.
+Level—freshman, sophomore, junior, senior: junior
+Enter college as business, engineering, health, sciences, or none: abcd
+Is your major CMSE (“Computational Mathematics and Engineering”) (yes/no): yes
+Are you in the James Madison College (yes/no): no
+Credits: 0
+Invalid input. Try again.
+Credits: ab
+Invalid input. Try again.
+Credits: 3.5
+Invalid input. Try again.
+Credits: 11
+Tuition is $6,804.00.
+Do you want to do another calculation (yes/no): no
