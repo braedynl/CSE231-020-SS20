@@ -1,13 +1,4 @@
 {
-    "__formats__": {
-        "__section__": ["0X", "XX", "730-0X", "730-XX"], 
-        "__semester__": ["Fall", "Spring", "Summer"], 
-        "__year__": ["XXXX"], 
-        "__location__": ["Building Name, Room Number", "Online"],
-        "__time__": ["XX:XX AM/PM EST"],
-        "__exam_details__": ["Building Name, Room Number, XX/XX/XX at XX:XX AM/PM EST", "Online, XX/XX/XX at XX:XX AM/PM EST"],
-        "__placeholder__": ["TBA"]
-    },
     "section": "TBA",
     "semester": "Fall",
     "year": "2020",
@@ -15,5 +6,23 @@
     "time": "TBA",
     "exam1_details": "Online, 10/06/20 at 7:00 PM EST",
     "exam2_details": "Online, 11/10/20 at 7:00 PM EST",
-    "exam3_details": "TBA"
+    "exam3_details": "TBA",
+    "schedule_url": "https://www.cse.msu.edu/~cse231/Online/due_dates.html",
+    "week_urls" : {
+        "0": "https://www.cse.msu.edu/~cse231/Online/week0.html",
+        "1": "https://www.cse.msu.edu/~cse231/Online/beginnings.html",
+        "2": "https://www.cse.msu.edu/~cse231/Online/control.html",
+        "3": "https://www.cse.msu.edu/~cse231/Online/strings.html",
+        "4": "https://www.cse.msu.edu/~cse231/Online/functions.html",
+        "5": "https://www.cse.msu.edu/~cse231/Online/files1.html",
+        "6": "https://www.cse.msu.edu/~cse231/Online/lists.html",
+        "7": "https://www.cse.msu.edu/~cse231/Online/algorithms.html",
+        "8": "https://www.cse.msu.edu/~cse231/Online/dictionaries.html",
+        "9": "https://www.cse.msu.edu/~cse231/Online/functionsII.html",
+        "10": "https://www.cse.msu.edu/~cse231/Online/program_development.html",
+        "11": "https://www.cse.msu.edu/~cse231/Online/classesI.html",
+        "12": "https://www.cse.msu.edu/~cse231/Online/scope.html",
+        "13": "https://www.cse.msu.edu/~cse231/Online/classesII.html",
+        "14": "https://www.cse.msu.edu/~cse231/Online/exceptions.html"
+    }
 }

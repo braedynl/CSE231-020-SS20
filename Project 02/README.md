@@ -1,6 +1,6 @@
 # Project 2
 
-Due: Monday, September 21st (9/21/20)
+Due: Monday, September 21 (09/21/20)
 
 Video introduction: https://www.youtube.com/watch?v=OQNk9xA-W34
 
