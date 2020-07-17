@@ -92,7 +92,7 @@ If this section is online: labs may be treated as homework assignments. This rul
 <td align="center">05: 10/04</td>
 <td align="center"><a title="Sunday, October 04 (10/04/20)" href="https://www.cse.msu.edu/~cse231/Online/files1.html">Read Ch. 6; Videos: Files & Exceptions 1</a></td>
 <td align="center"></td>
-<td align="center">Exam 1</td>
+<td align="center"><div title="Tuesday, October 06 (10/06/20)">Exam 1</div></td>
 <td align="center"><a title="Friday, October 09 (10/09/20)" href="Lab%2005">Lab 05</a></td>
 <td align="center"><a title="Saturday, October 10 (10/10/20)" href="https://class.mimir.io">Exercises: Ch. 06</a></td>
 </tr>
@@ -131,7 +131,7 @@ If this section is online: labs may be treated as homework assignments. This rul
 <td align="center">10: 11/08</td>
 <td align="center"><a title="Sunday, November 08 (11/08/20)" href="https://www.cse.msu.edu/~cse231/Online/program_development.html">Read Ch. 10 Program Development</a></td>
 <td align="center"></td>
-<td align="center">Exam 2</td>
+<td align="center"><div title="Tuesday, November 10 (11/10/20)">Exam 2</div></td>
 <td align="center"><a title="Friday, November 13 (11/13/20)" href="Lab%2010">Lab 10</a></td>
 <td align="center"></td>
 </tr>
@@ -148,7 +148,7 @@ If this section is online: labs may be treated as homework assignments. This rul
 <td align="center"><a title="Sunday, November 22 (11/22/20)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Ch. 12; Videos: More on Classes</a></td>
 <td align="center"><a title="Monday, November 23 (11/23/20)" href="Project%2009">Project 09</a></td>
 <td align="center"></td>
-<td align="center">Thanksgiving</td>
+<td align="center"><div title="Friday, November 27 (11/27/20)">Thanksgiving</div></td>
 <td align="center"></td>
 </tr>
 <tr>

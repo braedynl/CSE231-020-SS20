@@ -89,7 +89,7 @@ def main():
                         print('<a title="{}" href="https://class.mimir.io">{}</a></td>'.format(title, td_text), file=out_html)
                     
                     else:
-                        print('{}</td>'.format(td_text.title()), file=out_html)
+                        print('<div title="{}">{}</div></td>'.format(title, td_text.title()), file=out_html)
 
         print('</tr>', file=out_html)
     print('</tbody>', file=out_html)
