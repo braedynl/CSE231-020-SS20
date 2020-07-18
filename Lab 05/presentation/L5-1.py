@@ -1,20 +1,18 @@
 
-in_file = open("input.txt", 'r')
+fp = open("Lab 05/presentation/input.txt", 'r')
 
-for line in in_file:
+for line in fp:
     print(line)
 
-in_file.close()
-
-# When we run this, you'll notice that we get newlines
+# When we run this, you'll notice that we get empty lines
 # for every line print. This is because the .txt file
-# uses the \n to denote to itself that there's a newline.
-# Python comes with a `.strip()` method to get rid of these.
+# uses the '\n' character to denote to itself that there's a new line.
+# Python comes with a `.strip()` str method to get rid of these.
 
-# in_file = open("input.txt", 'r')
+fp.seek(0)
 
-# for line in in_file:
-#     line = line.strip()
-#     print(line)
+for line in fp:
+    line = line.strip()
+    print(line)
 
-# in_file.close()
+fp.close()
