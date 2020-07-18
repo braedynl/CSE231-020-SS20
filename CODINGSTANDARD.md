@@ -60,7 +60,7 @@ Meaningful identifiers taken from the problem domain should be used for all vari
 
 I tend to get questions about this coding standard, and understandably so -- this is very ambiguous. I'll try my best to explain. 
 
-Let's say you were doing a project that involved two CSV files, `credit_scores.csv` and `bank_info.csv`, each containing important, unique information. If you named both of them something like "`data`", then your intent gets a bit hazy. If `credit_scores.txt` has 9 columns, and `bank_info.csv` has 7, and you have to calculate different values for each, then you'd theoretically need two different algorithms to read one or the other. Naming them both "`data`" makes it ambiguous -- you, as the programmer, might know which file it's referencing at the time of execution, but others reading through your code will struggle to follow.
+Let's say you were doing a project that involved two CSV files, `credit_scores.csv` and `bank_info.csv`, each containing important, unique information. If you named both of them something like "`data`", then your intent gets a bit hazy. If `credit_scores.csv` has 9 columns, and `bank_info.csv` has 7, and you have to calculate different values for each, then you'd theoretically need two different algorithms to read one or the other. Naming them both "`data`" makes it ambiguous -- you, as the programmer, might know which file it's referencing at the time of execution, but others reading through your code will struggle to follow.
 
 A better solution would be to read `credit_scores.csv` in as "`credit_scores`", and `bank_info.csv` as "`bank_info`". 
 
