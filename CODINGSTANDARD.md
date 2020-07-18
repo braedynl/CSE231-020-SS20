@@ -147,7 +147,7 @@ def my_function(param1:int, param2:str='default') -> list:
 
 ### 9. Global Variables
 
-Variables references in a function body should be local to that function. Global variables should never be used (i.e. don't use the `global` keyword).
+Variables referenced in a function body should be local to that function. Global variables should never be used (i.e. don't use the `global` keyword).
 
 **Braedyn Addendum**
 
