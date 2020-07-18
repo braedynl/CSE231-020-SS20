@@ -6,7 +6,7 @@ Video introduction: :video_link:
 
 Projects are meant to be completed alone. Collaboration and/or copying code from online, (e.g. Chegg), is strictly prohibited. A plagiarism-checker is ran through all projects, and checks for similarities between other students in the course and many online sources. 
 
-Contacting your TA, using Piazza, and attending help-room is encouraged if you are struggling. Take full advtange of `print()`, [PythonTutor](http://pythontutor.com/visualize.html#mode=edit), and your code editor's debugger (taught in [lab 02](../Lab%2002)). 
+Contacting [your TA](../README.md#braedyn-lettinga), using [Piazza](https://piazza.com/), and attending [help room](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html) is encouraged if you are struggling. Take full advantage of `print()`, [PythonTutor](http://pythontutor.com/visualize.html#mode=edit), and your code editor's debugger (taught in [Lab 02](../Lab%2002)). 
 
 Always read through the PDF instructions _carefully and thoroughly_. If you are having trouble comprehending the instructions, please don't hesitate to ask us on Piazza.
 
