@@ -2,11 +2,11 @@
 
 When you convert a design document into Python source code, one of your primary goals should be to write the source code and internal documentation such that it is easy to verify that the source code conforms to the design. It should be easy to debug, test, and maintain. The coding standard below is designed to assist you in achieving this goal.
 
-## 1. No Personal Information
+### 1. No Personal Information
 
-Do not include any personal information, such as your name or MSU PID, in any of your source code files. All project solutions are sent off campus to a software system which compares source code files for similarities.
+Do not include any personal information, such as your name or APID, in any of your source code files. All project solutions are sent off campus to a software system which compares source code files for similarities.
 
-## 2. Source Code Format
+### 2. Source Code Format
 
 Source code lines should be no more than 80 characters long. Break long lines into multiple, shorter lines using the continuation character ("`\`").
 
@@ -18,7 +18,7 @@ All `import` statements should appear after the source code header and before an
 
 All function definitions should appear after the `import` statements and before any other Python code in the program. 
 
-## 3. Source Code Header
+### 3. Source Code Header
 
 Each source code file should contain an introductory block of comments that identify the assignment, and gives a brief overview of the program. Example:
 
@@ -38,7 +38,7 @@ Algorithm
 '''
 ```
 
-## 4. Descriptive Comments
+### 4. Descriptive Comments
 
 The source code should include comments that describe the functionality of significant and/or ambiguous blocks of code. Comments are particularly important before blocks of code that perform major data manipulations or error processing. 
 
@@ -52,11 +52,19 @@ Place comments to indicate:
 
 General rule of thumb: if it was hard to write, it is probably hard to read -- a comment is probably necessary.
 
-## 5. Mnemonic Identifiers
+### 5. Mnemonic Identifiers
 
-Meaningful identifiers taken from the problem domain should be used for all variable names. Furthermore, a name will be used for only one purpose (the same name should not be used for more than one).
+Meaningful identifiers taken from the problem domain should be used for all variable names. Furthermore, a name will only be used for one purpose (the same name should not be used for more than one).
 
-## 6. Symbolic Constants
+**Braedyn Addendum**
+
+I tend to get questions about this coding standard, and understandably so -- this is very ambiguous. I'll try my best to explain. 
+
+Let's say you were doing a project that involved two CSV files, `credit_scores.csv` and `bank_info.csv`, each containing important, unique information. If you named both of them something like "`data`", then your intent gets a bit hazy. If `credit_scores.txt` has 9 columns, and `bank_info.csv` has 7, and you have to calculate different values for each, then you'd theoretically need two different algorithms to read one or the other. Naming them both "`data`" makes it ambiguous -- you, as the programmer, might know which file it's referencing at the time of execution, but others reading through your code will struggle to follow.
+
+A better solution would be to read `credit_scores.csv` in as "`credit_scores`", and `bank_info.csv` as "`bank_info`". 
+
+### 6. Symbolic Constants
 
 Symbolic constants should be used instead of embedding arbitrary numeric and character constants in the source code. Use "upper with under" style for all symbolic constants. Example:
 
@@ -64,7 +72,11 @@ Symbolic constants should be used instead of embedding arbitrary numeric and cha
 HEAT_OF_FUSION = 79.71  # calories to melt one gram of ice
 ```
 
-## 7. Variable and Function Names
+**Braedyn Addendum**
+
+You'd typically want to place constants in the global namespace (the indentation level furthest to the left) between your chunk of `import` statements and function definitions. Values declared as constants _should remain constant_ -- otherwise that kind of defeats the purpose, right?   
+
+### 7. Variable and Function Names
 
 Use "lower with under" style for all variable and function names. In some situations, it is appropriate to append type information to variable names as a visual reminder of the purpose of those variables. Example:
 
@@ -73,7 +85,7 @@ student_count = 0  # number of students in class
 farenheit_float = 0.0  # temperature in farenheit
 ```
 
-## 8. Function Header
+### 8. Function Header
 
 Using docstrings, (delimited by triple double/single quotes), each function should contain an introductory block of comments that explain the purpose of the function, and describes all information passed, modified, and returned by the function (e.g. parameters and global data objects). It should also describe any assumptions about the information passed in that is needed for it to work correctly. Example:
 
@@ -133,11 +145,15 @@ def my_function(param1:int, param2:str='default') -> list:
     '''
 ```
 
-## 9. Global Variables
+### 9. Global Variables
 
 Variables references in a function body should be local to that function. Global variables should never be used (i.e. don't use the `global` keyword).
 
-## 10. Class Names
+**Braedyn Addendum**
+
+It's important to note the difference between "global variables" and "global constants". Global *constants* are allowed as discussed in the [symbolic constants section](#6.-symbolic-constants), but global *variables* aren't because it can lead to [unfollowable code](https://stackoverflow.com/questions/19158339/why-are-global-variables-evil). There *are* reasons for why the `global` keyword exists (as listed by that user on StackOverflow), but none of those things apply to what we'll be doing in this course. 
+
+### 10. Class Names
 
 Use "CamelCase" style for all user-defined class names. Example:
 
