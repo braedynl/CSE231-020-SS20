@@ -75,7 +75,7 @@ farenheit_float = 0.0  # temperature in farenheit
 
 ## 8. Function Header
 
-Using docstrings (delimited by triple double/single quotes), each function should contain an introductory block of comments that explain the purpose of the function, and describes all information passed to the function, modified by the function, and returned by the function (parameters and global data objects). It should also describe any assumptions about the information passed to the function that is needed for the function to work correctly. Example:
+Using docstrings, (delimited by triple double/single quotes), each function should contain an introductory block of comments that explain the purpose of the function, and describes all information passed, modified, and returned by the function (e.g. parameters and global data objects). It should also describe any assumptions about the information passed in that is needed for it to work correctly. Example:
 
 ```python
 def count_digits(value):
