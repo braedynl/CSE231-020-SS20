@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and demonstration code used during my in-class lab. This README file also acts as a hub for everything you'll need in the course. You can use this instead of the main course website if you so choose.
+This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and example code used during my in-class lab. This README file also acts as a hub for everything you'll need in this course. You can use this instead of the main website if you so choose.
 
 Course Website: https://web.cse.msu.edu/~cse231/
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
@@ -20,15 +20,14 @@ Essential Sites:
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
   - [Zoom](https://msu.zoom.us/meeting)
+  - [Discord](https://discord.com/new) (summer semester only)
   
 Extra:
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
   - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
 
-Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. You can hover over the assignment's text to see its precise due date. 
-
-If you do not have the book yet, a draft of chapters 0 and 1 can be found [here.](https://web.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) 
+Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
 If this section is in-person: labs are *not* homework assignments, they must be done in-class. 
 
@@ -38,7 +37,7 @@ If this section is online: labs may be treated as homework assignments. This rul
 
 :schedule:
 
-The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any mistakes here, please notify me immediately.
+The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any descrepancies between the two, please notify me immediately.
 
 Links may not be direct because of a required login for some websites.
 
@@ -78,13 +77,13 @@ Email: letting4@msu.edu
 
 Website: https://github.com/braedynl
 
-I sadly don't have an office or office hours since I'm a measly and pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Zoom, Discord, etc.), and I'll get back to you as soon as I can.  
+I sadly don't have an office or office hours since I'm a measly and pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Zoom, Discord, etc.), and I'll get back to you as soon as I can. 
 
 I will occasionally host help rooms of my own when I feel it to be necessary. This is dependent on how well the section is doing as a whole, however. 
 
-Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is entirely online), I play no role in grading them. 
+Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is online), I play no role in grading them. 
 
-If this is a summer semester: I will be sending out an email during the first week in regards to a Discord server for the section. The link to join said server will be in that email, and will not be posted on this page for sake of course privacy. (I only host Discord servers for the summer sections since the summer version of this course is a lot more intense)
+If this is a summer semester: I will be sending out an email during the first week in regards to a Discord server for the section. The link to join said server will be in that email, and will not be posted on this page for sake of course privacy. I only host Discord servers for the summer sections, since the summer version of this course is harder. I would prefer student messages through Discord, since writing code in an email is glitchy.
 
 ## General Tips
 
