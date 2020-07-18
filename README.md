@@ -1,16 +1,19 @@
 # CSE231 - Introduction to Programming I
 This repository is for CSE231 - Introduction to Programming I, Section TBA for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. This README file also acts as a hub for everything you'll need in this course. You can use this instead of the main website if you so choose.
 
-Course Website: https://web.cse.msu.edu/~cse231/
+Main Course Website: https://web.cse.msu.edu/~cse231/
   - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
-  - [Course Schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html)
+  - [Contact Information](#contact-information)
+  - [Course Schedule](#course-schedule)
   - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
-  - [General Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
+  - [General Tips](#general-tips)
+  - [Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
   - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
   - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
   - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [PythonTutor](http://pythontutor.com/)
+  - [Section Information](#section-information)
   - [Syllabus](SYLLABUS.md)
   - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
   - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
@@ -26,6 +29,8 @@ Extra:
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
   - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
+
+## Course Schedule
 
 Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
