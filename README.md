@@ -54,128 +54,128 @@ If this section is online: labs may be treated as homework assignments. This rul
 <tbody>
 <tr>
 <td align="center">00: 08/30</td>
-<td align="center"><a title="Sunday, August 30 (08/30/20)" href="https://www.cse.msu.edu/~cse231/Online/week0.html">Read Ch. 0; Videos: Welcome, Getting Python</a></td>
+<td><a title="Sunday, August 30th (8/30/2020)" href="https://www.cse.msu.edu/~cse231/Online/week0.html">Read Ch. 0; Videos: Welcome, Getting Python</a></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, September 04 (09/04/20)" href="Lab%2000">Lab 00</a></td>
+<td align="center"><a title="Friday, September 4th (9/4/2020)" href="Lab%2000">Lab 00</a></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">01: 09/06</td>
-<td align="center"><a title="Sunday, September 06 (09/06/20)" href="https://www.cse.msu.edu/~cse231/Online/beginnings.html">Read Ch. 1; Videos: Beginnings</a></td>
+<td><a title="Sunday, September 6th (9/6/2020)" href="https://www.cse.msu.edu/~cse231/Online/beginnings.html">Read Ch. 1; Videos: Beginnings</a></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, September 11 (09/11/20)" href="Lab%2001">Lab 01</a></td>
-<td align="center"><a title="Saturday, September 12 (09/12/20)" href="https://class.mimir.io">Exercises: Ch. 01</a></td>
+<td align="center"><a title="Friday, September 11th (9/11/2020)" href="Lab%2001">Lab 01</a></td>
+<td align="center"><a title="Saturday, September 12th (9/12/2020)" href="https://class.mimir.io">Exercises: Ch. 01</a></td>
 </tr>
 <tr>
 <td align="center">02: 09/13</td>
-<td align="center"><a title="Sunday, September 13 (09/13/20)" href="https://www.cse.msu.edu/~cse231/Online/control.html">Read Ch. 2; Videos: Control</a></td>
-<td align="center"><a title="Monday, September 14 (09/14/20)" href="Project%2001">Project 01</a></td>
+<td><a title="Sunday, September 13th (9/13/2020)" href="https://www.cse.msu.edu/~cse231/Online/control.html">Read Ch. 2; Videos: Control</a></td>
+<td align="center"><a title="Monday, September 14th (9/14/2020)" href="Project%2001">Project 01</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, September 18 (09/18/20)" href="Lab%2002">Lab 02</a></td>
-<td align="center"><a title="Saturday, September 19 (09/19/20)" href="https://class.mimir.io">Exercises: Ch. 02</a></td>
+<td align="center"><a title="Friday, September 18th (9/18/2020)" href="Lab%2002">Lab 02</a></td>
+<td align="center"><a title="Saturday, September 19th (9/19/2020)" href="https://class.mimir.io">Exercises: Ch. 02</a></td>
 </tr>
 <tr>
 <td align="center">03: 09/20</td>
-<td align="center"><a title="Sunday, September 20 (09/20/20)" href="https://www.cse.msu.edu/~cse231/Online/strings.html">Read Ch. 4; Videos: Strings</a></td>
-<td align="center"><a title="Monday, September 21 (09/21/20)" href="Project%2002">Project 02</a></td>
+<td><a title="Sunday, September 20th (9/20/2020)" href="https://www.cse.msu.edu/~cse231/Online/strings.html">Read Ch. 4; Videos: Strings</a></td>
+<td align="center"><a title="Monday, September 21st (9/21/2020)" href="Project%2002">Project 02</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, September 25 (09/25/20)" href="Lab%2003">Lab 03</a></td>
-<td align="center"><a title="Saturday, September 26 (09/26/20)" href="https://class.mimir.io">Exercises: Ch. 04</a></td>
+<td align="center"><a title="Friday, September 25th (9/25/2020)" href="Lab%2003">Lab 03</a></td>
+<td align="center"><a title="Saturday, September 26th (9/26/2020)" href="https://class.mimir.io">Exercises: Ch. 04</a></td>
 </tr>
 <tr>
 <td align="center">04: 09/27</td>
-<td align="center"><a title="Sunday, September 27 (09/27/20)" href="https://www.cse.msu.edu/~cse231/Online/functions.html">Read Ch. 5; Videos: Functions</a></td>
-<td align="center"><a title="Monday, September 28 (09/28/20)" href="Project%2003">Project 03</a></td>
+<td><a title="Sunday, September 27th (9/27/2020)" href="https://www.cse.msu.edu/~cse231/Online/functions.html">Read Ch. 5; Videos: Functions</a></td>
+<td align="center"><a title="Monday, September 28th (9/28/2020)" href="Project%2003">Project 03</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, October 02 (10/02/20)" href="Lab%2004">Lab 04</a></td>
-<td align="center"><a title="Saturday, October 03 (10/03/20)" href="https://class.mimir.io">Exercises: Ch. 05</a></td>
+<td align="center"><a title="Friday, October 2nd (10/2/2020)" href="Lab%2004">Lab 04</a></td>
+<td align="center"><a title="Saturday, October 3rd (10/3/2020)" href="https://class.mimir.io">Exercises: Ch. 05</a></td>
 </tr>
 <tr>
 <td align="center">05: 10/04</td>
-<td align="center"><a title="Sunday, October 04 (10/04/20)" href="https://www.cse.msu.edu/~cse231/Online/files1.html">Read Ch. 6; Videos: Files & Exceptions 1</a></td>
+<td><a title="Sunday, October 4th (10/4/2020)" href="https://www.cse.msu.edu/~cse231/Online/files1.html">Read Ch. 6; Videos: Files & Exceptions 1</a></td>
 <td align="center"></td>
-<td align="center"><div title="Tuesday, October 06 (10/06/20)">Exam 1</div></td>
-<td align="center"><a title="Friday, October 09 (10/09/20)" href="Lab%2005">Lab 05</a></td>
-<td align="center"><a title="Saturday, October 10 (10/10/20)" href="https://class.mimir.io">Exercises: Ch. 06</a></td>
+<td align="center"><div title="Tuesday, October 6th (10/6/2020)">Exam 1</div></td>
+<td align="center"><a title="Friday, October 9th (10/9/2020)" href="Lab%2005">Lab 05</a></td>
+<td align="center"><a title="Saturday, October 10th (10/10/2020)" href="https://class.mimir.io">Exercises: Ch. 06</a></td>
 </tr>
 <tr>
 <td align="center">06: 10/11</td>
-<td align="center"><a title="Sunday, October 11 (10/11/20)" href="https://www.cse.msu.edu/~cse231/Online/lists.html">Read Ch. 7; Videos: Lists & Tuples</a></td>
-<td align="center"><a title="Monday, October 12 (10/12/20)" href="Project%2004">Project 04</a></td>
+<td><a title="Sunday, October 11th (10/11/2020)" href="https://www.cse.msu.edu/~cse231/Online/lists.html">Read Ch. 7; Videos: Lists & Tuples</a></td>
+<td align="center"><a title="Monday, October 12th (10/12/2020)" href="Project%2004">Project 04</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, October 16 (10/16/20)" href="Lab%2006">Lab 06</a></td>
+<td align="center"><a title="Friday, October 16th (10/16/2020)" href="Lab%2006">Lab 06</a></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">07: 10/18</td>
-<td align="center"><a title="Sunday, October 18 (10/18/20)" href="https://www.cse.msu.edu/~cse231/Online/algorithms.html">Read Ch. 3; Algorithms</a></td>
-<td align="center"><a title="Monday, October 19 (10/19/20)" href="Project%2005">Project 05</a></td>
+<td><a title="Sunday, October 18th (10/18/2020)" href="https://www.cse.msu.edu/~cse231/Online/algorithms.html">Read Ch. 3; Algorithms</a></td>
+<td align="center"><a title="Monday, October 19th (10/19/2020)" href="Project%2005">Project 05</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, October 23 (10/23/20)" href="Lab%2007">Lab 07</a></td>
-<td align="center"><a title="Saturday, October 24 (10/24/20)" href="https://class.mimir.io">Exercises: Ch. 07</a></td>
+<td align="center"><a title="Friday, October 23rd (10/23/2020)" href="Lab%2007">Lab 07</a></td>
+<td align="center"><a title="Saturday, October 24th (10/24/2020)" href="https://class.mimir.io">Exercises: Ch. 07</a></td>
 </tr>
 <tr>
 <td align="center">08: 10/25</td>
-<td align="center"><a title="Sunday, October 25 (10/25/20)" href="https://www.cse.msu.edu/~cse231/Online/dictionaries.html">Read Ch. 9; Videos: Dictionaries & Sets</a></td>
-<td align="center"><a title="Monday, October 26 (10/26/20)" href="Project%2006">Project 06</a></td>
+<td><a title="Sunday, October 25th (10/25/2020)" href="https://www.cse.msu.edu/~cse231/Online/dictionaries.html">Read Ch. 9; Videos: Dictionaries & Sets</a></td>
+<td align="center"><a title="Monday, October 26th (10/26/2020)" href="Project%2006">Project 06</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, October 30 (10/30/20)" href="Lab%2008">Lab 08</a></td>
+<td align="center"><a title="Friday, October 30th (10/30/2020)" href="Lab%2008">Lab 08</a></td>
 </tr>
 <tr>
 <td align="center">09: 11/01</td>
-<td align="center"><a title="Sunday, November 01 (11/01/20)" href="https://www.cse.msu.edu/~cse231/Online/functionsII.html">Read Ch. 8; Videos: More Functions</a></td>
-<td align="center"><a title="Monday, November 02 (11/02/20)" href="Project%2007">Project 07</a></td>
+<td><a title="Sunday, November 1st (11/1/2020)" href="https://www.cse.msu.edu/~cse231/Online/functionsII.html">Read Ch. 8; Videos: More Functions</a></td>
+<td align="center"><a title="Monday, November 2nd (11/2/2020)" href="Project%2007">Project 07</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, November 06 (11/06/20)" href="Lab%2009">Lab 09</a></td>
-<td align="center"><a title="Saturday, November 07 (11/07/20)" href="https://class.mimir.io">Exercises: Ch. 08 and 09</a></td>
+<td align="center"><a title="Friday, November 6th (11/6/2020)" href="Lab%2009">Lab 09</a></td>
+<td align="center"><a title="Saturday, November 7th (11/7/2020)" href="https://class.mimir.io">Exercises: Ch. 08 and 09</a></td>
 </tr>
 <tr>
 <td align="center">10: 11/08</td>
-<td align="center"><a title="Sunday, November 08 (11/08/20)" href="https://www.cse.msu.edu/~cse231/Online/program_development.html">Read Ch. 10 Program Development</a></td>
+<td><a title="Sunday, November 8th (11/8/2020)" href="https://www.cse.msu.edu/~cse231/Online/program_development.html">Read Ch. 10 Program Development</a></td>
 <td align="center"></td>
-<td align="center"><div title="Tuesday, November 10 (11/10/20)">Exam 2</div></td>
-<td align="center"><a title="Friday, November 13 (11/13/20)" href="Lab%2010">Lab 10</a></td>
+<td align="center"><div title="Tuesday, November 10th (11/10/2020)">Exam 2</div></td>
+<td align="center"><a title="Friday, November 13th (11/13/2020)" href="Lab%2010">Lab 10</a></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">11: 11/15</td>
-<td align="center"><a title="Sunday, November 15 (11/15/20)" href="https://www.cse.msu.edu/~cse231/Online/classesI.html">Read Ch. 11; Videos: Classes I</a></td>
-<td align="center"><a title="Monday, November 16 (11/16/20)" href="Project%2008">Project 08</a></td>
+<td><a title="Sunday, November 15th (11/15/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesI.html">Read Ch. 11; Videos: Classes I</a></td>
+<td align="center"><a title="Monday, November 16th (11/16/2020)" href="Project%2008">Project 08</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, November 20 (11/20/20)" href="Lab%2011">Lab 11</a></td>
-<td align="center"><a title="Saturday, November 21 (11/21/20)" href="https://class.mimir.io">Exercises: Ch. 11</a></td>
+<td align="center"><a title="Friday, November 20th (11/20/2020)" href="Lab%2011">Lab 11</a></td>
+<td align="center"><a title="Saturday, November 21st (11/21/2020)" href="https://class.mimir.io">Exercises: Ch. 11</a></td>
 </tr>
 <tr>
 <td align="center">12: 11/22</td>
-<td align="center"><a title="Sunday, November 22 (11/22/20)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Ch. 12; Videos: More on Classes</a></td>
-<td align="center"><a title="Monday, November 23 (11/23/20)" href="Project%2009">Project 09</a></td>
+<td><a title="Sunday, November 22nd (11/22/2020)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Ch. 12; Videos: More on Classes</a></td>
+<td align="center"><a title="Monday, November 23rd (11/23/2020)" href="Project%2009">Project 09</a></td>
 <td align="center"></td>
-<td align="center"><div title="Friday, November 27 (11/27/20)">Thanksgiving</div></td>
+<td align="center"><div title="Friday, November 27th (11/27/2020)">Thanksgiving</div></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">13: 11/29</td>
-<td align="center"><a title="Sunday, November 29 (11/29/20)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Section 9.6; Videos: Scope</a></td>
+<td><a title="Sunday, November 29th (11/29/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Section 9.6; Videos: Scope</a></td>
 <td align="center"></td>
-<td align="center"><a title="Tuesday, December 01 (12/01/20)" href="Project%2010">Project 10</a></td>
-<td align="center"><a title="Friday, December 04 (12/04/20)" href="Lab%2012">Lab 12</a></td>
-<td align="center"><a title="Saturday, December 05 (12/05/20)" href="https://class.mimir.io">Exercises: Ch. 12</a></td>
+<td align="center"><a title="Tuesday, December 1st (12/1/2020)" href="Project%2010">Project 10</a></td>
+<td align="center"><a title="Friday, December 4th (12/4/2020)" href="Lab%2012">Lab 12</a></td>
+<td align="center"><a title="Saturday, December 5th (12/5/2020)" href="https://class.mimir.io">Exercises: Ch. 12</a></td>
 </tr>
 <tr>
 <td align="center">14: 12/06</td>
-<td align="center"><a title="Sunday, December 06 (12/06/20)" href="https://www.cse.msu.edu/~cse231/Online/exceptions.html">Read Ch. 14; More Files & Exceptions</a></td>
-<td align="center"><a title="Monday, December 07 (12/07/20)" href="Project%2011">Project 11</a></td>
+<td><a title="Sunday, December 6th (12/6/2020)" href="https://www.cse.msu.edu/~cse231/Online/exceptions.html">Read Ch. 14; More Files & Exceptions</a></td>
+<td align="center"><a title="Monday, December 7th (12/7/2020)" href="Project%2011">Project 11</a></td>
 <td align="center"></td>
-<td align="center"><a title="Friday, December 11 (12/11/20)" href="Lab%2013">Lab 13</a></td>
+<td align="center"><a title="Friday, December 11th (12/11/2020)" href="Lab%2013">Lab 13</a></td>
 <td align="center"></td>
 </tr>
 </tbody>
 </table>
 
 
-The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any descrepancies between the two, please notify me immediately.
+The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any descrepancies between the two, [please notify me immediately](#braedyn-lettinga).
 
 Links may not be direct because of a required login for some websites.
 

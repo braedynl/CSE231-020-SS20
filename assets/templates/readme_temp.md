@@ -42,7 +42,7 @@ If this section is online: labs may be treated as homework assignments. This rul
 
 :schedule:
 
-The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any descrepancies between the two, please notify me immediately.
+The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any descrepancies between the two, [please notify me immediately](#braedyn-lettinga).
 
 Links may not be direct because of a required login for some websites.
 

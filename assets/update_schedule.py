@@ -23,6 +23,10 @@ def get_table_deltas(soup:BeautifulSoup) -> dict:
     
     return td_deltas
 
+def get_ordinal(i:int) -> str:
+    # shamelessly stolen from: https://stackoverflow.com/questions/9647202/ordinal-numbers-replacement
+    return {1: "st", 2: "nd", 3: "rd"}.get(i % 10 * (i % 100 not in [11, 12, 13]), "th")
+
 def main():
     soup = BeautifulSoup(urlopen(COURSE_INFO['schedule_url']), features='html.parser')
     td_deltas = get_table_deltas(soup)
@@ -36,17 +40,18 @@ def main():
     tr_list = soup.find('tbody').find_all('tr')
     for i, tr in enumerate(tr_list):
 
-        if i == len(tr_list)-1:  # Stops before last row, something is wrong with the way Enbody made it 🙃
-            break                # TODO: Needs better solution
+        if i == len(tr_list)-1:  # Stops before last row, something is wrong with it (has one more column for some reason(?))
+            break                # TODO: Needs better solution, being ignored for now
 
         print('<tr>', file=out_html)
         for i, td in enumerate(tr.find_all('td')):
 
-            print('<td align="center">', end='', file=out_html)
             td_text = td.text.strip()
 
             # first column will always be the week# and starting date (summer semester too)
             if i == 0:
+                print('<td align="center">', end='', file=out_html)
+
                 colon_i = td_text.find(':')
                 week_num = int(td_text[:colon_i])
                 date = td_text[colon_i + 2:]
@@ -62,13 +67,17 @@ def main():
                 datet = datetime(int(COURSE_INFO['year']), month, day)
         
             else:
-                title = (datet + timedelta(td_deltas[i])).strftime('%A, %B %d (%m/%d/%y)')
+                full_date = datet + timedelta(td_deltas[i])
+                title = full_date.strftime('%A, %B %d')
+                title = (title + get_ordinal(int(title[-2:])) + full_date.strftime(' (%m/%d/%Y)').replace('(0', '(').replace('/0', '/')).replace(' 0', ' ')
 
                 if i == 1:
                     # this assumes Enbody will always put the readings/lecture videos on Sunday, which
                     # coouulldd be problematic. would likely be an easy fix if this needs changing
-                    print('<a title="{}" href="{}">{}</a></td>'.format(title, COURSE_INFO['week_urls'][str(week_num)], td_text), file=out_html)
+                    print('<td><a title="{}" href="{}">{}</a></td>'.format(title, COURSE_INFO['week_urls'][str(week_num)], td_text), file=out_html)
                 else:
+                    print('<td align="center">', end='', file=out_html)
+
                     if td_text == '':
                         print('</td>', file=out_html)
 

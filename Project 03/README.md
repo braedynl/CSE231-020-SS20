@@ -1,6 +1,6 @@
 # Project 3
 
-Due: Monday, September 28 (09/28/20)
+Due: Monday, September 28th (9/28/2020)
 
 Video introduction: https://www.youtube.com/watch?v=OqRQ8sJmNk8
 
