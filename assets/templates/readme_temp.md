@@ -32,7 +32,7 @@ Extra:
 
 ## Course Schedule
 
-Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. You can hover over the assignment's text to see its precise due date (sorry mobile users).
+Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. You can hover over the assignment's text to see its precise due date (sorry mobile users). It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
 
 If this section is in-person: labs are *not* homework assignments, they must be done in-class. 
 
