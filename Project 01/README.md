@@ -93,11 +93,15 @@ print("Meters: ", round(meters, 3))
 ```
 Mimir test-case:
 
-![](../assets/images/project_info_testcases1.png)
+<div align="center">
+    <img src="../assets/images/project_info_testcases1.png"></img>
+</div>
 
 Pretty diff:
 
-![](../assets/images/project_info_testcases2.png)
+<div align="center">
+    <img src="../assets/images/project_info_testcases2.png"></img>
+</div>
 
 There is a space, (highlighted in red), but how did it get there? Let's take a look at the line of code that's outputting this:
 
