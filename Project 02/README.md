@@ -88,11 +88,9 @@ Likely the most common pretty diff discrepancy you'll encounter is a space neste
 Code:
 ```python
 rods = float(input('Input rods: '))
-print("You input", rods, "rods.\n")
 
-meters = rods * 5.0292
+# (there is code in-between these two lines that I'm hiding)
 
-print("Conversions")
 print("Meters: ", round(meters, 3))
 ```
 Mimir test-case:
