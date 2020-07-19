@@ -71,36 +71,30 @@ def main():
                 title = (title + get_ordinal(int(title[-2:])) + full_date.strftime(' (%m/%d/%Y)').replace('(0', '(').replace('/0', '/')).replace(' 0', ' ')
 
                 if i == 1:
-                    # this assumes Enbody will always put the readings/lecture videos on Sunday, which
-                    # coouulldd be problematic. would likely be an easy fix if this needs changing
                     print('<td><a title="{}" href="{}">{}</a></td>'.format(title, COURSE_INFO['week_urls'][str(week_num)], td_text), file=out_html)
                 else:
                     print('<td align="center">', end='', file=out_html)
 
                     if td_text == '':
                         print('</td>', file=out_html)
-
-                    # for some reason, Enbody names labs as "Lab XX", but names projects as "projXX" 🙃
-                    # these conditions are to standardize it as "Lab XX" and "Project XX",
-                    # also attaches more stuff to the HTML tags, like hover text and hrefs
-
                     elif 'lab' in td_text.lower():
                         lab_num = int(td_text[td_text.find(' '):])
                         if lab_num == 0:
-                            print('<a title="{}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title, n=lab_num), file=out_html)
+                            print('<a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title, n=lab_num), file=out_html)
                         else:
-                            print('<a title="{title}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>/<a title="{title}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title=title, n=lab_num), file=out_html)
+                            print('<a title="Due: {title}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>/<a title="Due: {title}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title=title, n=lab_num), file=out_html)
 
                     elif 'proj' in td_text.lower():
                         proj_num = int(td_text[-2:])
                         project_dates['Project {:02d}'.format(proj_num)] = title
-                        print('<a title="{}" href="Project%20{n:02d}">Project {n:02d}</a></td>'.format(title, n=proj_num), file=out_html)
-
+                        print('<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a></td>'.format(title, n=proj_num), file=out_html)
+                        
                     elif 'exercise' in td_text.lower():
-                        print('<a title="{}" href="https://class.mimir.io">{}</a></td>'.format(title, td_text), file=out_html)
-                    
+                        print('<a title="Due: {}" href="https://class.mimir.io">{}</a></td>'.format(title, td_text), file=out_html)
+                    elif 'exam' in td_text.lower():
+                        print('<a title="On: {}" href="SYLLABUS.md#exams">{}</a></td>'.format(title, td_text), file=out_html)
                     else:
-                        print('<div title="{}">{}</div></td>'.format(title, td_text.title()), file=out_html)
+                        print('<div title="On: {}">{}</div></td>'.format(title, td_text.title()), file=out_html)
 
         print('</tr>', file=out_html)
     print('</tbody>', file=out_html)
