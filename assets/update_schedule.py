@@ -7,11 +7,10 @@ COURSE_INFO = json.load(open('assets/course_info.json', 'r'))
 TIME_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 
 def get_table_deltas(soup:BeautifulSoup) -> dict:
-    # since I'm not sure what days of the week Enbody is going to include, a lookup
-    # table is created in get_table_deltas(). 
-    # the day positions in the table's header row is used to circumvent this issue,
-    # but is obviously reliant on Enbody keeping the first column as the week numbers
-    # and using shorthand week-day notation (e.g. "Mon", "Tue", etc.)
+    # since I'm not sure what days of the week Enbody is going to include, this function
+    # creates a lookup table of time deltas for the listed days. 
+    # the day positions in the table's header row is used, but is obviously reliant on 
+    # Enbody keeping the first column as the week numbers and using shorthand week-day notation (e.g. "Mon", "Tue", etc.)
 
     td_deltas = {}  # FORMAT: td_iteration : time_delta
 
@@ -83,11 +82,14 @@ def main():
 
                     # for some reason, Enbody names labs as "Lab XX", but names projects as "projXX" 🙃
                     # these conditions are to standardize it as "Lab XX" and "Project XX",
-                    # also attaches more stuff to the HTML td tags, like hover text and hrefs
+                    # also attaches more stuff to the HTML tags, like hover text and hrefs
 
                     elif 'lab' in td_text.lower():
                         lab_num = int(td_text[td_text.find(' '):])
-                        print('<a title="{}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title, n=lab_num), file=out_html)
+                        if lab_num == 0:
+                            print('<a title="{}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title, n=lab_num), file=out_html)
+                        else:
+                            print('<a title="{title}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>/<a title="{title}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title=title, n=lab_num), file=out_html)
 
                     elif 'proj' in td_text.lower():
                         proj_num = int(td_text[-2:])

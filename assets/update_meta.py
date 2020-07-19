@@ -4,7 +4,7 @@ def main():
     course_info = json.load(open('assets/course_info.json', 'r'))  # must be local
     schedule = open('assets/schedule.html', 'r').read()  # must be local
 
-    readme = open('assets/templates/readme_temp.md', 'r').read().replace(':schedule:', schedule)
+    readme = open('assets/templates/readme_temp.md', 'r', encoding='utf-8').read().replace(':schedule:', schedule)
     syllabus = open('assets/templates/syllabus_temp.md', 'r').read() 
 
     for key, value in course_info.items():

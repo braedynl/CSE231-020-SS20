@@ -34,7 +34,7 @@ Dependencies: BeautifulSoup
 import update_meta, update_project_files, update_schedule
 
 print('Creating/Updating schedule.html and project_dates.json...')
-update_schedule.main()  # update_schedule must run first
+update_schedule.main()
 print('Done.')
 
 print('Creating/Updating project files...')

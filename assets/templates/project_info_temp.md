@@ -35,7 +35,7 @@ When you click on a Mimir test-case, it will show a few things: the input of the
 
 Think of diffs as small programs that examine the differences between your code's output and the expected output. The "unix diff" shows what lines in your output (the top-half, above the "`---`") are different from the lines in the expected output (the bottom-half, below the "`---`"). I would simply look at the unix diff window for this purpose alone. The numeric codes that you'll see, e.g. "`3,2c4,9`", tend to be hard to understand for most new programmers. The "pretty diff" is much more understandable. You can read about the unix diff [here](https://www.computerhope.com/unix/udiff.htm) if you're interested. 
 
-The pretty diff "is colored to make it clear what parts of the output are wrong. Green indicates things in the correct output that you are missing, red indicates things in your output that shouldn't be there ... The ↵ character refers to newlines". The "newlines" they mention in this explanation is in reference to this: "`\n`" -- the newline _character_ (it's two separate characters but think of it as just one). The newline character essentially tells your computer to hit the RETURN/ENTER key. Here's an example:
+The pretty diff "is colored to make it clear what parts of the output are wrong. Green indicates things in the correct output that you are missing, red indicates things in your output that shouldn't be there ... The ↵ character refers to newlines". The "newlines" they mention in this explanation is in reference to this: "`\n`" -- the newline _character_ (it's two separate characters but think of it as just one). The newline character essentially tells your computer to hit the ENTER/RETURN key. Here's an example:
 
 Without a newline:
 ```python
@@ -159,15 +159,15 @@ If you're on MacOS, all shortcuts involving CTRL use CMD instead, unless specifi
 - SHIFT + TAB
     - Un-indent
 - CTRL + ]
-    - Indents current/highlighted lines
+    - Indents current/highlighted line(s)
 - CTRL + [
-    - Un-indents current/highlighted lines
+    - Un-indents current/highlighted line(s)
 
-Hitting ENTER (or RETURN) after a colon ("`:`") will automatically indent the next line for you in most code editors.
+Hitting ENTER/RETURN after a colon ("`:`") will automatically indent the next line for you.
 
 **Convenience**
 - CTRL + 1
-    - Comments/Un-comments current/highlighted lines
+    - Comments/Un-comments current/highlighted line(s)
 - CTRL + C
     - Copies highlighted text onto clipboard
 - CTRL + V
@@ -183,21 +183,21 @@ Hitting ENTER (or RETURN) after a colon ("`:`") will automatically indent the ne
 - CTRL + F5
     - Execute file with debugger (runs program up until the first breakpoint)
 - CTRL + F10
-    - Steps debugger one line forward (you cannot go backwards)
+    - Steps debugger one line forward
 - F12
     - Set/clear line breakpoint
 - CTRL + F12
-    - Steps debugger until next breakpoint
+    - Steps debugger forward until next breakpoint
 - CTRL + SHIFT + F12
     - Stop debugging
 - CTRL + S
     - Save file
 - CTRL + SHIFT + S
     - Save file as
-- CTRL + C (in console, CTRL + C on MacOS)
-    - Halts file execution, useful if your program is infinitely looping, or you want to stop it early for whatever reason
-- CTRL + . (in console)
-    - Restarts the console (kernel), useful if the console crashes and/or is misbehaving
+- CTRL + C (MacOS: CTRL + C)
+    - In console only. Halts file execution, useful if your program is infinitely looping, or you want to stop it early for whatever reason
+- CTRL + . (MacOS: CTRL + .)
+    - In console only. Restarts the console (kernel), useful if the console crashes and/or is misbehaving
 
 **Cursor Navigation**
 - Right Arrow

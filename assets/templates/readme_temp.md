@@ -2,55 +2,87 @@
 This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and example code used during my in-class lab. This README file also acts as a hub for everything you'll need in this course. You can use this instead of the main website if you so choose.
 
 Main Course Website: https://web.cse.msu.edu/~cse231/
-  - [Coding Standard](https://web.cse.msu.edu/~cse231/Online/General/coding.standard.html)
+
+Logistics:
+  - [Coding Standard](CODINGSTANDARD.md)
   - [Contact Information](#contact-information)
   - [Course Schedule](#course-schedule)
-  - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
-  - [General Tips](#general-tips)
-  - [Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
+  - [Exam Information](SYLLABUS.md#exams)
   - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
   - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
   - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
-  - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
-  - [PythonTutor](http://pythontutor.com/)
   - [Section Information](#section-information)
   - [Syllabus](SYLLABUS.md)
   - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
   - [Traditional Lab Slides](https://web.cse.msu.edu/~cse231/Online/mini-lectures/)
-  
+
 Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
-  - [Zoom](https://msu.zoom.us/meeting)
-  - [Discord](https://discord.com/new) (summer semester only)
-  
-Extra:
+  - [Zoom](https://msu.zoom.us/meeting) (if online)
+  - [Discord](https://discord.com/new) (if summer semester)
+
+Help:
+  - [Contact Information](#contact-information)
+  - [Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
+  - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
+  - [General Tips](#general-tips)
+  - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
+  - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
+  - [Piazza](https://piazza.com/)
+  - [PythonTutor](http://pythontutor.com/)
+
+Extra:
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
   - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
 
+## Getting Started
+
+[Download/Install Anaconda (comes packaged with Spyder) and Python 3.7 or higher](https://www.anaconda.com/products/individual). Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if Lab 00 isn't working out for you.  
+
+You are permitted to install other code editors if you so choose, though bear in mind that the TAs and professors may not be familiar with how some of them work, you'll be on your own if you need help with it. I (Braedyn) almost exclusively work with [Visual Studio Code](https://code.visualstudio.com/), though I am familiar with Spyder.
+
+Other popular code editors:
+- [Atom](https://atom.io/)
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+- [Sublime Text](https://www.sublimetext.com/)
+- [Xcode](https://developer.apple.com/xcode/) (MacOS only)
+
+Certain projects pull from 3rd party libraries closer to the end of the semester, (namely `pylab` and `pandas`) -- Anaconda comes packaged with these. If you are using a different code editor, contact me, and I'll show you how to install them manually if you couldn't figure out how to do it by yourself.
+
+The TA lectures and the lecture videos by Dr. Punch are _supplemental_ to the textbook. You can purchase the textbook [here](https://www.pearsonhighered.com/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html).
+- ISBN-13: 9780134379760 (or 9780134380315) 
+    - Other ISBN-13 numbers are website-only, or are bundled with extraneous materials.
+- Several copies are available in the Course Reserves at the MSU Main Library.
+- A draft of chapters 0 and 1 can be found [here](https://www.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) if you're waiting for shipment. 
+
+All lab and project materials can be found in the "Code" section of this repository. You can find my presentations and example code in path /Lab XX/presentation/, where "XX" is the lab number. You can find Mimir test-case explanations and Spyder keyboard shortcuts in any of the [project folder READMEs](Project%2001/README.md). The assets folder is purely for my own purposes, you can ignore it. 
+
+Read through [the syllabus](SYLLABUS.md) if you haven't already. Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better because it has links. :grin:
+
 ## Course Schedule
 
-Below is the course schedule, so that you may check when something is due with ease. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before starting the assignments. You can hover over the assignment's text to see its precise due date (sorry mobile users). It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
+Below is the course schedule, your guide to being successful this semester. The assignments listed provide links to the corresponding website they are hosted on. Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's probably a good idea to do it before coming to lab and starting the assignments. You can hover over the assignment's text to see its precise due date (sorry mobile users). It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
 
 If this section is in-person: labs are *not* homework assignments, they must be done in-class. 
 
 If this section is online: labs may be treated as homework assignments. This rule also applies if there are no in-person meetings due to COVID-19, even if your section would be considered in-person by tradition. 
 
-**Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the sub-directory's README.**
+**Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the subdirectory's README.**
 
 :schedule:
 
 The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any descrepancies between the two, [please notify me immediately](#braedyn-lettinga).
 
-Links may not be direct because of a required login for some websites.
+Links to Mimir and D2L assignments are not direct because a login is requried.
 
 ## Section Information
 
 Leading Professors: Dr. Enbody / Dr. Zaabar
 
-Section TA: Braedyn Lettinga
+Section Instructor: Braedyn Lettinga
 
 Section: :section:
 
@@ -107,4 +139,4 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 **When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
 
-**Try [PythonTutor](http://pythontutor.com/).** PythonTutor visualizes your code, and gives execution control similar to an IDE debugger.
+**Try [PythonTutor](http://pythontutor.com/)!** PythonTutor visualizes your code, and gives execution control similar to an IDE debugger.
