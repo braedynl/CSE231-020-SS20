@@ -40,7 +40,11 @@ Extra:
 
 ## Getting Started
 
-[Download/Install Anaconda (comes packaged with Spyder, the code editor (IDE) that we'll be using) and Python 3.7 or higher](https://www.anaconda.com/products/individual). Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer a verbal format.  
+Welcome to CSE231! I'll be hitting you with _a lot_ of information here because I like to be thorough, I apologize ahead of time. If you have never programmed before, Dr. Enbody recommends this [soft introduction to programming](https://hourofcode.com/capython). Below, I'll be explaining the course, where everything is, what's happening, etc.. 
+
+Firstly, I recommend watching this (think of this as your syllabus day lecture): https://www.youtube.com/watch?v=e-IgfhmovJc
+
+You'll want to download/install [Anaconda](https://www.anaconda.com/products/individual) (comes packaged with Spyder, the code editor (IDE) that we'll be using) and Python 3.7 or higher. Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer a verbal format.  
 
 You are permitted to install other code editors if you so choose, though bear in mind that the TAs and professors may not be familiar with how some of them work, you'll be on your own if you need help with it. I (Braedyn) work with [Visual Studio Code](https://code.visualstudio.com/), though I am familiar with Spyder.
 
