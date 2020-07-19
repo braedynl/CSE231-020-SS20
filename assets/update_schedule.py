@@ -82,13 +82,13 @@ def main():
                         if lab_num == 0:
                             print('<a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title, n=lab_num), file=out_html)
                         else:
-                            print('<a title="Due: {title}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>/<a title="Due: {title}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title=title, n=lab_num), file=out_html)
+                            print('<a title="Due: {title}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab</a> / <a title="Due: {title}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(title=title, n=lab_num), file=out_html)
 
                     elif 'proj' in td_text.lower():
                         proj_num = int(td_text[-2:])
                         project_dates['Project {:02d}'.format(proj_num)] = title
                         print('<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a></td>'.format(title, n=proj_num), file=out_html)
-                        
+
                     elif 'exercise' in td_text.lower():
                         print('<a title="Due: {}" href="https://class.mimir.io">{}</a></td>'.format(title, td_text), file=out_html)
                     elif 'exam' in td_text.lower():

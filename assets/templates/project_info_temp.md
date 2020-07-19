@@ -107,7 +107,7 @@ Pretty diff:
     <img src="../assets/images/project_info_testcases2.png"></img>
 </div>
 
-There apperas to be an extra space highlighted in red. Let's take a look at the line of code that's outputting this:
+There appears to be an extra space, as highlighted in red. Let's take a look at the line of code that's outputting this:
 
 ```python
 print("Meters: ", round(meters, 3))

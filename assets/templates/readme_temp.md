@@ -60,6 +60,8 @@ The TA lectures and the lecture videos by Dr. Punch are _supplemental_ to the te
 
 All lab and project materials can be found in the "Code" section of this repository. You can find my presentations and example code in path /Lab XX/presentation/, where "XX" is the lab number. You can find Mimir test-case explanations and Spyder keyboard shortcuts in any of the [project folder READMEs](Project%2001). The assets folder is purely for my own purposes, you can ignore it. 
 
+Chapter exercise, lab, and project submissions are on Mimir. In order for your Mimir account to link with our system, you must navigate to the [CSE231 D2L page](https://d2l.msu.edu/d2l/home) and click the Mimir link from there. D2L only hosts pre-labs and grades, everything else is on Mimir. 
+
 Read through [the syllabus](SYLLABUS.md) if you haven't already. Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better because it has links. :grin:
 
 ## Course Schedule
