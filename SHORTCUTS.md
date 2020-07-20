@@ -1,6 +1,6 @@
 # Useful Keyboard Shortcuts
 
-If you're on MacOS, all shortcuts involving CTRL use CMD, unless specified otherwise. Some of these shortcuts may vary between code editors -- the following are shortcuts for Spyder, though some code editors may use the same/similar ones.
+If you're on MacOS, all shortcuts involving CTRL use CMD, unless specified otherwise. Some of these shortcuts may vary between code editors -- the following are shortcuts for Spyder.
 
 **Indentation**
 - TAB
