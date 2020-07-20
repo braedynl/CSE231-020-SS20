@@ -137,7 +137,7 @@ Too much time spent writing essays in an IB high school.
 
 **16. Where can I apply to become a ULA for a CSE course?**
 
-[Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me, I'm unsure if that rule still applies. 
+[Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. 
 
 **17. Do you need a 4.0 to become a ULA for this class?**
 
