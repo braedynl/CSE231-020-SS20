@@ -135,12 +135,12 @@ You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electr
 
 The amount of points per question varies by the exam format, and which exam it is. In all cases, you should review the [past exams](https://web.cse.msu.edu/~cse231/Online/Exams/). If you'll be taking the exam on Mimir, I recommend going back through labs, projects, and chapter exercises (doing them if you never did, or designing alternate methods if you have all of them completed).
 
-### FAQ
+## FAQ
 
 Frequent student questions that I've been collecting over the years. If the answer to your question ain't in here, I'd be surprised. 
 
 
-#### Assignment/Exam Grades
+### Assignment/Exam Grades
 
 **1. Who do I contact about extensions?**
 
@@ -171,7 +171,7 @@ Yes, actually. The professors will look for students who are at the edge of grad
 _Sometimes_. I'm not sure when they happen, or for what reason. To me, it seems like it's just whenever Dr. Enbody feels like throwin one out. All instances where extra credit _has_ been served have been small, so don't get your hopes up.
 
 
-#### Academic Dishonesty Reports
+### Academic Dishonesty Reports
 
 **1. Do you know who has received an academic dishonesty report?**
 
@@ -196,7 +196,7 @@ Experienced programmers are _more likely_ to have similar code to other people b
 It is easy for us to tell when a student plagiarizes in this course, since less-experienced programmers usually can't think of other/equivalent ways of programming an algorithm after seeing an already-implemented solution. The trouble really begins in later CSE courses, since students, by then, will know how to code equivalent expressions/algorithms from looking at their friend's solution.
 
 
-#### Miscellaneous/Personal
+### Miscellaneous/Personal
 
 **1. Are we allowed to use a code editor that's not Spyder?**
 
