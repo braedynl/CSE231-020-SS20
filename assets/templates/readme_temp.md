@@ -4,7 +4,7 @@ This repository is for CSE231 - Introduction to Programming I, Section :section:
 Main Course Website: https://web.cse.msu.edu/~cse231/
 
 Logistics:
-  - [Coding Standard](CODINGSTANDARD.md)
+  - [Coding Standard](CODING_STANDARD.md)
   - [Contact Information](#contact-information)
   - [Course Schedule](#course-schedule)
   - [Exam Information](SYLLABUS.md#exams)
@@ -42,21 +42,13 @@ Extra:
 
 Welcome to CSE231! I'll be hitting you with _a lot_ of information here because I like to be thorough, I apologize ahead of time. If you have never programmed before, Dr. Enbody recommends this [soft introduction to programming](https://hourofcode.com/capython). Below, I'll be explaining the course, where everything is, what's happening, etc.. 
 
-Firstly, I recommend watching this (think of this as your syllabus day lecture): https://www.youtube.com/watch?v=e-IgfhmovJc
+Firstly, I recommend watching this video (think of this as your syllabus-day lecture): https://www.youtube.com/watch?v=e-IgfhmovJc
 
-You'll want to download/install [Anaconda](https://www.anaconda.com/products/individual) (comes packaged with Spyder, the code editor (IDE) that we'll be using) and Python 3.7 or higher. Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer a verbal format.  
+You'll want to download/install [Anaconda](https://www.anaconda.com/products/individual) (comes packaged with Spyder, the code editor (IDE) that we'll be using) and Python 3.7 or higher. Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer a verbal format.
 
-You are permitted to install other code editors if you so choose, though bear in mind that the TAs and professors may not be familiar with how some of them work, you'll be on your own if you need help with it. I (Braedyn) work with [Visual Studio Code](https://code.visualstudio.com/), though I am familiar with Spyder.
+If you're interested in optimizing your code-writing, I've compiled a list of [useful keyboard shortcuts](SHORTCUTS.md) for Spyder. You'll find a lot of these more applicable after Lab 02. 
 
-Other popular code editors:
-- [Atom](https://atom.io/)
-- [PyCharm](https://www.jetbrains.com/pycharm/)
-- [Sublime Text](https://www.sublimetext.com/)
-- [Xcode](https://developer.apple.com/xcode/) (MacOS only)
-
-Certain projects pull from 3rd party libraries near the end of the semester, (namely `pylab` and `pandas`), Anaconda comes packaged with these. If you are using a different code editor, contact me, and I'll show you how to install them manually if you couldn't figure out how to do it for yourself.
-
-The TA lectures and the lecture videos by Dr. Punch are _supplemental_ to the textbook. You can purchase the textbook [here](https://www.pearsonhighered.com/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html).
+The TA "mini-lectures" and the lecture videos by Dr. Punch are _supplemental_ to the textbook. You can purchase the textbook [here](https://www.pearsonhighered.com/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html).
 - ISBN-13: 9780134379760 (or 9780134380315) 
     - Other ISBN-13 numbers are website-only, or are bundled with extraneous materials.
 - Several copies are available in the Course Reserves at the MSU Main Library.
@@ -64,9 +56,11 @@ The TA lectures and the lecture videos by Dr. Punch are _supplemental_ to the te
 
 Chapter exercise, lab, and project submissions are on Mimir. In order for your Mimir account to link with our system, you must navigate to the [CSE231 D2L page](https://d2l.msu.edu/d2l/home) and click the Mimir link from there. D2L will only host pre-labs and grades.
 
-All lab and project materials can be found in the "Code" section of this repository. You can find my presentations and example code in path /Lab XX/presentation/, where "XX" is the lab number. You can find Mimir test-case explanations and Spyder keyboard shortcuts in any of the [project folder READMEs](Project%2001). The assets folder is purely for my own purposes, you can ignore it. 
+All lab and project materials can be found in the "Code" section of this repository above (if on mobile, scroll up and hit "View code"). You can find my presentations and example code in path /Lab XX/presentation/, where "XX" is the lab number. You can find more information about projects and Mimir test-case explanations in any of the [project folder READMEs](Project%2001). The assets folder is purely for my own purposes, you can ignore it. 
 
-Read through [the syllabus](SYLLABUS.md) if you haven't already. Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better than Dr. Enbody's because it has links and consistent formatting. :grin:
+Please read through the [syllabus](SYLLABUS.md) if you haven't already. I have a file that elaborates more on grading, and has many frequently asked questions [here](GRADING.md).
+
+Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better than Dr. Enbody's because it has links and consistent formatting. :grin:
 
 ## Course Schedule
 
@@ -75,13 +69,6 @@ The assignments listed on the schedule have links to the corresponding website t
 Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
 
 If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
-
-- If the course is in-person, or is conducting meetings through Zoom: labs _are not_ homework assignments, they must be done in-class/in the Zoom session. Labs are graded leniently.
-    - If this section has meetings through Zoom: you can skip the Zoom lecture _in exchange_ for 100% test-case completion. Anything less will be regarded as a 0%, even if sufficient effort was put in. 
-- If this is a summer semester: labs _are_ homework assignments, and are graded less leniently.
-- Labs, in all conditions, are pass/fail grades. You are allowed to miss 2 in total, anything more will drop your overall course grade (see [syllabus](SYLLABUS.md#course-grades)).
-- Contact me _in advance_ if you are going to miss a lab for a _significant_ reason. I will move your lab due date to accommodate the circumstance with your approval.
-    - I will only accept lab miss requests the day before lab at 11:59 PM EST, with exceptions for extreme circumstances (health, safety concerns, etc.). 
 
 **Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the subdirectory's README.**
 

@@ -6,7 +6,7 @@ Video introduction: :video_link:
 
 The submission page for all projects are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases). There is a 50% grade reduction for each day that a submission is late. Partial credit is rewarded by the TAs for incomplete test-cases, though the amount of partial credit rewarded varies depending on what kind of mistakes were made, how close you were to matching the test-cases, etc.. I highly recommend uploading an incomplete/blank project file at first to see the test-cases, you can extrapolate a lot more information about the project by looking at them, if the PDF was unclear in certain areas. 
 
-Projects must adhere to the [coding standard](../CODINGSTANDARD.md). Some standards may not apply for the first couple of weeks. The standards that *do* apply will be listed at the bottom of the PDF, as well as some more details on the grading scheme. Points are rewarded by the TAs for following the coding standard.
+Projects must adhere to the [coding standard](../CODING_STANDARD.md). Some standards may not apply for the first couple of weeks. The standards that *do* apply will be listed at the bottom of the PDF, as well as some more details on the grading scheme. Points are rewarded by the TAs for following the coding standard.
 
 Hard-coding a solution will net you a 0% grade for the project. Wikipedia defines hard-coding as: 
 
