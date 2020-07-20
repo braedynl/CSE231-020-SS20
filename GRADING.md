@@ -14,6 +14,20 @@ A total of 1000 points are accrued from the weekly projects (45%), exercises (10
 
 **Important**: students who get a zero ("no credit") on more than two laboratory exercises will have their course grade reduced by 0.5 for _each laboratory exercise missed beyond two_. For example, if a student had sufficient points to normally earn a 3.0, but obtained four zeroes on the laboratory exercises, that student's grade will be reduced by 2\*0.5, i.e. they will earn a 2.0 course grade.
 
+Further percentage breakdown (Fall/Spring Semester):
+  
+|         | Chapter Exercises | Projects | Exam 1 | Exam 2 | Exam 3 |       | Total |
+| :---:   | :---:             | :---:    | :---:  | :---:  | :---:  | :---: | :---: |
+| Percent | 10%               | 45%      | 10%    | 15%    | 20%    |       | 100%  | 
+| Points  | 100               | 450      | 100    | 150    | 200    |       | 1000  |
+
+Further percentage breakdown (Summer Semester):
+
+|         | Chapter Exercises | Projects | Exam 1 | Exam 2 |       | Total |
+| :---:   | :---:             | :---:    | :---:  | :---:  | :---: | :---: |
+| Percent | 10%               | 45%      | 15%    | 30%    |       | 100%  | 
+| Points  | 100               | 450      | 150    | 300    |       | 1000  |
+
 Grading scale:
 
 - 4.0 - 90% of points available
@@ -23,20 +37,6 @@ Grading scale:
 - 2.0 - 70% of points available
 - 1.5 - 65% of points available
 - 1.0 - 60% of points available
-
-Further breakdown (Fall/Spring Semester):
-
-|         | Chapter Exercises | Projects | Exam 1 | Exam 2 | Exam 3 |       | Total |
-| :---:   | :---:             | :---:    | :---:  | :---:  | :---:  | :---: | :---: |
-| Percent | 10%               | 45%      | 10%    | 15%    | 20%    |       | 100%  | 
-| Points  | 100               | 450      | 100    | 150    | 200    |       | 1000  |
-
-Further breakdown (Summer Semester):
-
-|         | Chapter Exercises | Projects | Exam 1 | Exam 2 |       | Total |
-| :---:   | :---:             | :---:    | :---:  | :---:  | :---: | :---: |
-| Percent | 10%               | 45%      | 15%    | 30%    |       | 100%  | 
-| Points  | 100               | 450      | 150    | 300    |       | 1000  |
 
 Some extra credit opportunities _may_ be presented throughout the semester, though I wouldn't place too much hope in it.
 
