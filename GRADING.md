@@ -10,6 +10,16 @@ I address other miscellaneous grading questions in the [FAQ](#faq) at the bottom
 
 A total of 1000 points are accrued from the weekly projects (45%), exercises (10%), and exams (45%). Exams become worth more as the semester progresses (see below). Labs do not support your grade, they can only hinder it under certain conditions (see below). You might come to find that the sum of chapter exercise points is double the amount it should be -- this is a correct observation. The summation of points is summed and then halved before contributing to your overall course grade at the end of the semester. 
 
+Grading scale:
+
+- 4.0 - 90% of points available
+- 3.5 - 85% of points available
+- 3.0 - 80% of points available
+- 2.5 - 75% of points available
+- 2.0 - 70% of points available
+- 1.5 - 65% of points available
+- 1.0 - 60% of points available
+
 **Important**: to be eligible for a non-zero course grade, a student must earn at least 50% of the total points on exams, and earn at least 50% of the total points on computer projects.
 
 **Important**: students who get a zero ("no credit") on more than two laboratory exercises will have their course grade reduced by 0.5 for _each laboratory exercise missed beyond two_. For example, if a student had sufficient points to normally earn a 3.0, but obtained four zeroes on the laboratory exercises, that student's grade will be reduced by 2\*0.5, i.e. they will earn a 2.0 course grade.
@@ -27,16 +37,6 @@ Further percentage breakdown (Summer Semester):
 | :---:   | :---:             | :---:    | :---:  | :---:  | :---: | :---: |
 | Percent | 10%               | 45%      | 15%    | 30%    |       | 100%  | 
 | Points  | 100               | 450      | 150    | 300    |       | 1000  |
-
-Grading scale:
-
-- 4.0 - 90% of points available
-- 3.5 - 85% of points available
-- 3.0 - 80% of points available
-- 2.5 - 75% of points available
-- 2.0 - 70% of points available
-- 1.5 - 65% of points available
-- 1.0 - 60% of points available
 
 Some extra credit opportunities _may_ be presented throughout the semester, though I wouldn't place too much hope in it.
 
