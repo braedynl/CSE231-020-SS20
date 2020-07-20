@@ -58,7 +58,7 @@ Chapter exercise, lab, and project submissions are on Mimir. In order for your M
 
 All lab and project materials can be found in the "Code" section of this repository above (if on mobile, scroll up and hit "View code"). You can find my presentations and example code in path /Lab XX/presentation/, where "XX" is the lab number. You can find more information about projects and Mimir test-case explanations in any of the [project folder READMEs](Project%2001). The assets folder is purely for my own purposes, you can ignore it. 
 
-Please read through the [syllabus](SYLLABUS.md) if you haven't already. I have a file that elaborates more on grading, and has many frequently asked questions [here](GRADING.md).
+Please read through the [syllabus](SYLLABUS.md) if you haven't already. I have a file that elaborates more on grading [here](GRADING.md), with some answers to frequently asked questions [here](FAQ.md).
 
 Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better than Dr. Enbody's because it has links and consistent formatting. :grin:
 
