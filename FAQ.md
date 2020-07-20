@@ -60,7 +60,41 @@ It is easy for us to tell when a student plagiarizes in this course, since less-
 
 ## Miscellaneous/Personal
 
-**1. Are we allowed to use a code editor that's not Spyder?**
+**1. Why does this class teach Python and not [some other programming language]?**
+
+Python is probably the simplest programming language to understand for newcomers, while also being extremely useful and industry standard for many companies -- including companies that aren't like Google, Microsoft, Apple, etc.. Python syntax tends to use natural language expressions rather than complicated strings of rarely-used characters, which helps a lot with mental links to programming concepts. 
+
+Just to show you how simple Python is, here's how you test if an `int` with value `5` is contained within an array, for which we then print our results to the console:
+```python
+array = [1, 2, 3, 4, 5]
+
+print(5 in array) 
+```
+
+... and here's how you do the same thing in C++:
+```c++
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+vector<int> array = {1, 2, 3, 4, 5};
+
+if (std::find(array.begin(), array.end(), 5) != array.end()) {
+  std::cout << "true" << std::endl;
+} else {
+  std::cout << "false" << std::endl;
+}
+```
+
+Admittedly a somewhat extreme example, but I think you get the point. Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they get used to it. 
+
+Fun fact: CSE231 used to teach C++
+
+**2. I'm a [major that's not computer science/engineering], will I ever need this?** 
+
+Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. The power in programming is its ability to manipulate, and calculate values almost instantaneously in tandem with logic. The phone in your pocket, the stock market, the digital alarm clock on your desk -- all of these wouldn't exist without programming.  
+
+**3. Are we allowed to use a code editor that's not Spyder?**
 
 Yep! Though bear in mind that the TAs and professors may not be familiar with how some of them work, you'll be on your own if you need help with it.
 
@@ -73,84 +107,84 @@ Other popular code editors:
 
 Certain projects pull from 3rd party libraries near the end of the semester, (namely `pylab`), Spyder comes packaged with it, which is why we use Spyder in the first place. You'll have to manually install `pylab` if you're on a different code editor, which I can show you how to do if you can't figure it out for yourself.
 
-**2. Why are the online exams proctored? That's so stupid.**
+**4. Why are the online exams proctored? That's so stupid.**
 
 It *is* stupid, isn't it? You can ask the students who took this course in Spring 2020 for that answer.
 
 Spoiler: everyone cheated when we didn't proctor. 
 
-**3. Are there exam statistics anywhere?**
+**5. Are there exam statistics anywhere?**
 
 Dr. Enbody will have them in his post-exam email.
 
-**4. How did you prepare for CSE231 exams?**
+**6. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**5. How did you do when you took this class?**
+**7. How did you do when you took this class?**
 
 I got a 4.0, but I'm not smart by any means -- I just have _a lot_ of practice because I've been programming since I was a kid. If you're having a hard time, please don't compare your situation to people like me, because it's not the same. Programming is an extremely hard skill to master for a majority of people. The biggest thing you can do is practice. 
 
-**6. Did you read the book?**
+**8. Did you read the book?**
 
 Nope, not a single word of it. But, again, I've been programming for a long time. Programming languages just kinda come naturally after you learn one (I knew a little Java before CSE231). I just used Piazza or did a quick Google search when I needed help with something.  
 
-**7. Is using w3schools.com and/or programiz.com okay as supplementary material?**
+**9. Is using w3schools.com and/or programiz.com okay as supplementary material?**
 
 Yep! Just be careful, websites like those may teach certain concepts in a different order, or may show some concepts that we don't teach at all. If you do come across something that we don't teach, it's usually safe to assume that you're not allowed to use it. If you're unsure if a concept may be used in an assignment, feel free to ask on Piazza.
 
-**8. Do you use tabs or spaces?**
+**10. Do you use tabs or spaces?**
 
 Tabs, I'm not tryna demolish my spacebar.
 
-**9. Do you know any other programming languages?**
+**11. Do you know any other programming languages?**
 
 C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however (you can tell if you look at my GitHub projects lol).
 
-**10. Does the language you use in the real world matter?**
+**12. Does the language you use in the real world matter?**
 
 Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
 
 If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
 
-**11. What is your ethnic background?**
+**13. What is your ethnic background?**
 
 I'm half white, half Korean. 
 
-**12. Where are you from?**
+**14. Where are you from?**
 
 Grand Rapids, Michigan. 
 
-**13. Do you have social media?**
+**15. Do you have social media?**
 
 Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me. 
 
-**14. What code editor do you use?**
+**16. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**15. How do you type so fast?**
+**17. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**16. Where can I apply to become a ULA for a CSE course?**
+**18. Where can I apply to become a ULA for a CSE course?**
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. 
 
-**17. Do you need a 4.0 to become a ULA for this class?**
+**19. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**18. Do you need to be a CSE major to become a ULA for this class?**
+**20. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**19. How much do you get paid?**
+**21. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19 -- I'm not sure by how much for me, personally. I didn't take this job for the money. 
 
-**20. Can you give me a referral?**
+**22. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Contact me about it. 
