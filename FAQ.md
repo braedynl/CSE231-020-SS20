@@ -117,74 +117,88 @@ Spoiler: everyone cheated when we didn't proctor.
 
 Dr. Enbody will have them in his post-exam email.
 
-**6. How did you prepare for CSE231 exams?**
+**6. Can I forward your emails to my friends in other sections?**
+
+Yes, you may. Though you should warn them that some details I may mention are TA-dependent (e.g. when project/lab grades come back, when D2L gets updated, and anything related to this GitHub repository).
+
+**7. Can my friends in [some other section] use this GitHub repository too?**
+
+Yes, but the course schedule on the main README will only reflect our section's meeting days, they'll have to keep this in mind.
+
+**8. Why do you go through the effort to do all of this?**
+
+Well I didn't really like Dr. Enbody's website when I took the class myself. When I became a TA, making a GitHub page started out as a way to store my mini-lecture presentations, but then it kind of snowballed into a fully-fledged course page as I kept adding more stuff.
+
+In terms of "my thoroughness", (which gets talked about a lot by students who have me), I believe all TAs should be just as thorough. My job, from my perspective, is to make this class a much easier and enjoyable experience for students. I want to ensure that you know where to go, who to contact, and how to get help.
+
+**9. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**7. How did you do when you took this class?**
+**10. How did you do when you took this class?**
 
 I got a 4.0, but I'm not smart by any means -- I just have _a lot_ of practice because I've been programming since I was a kid. If you're having a hard time, please don't compare your situation to people like me, because it's not the same. Programming is an extremely hard skill to master for a majority of people. The biggest thing you can do is practice. 
 
-**8. Did you read the book?**
+**11. Did you read the book?**
 
 Nope, not a single word of it. But, again, I've been programming for a long time. Programming languages just kinda come naturally after you learn one (I knew a little Java before CSE231). I just used Piazza or did a quick Google search when I needed help with something.  
 
-**9. Is using w3schools.com and/or programiz.com okay as supplementary material?**
+**12. Is using w3schools.com and/or programiz.com okay as supplementary material?**
 
 Yep! Just be careful, websites like those may teach certain concepts in a different order, or may show some concepts that we don't teach at all. If you do come across something that we don't teach, it's usually safe to assume that you're not allowed to use it. If you're unsure if a concept may be used in an assignment, feel free to ask on Piazza.
 
-**10. Do you use tabs or spaces?**
+**13. Do you use tabs or spaces?**
 
 Tabs, I'm not tryna demolish my spacebar.
 
-**11. Do you know any other programming languages?**
+**14. Do you know any other programming languages?**
 
 C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however (you can tell if you look at my GitHub projects lol).
 
-**12. Does the language you use in the real world matter?**
+**15. Does the language you use in the real world matter?**
 
 Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
 
 If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
 
-**13. What is your ethnic background?**
+**16. What is your ethnic background?**
 
 I'm half white, half Korean. 
 
-**14. Where are you from?**
+**17. Where are you from?**
 
 Grand Rapids, Michigan. 
 
-**15. Do you have social media?**
+**18. Do you have social media?**
 
 Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me. 
 
-**16. What code editor do you use?**
+**19. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**17. How do you type so fast?**
+**20. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**18. Where can I apply to become a ULA for a CSE course?**
+**21. Where can I apply to become a ULA for a CSE course?**
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. 
 
-**19. Do you need a 4.0 to become a ULA for this class?**
+**22. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**20. Do you need to be a CSE major to become a ULA for this class?**
+**23. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**21. How much do you get paid?**
+**24. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19 -- I'm not sure by how much for me, personally. I didn't take this job for the money. 
 
-**22. Can you give me a referral?**
+**25. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Contact me about it. 
