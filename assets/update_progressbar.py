@@ -19,7 +19,7 @@ def main() -> str:
     course_info = json.load(open('assets/course_info.json', 'r'))
 
     # today = datetime.now()
-    today = datetime(2020, 10, 22)
+    today = datetime(2020, 12, 2)
 
     first_day = datetime(*course_info['semester_first_day'])
     last_day = datetime(*course_info['semester_last_day'])
