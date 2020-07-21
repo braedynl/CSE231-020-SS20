@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 
 BAR = {
     'width': 50,
-    'fill': '█',
-    'empty': ' '
+    'fill': '⬛',
+    'empty': '⬜'
 }
 
 def create_bar(p:float) -> str:
