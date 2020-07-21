@@ -18,10 +18,11 @@ Logistics:
 
 Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
+  - [Discord](https://discord.com/new) (if summer semester)
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
-  - [Zoom](https://msu.zoom.us/meeting) (if online)
-  - [Discord](https://discord.com/new) (if summer semester)
+  - [Zoom](https://msu.zoom.us/meeting) (if no in-person meetings)
+
 
 Help:
   - [Contact Information](#contact-information)
@@ -69,6 +70,10 @@ The assignments listed on the schedule have links to the corresponding website t
 Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
 
 If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
+
+Semester progress:
+
+:progressbar:
 
 **Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the subdirectory's README.**
 

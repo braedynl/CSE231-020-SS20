@@ -18,16 +18,17 @@ Logistics:
 
 Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
-  - [Discord](https://discord.com/new) (summer semester only)
+  - [Discord](https://discord.com/new) (if summer semester)
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
-  - [Zoom](https://msu.zoom.us/meeting) (no in-person meetings only)
+  - [Zoom](https://msu.zoom.us/meeting) (if no in-person meetings)
+
 
 Help:
   - [Contact Information](#contact-information)
   - [Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
-  - [FAQ](FAQ.md)
+  - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
   - [General Tips](#general-tips)
   - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
@@ -40,11 +41,11 @@ Extra:
 
 ## Getting Started
 
-Welcome to CSE231! I'll be hitting you with _a lot_ of information here, I apologize ahead of time. If you have never programmed before, Dr. Enbody recommends this [soft introduction to programming](https://hourofcode.com/capython). Below, I'll be explaining the course, where everything is, what's happening, etc.. 
+Welcome to CSE231! I'll be hitting you with _a lot_ of information here because I like to be thorough, I apologize ahead of time. If you have never programmed before, Dr. Enbody recommends this [soft introduction to programming](https://hourofcode.com/capython). Below, I'll be explaining the course, where everything is, what's happening, etc.. 
 
 Firstly, I recommend watching this video (think of this as your syllabus-day lecture): https://www.youtube.com/watch?v=e-IgfhmovJc
 
-You'll want to download/install [Anaconda](https://www.anaconda.com/products/individual) (comes packaged with Spyder, the code editor that we'll be using) and Python 3.7 or higher. Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer a verbal format.
+You'll want to download/install [Anaconda](https://www.anaconda.com/products/individual) (comes packaged with Spyder, the code editor (IDE) that we'll be using) and Python 3.7 or higher. Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer a verbal format.
 
 If you're interested in optimizing your code-writing, I've compiled a list of [useful keyboard shortcuts](SHORTCUTS.md) for Spyder. You'll find a lot of these more applicable after Lab 02. 
 
@@ -60,8 +61,6 @@ All lab and project materials can be found in the "Code" section of this reposit
 
 Please read through the [syllabus](SYLLABUS.md) if you haven't already. I have a file that elaborates more on grading [here](GRADING.md), with some answers to frequently asked questions [here](FAQ.md).
 
-If you have RCPD accommodations, please send them to Dr. Enbody (enbody@cse.msu.edu) or Dr. Zaabar (zaabarim@cse.msu.edu). 
-
 Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better than Dr. Enbody's because it has links and consistent formatting. :grin:
 
 ## Course Schedule
@@ -71,6 +70,10 @@ The assignments listed on the schedule have links to the corresponding website t
 Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
 
 If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
+
+Semester progress:
+
+<div align="center">████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░ 49%</div>
 
 **Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the subdirectory's README.**
 

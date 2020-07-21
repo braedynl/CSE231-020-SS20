@@ -24,5 +24,7 @@
         "12": "https://www.cse.msu.edu/~cse231/Online/scope.html",
         "13": "https://www.cse.msu.edu/~cse231/Online/classesII.html",
         "14": "https://www.cse.msu.edu/~cse231/Online/exceptions.html"
-    }
+    },
+    "semester_first_day": [2020, 9, 2],
+    "semester_last_day" : [2020, 12, 11]
 }

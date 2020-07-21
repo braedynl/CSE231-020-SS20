@@ -26,9 +26,6 @@ templates.
 The markdown files use two colons to signify a variable, alike `:var:`. The string
 .replace() method is then used to substitute and re-create the files with the proper
 information.
-
-Author: Braedyn Lettinga
-Dependencies: BeautifulSoup
 '''
 
 import update_meta, update_project_files, update_schedule
