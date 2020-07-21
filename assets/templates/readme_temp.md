@@ -71,8 +71,6 @@ Reading the book chapters and watching the lecture videos can be done at any poi
 
 If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
 
-<div align="center"><b>Semester Progress</b></div>
-
 :progressbar:
 
 &nbsp;

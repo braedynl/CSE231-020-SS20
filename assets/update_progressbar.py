@@ -10,10 +10,10 @@ BAR = {
 
 def create_bar(p:float) -> str:
     if p < 0:
-        return (BAR['empty'] * BAR['width']) + ' 0%'
+        return BAR['empty'] * BAR['width']
 
     fill_width = floor(p * BAR['width'])
-    return (fill_width * BAR['fill']) + (BAR['empty'] * (BAR['width'] - fill_width)) + ' {:.0%}'.format(p)
+    return (fill_width * BAR['fill']) + (BAR['empty'] * (BAR['width'] - fill_width))
 
 def main() -> str:
     course_info = json.load(open('assets/course_info.json', 'r'))
@@ -31,7 +31,7 @@ def main() -> str:
 
     bar_str = create_bar(p)
 
-    return '<div align="center">{}</div>'.format(bar_str)
+    return '<div align="center"><b>Semester Progress ({:.0%})</b>\n</div><div align="center">{}</div>'.format(p, bar_str)
 
 if __name__ == "__main__":
     main()
