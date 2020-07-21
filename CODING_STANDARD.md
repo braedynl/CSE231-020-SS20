@@ -168,3 +168,60 @@ class HourlyEmployee():
 Guido van Rossum, the creator of Python, has a length style guide: https://www.python.org/dev/peps/pep-0008/
 
 It's an excellent resource for more complex situations not described in this document. 
+
+**Braedyn Addendum**
+
+Here's a general layout for all project structures:
+
+```python
+'''
+Computer Project #5
+
+Algorithm
+    prompt for an integer
+    input an integer
+    loop while not end-of-data
+        call function to count number of digits in integer
+        output the number of digits
+        prompt for an integer
+        input an integer
+    display closing message
+'''
+
+# all imports grouped together up here
+import ...
+from ... import ...
+
+# all global constants
+GLOBAL_CONSTANT = ...
+
+# all function definitions
+def f(x):
+    '''
+    function docstring
+    say what the function does
+    
+    list parameters and parameter types
+    list returns and return types
+    note assumptions
+    '''
+    
+    ...
+
+def main():
+    '''
+    function docstring
+    say what the function does
+    
+    list parameters and parameter types
+    list returns and return types
+    note assumptions
+    '''
+    
+    ...
+
+if __name__ == "__main__":
+    main()
+```
+
+User-defined class definitions will generally be in separate files by themselves.
