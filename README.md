@@ -73,8 +73,9 @@ If you are in a different timezone, Mimir should automatically convert our assig
 
 Semester progress:
 
-<div align="center">⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 50%
-</div>
+<div align="center">⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 50%</div>
+
+&nbsp;
 
 **Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the subdirectory's README.**
 

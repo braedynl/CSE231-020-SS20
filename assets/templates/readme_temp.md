@@ -75,6 +75,8 @@ Semester progress:
 
 :progressbar:
 
+&nbsp;
+
 **Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the subdirectory's README.**
 
 :schedule:

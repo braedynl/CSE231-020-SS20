@@ -31,7 +31,7 @@ def main() -> str:
 
     bar_str = create_bar(p)
 
-    return '<div align="center">{}\n</div>'.format(bar_str)
+    return '<div align="center">{}</div>'.format(bar_str)
 
 if __name__ == "__main__":
     main()
