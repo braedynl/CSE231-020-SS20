@@ -5,15 +5,15 @@ from datetime import datetime, timedelta
 BAR = {
     'width': 50,
     'fill': '█',
-    'empty': '░'
+    'empty': ' '
 }
 
 def create_bar(p:float) -> str:
     if p < 0:
-        return (BAR['empty'] * BAR['width']) + ' 0%'
+        return '[' + (BAR['empty'] * BAR['width']) + '] 0%'
 
     fill_width = floor(p * BAR['width'])
-    return (fill_width * BAR['fill']) + (BAR['empty'] * (BAR['width'] - fill_width)) + ' {:.0%}'.format(p)
+    return '[' + (fill_width * BAR['fill']) + (BAR['empty'] * (BAR['width'] - fill_width)) + '] {:.0%}'.format(p)
 
 def main() -> str:
     course_info = json.load(open('assets/course_info.json', 'r'))
