@@ -3,7 +3,7 @@ from math import floor
 from datetime import datetime, timedelta
 
 BAR = {
-    'width': 10,
+    'width': 14,
     'fill': '⬛',
     'empty': '⬜'
 }

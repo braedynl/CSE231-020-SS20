@@ -73,7 +73,7 @@ If you are in a different timezone, Mimir should automatically convert our assig
 
 Semester progress:
 
-<div align="center">⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜ 50%</div>
+<div align="center">⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜ 50%</div>
 
 &nbsp;
 
