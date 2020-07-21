@@ -225,7 +225,7 @@ For project files, I noticed that Dr. Enbody would keep the URL of the project d
 
 The number of days in the semester is calculated from dates that I feed it, I call this `N`. The program also extracts the date that it's currently running at, little `n`. The percentage of completion is then calculated as `1 - (n / N)`, we'll call this `p`. 
 
-There are three attributes to the progress bar: a width (14 at the time of writing), fill character (⬛, the black square emoji), and empty character (⬜, the white square emoji). 
+There are three attributes to the progress bar: a width (14, at the time of writing. Was chosen so that it will display properly on most devices), fill character (⬛, the black square emoji), and empty character (⬜, the white square emoji). 
 
 The number of fill characters we need will be `p` (the percentage of completion) multiplied by the width, [floored](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions) -- i.e. the number that is `p` percent of the width. We floor this value because the number of fill characters can't be a decimal number, and we don't round because a value like 0.95 could be interpreted as 100%, which could be misleading. 
 
