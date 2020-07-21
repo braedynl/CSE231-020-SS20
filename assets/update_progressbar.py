@@ -19,7 +19,7 @@ def main() -> str:
     course_info = json.load(open('assets/course_info.json', 'r'))
 
     # today = datetime.now()
-    today = datetime(2020, 10, 21)
+    today = datetime(2020, 10, 22)
 
     first_day = datetime(*course_info['semester_first_day'])
     last_day = datetime(*course_info['semester_last_day'])
@@ -31,7 +31,7 @@ def main() -> str:
 
     bar_str = create_bar(p)
 
-    return '<div align="center">{}</div>'.format(bar_str)
+    return '<div align="center">{}\n</div>'.format(bar_str)
 
 if __name__ == "__main__":
     main()
