@@ -18,8 +18,8 @@ def create_bar(p:float) -> str:
 def main() -> str:
     course_info = json.load(open('assets/course_info.json', 'r'))
 
-    # today = datetime.now()
-    today = datetime(2020, 12, 2)
+    today = datetime.now()
+    # today = datetime(2020, 10, 21)
 
     first_day = datetime(*course_info['semester_first_day'])
     last_day = datetime(*course_info['semester_last_day'])
