@@ -221,70 +221,84 @@ The course schedule on the main README literally has its HTML code (the code tha
 
 For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant in the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
 
-**12. There's something on the repository that should be moved/added/deleted. Can you change it?**
+**12. How does the progress bar work?**
+
+The number of days in the semester is calculated from dates that I feed it, I call this `N`. The program also extracts the date that it's currently running at, little `n`. The percentage of completion is then calculated as `1 - (n / N)`, we'll call this `p`. 
+
+There are three attributes to the progress bar: a width (14 at the time of writing), fill character (⬛, the black square emoji), and empty character (⬜, the white square emoji). 
+
+The number of fill characters we need will be `p` (the percentage of completion) multiplied by the width, [floored](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions) -- i.e. the number that is `p` percent of the width. We floor this value because the number of fill characters can't be a decimal number, and we don't round because a value like 0.95 could be interpreted as 100%, which could be misleading. 
+
+We store this number of fill characters, and subtract the total width from it to find the number of empty characters we need to complete the bar. We finally concatenate the two chunks of fill and empty character strings together, and you got your progress bar. 
+
+**13. What is the ".md" file extension?**
+
+Markdown. They're kinda like .txt files, but will convert all text into HTML script. I use them because they're easy to write, and allow for extensive formatting. 
+
+**14. There's something on the repository that should be moved/added/deleted. Can you change it?**
 
 Yes! I'd be happy to. Please email me, or, if you're feeling spicy, you can make a GitHub account and submit a problem to the "Issues" page. 
 
-**13. How did you prepare for CSE231 exams?**
+**15. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**14. How did you do when you took this class?**
+**16. How did you do when you took this class?**
 
 I got a 4.0, but I'm not smart by any means -- I just have _a lot_ of practice because I've been programming since I was a kid. If you're having a hard time, please don't compare your situation to people like me, because it's not the same. Programming is an extremely hard skill to master for a majority of people. The biggest thing you can do is practice. 
 
-**15. Is using w3schools.com and/or programiz.com okay as supplementary material?**
+**17. Is using w3schools.com and/or programiz.com okay as supplementary material?**
 
 Yep! Just be careful, websites like those may teach certain concepts in a different order, or may show some concepts that we don't teach at all. If you do come across something that we don't teach, it's usually safe to assume that you're not allowed to use it. If you're unsure if a concept may be used in an assignment, feel free to ask on Piazza.
 
-**16. Do you use tabs or spaces?**
+**18. Do you use tabs or spaces?**
 
 Tabs, I'm not tryna demolish my spacebar.
 
-**17. Do you know any other programming languages?**
+**19. Do you know any other programming languages?**
 
 C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however (you can tell if you look at my GitHub projects lol).
 
-**18. Does the language you use in the real world matter?**
+**20. Does the language you use in the real world matter?**
 
 Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
 
 If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
 
-**19. What is your ethnic background?**
+**21. What is your ethnic background?**
 
 I'm half white, half Korean. 
 
-**20. Do you have social media?**
+**22. Do you have social media?**
 
 Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me. 
 
-**21. What code editor do you use?**
+**23. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**22. How do you type so fast?**
+**24. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**23. Where can I apply to become a ULA for a CSE course?**
+**25. Where can I apply to become a ULA for a CSE course?**
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that.
 
-**24. Do you need a 4.0 to become a ULA for this class?**
+**26. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**25. Do you need to be a CSE major to become a ULA for this class?**
+**27. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**26. How much do you get paid?**
+**28. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
-**27. Can you give me a referral?**
+**29. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Talk to me about it. 
