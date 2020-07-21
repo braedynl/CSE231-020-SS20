@@ -269,8 +269,8 @@ No, but Dr. Enbody probably wants you to be comfortable with programming in gene
 
 **24. How much do you get paid?**
 
-$11/hour, though MSU had to reduce everyone's wage a little because of COVID-19 -- I'm not sure by how much for me, personally. I didn't take this job for the money. 
+$11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
 **25. Can you give me a referral?**
 
-If I think you got what it takes, then maybe. Contact me about it. 
+If I think you got what it takes, then maybe. Talk to me about it. 
