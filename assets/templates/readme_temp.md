@@ -28,7 +28,7 @@ Help:
   - [Contact Information](#contact-information)
   - [Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
-  - [FAQ](https://web.cse.msu.edu/~cse231/Online/General/FAQ.html)
+  - [FAQ](FAQ.md)
   - [General Tips](#general-tips)
   - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
