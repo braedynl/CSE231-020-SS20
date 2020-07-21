@@ -205,9 +205,11 @@ Yes, but the course schedule on the main README will only reflect our section's 
 
 **10. Why do you go through the effort to do all of this?**
 
-Well I didn't really like Dr. Enbody's website when I took the class myself. When I became a TA, making a GitHub page started out as a way to store my mini-lecture presentations, but then it kind of snowballed into a fully-fledged course page as I kept adding more stuff.
+Well, I didn't really like Dr. Enbody's website when I took the class myself ("be the change you want to see in the world", right?). When I became a TA, making a GitHub page started out as a way to store my mini-lecture presentations, but then it kind of snowballed into a full-fledged course page as I kept adding more stuff.
 
-In terms of "my thoroughness", (which gets talked about a lot by students who have me), I believe all TAs should be just as thorough. My job, from my perspective, is to make this class a much easier and enjoyable experience for students. I want to ensure that you know where to go, who to contact, and how to get help.
+In terms of "my thoroughness", (which I know gets talked about by students who have me), I believe all TAs should be just as thorough. My job, (at least in my view), is to make this class a much easier and enjoyable experience for students. I want to ensure that you know where to go, who to contact, and how to get the help you need.
+
+That being said, you shouldn't shame the other TAs. Most of them are senior CSE majors in 400-level classes, they probably don't have that much time on their hands. Why do _I_ have so much time on _my_ hands? Uhh.. well.. I don't really do much other than school work, I tend to get stuff done quickly. 
 
 **11. How did you prepare for CSE231 exams?**
 
