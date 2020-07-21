@@ -54,7 +54,7 @@ Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Cou
 
 **13. ...exam information?**
 
-[Here](https://github.com/braedynl/CSE231-GITHUB/blob/master/SYLLABUS.md#exams), on the syllabus. 
+[Here](https://github.com/braedynl/CSE231-GITHUB#exam-information), in the fifth section of the home folder's README file. 
 
 **14. ...the past exams?**
 

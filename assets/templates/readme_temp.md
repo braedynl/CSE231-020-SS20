@@ -7,7 +7,7 @@ Logistics:
   - [Coding Standard](CODING_STANDARD.md)
   - [Contact Information](#contact-information)
   - [Course Schedule](#course-schedule)
-  - [Exam Information](SYLLABUS.md#exams)
+  - [Exam Information](#exam-information)
   - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
   - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
   - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
@@ -124,6 +124,17 @@ I will occasionally host help rooms of my own when I feel it to be necessary. Th
 Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is online), I play no role in grading them. 
 
 If this is a summer semester: I will be sending out an email during the first week in regards to a Discord server for the section. The link to join said server will be in that email, and will not be posted on this page for sake of course privacy. I only host Discord servers for the summer sections, since the summer version of this course is harder. I would prefer student messages through Discord, since writing code in an email is glitchy.
+
+## Exam Information
+
+There will be two midterms and a final examination during the semester, and will constitute 45% of your total course grade. You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
+
+If there are no in-person meetings, students will take exams remotely through Zoom. We require a camera (e.g., cellphone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
+- Exam 1: :exam1_details:
+- Exam 2: :exam2_details:
+- Exam 3: :exam3_details:
+
+All issues related to the final examination will follow the policies and schedule of the University.
 
 ## General Tips
 
