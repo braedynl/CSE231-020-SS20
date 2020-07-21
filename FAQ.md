@@ -193,7 +193,7 @@ No, they're all made by the professors. We double-check their questions/answers 
 
 **7. Do the TAs make the projects?**
 
-Very, very rarely. Most are made by Dr. Enbody or Dr. Zaabar. 
+Very, very rarely. There'll be one or two (at most) made by a TA, the rest are made by Dr. Enbody or Dr. Zaabar. 
 
 **8. Can I forward your emails to my friends in other sections?**
 
