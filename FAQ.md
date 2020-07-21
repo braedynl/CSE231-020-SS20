@@ -64,11 +64,11 @@ Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Cou
 
 I categorize them by lab number, so it'll be in the corresponding lab folder's path, i.e. /Lab XX/presentation/
 
-**16. ...our Zoom session information?**
+**16. ...our Zoom session information? (only applies to no in-person meeting arrangements)**
 
 It will be in an email sent out to the section. The session details will not be posted here since this is a public page. 
 
-**17. ...our Discord server information?**
+**17. ...our Discord server information? (only applies to summer semesters)**
 
 It will be in an email sent out to the section. The server details will not be posted here since this is a public page. 
 
