@@ -31,6 +31,9 @@ def main() -> str:
 
     bar_str = create_bar(p)
 
+    if p < 0:
+        p = 0
+
     return '<div align="center"><b>Semester Progress ({:.0%})</b>\n</div><div align="center">{}</div>'.format(p, bar_str)
 
 if __name__ == "__main__":
