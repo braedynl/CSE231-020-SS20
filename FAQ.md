@@ -211,66 +211,76 @@ In terms of "my thoroughness", (which I know gets talked about by students who h
 
 That being said, you shouldn't shame the other TAs. Most of them are senior CSE majors in 400-level classes, they probably don't have that much time on their hands. Why do _I_ have so much time on _my_ hands? Uhh.. well.. I don't really do much other than school work, I tend to get stuff done quickly. 
 
-**11. How did you prepare for CSE231 exams?**
+**11. How does this repository automatically stay up-to-date with the course website?**
+
+There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, main README, and all project files. I update lab files myself because I tend to be more involved with them.
+
+The syllabus and main README have templates that you can find in /assets/templates/. There are "variables" encoded into the documents that my program simply finds and replaces with the proper information (like year, semester, location, etc.). 
+
+The course schedule on the main README literally has its HTML code (the code that displays the schedule) ripped straight from Dr. Enbody's website. My code disassembles the HTML and re-constructs it with links, standardized formatting, and hover text. So, yes, it's a program that writes a program in a way.
+
+For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant in the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
+
+**12. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**12. How did you do when you took this class?**
+**13. How did you do when you took this class?**
 
 I got a 4.0, but I'm not smart by any means -- I just have _a lot_ of practice because I've been programming since I was a kid. If you're having a hard time, please don't compare your situation to people like me, because it's not the same. Programming is an extremely hard skill to master for a majority of people. The biggest thing you can do is practice. 
 
-**13. Is using w3schools.com and/or programiz.com okay as supplementary material?**
+**14. Is using w3schools.com and/or programiz.com okay as supplementary material?**
 
 Yep! Just be careful, websites like those may teach certain concepts in a different order, or may show some concepts that we don't teach at all. If you do come across something that we don't teach, it's usually safe to assume that you're not allowed to use it. If you're unsure if a concept may be used in an assignment, feel free to ask on Piazza.
 
-**14. Do you use tabs or spaces?**
+**15. Do you use tabs or spaces?**
 
 Tabs, I'm not tryna demolish my spacebar.
 
-**15. Do you know any other programming languages?**
+**16. Do you know any other programming languages?**
 
 C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however (you can tell if you look at my GitHub projects lol).
 
-**16. Does the language you use in the real world matter?**
+**17. Does the language you use in the real world matter?**
 
 Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
 
 If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
 
-**17. What is your ethnic background?**
+**18. What is your ethnic background?**
 
 I'm half white, half Korean. 
 
-**18. Do you have social media?**
+**19. Do you have social media?**
 
 Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me. 
 
-**19. What code editor do you use?**
+**20. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**20. How do you type so fast?**
+**21. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**21. Where can I apply to become a ULA for a CSE course?**
+**22. Where can I apply to become a ULA for a CSE course?**
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that.
 
-**22. Do you need a 4.0 to become a ULA for this class?**
+**23. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**23. Do you need to be a CSE major to become a ULA for this class?**
+**24. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**24. How much do you get paid?**
+**25. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
-**25. Can you give me a referral?**
+**26. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Talk to me about it. 
