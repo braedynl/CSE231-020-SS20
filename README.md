@@ -18,10 +18,10 @@ Logistics:
 
 Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
+  - [Discord](https://discord.com/new) (summer semester only)
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
-  - [Zoom](https://msu.zoom.us/meeting) (if online)
-  - [Discord](https://discord.com/new) (if summer semester)
+  - [Zoom](https://msu.zoom.us/meeting) (no in-person meetings only)
 
 Help:
   - [Contact Information](#contact-information)
