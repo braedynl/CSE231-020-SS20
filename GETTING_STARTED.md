@@ -61,7 +61,7 @@ From the syllabus:
 - Assignment Style: Coding
 - Collaboration: Allowed
 
-Labs are meant as practice material for all other assignments in the course. Because of this, labs are graded leniently, and follow a pass/fail scheme. The way labs are treated is dependent on your semester (see below). Lab submissions are on Mimir, and have test-cases so that you may check your work. Labs can be submitted an infinite number of times before the deadline.
+Labs are meant as practice material for all other assignments in the course. Because of this, labs are graded leniently, and follow a pass/fail scheme. The way labs are treated is dependent on your semester (see below). Test-cases are provided. Labs can be submitted an infinite number of times before the deadline.
 
 From the syllabus:
 > Students who get a zero ("no credit") on more than two (2) laboratory exercises will have their course grade reduced by 0.5 for _each laboratory exercise missed beyond two_. For example, if a student had sufficient points to normally earn a 3.0, but obtained four (4) zeroes on the laboratory exercises, that student's grade will be reduced by 2\*0.5, i.e. they will earn a 2.0 course grade.
@@ -96,13 +96,15 @@ The TAs do _not_ grade chapter exercises. Any and all points are accrued from th
 - Assignment Style: Coding
 - Collaboration: Disallowed
 
-Projects are larger coding assessments that test your problem-solving abilities with the concepts you learned from the preceding week. 
+Projects are larger coding assessments that test your problem-solving abilities with the concepts you learned from the preceding week. Projects can be submitted an infinite amount of times before the deadline, and test-cases are provided.
 
 Collaboration is strictly prohibited. Project files are sent to an online system that checks for similarities between other student project files (including ones from past semesters) and numerous websites (e.g. Chegg, StackOverflow, YahooAnswers, etc.). If your project is too similar to another source, an academic dishonesty report will be filed with the university, and you will receive a 0% overall course grade (see [FAQ](#FAQ.md)).
 
 Unlike labs, project test-cases are treated with much more weight. You should strive to pass all of them. If a test-case is missed, the TA will look for partial credit opportunities. The amount of partial credit rewarded is dependent on a number of factors, however (e.g. what kind of mistakes were made, what would be required to fix it, etc.). 
 
 If your _vital_ outputs are correct (i.e. values you could only obtain through an algorithm that had to be developed), but there are small spacing/formatting descrepancies in your output strings, I will recover most, if not all points for the affected test-case(s). I'm expecting that most of your output strings are correct.
+
+Projects must adhere to the [coding standard](CODING_STANDARD.md). Some standards may not apply for the first couple of weeks. The standards that *do* apply will be listed at the bottom of the procedure PDF, as well as some more details on the grading scheme. Points are rewarded by the TAs for following the coding standard.
 
 ### Exams (45%)
 
