@@ -41,7 +41,9 @@ Extra:
 
 ## Getting Started
 
-**Please read through the [GETTING_STARTED](GETTING_STARTED.md) file if you're new to the course!**
+**Please read through the [getting started](GETTING_STARTED.md) file if you're new to the course!**
+
+If we have meetings of any kind (in-person or online), Lab 00 is treated as a homework assignment, unlike the following labs. 
 
 Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better than Dr. Enbody's because it has links and consistent formatting. :grin:
 
