@@ -56,7 +56,7 @@ From the syllabus:
 
 ### Labs
 
-- Hosted On: Submissions on Mimir, procedure and starter-code in folder /Lab XX/. 
+- Hosted On: Submissions on Mimir, procedure and starter-code in folder `/Lab XX/`. 
 - Graded By: Mimir, TA
 - Assignment Style: Coding
 - Collaboration: Allowed
@@ -91,7 +91,7 @@ The TAs do _not_ grade chapter exercises. Any and all points are accrued from th
 
 ### Projects (45%)
 
-- Hosted On: Submissions on Mimir, procedure and starter-code in folder /Project XX/.
+- Hosted On: Submissions on Mimir, procedure and starter-code in folder `/Project XX/`.
 - Graded By: Mimir, TA
 - Assignment Style: Coding
 - Collaboration: Disallowed
