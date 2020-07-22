@@ -1,7 +1,5 @@
 # Project 2
 
-[Download folder contents](:download_link:)
-
 Due: Monday, September 21st (9/21/2020) at 11:59 PM EST
 
 Video introduction: https://www.youtube.com/watch?v=OQNk9xA-W34
