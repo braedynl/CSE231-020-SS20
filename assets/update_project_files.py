@@ -44,13 +44,11 @@ def main():
             
             urlretrieve(file_url, save_as)
         
-        download_link = 'https://downgit.github.io/#/home?url=https://github.com/braedynl/CSE231-GITHUB/tree/master/Project%20{:02d}'.format(n)
-
         if 'proj{:02d}.py'.format(n) not in files:  # creates an empty project file if none is present in the subdirectory
             open('proj{:02d}.py'.format(n), 'w+').close()
 
         readme_temp = open('../assets/templates/project_info_temp.md', 'r').read()
-        readme_temp = readme_temp.replace(':video_link:', video_link).replace(':download_link:', download_link).replace(':n:', str(n)).replace(':due:', due_dates['Project {:02d}'.format(n)])
+        readme_temp = readme_temp.replace(':video_link:', video_link).replace(':n:', str(n)).replace(':due:', due_dates['Project {:02d}'.format(n)])
 
         print(readme_temp, file=open('README.md', 'w+'), end='')
 

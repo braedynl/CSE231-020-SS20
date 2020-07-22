@@ -1,6 +1,6 @@
 # Project 3
 
-[Download folder contents](https://downgit.github.io/#/home?url=https://github.com/braedynl/CSE231-GITHUB/tree/master/Project%2003)
+[Download folder contents](:download_link:)
 
 Due: Monday, September 28th (9/28/2020) at 11:59 PM EST
 
