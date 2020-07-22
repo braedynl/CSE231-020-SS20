@@ -127,8 +127,7 @@ Experienced programmers are _more likely_ to have similar code to other people b
 
 It is easy for us to tell when a student plagiarizes in this course, since less-experienced programmers usually can't think of other/equivalent ways of programming an algorithm after seeing an already-implemented solution. The trouble really begins in later CSE courses, since students, by then, will know how to code equivalent expressions/algorithms from looking at their friend's solution.
 
-
-## Miscellaneous/Personal
+## Meta
 
 **1. Why does this class teach Python and not [some other programming language]?**
 
@@ -158,13 +157,9 @@ if (std::find(array.begin(), array.end(), 5) != array.end()) {
 
 Admittedly a somewhat extreme example, but I think you get the point. Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they get used to it. 
 
-Fun fact: CSE231 used to teach C++
+Fun fact: CSE231 used to teach C++!
 
-**2. I'm a [major that's not computer science/engineering], will I ever need this?** 
-
-Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. The power in programming is its ability to manipulate, and calculate values almost instantaneously in tandem with logic. The phone in your pocket, the stock market, the digital alarm clock on your desk -- all of these wouldn't exist without programming.  
-
-**3. Are we allowed to use a code editor that's not Spyder?**
+**2. Are we allowed to use a code editor that's not Spyder?**
 
 Yep! Though bear in mind that the TAs and professors may not be familiar with how some of them work, you'll be on your own if you need help with it.
 
@@ -177,13 +172,17 @@ Other popular code editors:
 
 Certain projects pull from 3rd party libraries near the end of the semester, (namely `pylab`), Spyder comes packaged with it, which is why we use Spyder in the first place. You'll have to manually install `pylab` if you're on a different code editor, which I can show you how to do if you can't figure it out for yourself.
 
+**3. Is using w3schools.com and/or programiz.com okay as supplementary material?**
+
+Yee. Just be careful, websites like those may teach certain concepts in a different order, or may show some concepts that we don't teach at all. If you do come across something that we don't teach, it's usually safe to assume that you're not allowed to use it. If you're unsure if a concept may be used in an assignment, feel free to ask on Piazza.
+
 **4. Why are the online exams proctored? That's so stupid.**
 
 It *is* stupid, isn't it? You can ask the students who took this course in Spring 2020 for that answer.
 
 Spoiler: everyone cheated when we didn't proctor. 
 
-**5. Are there exam statistics anywhere?**
+**5. Are there exam statistics?**
 
 Dr. Enbody will have them in his post-exam email.
 
@@ -197,17 +196,23 @@ Very, very rarely. There'll be one or two (at most) made by a TA, the rest are m
 
 **8. Do the TAs make the labs?**
 
-No, they were all made by the professors. 
+No, they were all made by the professors.
 
-**9. Can I forward your emails to my friends in other sections?**
+## Miscellaneous/Personal
+
+**1. I'm a [major that's not computer science/engineering], will I ever need this?** 
+
+Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. The power in programming is its ability to manipulate, and calculate values almost instantaneously in tandem with logic. The phone in your pocket, the stock market, the digital alarm clock on your desk -- all of these wouldn't exist without programming.  
+
+**2. Can I forward your emails to my friends in other sections?**
 
 Yes, you may. Though you should warn them that some details I may mention are TA-dependent (e.g. when project/lab grades come back, when D2L gets updated, and anything related to this GitHub repository).
 
-**10. Can my friends in [some other section] use this GitHub repository too?**
+**3. Can my friends in [some other section] use this GitHub repository too?**
 
 Yes, but the course schedule on the home README will only reflect our section's meeting days, they'll have to keep this in mind.
 
-**11. Why do you go through the effort to do all of this?**
+**4. Why do you go through the effort to do all of this?**
 
 Well, I didn't really like Dr. Enbody's website when I took the class myself ("be the change you want to see in the world", right?). When I became a TA, making a GitHub page started out as a way to store my mini-lecture presentations, but then it kind of snowballed into a full-fledged course page as I kept adding more stuff.
 
@@ -215,7 +220,7 @@ In terms of "my thoroughness", (which I know gets talked about by students who h
 
 That being said, you shouldn't shame the other TAs. Most of them are senior CSE majors in 400-level classes, they probably don't have that much time on their hands. Why do _I_ have so much time on _my_ hands? Uhh.. well.. I don't really do much other than school work, I tend to get stuff done quickly. 
 
-**12. How does this repository automatically stay up-to-date with the course website?**
+**5. How does this repository automatically stay up-to-date with the course website?**
 
 There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, main README, and all project files. The update scripts can be found in /assets/. I update lab files myself because I tend to be more involved with them.
 
@@ -225,7 +230,7 @@ The course schedule on the home README literally has its HTML code (the code tha
 
 For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant within the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
 
-**13. How does the progress bar work?**
+**6. How does the progress bar work?**
 
 The number of days in the semester is calculated from dates that I feed it, we'll call this `N`. The program also extracts the date that it's currently running at, we'll call this little `n`. The percentage of completion can then be calculated as `1 - (n / N)`, we'll call this `p`.
 
@@ -260,78 +265,74 @@ empty_num = bar['width'] - fill_num  # number of empty characters we need to com
 bar_str = (fill_num * bar['fill']) + (empty_num * bar['empty'])  # combine
 ```
 
-**14. What is the ".md" file extension that you use?**
+**7. What is the ".md" file extension that you use?**
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown). They're kinda like .txt files, but will convert all text into HTML script internally. I use them because they're easy to write, and allow for extensive formatting. 
 
-**15. What is the ".json" file extension that you use?**
+**8. What is the ".json" file extension that you use?**
 
 [JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON). They're text files that store JavaScript object data, but most programming language (like Python) have libraries that read them. I use it a lot because it's extremely quick and readable.
 
-**16. There's something on the repository that I think should be added/moved. Can you do anything about it?**
+**9. There's something on the repository that I think should be added/moved. Can you do anything about it?**
 
 Yes! I'd be happy to. Please email me, or, if you're feeling spicy, you can make a GitHub account and submit a problem to the "Issues" page. 
 
-**17. How did you prepare for CSE231 exams?**
+**10. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**18. How did you do when you took this class?**
+**11. How did you do when you took this class?**
 
 I got a 4.0, but I'm not smart by any means -- I just have _a lot_ of practice because I've been programming since I was a kid. If you're having a hard time, please don't compare your situation to people like me, because it's not the same. Programming is an extremely hard skill to master for a majority of people. The biggest thing you can do is practice. 
 
-**19. Is using w3schools.com and/or programiz.com okay as supplementary material?**
-
-Yep! Just be careful, websites like those may teach certain concepts in a different order, or may show some concepts that we don't teach at all. If you do come across something that we don't teach, it's usually safe to assume that you're not allowed to use it. If you're unsure if a concept may be used in an assignment, feel free to ask on Piazza.
-
-**20. Do you use tabs or spaces?**
+**12. Do you use tabs or spaces?**
 
 Tabs, I'm not tryna demolish my spacebar.
 
-**21. Do you know any other programming languages?**
+**13. Do you know any other programming languages?**
 
 C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however (you can tell if you look at my GitHub projects lol).
 
-**22. Does the language you use in the real world matter?**
+**14. Does the language you use in the real world matter?**
 
 Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
 
 If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
 
-**23. What is your ethnic background?**
+**15. What is your ethnic background?**
 
 I'm half white, half Korean. 
 
-**24. Do you have social media?**
+**16. Do you have social media?**
 
 Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me. 
 
-**25. What code editor do you use?**
+**17. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**26. How do you type so fast?**
+**18. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**27. Where can I apply to become a ULA for a CSE course?**
+**19. Where can I apply to become a ULA for a CSE course?**
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that.
 
-**28. Do you need a 4.0 to become a ULA for this class?**
+**20. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**29. Do you need to be a CSE major to become a ULA for this class?**
+**21. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**30. How much do you get paid?**
+**22. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
-**31. Can you give me a referral?**
+**23. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Talk to me about it. 
