@@ -189,7 +189,7 @@ Dr. Enbody will have them in his post-exam email.
 
 **6. Do the TAs make exam questions?**
 
-No, they're all made by the professors. We double-check their questions/answers on occasion, however (like if there are any mistakes).
+No, they're all made by the professors. We review their questions/answers on occasion (mainly checking if there are any mistakes).
 
 **7. Do the TAs make the projects?**
 
@@ -205,7 +205,7 @@ Yes, you may. Though you should warn them that some details I may mention are TA
 
 **10. Can my friends in [some other section] use this GitHub repository too?**
 
-Yes, but the course schedule on the main README will only reflect our section's meeting days, they'll have to keep this in mind.
+Yes, but the course schedule on the home README will only reflect our section's meeting days, they'll have to keep this in mind.
 
 **11. Why do you go through the effort to do all of this?**
 
@@ -217,23 +217,48 @@ That being said, you shouldn't shame the other TAs. Most of them are senior CSE 
 
 **12. How does this repository automatically stay up-to-date with the course website?**
 
-There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, main README, and all project files. I update lab files myself because I tend to be more involved with them.
+There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, main README, and all project files. The update scripts can be found in /assets/. I update lab files myself because I tend to be more involved with them.
 
-The syllabus and main README have templates that you can find in /assets/templates/. There are "variables" encoded into the documents that my program simply finds and replaces with the proper information (like year, semester, location, etc.). 
+The syllabus and home README have templates that you can find in /assets/templates/. There are "variables" encoded into the documents (words surrounded by colons like :this:) that my program simply finds and replaces with the proper information (like year, semester, location, etc.). 
 
-The course schedule on the main README literally has its HTML code (the code that displays the schedule) ripped straight from Dr. Enbody's website. My code disassembles the HTML and re-constructs it with links, standardized formatting, and hover text. So, yes, it's a program that writes a program in a way.
+The course schedule on the home README literally has its HTML code (the code that displays the schedule) ripped straight from Dr. Enbody's website (the Due Dates page, specifically). My code disassembles the HTML and re-constructs it with links, standardized formatting, and hover text. So, yes, it's a program that writes a program in a way.
 
-For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant in the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
+For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant within the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
 
 **13. How does the progress bar work?**
 
-The number of days in the semester is calculated from dates that I feed it, I call this `N`. The program also extracts the date that it's currently running at, little `n`. The percentage of completion is then calculated as `1 - (n / N)`, we'll call this `p`. 
+The number of days in the semester is calculated from dates that I feed it, we'll call this `N`. The program also extracts the date that it's currently running at, we'll call this little `n`. The percentage of completion can then be calculated as `1 - (n / N)`, we'll call this `p`.
 
-There are three attributes to the progress bar: a width (14, at the time of writing. Was chosen so that it will display properly on most devices), fill character (⬛, the black square emoji), and empty character (⬜, the white square emoji). 
+There are three attributes to the progress bar: a width (14, at the time of writing. Was chosen so that it will display properly on most devices), a fill character (⬛, the black square emoji), and an empty character (⬜, the white square emoji). 
 
 The number of fill characters we need will be `p` (the percentage of completion) multiplied by the width, [floored](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions) -- i.e. the number that is `p` percent of the width. We floor this value because the number of fill characters can't be a decimal number, and we don't round because a value like 0.95 could be interpreted as 100%, which could be misleading. 
 
-We store this number of fill characters, and subtract the total width from it to find the number of empty characters we need to complete the bar. We finally concatenate the two chunks of fill and empty character strings together, and you got your progress bar. 
+We store this number of fill characters, and subtract the total width from it to find the number of empty characters we need to complete the bar. We finally concatenate the two chunks of fill and empty character strings together. 
+
+Below is a psuedocode algorithm:
+
+```python
+bar = {
+  'width' : 14,
+  'fill' : '⬛',  # yes, you can store emojis in strings lmao
+  'empty': '⬜'
+}
+
+today = ...  # using a date-fetching library
+semester_end = ...
+semester_start = ...
+
+N = semester_end - semester_start  # number of days in the semester
+n = semester_end - today           # number of days until the end of the semester
+
+p = 1 - (n / N)  # find the percentage of completion
+
+fill_num = floor(p * bar['width'])  # number of fill characters we need (decimal, so we floor)
+
+empty_num = bar['width'] - fill_num  # number of empty characters we need to complete the rest of the bar
+
+bar_str = (fill_num * bar['fill']) + (empty_num * bar['empty'])  # combine
+```
 
 **14. What is the ".md" file extension that you use?**
 
