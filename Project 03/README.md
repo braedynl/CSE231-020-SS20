@@ -1,5 +1,7 @@
 # Project 3
 
+[Download folder contents](https://downgit.github.io/#/home?url=https://github.com/braedynl/CSE231-GITHUB/tree/master/Project%2003)
+
 Due: Monday, September 28th (9/28/2020) at 11:59 PM EST
 
 Video introduction: https://www.youtube.com/watch?v=OqRQ8sJmNk8

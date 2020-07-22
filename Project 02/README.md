@@ -1,5 +1,7 @@
 # Project 2
 
+[Download folder contents](https://downgit.github.io/#/home?url=https://github.com/braedynl/CSE231-GITHUB/tree/master/Project%2002)
+
 Due: Monday, September 21st (9/21/2020) at 11:59 PM EST
 
 Video introduction: https://www.youtube.com/watch?v=OQNk9xA-W34

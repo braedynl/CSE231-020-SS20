@@ -1,5 +1,7 @@
 # Project :n:
 
+[Download folder contents](:download_link:)
+
 Due: :due: at 11:59 PM EST
 
 Video introduction: :video_link:
