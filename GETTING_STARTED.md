@@ -120,7 +120,7 @@ The amount of points per question varies by exam format, and which exam it is. I
 
 ## Next Steps
 
-You'll want to download and install [Anaconda](https://www.anaconda.com/products/individual), a software package that include an application called "Spyder". Spyder is the code editor that we'll be using for this class. Further instructions are in [Lab 00](Lab%2000).
+You'll want to download and install [Anaconda](https://www.anaconda.com/products/individual), a software package that includes an application called "Spyder". Spyder is the code editor that we'll be using for this class. Further instructions are in [Lab 00](Lab%2000).
 
 Chapter exercise, lab, and project submissions are on Mimir. In order for your Mimir account to link with our system, you must navigate to the [CSE231 D2L page](https://d2l.msu.edu/d2l/home) and click the Mimir link from there.
 
