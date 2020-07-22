@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section TBA for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. This README file also acts as a hub for everything you'll need in this course. You can use this instead of the main website if you so choose.
+This repository is for CSE231 - Introduction to Programming I, Section TBA for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is completely optional. Everything on here can be found on the main course website. 
 
 Main Course Website: https://web.cse.msu.edu/~cse231/
 
@@ -41,25 +41,7 @@ Extra:
 
 ## Getting Started
 
-Welcome to CSE231! I'll be hitting you with _a lot_ of information here because I like to be thorough, I apologize ahead of time. If you have never programmed before, Dr. Enbody recommends this [soft introduction to programming](https://hourofcode.com/capython). Below, I'll be explaining the course, where everything is, what's happening, etc.. 
-
-Firstly, I recommend watching this video (think of this as your syllabus-day lecture): https://www.youtube.com/watch?v=e-IgfhmovJc
-
-You'll want to download/install [Anaconda](https://www.anaconda.com/products/individual) (comes packaged with Spyder, the code editor (IDE) that we'll be using) and Python 3.7 or higher. Further instructions are in [Lab 00](Lab%2000). There is also [a video](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer a verbal format.
-
-If you're interested in optimizing your code-writing, I've compiled a list of [useful keyboard shortcuts](SHORTCUTS.md) for Spyder. You'll find a lot of these more applicable after Lab 02. 
-
-The TA "mini-lectures" and the lecture videos by Dr. Punch are _supplemental_ to the textbook. You can purchase the textbook [here](https://www.pearsonhighered.com/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html).
-- ISBN-13: 9780134379760 (or 9780134380315) 
-    - Other ISBN-13 numbers are website-only, or are bundled with extraneous materials.
-- Several copies are available in the Course Reserves at the MSU Main Library.
-- A draft of chapters 0 and 1 can be found [here](https://www.cse.msu.edu/~cse231/Online/chapter0_and_1.pdf) if you're waiting for shipment. 
-
-Chapter exercise, lab, and project submissions are on Mimir. In order for your Mimir account to link with our system, you must navigate to the [CSE231 D2L page](https://d2l.msu.edu/d2l/home) and click the Mimir link from there. D2L will only host pre-labs and grades.
-
-All lab and project materials can be found in the "Code" section of this repository above (if on mobile, scroll up and hit "View code"). You can find my presentations and example code in path /Lab XX/presentation/, where "XX" is the lab number. You can find more information about projects and Mimir test-case explanations in any of the [project folder READMEs](Project%2001). The assets folder is purely for my own purposes, you can ignore it. 
-
-Please read through the [syllabus](SYLLABUS.md) if you haven't already. I have a file that elaborates more on grading [here](GRADING.md), with some answers to frequently asked questions [here](FAQ.md).
+**Please read through the [GETTING_STARTED](GETTING_STARTED.md) file if you're new to the course!**
 
 Your co-pilot on this expedition through CSE231 will be the course schedule, which is down below. I have programs that keep it (and everything else on this repository) up-to-date with the main course website, though my schedule is better than Dr. Enbody's because it has links and consistent formatting. :grin:
 
