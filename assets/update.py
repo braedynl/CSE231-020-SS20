@@ -1,24 +1,42 @@
 '''
-                ｔｈｏｎｋ
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣤⣶⣶⣤⣤⣤⣀⡀
-⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⡿⠟⠛⠋⠉⠉⠉⠉⠉⠉⠙⠛⠻⢿⣶⣤⡀
-⠀⠀⠀⠀⠀⠀⣠⣾⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⣄
-⠀⠀⠀⠀⣠⣾⠋⣩⣶⡿⠿⠿⢿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣷⣄
-⠀⠀⠀⣴⡟⠁⠀⠋⠁⠀⠀⠀⢀⠀⠉⠀⠀⠀⠀⠀⠀⣤⣴⣶⡶⠶⠶⠶⠤⠀⠈⢻⣦
-⠀⠀⣼⡟⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⡄⠀⠀⠀⠀⠀⠀⢀⣠⣤⡀⠀⠀⠀⠀⠀⠀⠀⢻⣧
-⠀⢰⡿⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⣾⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⢿⡆
-⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠁⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿
-⢠⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡄
-⠘⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠃
-⠀⣿⣷⠀⠀⠀⣠⣄⡀⠀⠀⠀⠀⢀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿
-⠀⠸⣿⣇⠀⢸⠁⠈⢳⠀⠀⠀⠘⠛⠛⠛⠛⠛⠻⠿⠶⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⠇
-⠀⠀⢻⣿⣦⣾⠇⠀⢸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡟
-⠀⠀⠀⠻⣿⡿⠀⠀⠘⢿⣶⣤⡤⠤⠤⠄⠒⠒⠈⠉⠉⣩⡄⠀⠀⠀⠀⠀⠀⠀⢠⣿⠟
-⠀⠀⠀⠀⠙⡇⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣴⣶⣾⠿⠋⠀⠀⠀⠀⠀⠀⢀⣴⡿⠋
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⣠⣴⡿⠋
-⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⣿⣧⠀⠀⠀⣀⣠⣤⣶⠿⠛⠁
-⠀⠀⠀⠀⠀⠹⣆⠀⠀⠀⠀⠀⢀⣀⣰⣿⠻⠿⠿⠛⠛⠛⠉⠁
-⠀⠀⠀⠀⠀⠀⠙⠻⠶⠶⠾⠿⠿⠟⠛⠁
+Well you're a curious one, aren't you?
+
+This is the code I use to keep the repository up-to-date with
+the main course website. There's a lot of file work and library
+tools, so much of this won't make sense until you're done with 
+the course. Even then, a lot of this code deals with HTML, so
+you might have to do a quick web development course before
+reading through this. 
+
+It might be interesting to see how much you understand as the 
+semester goes on, though. Everything here is documented for my 
+sake, but you may come to understand my lingo as you get better 
+at programming.
+
+                        ｔｈｏｎｋ
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣤⣶⣶⣤⣤⣤⣀⡀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⡿⠟⠛⠋⠉⠉⠉⠉⠉⠉⠙⠛⠻⢿⣶⣤⡀
+        ⠀⠀⠀⠀⠀⠀⣠⣾⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⣄
+        ⠀⠀⠀⠀⣠⣾⠋⣩⣶⡿⠿⠿⢿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣷⣄
+        ⠀⠀⠀⣴⡟⠁⠀⠋⠁⠀⠀⠀⢀⠀⠉⠀⠀⠀⠀⠀⠀⣤⣴⣶⡶⠶⠶⠶⠤⠀⠈⢻⣦
+        ⠀⠀⣼⡟⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⡄⠀⠀⠀⠀⠀⠀⢀⣠⣤⡀⠀⠀⠀⠀⠀⠀⠀⢻⣧
+        ⠀⢰⡿⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⣾⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⢿⡆
+        ⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠁⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿
+        ⢠⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡄
+        ⠘⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠃
+        ⠀⣿⣷⠀⠀⠀⣠⣄⡀⠀⠀⠀⠀⢀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿
+        ⠀⠸⣿⣇⠀⢸⠁⠈⢳⠀⠀⠀⠘⠛⠛⠛⠛⠛⠻⠿⠶⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⠇
+        ⠀⠀⢻⣿⣦⣾⠇⠀⢸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡟
+        ⠀⠀⠀⠻⣿⡿⠀⠀⠘⢿⣶⣤⡤⠤⠤⠄⠒⠒⠈⠉⠉⣩⡄⠀⠀⠀⠀⠀⠀⠀⢠⣿⠟
+        ⠀⠀⠀⠀⠙⡇⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣴⣶⣾⠿⠋⠀⠀⠀⠀⠀⠀⢀⣴⡿⠋
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⣠⣴⡿⠋
+        ⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⣿⣧⠀⠀⠀⣀⣠⣤⣶⠿⠛⠁
+        ⠀⠀⠀⠀⠀⠹⣆⠀⠀⠀⠀⠀⢀⣀⣰⣿⠻⠿⠿⠛⠛⠛⠉⠁
+        ⠀⠀⠀⠀⠀⠀⠙⠻⠶⠶⠾⠿⠿⠟⠛⠁
+
+GitHub: https://github.com/braedynl/CSE231-GITHUB
+Author: Braedyn Lettinga
+Dependencies: BeautifulSoup
 '''
 
 import json
@@ -96,6 +114,9 @@ class CSE231GitHub(object):
     The option to disable automatic packaging is present to reduce commit
     deltas and runtime if necessary. Re-packaging project/lab folders may
     lead Git to think that the *.zip files changed even if they didn't. 
+
+    All templates can be found in /assets/templates/. Markdown "variables"
+    are signified by two colons like :this:. 
     '''
 
     def __init__(self):
@@ -325,7 +346,7 @@ class CSE231GitHub(object):
 
                 td = td.text.strip()
 
-                if i == 0:
+                if i == 0:  # first column is the week number and initial date
                     colon_index = td.find(':')
                     week = int(td[:colon_index])
                     date = td[colon_index + 2:]
@@ -482,15 +503,17 @@ class CSE231GitHub(object):
         Notes
         -----
         This function works under two, possibly hazy, assumptions:
-        1: Enbody will always use shorthand day expressions (e.g. Sun, Mon, etc.)
+        1: Enbody will always use shorthand day expressions (e.g. "Sun", "Mon", etc.)
         2: Enbody will always keep the first column as the week number and date
 
         If he suddenly changes his formatting, it's possible that all of this will
         fall apart. 
 
         Return structure:
-        {td_iteration: timedelta}
-        {0: None, int: int, int: int, ... }
+        {td_iteration: timedelta, ...}
+
+        Key 0 will always have None as its value (since the first column is the
+        week number and date).
         '''
 
         week_deltas = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
