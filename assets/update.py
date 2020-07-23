@@ -233,6 +233,14 @@ class CSE231GitHub(object):
         Creates and/or modifies schedule.html and project_dates.json, two files
         that are used by the other method functions. This method is always ran
         at instantiation. 
+
+        "Ew Braedyn what the hell is this? Why are you not using CSS!?"
+
+        At the time of writing, you cannot run CSS scripts in GitHub repos.
+        If I were able to run CSS on here, most of this function would be
+        unnecessary. Thus, we have Python-generated HTML 🤷🏼‍♀️
+
+        Was pretty fun to make ngl.
         '''
 
         print('Updating "schedule.html" and "project_dates.json"')
