@@ -18,7 +18,7 @@ Please read through the [syllabus](SYLLABUS.md) if you haven't already. Below, I
 
 All lab and project materials can be found in the "Code" section of this repository (there should be a tab near the top of the page). Once there, you should see a listing of folders dedicated to all labs and the currently drafted projects (if on mobile, tap the "View code" message). This will bring you to the home (or "master") folder. It should look something like this:
 
-<div align="center"><img src="assets/images/master.png" width="500"></img></div>
+<div align="center"><img src="assets/images/master.png" width="600"></img></div>
 
 I typically use "slash notation" to represent folder/file paths in my logistical explanations. So `/Lab 01/` means I'm referring to the "Lab 01" folder, and `/Lab 01/presentation/` means the "presentation" folder inside the "Lab 01" folder. Whenever I use "XX", I'm typically referring to a variable number. So as an example, `/Lab XX/` refers to any and all lab folders, `/Project XX/` refers to any and all project folders, etc.. 
 
