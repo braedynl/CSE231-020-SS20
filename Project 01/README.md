@@ -1,6 +1,6 @@
 # Project 1
 
-[Download this folder (ZIP).](../assets/packages/proj01_contents.zip)
+[Download this folder's content (*.zip file)](../assets/packages/proj01_contents.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right. 
 
 Due: Monday, September 14th (9/14/2020) at 11:59 PM EST
 

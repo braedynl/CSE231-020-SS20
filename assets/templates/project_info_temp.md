@@ -1,6 +1,6 @@
 # Project :n:
 
-[Download this folder (ZIP).](../assets/packages/proj:n02d:_contents.zip)
+[Download this folder's content (*.zip file)](../assets/packages/proj:n02d:_contents.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right. 
 
 Due: :due: at 11:59 PM EST
 
