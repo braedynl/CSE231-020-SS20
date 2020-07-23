@@ -1,4 +1,5 @@
 import json
+import zipfile
 import os
 from urllib.error import HTTPError
 from urllib.request import urlopen, urlretrieve
@@ -46,11 +47,17 @@ def main():
         
         if 'proj{:02d}.py'.format(n) not in files:  # creates an empty project file if none is present in the subdirectory
             open('proj{:02d}.py'.format(n), 'w+').close()
+            files.append('proj{:02d}.py'.format(n))
 
         readme_temp = open('../assets/templates/project_info_temp.md', 'r').read()
-        readme_temp = readme_temp.replace(':video_link:', video_link).replace(':n:', str(n)).replace(':due:', due_dates['Project {:02d}'.format(n)])
-
+        readme_temp = readme_temp.replace(':video_link:', video_link).replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)).replace(':due:', due_dates['Project {:02d}'.format(n)])
         print(readme_temp, file=open('README.md', 'w+'), end='')
+        files.append('README.md')
+
+        zip_file = zipfile.ZipFile('../assets/packages/proj{:02d}_contents.zip'.format(n), 'w')
+        for file_name in files:
+            zip_file.write(file_name, compress_type=zipfile.ZIP_DEFLATED)
+        zip_file.close()
 
         os.chdir('..')
 

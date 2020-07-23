@@ -1,5 +1,7 @@
 # Project 2
 
+[Download this folder (ZIP).](../assets/packages/proj02_contents.zip)
+
 Due: Monday, September 21st (9/21/2020) at 11:59 PM EST
 
 Video introduction: https://www.youtube.com/watch?v=OQNk9xA-W34

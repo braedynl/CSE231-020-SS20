@@ -1,5 +1,7 @@
 # Project :n:
 
+[Download this folder (ZIP).](../assets/packages/proj:n02d:_contents.zip)
+
 Due: :due: at 11:59 PM EST
 
 Video introduction: :video_link:

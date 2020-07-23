@@ -1,5 +1,7 @@
 # Project 3
 
+[Download this folder (ZIP).](../assets/packages/proj03_contents.zip)
+
 Due: Monday, September 28th (9/28/2020) at 11:59 PM EST
 
 Video introduction: https://www.youtube.com/watch?v=OqRQ8sJmNk8
