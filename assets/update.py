@@ -28,7 +28,7 @@ The markdown files use two colons to signify a variable, alike `:var:`. The stri
 information.
 '''
 
-import update_meta, update_project_files, update_schedule
+import update_meta, update_project_files, update_schedule, update_lab_files
 
 print('Creating/Updating schedule.html and project_dates.json...')
 update_schedule.main()
@@ -36,6 +36,10 @@ print('Done.')
 
 print('Creating/Updating project files...')
 update_project_files.main()
+print('Done.')
+
+print('Updating lab files...')
+update_lab_files.main()
 print('Done.')
 
 print('Creating/Updating README and SYLLABUS...')

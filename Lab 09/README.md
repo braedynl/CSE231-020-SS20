@@ -1,43 +1,26 @@
-# Project :n:
+# Lab 9
 
-[Download this folder's content (*.zip file)](../assets/packages/proj:n02d:_contents.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
+[Download this folder's content (*.zip file)](../assets/packages/lab09_contents.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
 
-Due: :due: at 11:59 PM EST
+The submission page for all labs are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases).
 
-Video introduction: :video_link:
+Lab grading is lenient. You do not have to pass all of the test-cases to get full credit, though you should try to. Following the coding standard is not required. 
 
-The submission page for all projects are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases). 
-
-There is a 50% grade reduction for each day that a submission is late. Partial credit is rewarded by the TAs for incomplete test-cases, though the amount of partial credit rewarded varies depending on what kind of mistakes were made, how close you were to matching the test-cases, etc.. I highly recommend uploading an incomplete/blank project file at first to see the test-cases, you can extrapolate a lot more information about the project by looking at them, if the PDF was unclear in certain areas. 
-
-Projects must adhere to the [coding standard](../CODING_STANDARD.md). Some standards may not apply for the first couple of weeks. The standards that *do* apply will be listed at the bottom of the PDF, as well as some more details on the grading scheme. Points are rewarded by the TAs for following the coding standard.
-
-Hard-coding a solution will net you a 0% grade for the project. Wikipedia defines hard-coding as: 
+Hard-coding a solution will net you a 0% grade for the lab. Wikipedia defines hard-coding as: 
 
 > "... the software development practice of embedding data directly into the source code of a program or other executable object, as opposed to obtaining the data from external sources or generating it at run-time."
 
 Some examples are (but not limited to): copying Mimir's expected output and printing it directly, copying a line or multiple lines directly from a file and placing it in your program, developing an algorithm that assumes too much about the inputs/data (and wouldn't work with other inputs/data that follow the same structure). 
 
-Projects are meant to be completed alone. Collaboration and/or copying code from online, (e.g. Chegg), is strictly prohibited. A plagiarism-checker is ran through all projects, and checks for similarities between other students in the course and many online sources. Contacting [your TA](../README.md#braedyn-lettinga), using [Piazza](https://piazza.com/), and attending [help room](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html) is encouraged if you are struggling. Take full advantage of `print()`, [PythonTutor](http://pythontutor.com/visualize.html#mode=edit), and your code editor's debugger (taught in [Lab 02](../Lab%2002)). 
+Labs are meant to be collaborative. I encourage you to contact [me](../README.md#braedyn-lettinga) or your friends/acquaintances. [Piazza](https://piazza.com/), and the [help room](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html) are also great places to seek additional help. 
 
 Read through **all** of the instructions _carefully **and** thoroughly_. If you are having trouble comprehending the instructions, please don't hesitate to ask us on Piazza.
 
-Starter-code is given for certain projects. If the project's Python file is empty, that means there is no starter-code. In the case that some starter-code is given, you will want to _add_ to what's already written. Lines that _are_ written are there to help.
+Starter-code is given for certain labs. If the lab's Python file is empty, that means there is no starter-code. In the case that some starter-code is given, you will want to _add_ to what's already written. Lines that _are_ written are there to help.
 
-When submitting to Mimir, ensure that your file is properly named. The format is "projXX.py", where "XX" is the project's corresponding number. A leading zero is used for single-digit project numbers, and alphabetical characters are always kept lowercase. If you download the files directly from this repository, this shouldn't be much of an issue.
-
-With every project, a [`strings.txt`](strings.txt) file is included so that you can match Mimir's expected output precisely. Capitalization and spacing *does* affect whether Mimir marks your outputs as correct, and so this file is supplied to help mitigate the potential hassle you might have to go through correcting small descrepancies like that. 
+When submitting to Mimir, ensure that your file is properly named. The format is "labXX.py", where "XX" is the lab's corresponding number. A leading zero is used for single-digit lab numbers, and alphabetical characters are always kept lowercase. If you download the files directly from this repository, this shouldn't be much of an issue.
 
 There is a file named [SHORTCUTS.md](../SHORTCUTS.md) on here that is a huge list of some of the most useful keyboard shortcuts for quicker debugging and writing. 
-
-If you see these two lines at the bottom of a project file:
-
-```python
-if __name__ == "__main__":
-    main()
-```
-
-.. do **not** delete them. Mimir will return a SIGPIPE error if you delete these lines (an indication that your program ran for an infinite amount of time -- can also occur if Mimir can't find your project file, or if your program asked for an `input()` where Mimir wasn't expecting to input anything).
 
 ## Mimir Test-Case Explanation, Fixing Diff Descrepancies
 
@@ -157,3 +140,4 @@ Output:
 ```
 Meters: 5.029
 ``` 
+
