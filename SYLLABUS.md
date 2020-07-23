@@ -158,3 +158,4 @@ Commercialization of lecture notes and course materials is not permitted.
 
 ## Calendar
 See: https://www.cse.msu.edu/~cse231/due_dates.html
+

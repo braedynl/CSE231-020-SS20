@@ -4,7 +4,7 @@
 
 Due: :due: at 11:59 PM EST
 
-Video introduction: :video_link:
+Video introduction: :video:
 
 The submission page for all projects are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases). 
 
