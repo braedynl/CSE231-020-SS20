@@ -10,7 +10,7 @@ Go to the CSE231 [D2L](https://d2l.msu.edu/d2l/loginh/) site, and look through t
 
 **2. ...lab XX's files?**
 
-Go to the code for this repository (the home folder), you should see a sub-folder named "Lab XX".
+Go to the code for this repository (the [home folder](https://github.com/braedynl/CSE231-GITHUB)), you should see a sub-folder named "Lab XX".
 
 **3. ...lab XX's submission page?**
 
@@ -18,7 +18,7 @@ Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Cou
 
 **4. ...project XX's files?**
 
-Go to the code for this repository (the home folder), you should see a sub-folder named "Project XX". 
+Go to the code for this repository (the [home folder](https://github.com/braedynl/CSE231-GITHUB)), you should see a sub-folder named "Project XX". 
 
 **5. ...project XX's submission page?**
 
@@ -238,9 +238,9 @@ That being said, you shouldn't shame the other TAs. Most of them are senior CSE 
 
 **6. How does this repository automatically stay up-to-date with the course website?**
 
-There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, main README, and all project files. The update scripts can be found in /assets/. I update lab files myself because I tend to be more involved with them.
+There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, home README, and all lab/project files. The update script can be found in /assets/update.py.
 
-The syllabus and home README have templates that you can find in /assets/templates/. There are "variables" encoded into the documents (words surrounded by colons like :this:) that my program simply finds and replaces with the proper information (like year, semester, location, etc.). 
+The syllabus and home README have templates that you can find in /assets/templates/. There are "variables" encoded into the documents (words surrounded by colons like :this:) that my program simply finds and replaces with the proper information (like year, semester, location, etc.). Lab and project folders have their own README files, these are also updated via templates in a similar fashion.
 
 The course schedule on the home README literally has its HTML code (the code that displays the schedule) ripped straight from Dr. Enbody's website (the Due Dates page, specifically). My code disassembles the HTML and re-constructs it with links, standardized formatting, and hover text. So, yes, it's a program that writes a program in a way.
 
@@ -281,70 +281,74 @@ empty_num = bar['width'] - fill_num  # number of empty characters we need to com
 bar_str = (fill_num * bar['fill']) + (empty_num * bar['empty'])  # combine
 ```
 
-**8. What is the ".md" file extension that you use?**
+**8. What are those small messages that appear next to file names?**
+
+[Commit messages](https://en.wikipedia.org/wiki/Commit_(version_control)). Whenever I make changes to the repository, one of the common version control practices is to describe what you, as the committer, changed. I keep them extremely brief since I'm the only one working on the repository. You can ignore them, they're more for my sake. 
+
+**9. What is the ".md" file extension that you use?**
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown). They're kinda like .txt files, but will convert all text into HTML script internally. I use them because they're easy to write, and allow for extensive formatting. 
 
-**9. What is the ".json" file extension that you use?**
+**10. What is the ".json" file extension that you use?**
 
 [JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON). They're text files that store JavaScript object data, but most programming language (like Python) have libraries that read them. I use it a lot because it's extremely quick and readable.
 
-**10. How did you prepare for CSE231 exams?**
+**11. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**11. How did you do when you took this class?**
+**12. How did you do when you took this class?**
 
 I got a 4.0, but I'm not smart by any means -- I just have _a lot_ of practice because I've been programming since I was a kid. If you're having a hard time, please don't compare your situation to people like me, because it's not the same. Programming is an extremely hard skill to master for a majority of people. The biggest thing you can do is practice. 
 
-**12. Do you use tabs or spaces?**
+**13. Do you use tabs or spaces?**
 
 Tabs, I'm not tryna demolish my spacebar.
 
-**13. Do you know any other programming languages?**
+**14. Do you know any other programming languages?**
 
 C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however (you can tell if you look at my GitHub projects lol).
 
-**14. Does the language you use in the real world matter?**
+**15. Does the language you use in the real world matter?**
 
 Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
 
 If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
 
-**15. What is your ethnic background?**
+**16. What is your ethnic background?**
 
 I'm half white, half Korean. 
 
-**16. Do you have social media?**
+**17. Do you have social media?**
 
 Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me. 
 
-**17. What code editor do you use?**
+**18. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**18. How do you type so fast?**
+**19. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**19. Where can I apply to become a ULA for a CSE course?**
+**20. Where can I apply to become a ULA for a CSE course?**
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that.
 
-**20. Do you need a 4.0 to become a ULA for this class?**
+**21. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**21. Do you need to be a CSE major to become a ULA for this class?**
+**22. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**22. How much do you get paid?**
+**23. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
-**23. Can you give me a referral?**
+**24. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Talk to me about it. 
