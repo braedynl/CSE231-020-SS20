@@ -13,35 +13,66 @@ from bs4 import BeautifulSoup
 class CSE231GitHub(object):
     '''
     CSE231GitHub
-    ------------
+    ============
     Locally updates the CSE231-GITHUB repository with the latest data from the
     main course website. 
 
-    - update_all()
-        Updates all files and folders accounted for by the class.
+    Public Methods
+    --------------
+    update_all()
+        Updates all files and folders accounted for by the class. Equivalent to
+        running all method functions at once. 
     
-    - update_syllabus()
-        Updates master/SYLLABUS.md from its template and course_info.json.
+    update_syllabus()
+        Updates /master/SYLLABUS.md from its template and course_info.json.
     
-    - update_readme()
-        Updates master/README.md from its template and course_info.json.
+    update_readme()
+        Updates /master/README.md from its template and course_info.json.
     
-    - update_lab_files()
+    update_lab_files()
         Updates all /Lab XX/README.md files from its template. 
     
-    - update_project_files()
+    update_project_files()
         Updates all /Project XX/ files from the main course website, and the
         README.md files from its template. 
     
-    - update_schedule()
+    update_schedule()
         Creates and/or modifies schedule.html and project_dates.json, two files
         that are used by the other method functions. This method is always ran
         at instantiation. 
     
-    - package()
-        Sends all lab or project files to a corresponding *.zip file in
-        /assets/packages/. 
+    package()
+        Copies all lab or project files to a corresponding *.zip file in
+        /assets/packages/.
 
+    Private Methods
+    ---------------
+    _walk_tree()
+        Collects all possible paths within a subdirectory.
+
+    _course_info_replace()
+        Iterates through self.course_info to replace all markdown
+        variables. 
+
+    _create_bar_str()
+        Creates progress bar string. 
+
+    _get_td_deltas()
+        Creates a mapping of HTML td tag iterations to timedeltas
+        of the included days of the week.
+
+    _expand_date()
+        Expands out a datetime instance as a string in the form:
+            "Weekday, Month Day[Ordinal Suffix] (m/d/y)"
+
+    _get_ordinal_suffix()
+        Calculates the ordinal suffix for a given number.
+
+    Notes
+    -----
+    The option to disable automatic packaging is present to reduce commit
+    deltas and runtime if necessary. Re-packaging project/lab folders may
+    lead Git to think that the *.zip files changed even if they didn't. 
     '''
 
     def __init__(self):
@@ -58,7 +89,8 @@ class CSE231GitHub(object):
 
     def update_all(self, package:bool=True) -> None:
         '''
-        Updates all files and folders accounted for by the class.
+        Updates all files and folders accounted for by the class. Equivalent to
+        running all method functions at once. 
 
         Parameters
         ----------
@@ -78,10 +110,10 @@ class CSE231GitHub(object):
 
     def update_syllabus(self) -> None:
         '''
-        Updates master/SYLLABUS.md from its template and course_info.json.
+        Updates /master/SYLLABUS.md from its template and course_info.json.
         '''
 
-        print('Updating "SYLLABUS.md"...')
+        print('Updating master "SYLLABUS.md"...')
 
         syllabus_text = self._course_info_replace(self.syllabus_temp)
 
@@ -93,7 +125,7 @@ class CSE231GitHub(object):
     
     def update_readme(self) -> None:
         '''
-        Updates master/README.md from its template and course_info.json.
+        Updates /master/README.md from its template and course_info.json.
         '''
 
         print('Updating master "README.md"...')
@@ -323,13 +355,16 @@ class CSE231GitHub(object):
 
     def package(self, folder_type:Union['proj', 'lab']) -> None:
         '''
-        Sends all lab or project files to a corresponding *.zip file in
+        Copies all lab or project files to a corresponding *.zip file in
         /assets/packages/. 
 
         Parameters
         ----------
             folder_type : Option to package project or lab folders.
         '''
+
+        if folder_type not in ['proj', 'lab']:
+            raise ValueError('folder_type argument not "proj" or "lab"')
 
         print('Packaging all {} folders...'.format(folder_type))
 
@@ -490,4 +525,4 @@ class CSE231GitHub(object):
 if __name__ == "__main__":
     github = CSE231GitHub()
 
-    github.update_all()
+    github.update_all(False)
