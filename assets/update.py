@@ -221,7 +221,7 @@ class CSE231GitHub(object):
                 
                 os.chdir(folder_name)
 
-                readme_text = self.lab_info_temp.replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n))
+                readme_text = self.lab_info_temp.replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)).replace(':help_room_url:', self.course_info['help_room_url'])
 
                 readme = open('README.md', 'w+')
                 print(readme_text, file=readme)
@@ -291,7 +291,7 @@ class CSE231GitHub(object):
                 open(name_short + '.py', 'w+').close()
                 file_names.append(name_short + '.py')
 
-            readme_text = self.project_info_temp.replace(':video:', video).replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)).replace(':due:', project_dates[name_short])
+            readme_text = self.project_info_temp.replace(':video:', video).replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)).replace(':due:', project_dates[name_short]).replace(':help_room_url:', self.course_info['help_room_url'])
             
             readme = open('README.md', 'w+')
             print(readme_text, file=readme)
