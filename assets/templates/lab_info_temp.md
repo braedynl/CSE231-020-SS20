@@ -1,6 +1,6 @@
 # Lab :n:
 
-[Download this folder's content (*.zip file)](../assets/packages/lab:n02d:_contents.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
+[Download this folder's content (*.zip file)](../assets/packages/lab:n02d:_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
 
 The submission page for all labs are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases).
 
