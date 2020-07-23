@@ -200,7 +200,7 @@ No, they were all made by the professors.
 
 **9. There's something on the repository that I think should be added/moved. Can you do anything about it?**
 
-Yes! I'd be happy to. Please email me (letting4@msu.edu), or, if you're feeling spicy, you can make a GitHub account and submit a problem to the "Issues" page. 
+Yes! I'd be happy to, as long as it's within the realm of possibility and I think it'd be a good change. Please email me (letting4@msu.edu), or, if you're feeling spicy, you can make a GitHub account and submit a problem to the "Issues" page. 
 
 ## Miscellaneous/Personal
 
