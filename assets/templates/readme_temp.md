@@ -10,7 +10,7 @@ Logistics:
   - [Exam Information](#exam-information)
   - [Help Room Schedule](:help_room_url:)
   - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
-  - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
+  - [Lab Schedule](:labs_url:)
   - [Section Information](#section-information)
   - [Syllabus](SYLLABUS.md)
   - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
