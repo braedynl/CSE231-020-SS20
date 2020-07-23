@@ -198,11 +198,15 @@ Very, very rarely. There'll be one or two (at most) made by a TA, the rest are m
 
 No, they were all made by the professors.
 
+**9. There's something on the repository that I think should be added/moved. Can you do anything about it?**
+
+Yes! I'd be happy to. Please email me (letting4@msu.edu), or, if you're feeling spicy, you can make a GitHub account and submit a problem to the "Issues" page. 
+
 ## Miscellaneous/Personal
 
 **1. I'm a [major that's not computer science/engineering], will I ever need this?** 
 
-Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. The power in programming is its ability to manipulate, and calculate values almost instantaneously in tandem with logic. The phone in your pocket, the stock market, the digital alarm clock on your desk -- all of these wouldn't exist without programming.  
+Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. The power in programming is its ability to manipulate, and calculate values almost instantaneously in tandem with logic. The phone in your pocket, the stock market, the digital alarm clock on your desk -- all of these wouldn't exist without programming.
 
 **2. Can I forward your emails to my friends in other sections?**
 
@@ -212,7 +216,19 @@ Yes, you may. Though you should warn them that some details I may mention are TA
 
 Yes, but the course schedule on the home README will only reflect our section's meeting days, they'll have to keep this in mind.
 
-**4. Why do you go through the effort to do all of this?**
+**4. What does your course schedule look like?**
+
+| Time (EST)        | Sun   | Mon    | Tue    | Wed    | Thu    | Fri   | Sat   |
+| :---:             | :---: | :---:  | :---:  | :---:  | :---:  | :---: | :---: |
+| 10:20 AM-11:40 PM |       |        | CSE331 |        | CSE331 |       |       |
+| 12:40 PM-02:00 PM |       | MTH314 | CSE320 | MTH314 | CSE320 |       |       |
+| 05:20 PM-06:10 PM |       | STT351 |        | STT351 | STT351 |       |       |
+
+Unlisted: MI349, MI491
+
+How I got such an amazing schedule is beyond me lmao. 
+
+**5. Why do you go through the effort to do all of this?**
 
 Well, I didn't really like Dr. Enbody's website when I took the class myself ("be the change you want to see in the world", right?). When I became a TA, making a GitHub page started out as a way to store my mini-lecture presentations, but then it kind of snowballed into a full-fledged course page as I kept adding more stuff.
 
@@ -220,7 +236,7 @@ In terms of "my thoroughness", (which I know gets talked about by students who h
 
 That being said, you shouldn't shame the other TAs. Most of them are senior CSE majors in 400-level classes, they probably don't have that much time on their hands. Why do _I_ have so much time on _my_ hands? Uhh.. well.. I don't really do much other than school work, I tend to get stuff done quickly. 
 
-**5. How does this repository automatically stay up-to-date with the course website?**
+**6. How does this repository automatically stay up-to-date with the course website?**
 
 There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, main README, and all project files. The update scripts can be found in /assets/. I update lab files myself because I tend to be more involved with them.
 
@@ -230,7 +246,7 @@ The course schedule on the home README literally has its HTML code (the code tha
 
 For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant within the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
 
-**6. How does the progress bar work?**
+**7. How does the progress bar work?**
 
 The number of days in the semester is calculated from dates that I feed it, we'll call this `N`. The program also extracts the date that it's currently running at, we'll call this little `n`. The percentage of completion can then be calculated as `1 - (n / N)`, we'll call this `p`.
 
@@ -265,17 +281,13 @@ empty_num = bar['width'] - fill_num  # number of empty characters we need to com
 bar_str = (fill_num * bar['fill']) + (empty_num * bar['empty'])  # combine
 ```
 
-**7. What is the ".md" file extension that you use?**
+**8. What is the ".md" file extension that you use?**
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown). They're kinda like .txt files, but will convert all text into HTML script internally. I use them because they're easy to write, and allow for extensive formatting. 
 
-**8. What is the ".json" file extension that you use?**
+**9. What is the ".json" file extension that you use?**
 
 [JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON). They're text files that store JavaScript object data, but most programming language (like Python) have libraries that read them. I use it a lot because it's extremely quick and readable.
-
-**9. There's something on the repository that I think should be added/moved. Can you do anything about it?**
-
-Yes! I'd be happy to. Please email me, or, if you're feeling spicy, you can make a GitHub account and submit a problem to the "Issues" page. 
 
 **10. How did you prepare for CSE231 exams?**
 
