@@ -256,7 +256,7 @@ If this is a summer semester: I will be sending out an email during the first we
 There will be two midterms and a final examination during the semester, and will constitute 45% of your total course grade. You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
 
 If there are no in-person meetings, students will take exams remotely through Zoom. We require a camera (e.g., cellphone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
-- Exam 1: Online - Tuesday, October 6th (10/06/20) at 7:00 PM EST
+- Exam 1: Online - Tuesday, October 6th (10/6/20) at 7:00 PM EST
 - Exam 2: Online - Tuesday, November 10th (11/10/20) at 7:00 PM EST
 - Exam 3: TBA
 
