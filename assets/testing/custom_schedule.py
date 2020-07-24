@@ -163,16 +163,16 @@ def create_html_calendar(calendar:dict) -> None:
     print('<table>', file=fp_out)
 
     print('<thead>', file=fp_out)
-    print('\t<tr>', file=fp_out)
+    print('<tr>', file=fp_out)
     for head in headers:
-        print('\t\t<th align="center">{}</th>'.format(head), file=fp_out)
-    print('\t</tr>', file=fp_out)
+        print('<th align="center">{}</th>'.format(head), file=fp_out)
+    print('</tr>', file=fp_out)
     print('</thead>', file=fp_out)
 
     print('<tbody>', file=fp_out)
     for week_n, week_dict in calendar.items():
-        print('\t<tr>', file=fp_out)
-        print('\t\t<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(
+        print('<tr>', file=fp_out)
+        print('<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(
             week_n, 
             week_dict['Sun']['attributes'][1],
             week_dict['Sun']['attributes'][2]
@@ -182,10 +182,10 @@ def create_html_calendar(calendar:dict) -> None:
         for day, day_dict in week_dict.items():
             if day in headers:
                 if 'read' in day_dict['html'].lower():
-                    print('\t\t<td>{}</td>'.format(day_dict['html']), file=fp_out)
+                    print('<td>{}</td>'.format(day_dict['html']), file=fp_out)
                 else:
-                    print('\t\t<td align="center">{}</td>'.format(day_dict['html']), file=fp_out)
-        print('\t</tr>', file=fp_out)
+                    print('<td align="center">{}</td>'.format(day_dict['html']), file=fp_out)
+        print('</tr>', file=fp_out)
     print('</tbody>', file=fp_out)
 
     print('</table>', file=fp_out)
