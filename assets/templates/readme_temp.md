@@ -73,7 +73,7 @@ Section Instructor: Braedyn Lettinga
 
 Section: :section:
 
-Location/Time: :location: at :time:
+Location/Time: :section_details:
 
 ## Contact Information
 

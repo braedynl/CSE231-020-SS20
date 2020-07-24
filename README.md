@@ -215,7 +215,7 @@ Section Instructor: Braedyn Lettinga
 
 Section: TBA
 
-Location/Time: Online at TBA
+Location/Time: TBA
 
 ## Contact Information
 
