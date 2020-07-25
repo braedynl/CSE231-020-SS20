@@ -3,15 +3,19 @@ Well you're a curious one, aren't you?
 
 This is the code I use to keep the repository up-to-date with
 the main course website. There's a lot of file work and library
-tools, so much of this won't make sense until you're done with 
-the course. Even then, a lot of this code deals with HTML, so
-you might have to do a quick web development course before
-reading through this. 
+tools, so much of this probably won't make sense until you're 
+done with the course.
 
 It might be interesting to see how much you understand as the 
 semester goes on, though. Everything here is documented for my 
-sake, but you may come to understand my lingo as you get better 
-at programming.
+sake, but you may come to see what this program is doing as 
+you improve.
+
+Also, as a forewarning, this code is very bodged together. 
+I'm the only one that uses it, so there's a lot of messy
+stuff and inefficiencies.
+
+Have fun exploring!
 
                         ｔｈｏｎｋ
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣤⣶⣶⣤⣤⣤⣀⡀
@@ -49,7 +53,6 @@ from urllib.error import HTTPError
 from urllib.request import urlopen, urlretrieve
 
 from bs4 import BeautifulSoup
-
 
 DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 
@@ -98,7 +101,7 @@ class CSE231GitHub(object):
 
         print('Updating master "SYLLABUS.md"...')
 
-        syllabus_text = self._course_info_replace(self.syllabus_temp)
+        syllabus_text = self.__course_info_replace(self.syllabus_temp)
 
         syllabus = open('SYLLABUS.md', 'w+')
         print(syllabus_text, file=syllabus)
@@ -125,14 +128,14 @@ class CSE231GitHub(object):
 
         p = 1 - (n.days / N.days)  # percentage of completion
 
-        bar_str = self._create_bar_str(p)
+        bar_str = self.__create_bar_str(p)
 
-        if p < 0:  # makes all negative percents 0 (since I'm writing/testing this script before the semester has begun)
-            p = 0 
+        if p < 0: p = 0  # fun fact: you can write one-line suites in the same line as the conditional!
+        elif p > 1: p = 1  # (don't ever do this tho)
         
         bar_html = '<div align="center"><b>Semester Progress ({:.0%})</b></div>\n<div align="center">{}</div>'.format(p, bar_str)
     
-        readme_text = self._course_info_replace(self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html))
+        readme_text = self.__course_info_replace(self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html))
 
         readme = open('README.md', 'w+')
         print(readme_text, file=readme)
@@ -268,8 +271,8 @@ class CSE231GitHub(object):
         print('Updating "schedule.html" and "project_dates.json"...')
 
         soup = BeautifulSoup(urlopen(self.course_info['schedule_url']), features='html.parser')
-        td_deltas = self._get_td_deltas(soup.find('thead').find_all('th'))
-        calendar = self._create_calendar()
+        td_deltas = self.__get_td_deltas(soup.find('thead').find_all('th'))
+        calendar = self.__create_calendar()
 
         project_dates = {}
 
@@ -280,20 +283,17 @@ class CSE231GitHub(object):
 
             for i, td in enumerate(tr.find_all('td')):
 
-                if i not in td_deltas:  # handles last row (has one extra column for some reason)
-                    break 
-                if i == 0:  # 0th column is always the week number
-                    continue
-
+                if i not in td_deltas: break  # handles last row (has one extra column for some reason)
+                if i == 0: continue # 0th column is always the week number
+                    
                 td = td.text.strip()
 
-                if td == '':  # if calendar cell has no assignment/text
-                    continue
+                if td == '': continue  # if calendar cell has no assignment/text
                 
                 # calculates the date adjusted by the amount of days from the initial_date (Sunday of each week)
                 shifted_date = initial_date + timedelta(td_deltas[i])
                 day = shifted_date.strftime('%a')  # Union['Sun', 'Mon', 'Tue', ...]
-                pretty_date = self._get_pretty_date(shifted_date)   # prettier date format for hovertext
+                pretty_date = self.__get_pretty_date(shifted_date)   # prettier date format for hovertext
 
                 if 'read' in td.lower():
                     calendar[week_n][day]['html'] = '<a title="On: {}" href="{}">{}</a>'.format(pretty_date, self.course_info['week_urls'][str(week_n)], td)
@@ -301,6 +301,7 @@ class CSE231GitHub(object):
                     calendar[week_n][day]['html'] = '<a title="Due: {}" href="https://class.mimir.io">{}</a>'.format(pretty_date, td)
                 elif 'exam' in td.lower():
                     calendar[week_n][day]['html'] = '<a title="On: {}" href="#exam-information">{}</a>'.format(pretty_date, td)
+
                 elif 'proj' in td.lower():
                     proj_n = int(td[-2:])
                     calendar[week_n][day]['html'] = '<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
@@ -313,14 +314,14 @@ class CSE231GitHub(object):
                     if lab_n == 0:
                         calendar[week_n][day]['html'] = '<a title="Due: {}" href="Lab%2000">Lab 00</a>'.format(pretty_date)
 
-                    if lab_day is None and prelab_day is None:
+                    if lab_day is None and prelab_day is None:  # if both are None, use date given on website
                         lab_day = prelab_day = day 
-                    elif lab_day is None and prelab_day is not None:
+                    elif lab_day is None and prelab_day is not None:  # if lab is None and pre-lab has an override, labs use date on website
                         lab_day = day 
-                    elif lab_day is not None and prelab_day is None:
+                    elif lab_day is not None and prelab_day is None:  # if lab has override and pre-lab doesn't, pre-labs are put on the same day as labs
                         prelab_day = lab_day
 
-                else:
+                else:  # edge-case for random stuff Enbody sometimes puts on there
                     calendar[week_n][day]['html'] = '<div title="On: {}">{}</div>'.format(pretty_date, td.title())
 
 
@@ -346,7 +347,7 @@ class CSE231GitHub(object):
         json.dump(project_dates, project_dates_fp, indent=4)
         project_dates_fp.close()
 
-        self._process_html_calendar(calendar)
+        self.__process_html_calendar(calendar)
 
         print("Done.\n")
 
@@ -370,7 +371,7 @@ class CSE231GitHub(object):
 
                 zip_file = zipfile.ZipFile('assets/packages/{}{}_content.zip'.format(folder_type, folder_name[-2:]), 'w')
 
-                paths = self._walk_tree(folder_name)  # inefficient, but eh -- it works and makes sense
+                paths = self.__walk_tree(folder_name)  # inefficient, but eh -- it works and makes sense
 
                 for path in paths:
                     save_path = path.replace('{}/'.format(folder_name), '')
@@ -380,7 +381,7 @@ class CSE231GitHub(object):
 
         print('Done.\n')
 
-    def _walk_tree(self, path:str) -> list:
+    def __walk_tree(self, path:str) -> list:
         '''
         Collects all possible paths within a subdirectory.
 
@@ -400,7 +401,7 @@ class CSE231GitHub(object):
                 file_paths.append(filepath)
         return file_paths
 
-    def _course_info_replace(self, text:str) -> str:
+    def __course_info_replace(self, text:str) -> str:
         '''
         Iterates through self.course_info to replace all markdown
         variables. 
@@ -421,7 +422,7 @@ class CSE231GitHub(object):
                 continue
         return text
 
-    def _create_bar_str(self, p:float) -> str:
+    def __create_bar_str(self, p:float) -> str:
         '''
         Creates progress bar string. 
 
@@ -440,7 +441,7 @@ class CSE231GitHub(object):
         fill_w = floor(p * self.progressbar['width'])
         return (fill_w * self.progressbar['fill']) + (self.progressbar['empty'] * (self.progressbar['width'] - fill_w))
 
-    def _process_html_calendar(self, calendar:dict) -> None:
+    def __process_html_calendar(self, calendar:dict) -> None:
         '''
         Parses the calendar dictionary into an HTML file used
         by master README.md. 
@@ -452,16 +453,11 @@ class CSE231GitHub(object):
 
         fp_out = open('assets/schedule.html', 'w+')
 
-        headers = {'Week', }
-        for week_dict in calendar.values():
-            for day, day_dict in week_dict.items():
-                if day_dict['html'] != '':
-                    headers.add(day)
-        
+        # finds all day columns that are required to be present (don't ever write code like this lmao)
         headers = sorted(
-                headers, 
-                key=lambda head: {'Week': 0, 'Sun': 1, 'Mon': 2, 'Tue': 3, 'Wed': 4, 'Thu': 5, 'Fri': 6, 'Sat': 7}[head]
-                )
+            {'Week', } | {day for week_dict in calendar.values() for day, day_dict in week_dict.items() if day_dict['html'] != ''},
+            key=lambda head: {'Week': 0, 'Sun': 1, 'Mon': 2, 'Tue': 3, 'Wed': 4, 'Thu': 5, 'Fri': 6, 'Sat': 7}[head]
+            )
 
         print('<table>', file=fp_out)
 
@@ -477,8 +473,8 @@ class CSE231GitHub(object):
             print('<tr>', file=fp_out)
             print('<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(
                 week_n, 
-                week_dict['Sun']['attributes'][1],
-                week_dict['Sun']['attributes'][2]
+                week_dict['Sun']['attributes'][1],  # month
+                week_dict['Sun']['attributes'][2]   # day
                 ),
                 file=fp_out
             )
@@ -495,7 +491,7 @@ class CSE231GitHub(object):
 
         fp_out.close()
 
-    def _get_td_deltas(self, th_list:list) -> dict:
+    def __get_td_deltas(self, th_list:list) -> dict:
         '''
         Creates a mapping of HTML td tag iterations to timedeltas
         of the included days of the week.
@@ -534,7 +530,7 @@ class CSE231GitHub(object):
         
         return td_deltas
     
-    def _create_calendar(self) -> dict:
+    def __create_calendar(self) -> dict:
         '''
         Creates a "skeleton calendar" with dates and empty
         HTML attributes. The structure is as follows:
@@ -566,7 +562,7 @@ class CSE231GitHub(object):
                 datet = start_date + timedelta(dt)
 
                 calendar[week_n][day] = {
-                    'date': self._get_pretty_date(datet), 
+                    'date': self.__get_pretty_date(datet), 
                     'attributes': [datet.year, datet.month, datet.day],
                     'html': '',
                     }
@@ -576,7 +572,7 @@ class CSE231GitHub(object):
         
         return calendar
 
-    def _get_pretty_date(self, datet:datetime) -> str:
+    def __get_pretty_date(self, datet:datetime) -> str:
         '''
         Expands out a datetime instance as a string in the form:
             "Weekday, Month Day[Ordinal Suffix] (m/d/y)"
@@ -593,13 +589,14 @@ class CSE231GitHub(object):
         date_str_exp = datet.strftime('%A, %B %d')
         date_str_num = datet.strftime('(%m/%d/%Y)') 
 
-        ordinal_suffix = self._get_ordinal_suffix(int(date_str_exp[-2:]))
+        ordinal_suffix = self.__get_ordinal_suffix(int(date_str_exp[-2:]))
 
-        full_date = (date_str_exp + ordinal_suffix + ' ' + date_str_num).replace('(0', '(').replace('/0', '/').replace(' 0', ' ')  # replaces padding zeroes
+        # All the .replace() methods are to get rid of leading 0s
+        full_date = (date_str_exp + ordinal_suffix + ' ' + date_str_num).replace('(0', '(').replace('/0', '/').replace(' 0', ' ')
 
         return full_date
 
-    def _get_ordinal_suffix(self, num:int) -> str:
+    def __get_ordinal_suffix(self, num:int) -> str:
         '''
         Calculates the ordinal suffix for a given number. 
 
@@ -611,11 +608,11 @@ class CSE231GitHub(object):
         -------
             str : Corresponding ordinal suffix. 
         '''
-
         return {1: "st", 2: "nd", 3: "rd"}.get(num % 10 * (num % 100 not in [11, 12, 13]), "th")
 
 
 if __name__ == "__main__":
     github = CSE231GitHub()
 
+    # github.update_readme()
     github.update_all(False)
