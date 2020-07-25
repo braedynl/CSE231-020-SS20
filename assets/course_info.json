@@ -26,8 +26,10 @@
         "13": "https://www.cse.msu.edu/~cse231/Online/scope.html",
         "14": "https://www.cse.msu.edu/~cse231/Online/exceptions.html"
     },
-    "course_start": [2020, 8, 30],
-    "course_end" : [2020, 12, 19],
+    "semester_start": [2020, 9, 2],
+    "semester_end": [2020, 12, 11],
+    "schedule_start": [2020, 8, 30],
+    "schedule_end" : [2020, 12, 19],
     "lab_day": null,
     "prelab_day": null
 }

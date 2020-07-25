@@ -117,11 +117,11 @@ class CSE231GitHub(object):
 
         today = datetime.now()
 
-        sem_fday = datetime(*self.course_info['course_start'])
-        sem_lday = datetime(*self.course_info['course_end'])
+        semester_start = datetime(*self.course_info['semester_start'])
+        semester_end = datetime(*self.course_info['semester_end'])
 
-        N = sem_lday - sem_fday  # number of days in the semester
-        n = sem_lday - today     # number of days from now until the end of the semester
+        N = semester_end - semester_start  # number of days in the semester
+        n = semester_end - today     # number of days from now until the end of the semester
 
         p = 1 - (n.days / N.days)  # percentage of completion
 
@@ -552,8 +552,8 @@ class CSE231GitHub(object):
         } 
         '''
 
-        start_date = datetime(*self.course_info['course_start'])
-        end_date = datetime(*self.course_info['course_end'])
+        start_date = datetime(*self.course_info['schedule_start'])
+        end_date = datetime(*self.course_info['schedule_end'])
 
         calendar = {}
 
@@ -598,7 +598,6 @@ class CSE231GitHub(object):
         full_date = (date_str_exp + ordinal_suffix + ' ' + date_str_num).replace('(0', '(').replace('/0', '/').replace(' 0', ' ')  # replaces padding zeroes
 
         return full_date
-
 
     def _get_ordinal_suffix(self, num:int) -> str:
         '''
