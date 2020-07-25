@@ -50,75 +50,10 @@ from urllib.request import urlopen, urlretrieve
 
 from bs4 import BeautifulSoup
 
+
 DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 
 class CSE231GitHub(object):
-    '''
-    CSE231GitHub
-    ============
-    Locally updates the CSE231-GITHUB repository with the latest data from the
-    main course website. 
-
-    Public Methods
-    --------------
-    update_all()
-        Updates all files and folders accounted for by the class. Equivalent to
-        running all method functions at once. 
-    
-    update_syllabus()
-        Updates /master/SYLLABUS.md from its template and course_info.json.
-    
-    update_readme()
-        Updates /master/README.md from its template and course_info.json.
-    
-    update_lab_files()
-        Updates all /Lab XX/README.md files from its template. 
-    
-    update_project_files()
-        Updates all /Project XX/ files from the main course website, and the
-        README.md files from its template. 
-    
-    update_schedules()
-        Creates and/or modifies schedule.html and project_dates.json, two files
-        that are used by the other method functions. This method is always ran
-        at instantiation. 
-    
-    package()
-        Copies all lab or project files to a corresponding *.zip file in
-        /assets/packages/.
-
-    Private Methods
-    ---------------
-    _walk_tree()
-        Collects all possible paths within a subdirectory.
-
-    _course_info_replace()
-        Iterates through self.course_info to replace all markdown
-        variables. 
-
-    _create_bar_str()
-        Creates progress bar string. 
-
-    _get_td_deltas()
-        Creates a mapping of HTML td tag iterations to timedeltas
-        of the included days of the week.
-
-    _expand_date()
-        Expands out a datetime instance as a string in the form:
-            "Weekday, Month Day[Ordinal Suffix] (m/d/y)"
-
-    _get_ordinal_suffix()
-        Calculates the ordinal suffix for a given number.
-
-    Notes
-    -----
-    The option to disable automatic packaging is present to reduce commit
-    deltas and runtime if necessary. Re-packaging project/lab folders may
-    lead Git to think that the *.zip files changed even if they didn't. 
-
-    All templates can be found in /assets/templates/. Markdown "variables"
-    are signified by two colons like :this:. 
-    '''
 
     def __init__(self):
         self.course_info = json.load(open('assets/course_info.json', 'r'))
