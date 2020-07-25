@@ -50,6 +50,7 @@ from urllib.request import urlopen, urlretrieve
 
 from bs4 import BeautifulSoup
 
+DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 
 class CSE231GitHub(object):
     '''
@@ -77,7 +78,7 @@ class CSE231GitHub(object):
         Updates all /Project XX/ files from the main course website, and the
         README.md files from its template. 
     
-    update_schedule()
+    update_schedules()
         Creates and/or modifies schedule.html and project_dates.json, two files
         that are used by the other method functions. This method is always ran
         at instantiation. 
@@ -129,7 +130,10 @@ class CSE231GitHub(object):
 
         self.progressbar = {'width': 14, 'fill': '⬛', 'empty': '⬜'}
 
-        self.update_schedule()
+        self.update_schedules(
+            prelab_day=self.course_info['prelab_day'],
+            lab_day=self.course_info['lab_day']
+            )
 
     def update_all(self, package:bool=True) -> None:
         '''
@@ -178,8 +182,8 @@ class CSE231GitHub(object):
 
         today = datetime.now()
 
-        sem_fday = datetime(*self.course_info['semester_first_day'])
-        sem_lday = datetime(*self.course_info['semester_last_day'])
+        sem_fday = datetime(*self.course_info['course_start'])
+        sem_lday = datetime(*self.course_info['course_end'])
 
         N = sem_lday - sem_fday  # number of days in the semester
         n = sem_lday - today     # number of days from now until the end of the semester
@@ -304,98 +308,112 @@ class CSE231GitHub(object):
         else:
             print('Done.\n')
 
-    def update_schedule(self) -> None:
+    def update_schedules(self, prelab_day:str=None, lab_day:str=None) -> None:
         '''
         Creates and/or modifies schedule.html and project_dates.json, two files
         that are used by the other method functions. This method is always ran
         at instantiation. 
 
-        "Ew Braedyn what the hell is this? Why are you not using CSS!?"
+        Parameters
+        ----------
+            prelab_day : A custom pre-lab day, title-case abbreviated format.
+            lab_day : A custom lab day, title-case abbreviated format. 
+        
+        Notes
+        -----
+        If prelab_day is None, pre-labs will be assigned on the day of the lab.
+        If lab_day is None, labs will be assigned to the day followed by the
+        due dates page of the website. 
 
-        At the time of writing, you cannot run CSS scripts in GitHub repos.
-        If I were able to run CSS on here, most of this function would be
-        unnecessary. Thus, we have Python-generated HTML 🤷🏼‍♀️
-
-        Was pretty fun to make ngl.
+        This function shifts the pre-labs/labs on a week-by-week basis. So if
+        Lab 01 is due on week 1, and lab_day="Thu", Lab 01 will be shifted to be
+        due on Thursday of week 1. 
         '''
 
-        print('Updating "schedule.html" and "project_dates.json"')
-        print('These files must be updated before any method functions can run, please wait...')
+        print('Updating "schedule.html" and "project_dates.json"...')
 
         soup = BeautifulSoup(urlopen(self.course_info['schedule_url']), features='html.parser')
-
-        td_deltas = self._get_td_deltas(soup)
-
-        schedule_fp = open('assets/schedule.html', 'w+')
-        project_dates_fp = open('assets/project_dates.json', 'w+')
+        td_deltas = self._get_td_deltas(soup.find('thead').find_all('th'))
+        calendar = self._create_calendar()
 
         project_dates = {}
 
-        print('<table>', file=schedule_fp)
-        print(soup.find('thead'), file=schedule_fp)
-        print('<tbody>', file=schedule_fp)
+        for week_n, tr in enumerate(soup.find('tbody').find_all('tr')):
 
-        for tr in soup.find('tbody').find_all('tr'):
-
-            print('<tr>', file=schedule_fp)
+            initial_date = datetime(*calendar[week_n]['Sun']['attributes'])
+            has_lab = False  # flag to determine if the week has a lab or not
 
             for i, td in enumerate(tr.find_all('td')):
 
-                if i not in td_deltas:  # handles the last row (has one more column for some reason)
-                    break
+                if i not in td_deltas:  # handles last row (has one extra column for some reason)
+                    break 
+                if i == 0:  # 0th column is always the week number
+                    continue
 
                 td = td.text.strip()
 
-                if i == 0:  # first column is the week number and initial date
-                    colon_index = td.find(':')
-                    week = int(td[:colon_index])
-                    date = td[colon_index + 2:]
-
-                    slash_index = date.find('/')
-                    month = int(date[:slash_index])
-                    day = int(date[slash_index + 1:])
-
-                    print('<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(week, month, day), file=schedule_fp)
-
-                    init_datet = datetime(int(self.course_info['year']), month, day)
+                if td == '':  # if calendar cell has no assignment/text
+                    continue
                 
+                # calculates the date adjusted by the amount of days from the initial_date (Sunday of each week)
+                shifted_date = initial_date + timedelta(td_deltas[i])
+                day = shifted_date.strftime('%a')  # Union['Sun', 'Mon', 'Tue', ...]
+                pretty_date = self._get_pretty_date(shifted_date)   # prettier date format for hovertext
+
+                if 'read' in td.lower():
+                    calendar[week_n][day]['html'] = '<a title="On: {}" href="{}">{}</a>'.format(pretty_date, self.course_info['week_urls'][str(week_n)], td)
+                elif 'exercise' in td.lower():
+                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="https://class.mimir.io">{}</a>'.format(pretty_date, td)
+                elif 'exam' in td.lower():
+                    calendar[week_n][day]['html'] = '<a title="On: {}" href="#exam-information">{}</a>'.format(pretty_date, td)
+                elif 'proj' in td.lower():
+                    proj_n = int(td[-2:])
+                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
+                    project_dates['proj{:02d}'.format(proj_n)] = pretty_date
+                
+                elif 'lab' in td.lower():
+                    has_lab = True
+                    lab_n = int(td[td.find(' '):])
+
+                    if lab_n == 0:
+                        calendar[week_n][day]['html'] = '<a title="Due: {}" href="Lab%2000">Lab 00</a>'.format(pretty_date)
+
+                    if lab_day is None and prelab_day is None:
+                        lab_day = prelab_day = day 
+                    elif lab_day is None and prelab_day is not None:
+                        lab_day = day 
+                    elif lab_day is not None and prelab_day is None:
+                        prelab_day = lab_day
+
                 else:
-                    full_date = self._expand_date(init_datet + timedelta(td_deltas[i]))
-                    
-                    if td == '':
-                        print('<td align="center"></td>', file=schedule_fp)
-                    elif 'read' in td.lower():
-                        print('<td><a title="On: {}" href="{}">{}</a></td>'.format(full_date, self.course_info['week_urls'][str(week)], td), file=schedule_fp)
-                    elif 'exercise' in td.lower():
-                        print('<td align="center"><a title="Due: {}" href="https://class.mimir.io">{}</a></td>'.format(full_date, td), file=schedule_fp)
-                    elif 'exam' in td.lower():
-                        print('<td align="center"><a title="On: {}" href="#exam-information">{}</a></td>'.format(full_date, td), file=schedule_fp)
+                    calendar[week_n][day]['html'] = '<div title="On: {}">{}</div>'.format(pretty_date, td.title())
 
-                    elif 'lab' in td.lower():
-                        lab_n = int(td[td.find(' '):])
-                        if lab_n == 0:  # accounts for lab 00 not having a pre-lab
-                            print('<td align="center"><a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(full_date, n=lab_n), file=schedule_fp)
-                        else:
-                            print('<td align="center"><a title="Due: {full_date}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab</a> / <a title="Due: {full_date}" href="Lab%20{n:02d}">Lab {n:02d}</a></td>'.format(full_date=full_date, n=lab_n), file=schedule_fp)
 
-                    elif 'proj' in td.lower():
-                        proj_n = int(td[-2:])
-                        project_dates['proj{:02d}'.format(proj_n)] = full_date
-                        print('<td align="center"><a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a></td>'.format(full_date, n=proj_n), file=schedule_fp)
+            if lab_n == 0 or has_lab == False:  # skips pre-lab/lab insertion if lab 0 or if week has no lab
+                continue
 
-                    else:
-                        print('<td align="center"><div title="On: {}">{}</div></td>'.format(full_date, td.title()), file=schedule_fp)
+            lab_html = '<a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a>'.format(calendar[week_n][lab_day]['date'], n=lab_n)
+            prelab_html = '<a title="Due: {}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>'.format(calendar[week_n][prelab_day]['date'], n=lab_n)
+            
+            if calendar[week_n][lab_day]['html'] != '':
+                calendar[week_n][lab_day]['html'] = lab_html + ' / ' + calendar[week_n][lab_day]['html']
+            else:
+                calendar[week_n][lab_day]['html'] = lab_html
+            
+            if calendar[week_n][prelab_day]['html'] != '':
+                calendar[week_n][prelab_day]['html'] = prelab_html + ' / ' + calendar[week_n][prelab_day]['html']
+            else:
+                calendar[week_n][prelab_day]['html'] = prelab_html
+            
+            has_lab = False
 
-            print('</tr>', file=schedule_fp)
-        print('</tbody>', file=schedule_fp)
-        print('</table>', file=schedule_fp)
-
+        project_dates_fp = open('assets/project_dates.json', 'w+')
         json.dump(project_dates, project_dates_fp, indent=4)
-
-        schedule_fp.close()
         project_dates_fp.close()
 
-        print('Done. Method functions are now accessible.\n')
+        self._process_html_calendar(calendar)
+
+        print("Done.\n")
 
     def package(self, folder_type:Union['proj', 'lab']) -> None:
         '''
@@ -487,14 +505,69 @@ class CSE231GitHub(object):
         fill_w = floor(p * self.progressbar['width'])
         return (fill_w * self.progressbar['fill']) + (self.progressbar['empty'] * (self.progressbar['width'] - fill_w))
 
-    def _get_td_deltas(self, soup:BeautifulSoup) -> dict:
+    def _process_html_calendar(self, calendar:dict) -> None:
+        '''
+        Parses the calendar dictionary into an HTML file used
+        by master README.md. 
+
+        Parameters
+        ----------
+            calendar : The calendar dictionary.
+        '''
+
+        fp_out = open('assets/schedule.html', 'w+')
+
+        headers = {'Week', }
+        for week_dict in calendar.values():
+            for day, day_dict in week_dict.items():
+                if day_dict['html'] != '':
+                    headers.add(day)
+        
+        headers = sorted(
+                headers, 
+                key=lambda head: {'Week': 0, 'Sun': 1, 'Mon': 2, 'Tue': 3, 'Wed': 4, 'Thu': 5, 'Fri': 6, 'Sat': 7}[head]
+                )
+
+        print('<table>', file=fp_out)
+
+        print('<thead>', file=fp_out)
+        print('<tr>', file=fp_out)
+        for head in headers:
+            print('<th align="center">{}</th>'.format(head), file=fp_out)
+        print('</tr>', file=fp_out)
+        print('</thead>', file=fp_out)
+
+        print('<tbody>', file=fp_out)
+        for week_n, week_dict in calendar.items():
+            print('<tr>', file=fp_out)
+            print('<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(
+                week_n, 
+                week_dict['Sun']['attributes'][1],
+                week_dict['Sun']['attributes'][2]
+                ),
+                file=fp_out
+            )
+            for day, day_dict in week_dict.items():
+                if day in headers:
+                    if 'read' in day_dict['html'].lower():
+                        print('<td>{}</td>'.format(day_dict['html']), file=fp_out)
+                    else:
+                        print('<td align="center">{}</td>'.format(day_dict['html']), file=fp_out)
+            print('</tr>', file=fp_out)
+        print('</tbody>', file=fp_out)
+
+        print('</table>', file=fp_out)
+
+        fp_out.close()
+
+    def _get_td_deltas(self, th_list:list) -> dict:
         '''
         Creates a mapping of HTML td tag iterations to timedeltas
         of the included days of the week.
 
         Parameters
         ----------
-            soup : BeautifulSoup instance with URL opened.
+            th_list : List of table header tags. 
         
         Returns
         -------
@@ -516,19 +589,59 @@ class CSE231GitHub(object):
         week number and date).
         '''
 
-        week_deltas = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
-
         td_deltas = {}
 
-        for i, th in enumerate(soup.find('thead').find_all('th')):
+        for i, th in enumerate(th_list):
             if i == 0:
                 td_deltas[i] = None 
             else:
-                td_deltas[i] = week_deltas[th.text]
+                td_deltas[i] = DAY_DELTAS[th.text]
         
         return td_deltas
+    
+    def _create_calendar(self) -> dict:
+        '''
+        Creates a "skeleton calendar" with dates and empty
+        HTML attributes. The structure is as follows:
 
-    def _expand_date(self, datet:'datetime') -> str:
+        calendar = {
+            0 : {
+                "Mon" : {
+                    "date" : str,
+                    "attributes" : list,  # [year (int), month (int), day (int)]
+                    "html" : str
+                },
+                ...
+            },
+            ...
+        } 
+        '''
+
+        start_date = datetime(*self.course_info['course_start'])
+        end_date = datetime(*self.course_info['course_end'])
+
+        calendar = {}
+
+        week_n = 0
+        dt = 0
+
+        while (start_date + timedelta(dt)) < end_date:
+            calendar[week_n] = {}
+            for day in DAY_DELTAS.keys():
+                datet = start_date + timedelta(dt)
+
+                calendar[week_n][day] = {
+                    'date': self._get_pretty_date(datet), 
+                    'attributes': [datet.year, datet.month, datet.day],
+                    'html': '',
+                    }
+
+                dt += 1
+            week_n += 1
+        
+        return calendar
+
+    def _get_pretty_date(self, datet:datetime) -> str:
         '''
         Expands out a datetime instance as a string in the form:
             "Weekday, Month Day[Ordinal Suffix] (m/d/y)"
@@ -547,9 +660,9 @@ class CSE231GitHub(object):
 
         ordinal_suffix = self._get_ordinal_suffix(int(date_str_exp[-2:]))
 
-        full_date = date_str_exp + ordinal_suffix + ' ' + date_str_num
+        full_date = (date_str_exp + ordinal_suffix + ' ' + date_str_num).replace('(0', '(').replace('/0', '/').replace(' 0', ' ')  # replaces padding zeroes
 
-        return full_date.replace('(0', '(').replace('/0', '/').replace(' 0', ' ')  # replaces padding zeroes
+        return full_date
 
 
     def _get_ordinal_suffix(self, num:int) -> str:
