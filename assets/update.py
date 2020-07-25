@@ -68,10 +68,7 @@ class CSE231GitHub(object):
 
         self.progressbar = {'width': 14, 'fill': '⬛', 'empty': '⬜'}
 
-        self.update_schedules(
-            prelab_day=self.course_info['prelab_day'],
-            lab_day=self.course_info['lab_day']
-            )
+        self.update_schedules(self.course_info['prelab_day'], self.course_info['lab_day'])
 
     def update_all(self, package:bool=True) -> None:
         '''
@@ -84,14 +81,14 @@ class CSE231GitHub(object):
         '''
 
         print('Updating repository, this may take a few seconds...')
-        print('---------------------------------------------------\n')
+        print((51 * '-') + '\n')
 
         self.update_project_files(package)
         self.update_lab_files(package)
         self.update_readme()
         self.update_syllabus()
 
-        print('---------------------------------------------------')
+        print(51 * '-')
         print('Repository updated.\n')
 
     def update_syllabus(self) -> None:
@@ -163,7 +160,8 @@ class CSE231GitHub(object):
                 
                 os.chdir(folder_name)
 
-                readme_text = self.lab_info_temp.replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)).replace(':help_room_url:', self.course_info['help_room_url'])
+                readme_text = self.lab_info_temp.replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)) \
+                                                .replace(':help_room_url:', self.course_info['help_room_url'])
 
                 readme = open('README.md', 'w+')
                 print(readme_text, file=readme)
@@ -233,7 +231,9 @@ class CSE231GitHub(object):
                 open(name_short + '.py', 'w+').close()
                 file_names.append(name_short + '.py')
 
-            readme_text = self.project_info_temp.replace(':video:', video).replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)).replace(':due:', project_dates[name_short]).replace(':help_room_url:', self.course_info['help_room_url'])
+            readme_text = self.project_info_temp.replace(':video:', video).replace(':n:', str(n)) \
+                                                .replace(':n02d:', '{:02d}'.format(n)).replace(':due:', project_dates[name_short]) \
+                                                .replace(':help_room_url:', self.course_info['help_room_url'])
             
             readme = open('README.md', 'w+')
             print(readme_text, file=readme)
