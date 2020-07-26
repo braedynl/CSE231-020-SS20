@@ -1,0 +1,72 @@
+'''
+Disclaimer:
+
+I know absolutely nothing about cars. This was just put
+together as an example with some surface-level research.
+'''
+
+class Car(object):
+    
+    def __init__(self, owner, model, plate):
+        self.owner = owner
+        self.model = model
+        self.plate = plate
+    
+    def get_acceleration(self, v0, v1, s):
+        '''
+        Calculates the Car's acceleration.
+        
+        Parameters
+        ----------
+            v0 (float): Initial velocity in km/h.
+            v1 (float): Ending velocity in km/h. 
+            s (float): Time (in s) required. 
+        
+        Returns
+        -------
+            float : Car's acceleration in m/s^2
+        '''
+        
+        # formula derivation:
+        # -> a = dv/dt
+        # -> a = (v1 - v0) / (t1 - t0)
+        
+        dv = ((v1 - v0) * 1000) / 3600  # 1 km = 1000 m, 1 h = 3600 s
+        dt = s
+        return dv / dt
+    
+    def __str__(self):
+        return "Car('{}', '{}', '{}')".format(self.owner, self.model, self.plate)
+
+
+class Ford(Car):
+
+    def __init__(self, owner, model, plate):
+        Car.__init__(self, owner, model, plate)  # or: super().__init__(owner, model, plate)
+    
+class Tesla(Car):
+
+    def __init__(self, owner, model, plate):
+        Car.__init__(self, owner, model, plate)  # or: super().__init__(owner, model, plate)
+
+
+ford = Ford('Jack Stratton', '2020 Ford Focus ST', 'ABC-1234')
+
+print(ford.owner)  # has all the attributes from its parent class
+print(ford.model)
+print(ford.plate)
+
+# ...and all of the method functions from its parent class
+print(ford)
+print(ford.get_acceleration(0, 100, 5.7))  # "0-100 km/h in 5.7 seconds", source = www.motor1.com
+
+
+# same deal
+tesla = Tesla('Marques Brownlee', 'Model S', 'A12-BCD')
+
+print(tesla.owner)  # inherited attributes
+print(tesla.model)
+print(tesla.plate)
+
+print(tesla)  # inherited methods
+print(tesla.get_acceleration(0, 60*1.609, 2.7))  # "0 to 60 mph in 2.7 seconds", source = cars.usnews.com
