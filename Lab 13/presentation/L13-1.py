@@ -40,14 +40,15 @@ class Car(object):
 
 
 class Ford(Car):
-
+    
     def __init__(self, owner, model, plate):
         Car.__init__(self, owner, model, plate)  # or: super().__init__(owner, model, plate)
     
 class Tesla(Car):
+    pass
 
-    def __init__(self, owner, model, plate):
-        Car.__init__(self, owner, model, plate)  # or: super().__init__(owner, model, plate)
+    # if you want the exact same constructor as the parent class, you can disregard it entirely.
+    # though, it can make your code a bit vague. I'd recommend doing the method above ^
 
 
 ford = Ford('Jack Stratton', '2020 Ford Focus ST', 'ABC-1234')

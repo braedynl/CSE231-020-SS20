@@ -43,9 +43,6 @@ class Ford(Car):
     
 class Tesla(Car):
 
-    def __init__(self, owner, model, plate):
-        Car.__init__(self, owner, model, plate)
-
     def __str__(self):  # same deal-eo down here
         return "Tesla('{}', '{}', '{}')".format(self.owner, self.model, self.plate)
 

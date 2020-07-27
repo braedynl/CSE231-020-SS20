@@ -54,6 +54,7 @@ from urllib.request import urlopen, urlretrieve
 
 from bs4 import BeautifulSoup
 
+
 DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 
 class CSE231GitHub(object):
@@ -134,7 +135,7 @@ class CSE231GitHub(object):
     
         readme_text = self.__course_info_replace(self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html))
 
-        readme = open('README.md', 'w+')
+        readme = open('README.md', 'w+', encoding='utf8')
         print(readme_text, file=readme)
         readme.close()
 
@@ -615,4 +616,4 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.update_readme()
-    github.update_all(False)
+    github.update_all(True)
