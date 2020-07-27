@@ -236,7 +236,13 @@ In terms of "my thoroughness", (which I know gets talked about by students who h
 
 That being said, you shouldn't shame the other TAs. Most of them are senior CSE majors in 400-level classes, they probably don't have that much time on their hands. Why do _I_ have so much time on _my_ hands? Uhh.. well.. I don't really do much other than school work, I tend to get stuff done quickly. 
 
-**6. How does this repository automatically stay up-to-date with the course website?**
+**6. Are there things, besides assignment answers, that you're not allowed to share with us?**
+
+Yes, but _most_ things that I forbid myself from saying/doing with students is per my own decision. I won't talk to a student about politics, for example, since such a topic could foster contention between me and a student. 
+
+I do, however, likely share a lot more than most TAs. I think being transparent is a good thing, but if a student ever asks about something that has the potential to harm their learning or the learning of others, I'll probably say that I cannot give an answer. 
+
+**7. How does this repository automatically stay up-to-date with the course website?**
 
 There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, home README, and all lab/project files. The update script can be found in /assets/update.py.
 
@@ -246,7 +252,7 @@ The course schedule on the home README literally has its HTML code (the code tha
 
 For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant within the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
 
-**7. How does the progress bar work?**
+**8. How does the progress bar work?**
 
 The number of days in the semester is calculated from dates that I feed it, we'll call this `N`. The program also extracts the date that it's currently running at, we'll call this little `n`. The percentage of completion can then be calculated as `1 - (n / N)`, we'll call this `p`.
 
@@ -281,74 +287,74 @@ empty_num = bar['width'] - fill_num  # number of empty characters we need to com
 bar_str = (fill_num * bar['fill']) + (empty_num * bar['empty'])  # combine
 ```
 
-**8. What are those small messages that appear next to file names?**
+**9. What are those small messages that appear next to file names?**
 
 [Commit messages](https://en.wikipedia.org/wiki/Commit_(version_control)). Whenever I make changes to the repository, one of the common version control practices is to describe what you, as the committer, changed. I keep them extremely brief since I'm the only one working on the repository. You can ignore them, they're more for my sake. 
 
-**9. What is the ".md" file extension that you use?**
+**10. What is the ".md" file extension that you use?**
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown). They're kinda like .txt files, but will convert all text into HTML script internally. I use them because they're easy to write, and allow for extensive formatting. 
 
-**10. What is the ".json" file extension that you use?**
+**11. What is the ".json" file extension that you use?**
 
 [JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON). They're text files that store JavaScript object data, but most programming language (like Python) have libraries that read them. I use it a lot because it's extremely quick and readable.
 
-**11. How did you prepare for CSE231 exams?**
+**12. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**12. How did you do when you took this class?**
+**13. How did you do when you took this class?**
 
 I got a 4.0, but I'm not smart by any means -- I just have _a lot_ of practice because I've been programming since I was a kid. If you're having a hard time, please don't compare your situation to people like me, because it's not the same. Programming is an extremely hard skill to master for a majority of people. The biggest thing you can do is practice. 
 
-**13. Do you use tabs or spaces?**
+**14. Do you use tabs or spaces?**
 
 Tabs, I'm not tryna demolish my spacebar.
 
-**14. Do you know any other programming languages?**
+**15. Do you know any other programming languages?**
 
 C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however (you can tell if you look at my GitHub projects lol).
 
-**15. Does the language you use in the real world matter?**
+**16. Does the language you use in the real world matter?**
 
 Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
 
 If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
 
-**16. What is your ethnic background?**
+**17. What is your ethnic background?**
 
 I'm half white, half Korean. 
 
-**17. Do you have social media?**
+**18. Do you have social media?**
 
 Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me. 
 
-**18. What code editor do you use?**
+**19. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**19. How do you type so fast?**
+**20. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**20. Where can I apply to become a ULA for a CSE course?**
+**21. Where can I apply to become a ULA for a CSE course?**
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that.
 
-**21. Do you need a 4.0 to become a ULA for this class?**
+**22. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**22. Do you need to be a CSE major to become a ULA for this class?**
+**23. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**23. How much do you get paid?**
+**24. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
-**24. Can you give me a referral?**
+**25. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Talk to me about it. 
