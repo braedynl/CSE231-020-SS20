@@ -4,7 +4,7 @@
 
 Due: :due: at 11:59 PM EST
 
-Video introduction: :video:
+Video: :video:
 
 ___
 

@@ -4,7 +4,7 @@
 
 Due: Monday, September 14th (9/14/2020) at 11:59 PM EST
 
-Video introduction: https://www.youtube.com/watch?v=YCpNh2DkRGM
+Video: https://www.youtube.com/watch?v=YCpNh2DkRGM
 
 ___
 
