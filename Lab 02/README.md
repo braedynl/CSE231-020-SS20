@@ -2,9 +2,13 @@
 
 [Download this folder's content (*.zip file)](../assets/packages/lab02_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
 
+Due: Thursday, September 17th (9/17/2020) if you have meetings. Friday, September 18th (9/18/2020) otherwise.
+
+___
+
 The submission page for all labs are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases).
 
-Lab grading is lenient. You do not have to pass all of the test-cases to get full credit, though you should try to. Following the coding standard is not required. 
+Lab grading is lenient. You do not have to pass all of the test-cases to get full credit, though you should try to. I will give you a warning if I need to see more work from you in the future. Following the coding standard is not required, but I encourage it.
 
 Hard-coding a solution will net you a 0% grade for the lab. Wikipedia defines hard-coding as: 
 

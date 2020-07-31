@@ -152,6 +152,8 @@ class CSE231GitHub(object):
 
         print('Updating lab files...')
 
+        lab_dates = json.load(open('assets/lab_dates.json', 'r'))
+
         for folder_name in os.listdir():
             if 'lab' in folder_name.lower() and '.' not in folder_name:
                 n = int(folder_name[-2:])
@@ -161,8 +163,12 @@ class CSE231GitHub(object):
                 
                 os.chdir(folder_name)
 
+                online_date = lab_dates['lab{:02d}'.format(n)][0]
+                lab_date = lab_dates['lab{:02d}'.format(n)][1]
+
                 readme_text = self.lab_info_temp.replace(':n:', str(n)).replace(':n02d:', '{:02d}'.format(n)) \
-                                                .replace(':help_room_url:', self.course_info['help_room_url'])
+                                                .replace(':help_room_url:', self.course_info['help_room_url']) \
+                                                .replace(':online_date:', online_date).replace(':lab_date:', lab_date)
 
                 readme = open('README.md', 'w+')
                 print(readme_text, file=readme)
@@ -276,6 +282,7 @@ class CSE231GitHub(object):
         calendar = self.__create_calendar()
 
         project_dates = {}
+        lab_dates = {}
 
         for week_n, tr in enumerate(soup.find('tbody').find_all('tr')):
 
@@ -305,15 +312,18 @@ class CSE231GitHub(object):
 
                 elif 'proj' in td.lower():
                     proj_n = int(td[-2:])
-                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
                     project_dates['proj{:02d}'.format(proj_n)] = pretty_date
+                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
                 
                 elif 'lab' in td.lower():
                     has_lab = True
+
                     lab_n = int(td[td.find(' '):])
+                    lab_dates['lab{:02d}'.format(lab_n)] = [pretty_date, None]  # lab_dates = { 'labXX': [online_date, lab_date], ... }
 
                     if lab_n == 0:
                         calendar[week_n][day]['html'] = '<a title="Due: {}" href="Lab%2000">Lab 00</a>'.format(pretty_date)
+                        lab_dates['lab00'][1] = calendar[week_n][day]['date']
 
                     if lab_day is None and prelab_day is None:  # if both are None, use date given on website
                         lab_day = prelab_day = day 
@@ -331,6 +341,8 @@ class CSE231GitHub(object):
 
             lab_html = '<a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a>'.format(calendar[week_n][lab_day]['date'], n=lab_n)
             prelab_html = '<a title="Due: {}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>'.format(calendar[week_n][prelab_day]['date'], n=lab_n)
+
+            lab_dates['lab{:02d}'.format(lab_n)][1] = calendar[week_n][lab_day]['date']
             
             if calendar[week_n][lab_day]['html'] != '':
                 calendar[week_n][lab_day]['html'] = lab_html + ' / ' + calendar[week_n][lab_day]['html']
@@ -347,6 +359,10 @@ class CSE231GitHub(object):
         project_dates_fp = open('assets/project_dates.json', 'w+')
         json.dump(project_dates, project_dates_fp, indent=4)
         project_dates_fp.close()
+
+        lab_dates_fp = open('assets/lab_dates.json', 'w+')
+        json.dump(lab_dates, lab_dates_fp, indent=4)
+        lab_dates_fp.close()
 
         self.__process_html_calendar(calendar)
 
