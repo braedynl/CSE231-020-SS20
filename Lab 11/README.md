@@ -2,7 +2,7 @@
 
 [Download this folder's content (*.zip file)](../assets/packages/lab11_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
 
-Due: by the end of class on Thursday, November 19th (11/19/2020) if you have meetings. Friday, November 20th (11/20/2020) at 11:59 PM EST if you are online.
+Due: by the end of class on Friday, November 20th (11/20/2020) if you have meetings. Friday, November 20th (11/20/2020) at 11:59 PM EST if you are online.
 
 ___
 

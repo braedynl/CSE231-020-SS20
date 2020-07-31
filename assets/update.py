@@ -282,7 +282,7 @@ class CSE231GitHub(object):
         calendar = self.__create_calendar()
 
         project_dates = {}
-        lab_dates = {}
+        lab_dates = {}  # lab_dates = { 'labXX': [online_date, lab_date], ... }
 
         for week_n, tr in enumerate(soup.find('tbody').find_all('tr')):
 
@@ -319,7 +319,7 @@ class CSE231GitHub(object):
                     has_lab = True
 
                     lab_n = int(td[td.find(' '):])
-                    lab_dates['lab{:02d}'.format(lab_n)] = [pretty_date, None]  # lab_dates = { 'labXX': [online_date, lab_date], ... }
+                    lab_dates['lab{:02d}'.format(lab_n)] = [pretty_date, None] 
 
                     if lab_n == 0:
                         calendar[week_n][day]['html'] = '<a title="Due: {}" href="Lab%2000">Lab 00</a>'.format(pretty_date)

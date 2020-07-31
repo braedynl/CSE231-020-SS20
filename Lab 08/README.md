@@ -2,7 +2,7 @@
 
 [Download this folder's content (*.zip file)](../assets/packages/lab08_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
 
-Due: by the end of class on Thursday, October 29th (10/29/2020) if you have meetings. Friday, October 30th (10/30/2020) at 11:59 PM EST if you are online.
+Due: by the end of class on Friday, October 30th (10/30/2020) if you have meetings. Friday, October 30th (10/30/2020) at 11:59 PM EST if you are online.
 
 ___
 
