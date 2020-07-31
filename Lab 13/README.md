@@ -2,7 +2,7 @@
 
 [Download this folder's content (*.zip file)](../assets/packages/lab13_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
 
-Due: Thursday, December 10th (12/10/2020) if you have meetings. Friday, December 11th (12/11/2020) otherwise.
+Due: by the end of class on Thursday, December 10th (12/10/2020) if you have meetings. Friday, December 11th (12/11/2020) at 11:59 PM EST if you are online.
 
 ___
 

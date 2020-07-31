@@ -2,7 +2,7 @@
 
 [Download this folder's content (*.zip file)](../assets/packages/lab02_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
 
-Due: Thursday, September 17th (9/17/2020) if you have meetings. Friday, September 18th (9/18/2020) otherwise.
+Due: by the end of class on Thursday, September 17th (9/17/2020) if you have meetings. Friday, September 18th (9/18/2020) at 11:59 PM EST if you are online.
 
 ___
 
