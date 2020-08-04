@@ -12,7 +12,7 @@ If you're on MacOS, all shortcuts involving CTRL use CMD, unless specified other
 - CTRL + [
     - Un-indents current/highlighted line(s)
 
-Hitting ENTER/RETURN after a colon (`:`) will automatically indent the next line for you (e.g. a conditional or loop expression).
+Hitting ENTER/RETURN after a colon (`:`) will automatically indent the next line for you (e.g. after a conditional or loop expression).
 
 **Convenience**
 - CTRL + 1
