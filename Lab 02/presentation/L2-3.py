@@ -1,16 +1,15 @@
 
-n = 3
-for i in range(n): # 0 1 2, just 'stop' parameter
-    print(i)
-print()
+# We get an initial answer
+answer = input("Please say 'Hi': ")
 
-for i in range(2, 5): # 2 3 4, 'start' and 'stop'
-    print(i)
-print() 
+# If the answer is not 'Hi', keep running
+while answer != "Hi":
 
-for i in range(1, 9, 2): # 1 3 5 7, 'start', 'stop', 'step'
-    print(i)
-print()
+    print("You don't want to say Hi?")
+    
+    # Here, we keep redefining 'answer' with the input
+    # until we get our desired message, 'Hi'
+    answer = input("Let's try again... say 'Hi': ")
 
-for letter in "word": # Iterate through the characters in a string
-    print(letter)
+# This line will only run if the while-loop doesn't
+print("Thanks for saying Hi!")
