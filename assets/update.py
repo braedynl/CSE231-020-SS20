@@ -52,6 +52,8 @@ from typing import Union
 from urllib.error import HTTPError
 from urllib.request import urlopen, urlretrieve
 
+from pytz import timezone
+
 from bs4 import BeautifulSoup
 
 
@@ -116,10 +118,12 @@ class CSE231GitHub(object):
 
         schedule_html = open('assets/schedule.html', 'r').read()
 
-        today = datetime.now()
+        today = datetime.now(tz=timezone('US/Eastern'))
 
-        semester_start = datetime(*self.course_info['semester_start'])
-        semester_end = datetime(*self.course_info['semester_end'])
+        refresh = today.strftime('%m/%d/%Y %H:%M:%S EST')
+
+        semester_start = datetime(*self.course_info['semester_start'], tzinfo=timezone('US/Eastern'))
+        semester_end = datetime(*self.course_info['semester_end'], tzinfo=timezone('US/Eastern'))
 
         N = semester_end - semester_start  # number of days in the semester
         n = semester_end - today     # number of days from now until the end of the semester
@@ -133,7 +137,7 @@ class CSE231GitHub(object):
         
         bar_html = '<div align="center"><b>Semester Progress ({:.0%})</b></div>\n<div align="center">{}</div>'.format(p, bar_str)
     
-        readme_text = self.__course_info_replace(self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html))
+        readme_text = self.__course_info_replace(self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html).replace(':refresh:', refresh))
 
         readme = open('README.md', 'w+', encoding='utf8')
         print(readme_text, file=readme)
@@ -631,6 +635,6 @@ class CSE231GitHub(object):
 if __name__ == "__main__":
     github = CSE231GitHub()
 
-    # github.update_readme()
+    github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)

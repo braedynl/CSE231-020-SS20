@@ -49,6 +49,8 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
+Last Refresh: 08/04/2020 18:23:36 EST
+
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
 Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
