@@ -2,6 +2,15 @@
 
 Frequent student questions that I've been collecting over the years. If the answer to your question ain't in here, I'd be surprised. 
 
+Jump to section:
+1. [Where can I find...](#where-can-i-find...)
+2. [Assignment/Exam Grades](#assignment/exam-grades)
+3. [Meta](#meta)
+4. [CSE Computing System](#cse-computing-system)
+5. [Spyder](#spyder)
+6. [Academic Dishonesty Reports](#academic-dishonesty-reports)
+7. [Miscellaneous/Personal](#miscellaneous/personal)
+
 ## Where can I find...
 
 **1. pre-lab XX?**
