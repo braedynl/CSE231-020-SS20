@@ -149,3 +149,9 @@ Stay safe. These trackers are automatically updated on a daily basis, and are sc
 :covid_data:
 
 Last Refresh: :refresh:
+
+<div align="center"><img src="assets/images/covid_data.png"></img></div>
+
+*Counties were chosen based on the most populous cities in Michigan that are within them.
+
+**Want your county represented? Email me (letting4@msu.edu), I'd be happy to add yours!

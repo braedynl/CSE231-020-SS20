@@ -55,6 +55,8 @@ from urllib.request import urlopen, urlretrieve
 from bs4 import BeautifulSoup
 from pytz import timezone
 
+import update_graph
+
 DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 
 class CSE231GitHub(object):
@@ -113,6 +115,10 @@ class CSE231GitHub(object):
         '''
 
         print('Updating master "README.md"...')
+
+        print('Updating COVID-19 Data...')
+        update_graph.main()
+        print('Done.')
 
         schedule_html = open('assets/schedule.html', 'r').read()
 
