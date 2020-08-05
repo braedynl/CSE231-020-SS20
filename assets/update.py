@@ -139,10 +139,10 @@ class CSE231GitHub(object):
         stat_container = soup.find('section', attrs={'class':'stat-container'}).find_all('p')
 
         covid_data = ''
-        covid_data += '- **Total Confirmed Cases:** {}\n'.format(stat_container[1].text)
-        covid_data += '- **Total COVID-19 Deaths:** {}\n'.format(stat_container[3].text)
-        covid_data += '- **Daily Confirmed Cases:** {}\n'.format(stat_container[5].text)
-        covid_data += '- **Daily COVID-19 Deaths:** {}'.format(stat_container[7].text)
+        covid_data += '- **Total Confirmed Cases:** {}\n'.format(stat_container[1].text.replace('*', ''))
+        covid_data += '- **Total COVID-19 Deaths:** {}\n'.format(stat_container[3].text.replace('*', ''))
+        covid_data += '- **Daily Confirmed Cases:** {}\n'.format(stat_container[5].text.replace('*', ''))
+        covid_data += '- **Daily COVID-19 Deaths:** {}'.format(stat_container[7].text.replace('*', ''))
     
         readme_text = self.__course_info_replace(
             self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html)\
