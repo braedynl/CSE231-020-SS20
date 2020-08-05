@@ -75,6 +75,12 @@ Labs are meant as practice material for all other assignments in the course. Bec
 
 Whether you pass is not determined by the test-cases alone. You are expected to have close and/or similar results to the expected outputs, but absolute perfection isn't a requirement. We keep this intentionally vague.
 
+Hard-coding a solution will net you a 0% grade for the lab. Wikipedia defines hard-coding as: 
+
+> "... the software development practice of embedding data directly into the source code of a program or other executable object, as opposed to obtaining the data from external sources or generating it at run-time."
+
+Some examples are (but not limited to): copying Mimir's expected output and printing it directly, copying a line or multiple lines directly from a file and placing it in your program, developing an algorithm that assumes too much about the inputs/data (and wouldn't work with other inputs/data that follow the same structure). 
+
 From the syllabus:
 > Students who get a zero ("no credit") on more than two (2) laboratory exercises will have their course grade reduced by 0.5 for _each laboratory exercise missed beyond two_. For example, if a student had sufficient points to normally earn a 3.0, but obtained four (4) zeroes on the laboratory exercises, that student's grade will be reduced by 2\*0.5, i.e. they will earn a 2.0 course grade.
 

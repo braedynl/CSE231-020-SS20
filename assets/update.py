@@ -17,30 +17,9 @@ stuff and inefficiencies.
 
 Have fun exploring!
 
-                        ｔｈｏｎｋ
-        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣤⣶⣶⣤⣤⣤⣀⡀
-        ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⡿⠟⠛⠋⠉⠉⠉⠉⠉⠉⠙⠛⠻⢿⣶⣤⡀
-        ⠀⠀⠀⠀⠀⠀⣠⣾⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⣄
-        ⠀⠀⠀⠀⣠⣾⠋⣩⣶⡿⠿⠿⢿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣷⣄
-        ⠀⠀⠀⣴⡟⠁⠀⠋⠁⠀⠀⠀⢀⠀⠉⠀⠀⠀⠀⠀⠀⣤⣴⣶⡶⠶⠶⠶⠤⠀⠈⢻⣦
-        ⠀⠀⣼⡟⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⡄⠀⠀⠀⠀⠀⠀⢀⣠⣤⡀⠀⠀⠀⠀⠀⠀⠀⢻⣧
-        ⠀⢰⡿⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⣾⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⢿⡆
-        ⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠁⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿
-        ⢠⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡄
-        ⠘⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠃
-        ⠀⣿⣷⠀⠀⠀⣠⣄⡀⠀⠀⠀⠀⢀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿
-        ⠀⠸⣿⣇⠀⢸⠁⠈⢳⠀⠀⠀⠘⠛⠛⠛⠛⠛⠻⠿⠶⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⠇
-        ⠀⠀⢻⣿⣦⣾⠇⠀⢸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡟
-        ⠀⠀⠀⠻⣿⡿⠀⠀⠘⢿⣶⣤⡤⠤⠤⠄⠒⠒⠈⠉⠉⣩⡄⠀⠀⠀⠀⠀⠀⠀⢠⣿⠟
-        ⠀⠀⠀⠀⠙⡇⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣴⣶⣾⠿⠋⠀⠀⠀⠀⠀⠀⢀⣴⡿⠋
-        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⣠⣴⡿⠋
-        ⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⣿⣧⠀⠀⠀⣀⣠⣤⣶⠿⠛⠁
-        ⠀⠀⠀⠀⠀⠹⣆⠀⠀⠀⠀⠀⢀⣀⣰⣿⠻⠿⠿⠛⠛⠛⠉⠁
-        ⠀⠀⠀⠀⠀⠀⠙⠻⠶⠶⠾⠿⠿⠟⠛⠁
-
 GitHub: https://github.com/braedynl/CSE231-GITHUB
 Author: Braedyn Lettinga
-Dependencies: BeautifulSoup
+Dependencies: BeautifulSoup, matplotlib, numpy, pandas, seaborn
 '''
 
 import json
@@ -180,8 +159,7 @@ class CSE231GitHub(object):
             if 'lab' in folder_name.lower() and '.' not in folder_name:
                 n = int(folder_name[-2:])
 
-                if n == 0:  # lab 00 is updated manually by me
-                    continue
+                if n == 0: continue  # lab 00 is updated manually by me
                 
                 os.chdir(folder_name)
 
@@ -198,10 +176,8 @@ class CSE231GitHub(object):
 
                 os.chdir('..')
         
-        if package:
-            self.package('lab')
-        else:
-            print('Done.\n')
+        if package: self.package('lab')
+        else: print('Done.\n')
         
     def update_project_files(self, package:bool=True) -> None:
         '''
@@ -224,10 +200,8 @@ class CSE231GitHub(object):
             name_expanded = 'Project {:02d}'.format(n)
             name_short = 'proj{:02d}'.format(n)
 
-            try:
-                soup = BeautifulSoup(urlopen(complete_url), features='html.parser')
-            except HTTPError:
-                break
+            try: soup = BeautifulSoup(urlopen(complete_url), features='html.parser')
+            except HTTPError: break
             
             subdir = '{}/'.format(name_expanded)
             if not os.path.exists(subdir):
@@ -270,10 +244,8 @@ class CSE231GitHub(object):
 
             os.chdir('..')
         
-        if package:
-            self.package('proj')
-        else:
-            print('Done.\n')
+        if package: self.package('proj')
+        else: print('Done.\n')
 
     def update_schedules(self, prelab_day:str=None, lab_day:str=None) -> None:
         '''
@@ -358,8 +330,7 @@ class CSE231GitHub(object):
                     calendar[week_n][day]['html'] = '<div title="On: {}">{}</div>'.format(pretty_date, td.title())
 
 
-            if lab_n == 0 or has_lab == False:  # skips pre-lab/lab insertion if lab 0 or if week has no lab
-                continue
+            if lab_n == 0 or has_lab == False: continue  # skips pre-lab/lab insertion if lab 0 or if week has no lab
 
             lab_html = '<a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a>'.format(calendar[week_n][lab_day]['date'], n=lab_n)
             prelab_html = '<a title="Due: {}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>'.format(calendar[week_n][prelab_day]['date'], n=lab_n)
@@ -438,6 +409,7 @@ class CSE231GitHub(object):
             for filename in files:
                 filepath = os.path.join(root, filename)
                 file_paths.append(filepath)
+
         return file_paths
 
     def __course_info_replace(self, text:str) -> str:
@@ -455,10 +427,9 @@ class CSE231GitHub(object):
         '''
 
         for key, value in self.course_info.items():
-            try:
-                text = text.replace(':{}:'.format(key), value)
-            except:
-                continue
+            try: text = text.replace(':{}:'.format(key), value)
+            except: continue
+
         return text
 
     def __create_bar_str(self, p:float) -> str:
@@ -474,9 +445,8 @@ class CSE231GitHub(object):
             str : The corresponding progress bar to `p`. 
         '''
 
-        if p < 0:
-            return self.progressbar['empty'] * self.progressbar['width']
-        
+        if p < 0: return self.progressbar['empty'] * self.progressbar['width']
+
         fill_w = floor(p * self.progressbar['width'])
         return (fill_w * self.progressbar['fill']) + (self.progressbar['empty'] * (self.progressbar['width'] - fill_w))
 
@@ -549,6 +519,7 @@ class CSE231GitHub(object):
         print('<tbody>', file=fp_out)
         for week_n, week_dict in calendar.items():
             print('<tr>', file=fp_out)
+
             print('<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(
                 week_n, 
                 week_dict['Sun']['attributes'][1],  # month
@@ -562,6 +533,7 @@ class CSE231GitHub(object):
                         print('<td>{}</td>'.format(day_dict['html']), file=fp_out)
                     else:
                         print('<td align="center">{}</td>'.format(day_dict['html']), file=fp_out)
+
             print('</tr>', file=fp_out)
         print('</tbody>', file=fp_out)
 
@@ -602,11 +574,9 @@ class CSE231GitHub(object):
         td_deltas = {}
 
         for i, th in enumerate(th_list):
-            if i == 0:
-                td_deltas[i] = None 
-            else:
-                td_deltas[i] = DAY_DELTAS[th.text]
-        
+            if i == 0: td_deltas[i] = None 
+            else: td_deltas[i] = DAY_DELTAS[th.text]
+
         return td_deltas
     
     def __create_calendar(self) -> dict:
@@ -696,4 +666,4 @@ if __name__ == "__main__":
     # github.package('lab')
     # github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    github.update_all(False)
