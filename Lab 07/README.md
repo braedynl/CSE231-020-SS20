@@ -28,7 +28,7 @@ There is a file named [SHORTCUTS.md](../SHORTCUTS.md) on here that is a huge lis
 
 ## Mimir Test-Case Explanation, Fixing Diff Descrepancies
 
-When you click on a Mimir test-case, it will show a few things: the input of the test-case (what Mimir tried entering to your `input()` prompt(s)), your code's output (any expressions that displayed text to the console, such as `print()` statements, or the prompt given to `input()`), the correct output of the test case (what you should be outputting *based on* Mimir's input(s)), and two "diff" windows.
+When you click on a Mimir test-case, it will show a few things: the input of the test-case (what Mimir tried entering to your `input()` call(s)), your code's output (any expressions that displayed text to the console, such as `print()` statements, or the prompt argument given to `input()`), the correct output of the test case (what you should be outputting *based on* Mimir's input(s)), and two "diff" windows.
 
 Think of diffs as small programs that examine the differences between your code's output and the expected output. The "unix diff" shows what lines in your output (the top-half, above the "`---`") are different from the lines in the expected output (the bottom-half, below the "`---`"). I would simply look at the unix diff window for this purpose alone. The numeric codes that you'll see, e.g. "`3,2c4,9`", tend to be hard to understand for most new programmers. The "pretty diff" is much more understandable. You can read about the unix diff [here](https://www.computerhope.com/unix/udiff.htm) if you're interested. 
 

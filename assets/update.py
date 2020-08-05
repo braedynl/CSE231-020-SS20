@@ -118,7 +118,6 @@ class CSE231GitHub(object):
 
         print('Updating COVID-19 Data...')
         update_graph.main()
-        print('Done.')
 
         schedule_html = open('assets/schedule.html', 'r').read()
 
@@ -653,6 +652,6 @@ class CSE231GitHub(object):
 if __name__ == "__main__":
     github = CSE231GitHub()
 
-    github.update_readme()
+    # github.update_readme()
     # github.update_project_files(True)
-    # github.update_all(True)
+    github.update_all(True)
