@@ -52,12 +52,16 @@ from typing import Union
 from urllib.error import HTTPError
 from urllib.request import urlopen, urlretrieve
 
+import matplotlib.pyplot as plt
+import pandas as pd
 from bs4 import BeautifulSoup
+from matplotlib.dates import DateFormatter, drange
 from pytz import timezone
 
-import update_graph
+import seaborn; seaborn.set()
 
 DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
+PLOT_COUNTIES = ['Wayne', 'Kent', 'Washtenaw', 'Ingham', 'Macomb']
 
 class CSE231GitHub(object):
 
@@ -116,8 +120,7 @@ class CSE231GitHub(object):
 
         print('Updating master "README.md"...')
 
-        print('Updating COVID-19 Data...')
-        update_graph.main()
+        self.__update_plot()
 
         schedule_html = open('assets/schedule.html', 'r').read()
 
@@ -477,6 +480,44 @@ class CSE231GitHub(object):
         fill_w = floor(p * self.progressbar['width'])
         return (fill_w * self.progressbar['fill']) + (self.progressbar['empty'] * (self.progressbar['width'] - fill_w))
 
+    def __update_plot(self) -> None:
+        '''
+        Downloads the latest Michigan COVID-19 case data and creates
+        a matplotlib figure. 
+        '''
+
+        filename = 'assets/covid_data.xlsx'
+
+        soup = BeautifulSoup(urlopen('https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html'), features='html.parser')
+        link = 'https://www.michigan.gov' + soup.find('a', text='Cases by County by Date').get('href')
+        urlretrieve(link, filename=filename)
+
+        df = pd.read_excel(filename, sheet_name='Data', dtype=str)
+        df = df[df['CASE_STATUS'] == 'Confirmed']
+        df = df[df['COUNTY'].isin(PLOT_COUNTIES)]
+
+        _, ax = plt.subplots()
+
+        for county in PLOT_COUNTIES:
+            county_data = df[df['COUNTY'] == county]
+
+            d1 = datetime.strptime(county_data.head(1)['Date'].values[0][:10], '%Y-%m-%d')
+            d2 = datetime.strptime(county_data.tail(1)['Date'].values[0][:10], '%Y-%m-%d')
+            delta = timedelta(1)
+
+            dates = drange(d1, d2 + delta, delta)
+            cases = county_data['Cases'].to_numpy(dtype=int)
+
+            ax.plot_date(dates, cases, '-', label=county)
+
+        ax.xaxis.set_major_formatter(DateFormatter('%m/%d/%Y'))
+        ax.set_title('Confirmed Cases of COVID-19 in Michigan by County')
+        ax.set_xlabel('Date')
+        ax.set_ylabel('Confirmed Cases')
+        ax.legend()
+
+        plt.savefig('assets/images/covid_data.png')
+
     def __process_html_calendar(self, calendar:dict) -> None:
         '''
         Parses the calendar dictionary into an HTML file used
@@ -652,6 +693,7 @@ class CSE231GitHub(object):
 if __name__ == "__main__":
     github = CSE231GitHub()
 
+    # github.package('lab')
     # github.update_readme()
     # github.update_project_files(True)
     github.update_all(True)
