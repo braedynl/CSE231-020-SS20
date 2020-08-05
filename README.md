@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 08/05/2020 16:40:25 EST
+Last Refresh: 08/05/2020 16:48:58 EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -306,17 +306,19 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 ## COVID-19 in Michigan
 
-Stay safe. These trackers are automatically updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
+Stay safe. These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
 
 - **Total Confirmed Cases:** 84,707
 - **Total COVID-19 Deaths:** 6,221
 - **Daily Confirmed Cases:** 657
 - **Daily COVID-19 Deaths:** 2
 
-Last Refresh: 08/05/2020 16:40:25 EST
+Last Refresh: 08/05/2020 16:48:58 EST
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
-*Counties were chosen based on the most populous cities in Michigan that are within them.
+[View Source](https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html)
 
-**Want your county represented? Email me (letting4@msu.edu), I'd be happy to add yours!
+*Counties were chosen based on the most populous [cities in Michigan](https://en.wikipedia.org/wiki/List_of_municipalities_in_Michigan).
+
+**Want your county represented? Feel free to [contact me](#braedyn-lettinga) about it!

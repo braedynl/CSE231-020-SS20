@@ -144,7 +144,7 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 ## COVID-19 in Michigan
 
-Stay safe. These trackers are automatically updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
+Stay safe. These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
 
 :covid_data:
 
@@ -152,6 +152,8 @@ Last Refresh: :refresh:
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
-*Counties were chosen based on the most populous cities in Michigan that are within them.
+[View Source](https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html)
 
-**Want your county represented? Email me (letting4@msu.edu), I'd be happy to add yours!
+*Counties were chosen based on the most populous [cities in Michigan](https://en.wikipedia.org/wiki/List_of_municipalities_in_Michigan).
+
+**Want your county represented? Feel free to [contact me](#braedyn-lettinga) about it!
