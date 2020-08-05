@@ -145,6 +145,8 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 :covid_data:
 
-Stay safe, my friends. These trackers are automatically updated on a daily basis, and are scraped directly from the [State of Michigan's website](https://www.michigan.gov/Coronavirus). 
+&nbsp;
+
+Stay safe, my friends. These trackers are automatically updated on a daily basis, and are scraped directly from the [State of Michigan's website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
 
 Last Refresh: :refresh:
