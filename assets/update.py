@@ -139,10 +139,10 @@ class CSE231GitHub(object):
         stat_container = soup.find('section', attrs={'class':'stat-container'}).find_all('p')
 
         covid_data = ''
-        covid_data += '<div align="center">Total Confirmed Cases: <b>{}</b></div>\n'.format(stat_container[1].text)
-        covid_data += '<div align="center">Total COVID-19 Deaths: <b>{}</b></div>\n'.format(stat_container[3].text)
-        covid_data += '<div align="center">Daily Confirmed Cases: <b>{}</b></div>\n'.format(stat_container[5].text)
-        covid_data += '<div align="center">Daily COVID-19 Deaths: <b>{}</b></div>'.format(stat_container[7].text)
+        covid_data += '- Total Confirmed Cases: {}\n'.format(stat_container[1].text)
+        covid_data += '- Total COVID-19 Deaths: {}\n'.format(stat_container[3].text)
+        covid_data += '- Daily Confirmed Cases: {}\n'.format(stat_container[5].text)
+        covid_data += '- Daily COVID-19 Deaths: {}'.format(stat_container[7].text)
 
         covid_data = covid_data.replace('*', '')
     
@@ -492,6 +492,7 @@ class CSE231GitHub(object):
             key=lambda head: {'Week': 0, 'Sun': 1, 'Mon': 2, 'Tue': 3, 'Wed': 4, 'Thu': 5, 'Fri': 6, 'Sat': 7}[head]
             )
 
+        print('<div align="center">', file=fp_out)
         print('<table>', file=fp_out)
 
         print('<thead>', file=fp_out)
@@ -521,6 +522,7 @@ class CSE231GitHub(object):
         print('</tbody>', file=fp_out)
 
         print('</table>', file=fp_out)
+        print('</div>', file=fp_out)
 
         fp_out.close()
 

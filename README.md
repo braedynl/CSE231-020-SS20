@@ -38,6 +38,7 @@ Help:
 Extra:
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
   - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
+  - [COVID-19 in Michigan](#covid-19-in-michigan)
 
 ## Getting Started
 
@@ -49,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 08/04/2020 20:29:52 EST
+Last Refresh: 08/04/2020 20:36:53 EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -64,6 +65,7 @@ If you are in a different timezone, Mimir should automatically convert our assig
 
 **Project and lab submissions are on Mimir. The project/lab links provided bring you to the procedure and starter-code. For projects, the introductory videos are included in the subdirectory's README.**
 
+<div align="center">
 <table>
 <thead>
 <tr>
@@ -223,6 +225,7 @@ If you are in a different timezone, Mimir should automatically convert our assig
 </tr>
 </tbody>
 </table>
+</div>
 
 
 The schedule is taken directly from the [course schedule](https://web.cse.msu.edu/~cse231/Online/due_dates.html) on the main website. If there are any descrepancies between the two, [please notify me immediately](#braedyn-lettinga).
@@ -303,14 +306,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 ## COVID-19 in Michigan
 
-<div align="center">Total Confirmed Cases: <b>84,050</b></div>
-<div align="center">Total COVID-19 Deaths: <b>6,219</b></div>
-<div align="center">Daily Confirmed Cases: <b>664</b></div>
-<div align="center">Daily COVID-19 Deaths: <b>7</b></div>
+Stay safe. These trackers are automatically updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
 
-&nbsp;
+- Total Confirmed Cases: 84,050
+- Total COVID-19 Deaths: 6,219
+- Daily Confirmed Cases: 664
+- Daily COVID-19 Deaths: 7
 
-Stay safe, my friends. These trackers are automatically updated on a daily basis, and are scraped directly from the [State of Michigan's website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
-
-Last Refresh: 08/04/2020 20:29:52 EST
+Last Refresh: 08/04/2020 20:36:53 EST
 

@@ -38,6 +38,7 @@ Help:
 Extra:
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
   - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
+  - [COVID-19 in Michigan](#covid-19-in-michigan)
 
 ## Getting Started
 
@@ -143,10 +144,8 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 ## COVID-19 in Michigan
 
+Stay safe. These trackers are automatically updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
+
 :covid_data:
-
-&nbsp;
-
-Stay safe, my friends. These trackers are automatically updated on a daily basis, and are scraped directly from the [State of Michigan's website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
 
 Last Refresh: :refresh:
