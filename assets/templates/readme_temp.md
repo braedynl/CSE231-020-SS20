@@ -143,10 +143,8 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 ## COVID-19 in Michigan
 
-Stay safe out there. 
-
 :covid_data:
 
-Last Refresh: :refresh:
+Stay safe, my friends. These trackers are automatically updated on a daily basis, and are scraped directly from the [State of Michigan's website](https://www.michigan.gov/Coronavirus). 
 
-Source: https://www.michigan.gov/Coronavirus
+Last Refresh: :refresh:
