@@ -36,9 +36,9 @@ Help:
   - [PythonTutor](http://pythontutor.com/)
 
 Extra:
+  - [COVID-19 in Michigan](#covid-19-in-michigan)
   - [Past Projects](https://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/)
   - [Performance Statistics](https://msugrades.com/course/CSE/231/RICHARD_J_ENBODY)
-  - [COVID-19 in Michigan](#covid-19-in-michigan)
 
 ## Getting Started
 

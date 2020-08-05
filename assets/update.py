@@ -105,7 +105,7 @@ class CSE231GitHub(object):
 
         today = datetime.now(tz=timezone('US/Eastern'))
 
-        refresh = today.strftime('%m/%d/%Y %H:%M:%S EST')
+        refresh = today.strftime('%m/%d/%Y %I:%M %p EST')
         semester_start = datetime(*self.course_info['semester_start'], tzinfo=timezone('US/Eastern'))
         semester_end = datetime(*self.course_info['semester_end'], tzinfo=timezone('US/Eastern'))
 
@@ -454,6 +454,11 @@ class CSE231GitHub(object):
         '''
         Downloads the latest Michigan COVID-19 case data and creates
         a matplotlib figure. 
+
+        Dataset is downloaded from the State of Michigan's website.
+        Figure is saved in path 'assets/covid_data.png'.
+
+        Source: https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html
         '''
 
         filename = 'assets/covid_data.xlsx'
@@ -664,6 +669,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    github.update_readme()
+    # github.update_readme()
     # github.update_project_files(True)
-    # github.update_all(False)
+    github.update_all(False)
