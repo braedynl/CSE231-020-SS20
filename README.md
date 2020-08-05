@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 08/04/2020 20:36:53 EST
+Last Refresh: 08/04/2020 20:40:19 EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -313,5 +313,5 @@ Stay safe. These trackers are automatically updated on a daily basis, and are sc
 - Daily Confirmed Cases: 664
 - Daily COVID-19 Deaths: 7
 
-Last Refresh: 08/04/2020 20:36:53 EST
+Last Refresh: 08/04/2020 20:40:19 EST
 
