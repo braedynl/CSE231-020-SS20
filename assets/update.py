@@ -143,8 +143,6 @@ class CSE231GitHub(object):
         covid_data += '- **Total COVID-19 Deaths: **{}\n'.format(stat_container[3].text)
         covid_data += '- **Daily Confirmed Cases: **{}\n'.format(stat_container[5].text)
         covid_data += '- **Daily COVID-19 Deaths: **{}'.format(stat_container[7].text)
-
-        covid_data = covid_data.replace('*', '')
     
         readme_text = self.__course_info_replace(
             self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html)\
