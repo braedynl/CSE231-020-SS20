@@ -52,10 +52,8 @@ from typing import Union
 from urllib.error import HTTPError
 from urllib.request import urlopen, urlretrieve
 
-from pytz import timezone
-
 from bs4 import BeautifulSoup
-
+from pytz import timezone
 
 DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 
@@ -121,7 +119,6 @@ class CSE231GitHub(object):
         today = datetime.now(tz=timezone('US/Eastern'))
 
         refresh = today.strftime('%m/%d/%Y %H:%M:%S EST')
-
         semester_start = datetime(*self.course_info['semester_start'], tzinfo=timezone('US/Eastern'))
         semester_end = datetime(*self.course_info['semester_end'], tzinfo=timezone('US/Eastern'))
 
@@ -136,8 +133,23 @@ class CSE231GitHub(object):
         elif p > 1: p = 1  # (don't ever do this tho)
         
         bar_html = '<div align="center"><b>Semester Progress ({:.0%})</b></div>\n<div align="center">{}</div>'.format(p, bar_str)
+
+        soup = BeautifulSoup(urlopen('https://www.michigan.gov/Coronavirus'), features='html.parser')
+
+        stat_container = soup.find('section', attrs={'class':'stat-container'}).find_all('p')
+
+        covid_data = ''
+        covid_data += '<div align="center">Total Confirmed Cases: <b>{}</b></div>\n'.format(stat_container[1].text)
+        covid_data += '<div align="center">Total COVID-19 Deaths: <b>{}</b></div>\n'.format(stat_container[3].text)
+        covid_data += '<div align="center">Daily Confirmed Cases: <b>{}</b></div>\n'.format(stat_container[5].text)
+        covid_data += '<div align="center">Daily COVID-19 Deaths: <b>{}</b></div>'.format(stat_container[7].text)
+
+        covid_data = covid_data.replace('*', '')
     
-        readme_text = self.__course_info_replace(self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html).replace(':refresh:', refresh))
+        readme_text = self.__course_info_replace(
+            self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html)\
+                            .replace(':refresh:', refresh).replace(':covid_data:', covid_data)
+            )
 
         readme = open('README.md', 'w+', encoding='utf8')
         print(readme_text, file=readme)

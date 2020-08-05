@@ -140,3 +140,13 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 **When in doubt, `print()` it out.** Certainly the most classic of all the options. Print your variables out at certain points in your code to see where things went sour.
 
 **Try [PythonTutor](http://pythontutor.com/)!** PythonTutor visualizes your code, and gives execution control similar to an IDE debugger.
+
+## COVID-19 in Michigan
+
+Stay safe out there. 
+
+:covid_data:
+
+Last Refresh: :refresh:
+
+Source: https://www.michigan.gov/Coronavirus

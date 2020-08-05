@@ -49,7 +49,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 08/04/2020 18:23:36 EST
+Last Refresh: 08/04/2020 20:20:33 EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -301,3 +301,15 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 **Try [PythonTutor](http://pythontutor.com/)!** PythonTutor visualizes your code, and gives execution control similar to an IDE debugger.
 
+## COVID-19 in Michigan
+
+Stay safe out there. 
+
+<div align="center">Total Confirmed Cases: <b>84,050</b></div>
+<div align="center">Total COVID-19 Deaths: <b>6,219</b></div>
+<div align="center">Daily Confirmed Cases: <b>664</b></div>
+<div align="center">Daily COVID-19 Deaths: <b>7</b></div>
+
+Last Refresh: 08/04/2020 20:20:33 EST
+
+Source: https://www.michigan.gov/Coronavirus
