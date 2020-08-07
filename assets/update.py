@@ -19,7 +19,7 @@ Have fun exploring!
 
 GitHub: https://github.com/braedynl/CSE231-GITHUB
 Author: Braedyn Lettinga
-Dependencies: BeautifulSoup, matplotlib, numpy, pandas, seaborn
+Dependencies: BeautifulSoup, matplotlib, seaborn, numpy, pandas, xlrd
 '''
 
 import json
