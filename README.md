@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 08/07/2020 02:33 PM EST
+Last Refresh: 08/09/2020 03:16 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -308,12 +308,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 Stay safe. These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
 
-- **Total Confirmed Cases:** 85,429
-- **Total COVID-19 Deaths:** 6,247
-- **Daily Confirmed Cases:** 722
-- **Daily COVID-19 Deaths:** 26
+- **Total Confirmed Cases:** 86,889
+- **Total COVID-19 Deaths:** 6,250
+- **Daily Confirmed Cases:** 698
+- **Daily COVID-19 Deaths:** 3
 
-Last Refresh: 08/07/2020 02:33 PM EST
+Last Refresh: 08/09/2020 03:16 PM EST
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
