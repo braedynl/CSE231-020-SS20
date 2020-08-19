@@ -314,7 +314,7 @@ It is easy for us to tell when a student plagiarizes in this course, since less-
 
 **1. I'm a [major that's not computer science/engineering], will I ever need this?** 
 
-Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. The power in programming is its ability to manipulate, and calculate values almost instantaneously in tandem with logic. The phone in your pocket, the stock market, the digital alarm clock on your desk -- all of these wouldn't exist without programming.
+Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. Most engineering majors at MSU have to take a MatLab or R course at some point. After going through this class, they should be easy.
 
 **2. Can I forward your emails to my friends in other sections?**
 
@@ -330,7 +330,7 @@ There are Python modules that allow you to [web scrape](https://en.m.wikipedia.o
 
 The syllabus and home README have templates that you can find in /assets/templates/. There are "variables" encoded into the documents (words surrounded by colons like :this:) that my program simply finds and replaces with the proper information (like year, semester, location, etc.). Lab and project folders have their own README files, these are also updated via templates in a similar fashion.
 
-The course schedule on the home README literally has its HTML code (the code that displays the schedule) ripped straight from Dr. Enbody's website (the Due Dates page, specifically). My code disassembles the HTML and re-constructs it with links, standardized formatting, and hover text. So, yes, it's a program that writes a program in a way.
+The course schedule on the home README literally has its HTML code (the code that displays the schedule) ripped straight from Dr. Enbody's website (the Due Dates page, specifically). My code disassembles the HTML and re-constructs it with links, standardized formatting, and hover text. It's like a program that writes a program in a way.
 
 For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant within the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
 
