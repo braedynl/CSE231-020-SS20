@@ -149,7 +149,7 @@ Some students want a tutor. The department does not have the resources to screen
 
 **6. Why does this class teach Python and not [some other programming language]?**
 
-Python is probably the simplest programming language to understand for newcomers, while also being extremely useful and industry standard for many companies -- including companies that aren't like Google, Microsoft, Apple, etc.. Python syntax tends to use natural language expressions rather than complicated strings of rarely-used characters, which helps a lot with mental links to programming concepts. 
+Python is probably the simplest programming language to understand for newcomers, while also being extremely useful and popular to use in real-world applications. Python syntax tends to use natural language expressions rather than complicated strings of characters, which helps a lot with mental links to programming concepts. 
 
 Just to show you how simple Python is, here's how you test if an `int` with value `5` is contained within an array, for which we then print our results to the console:
 ```python
@@ -173,7 +173,7 @@ if (std::find(array.begin(), array.end(), 5) != array.end()) {
 }
 ```
 
-Admittedly a somewhat extreme example, but I think you get the point. Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they get used to it. 
+Admittedly an extreme example, but yeah, Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they get used to it.
 
 Fun fact: CSE231 used to teach C++!
 
@@ -226,7 +226,7 @@ Very, very rarely. There'll be one or two (at most) made by a TA, the rest are m
 
 No, they were all made by the professors.
 
-**15. There's something on the repository that I think should be added/moved. Can you do anything about it?**
+**15. There's something on the repository that I think should be added/moved/removed. Can you do anything about it?**
 
 Yes! I'd be happy to, as long as it's within the realm of possibility and I think it'd be a good change. Please email me (letting4@msu.edu) about it.
 
@@ -324,27 +324,7 @@ Yes, you may. Though you should warn them that some details I may mention are TA
 
 Yes, but the course schedule on the home README will only reflect our section's meeting days, they'll have to keep this in mind.
 
-**4. What does your course schedule look like?**
-
-| Time (EST)        | Sun   | Mon    | Tue    | Wed    | Thu    | Fri   | Sat   |
-| :---:             | :---: | :---:  | :---:  | :---:  | :---:  | :---: | :---: |
-| 10:20 AM-11:40 PM |       |        | CSE331 |        | CSE331 |       |       |
-| 12:40 PM-02:00 PM |       | MTH314 | CSE320 | MTH314 | CSE320 |       |       |
-| 05:20 PM-06:10 PM |       | STT351 |        | STT351 | STT351 |       |       |
-
-Unlisted: MI349, MI491
-
-How I got such an amazing schedule is beyond me lmao. 
-
-**5. Why do you go through the effort to do all of this?**
-
-Well, I didn't really like Dr. Enbody's website when I took the class myself ("be the change you want to see in the world", right?). When I became a TA, making a GitHub page started out as a way to store my mini-lecture presentations, but then it kind of snowballed into a full-fledged course page as I kept adding more stuff.
-
-In terms of "my thoroughness", (which I know gets talked about by students who have me), I believe all TAs should be just as thorough. My job, (at least in my view), is to make this class a much easier and enjoyable experience for students. I want to ensure that you know where to go, who to contact, and how to get the help you need.
-
-That being said, you shouldn't shame the other TAs. Most of them are senior CSE majors in 400-level classes, they probably don't have that much time on their hands. Why do _I_ have so much time on _my_ hands? Uhh.. well.. I don't really do much other than school work, I tend to get stuff done quickly. 
-
-**6. How does this repository automatically stay up-to-date with the course website?**
+**4. How does this repository automatically stay up-to-date with the course website?**
 
 There are Python modules that allow you to [web scrape](https://en.m.wikipedia.org/wiki/Web_scraping), (collect data from websites). The code that keeps this page up-to-date does a few things: it updates the course schedule, syllabus, home README, and all lab/project files. The update script can be found in /assets/update.py.
 
@@ -354,7 +334,7 @@ The course schedule on the home README literally has its HTML code (the code tha
 
 For project files, I noticed that Dr. Enbody would keep the URL of the project domains consistent, (like it would always be /projects/Project01/, /projects/Project02/, etc.), I used this to my advantage. A template URL with a missing project number is kept as a constant within the program, where a for-loop then iterates through numbers to fill the gap. The program then web-scrapes all the links from the page, and downloads each file if the domain exists. If the domain doesn't exist yet, no folder on the GitHub page is created. 
 
-**7. How does the progress bar work?**
+**5. How does the progress bar work?**
 
 The number of days in the semester is calculated from dates that I feed it, we'll call this `N`. The program also extracts the date that it's currently running at, we'll call this little `n`. The percentage of completion can then be calculated as `1 - (n / N)`, we'll call this `p`.
 
@@ -389,66 +369,60 @@ empty_num = bar['width'] - fill_num  # number of empty characters we need to com
 bar_str = (fill_num * bar['fill']) + (empty_num * bar['empty'])  # combine
 ```
 
-**8. What are those small messages that appear next to file names?**
+**6. What are those small messages that appear next to file names?**
 
 [Commit messages](https://en.wikipedia.org/wiki/Commit_(version_control)). Whenever I make changes to the repository, one of the common version control practices is to describe what you, as the committer, changed. I keep them extremely brief since I'm the only one working on the repository. You can ignore them, they're more for my sake. 
 
-**9. What is the ".md" file extension that you use?**
+**7. What is the ".md" file extension that you use?**
 
-[Markdown](https://en.wikipedia.org/wiki/Markdown). They're kinda like .txt files, but will convert all text into HTML script internally. I use them because they're easy to write, and allow for extensive formatting. 
+[Markdown](https://en.wikipedia.org/wiki/Markdown). They're kinda like text files, but will convert all text into HTML script internally. I use them because they're easy to write, and allow for extensive formatting. 
 
-**10. What is the ".json" file extension that you use?**
+**8. What is the ".json" file extension that you use?**
 
-[JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON). They're text files that store JavaScript object data, but most programming language (like Python) have libraries that read them. I use it a lot because it's extremely quick and readable.
+[JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON). They're text files that store JavaScript object data, but most programming languages (like Python) have libraries that can read them. I use them because they're easy to read/write.
 
-**11. How did you prepare for CSE231 exams?**
+**9. How did you prepare for CSE231 exams?**
 
 I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
-**12. Do you know any other programming languages?**
+**10. Do you know any other programming languages?**
 
-C, C++, JavaScript, and a minuscule amount of Java. I definitely use Python the most, however.
+C, C++, JavaScript, and a minuscule amount of Java. I use Python the most, however.
 
-**13. Does the language you use in the real world matter?**
+**11. Does the programming language you use in the real-world matter?**
 
-Kind of, it depends on what you're doing. If you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then JavaScript is, and will always be, the industry standard -- you should definitely learn JavaScript at some point if you're a CSE major, you're going to need it. Python/Java can be used for everything else, though Java is mostly being phased out in favor of Python. 
+Yes, but not in the way you might expect. The language you should use is dependent on what you're doing. Some languages will be better at one thing, and some languages will be better at another thing.
 
-If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to (not a complete list). 
+For example, if you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then you'll definitely be working with JavaScript (or TypeScript as of late). Python or Java can be used for *pretty much* everything else, though Java is mostly being phased out in favor of Python. 
 
-**14. What is your ethnic background?**
+If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to. 
 
-I'm half white, half Korean. 
-
-**15. Do you have social media?**
-
-Hardly. I have a Twitter and a Snapchat, but I'm rarely ever on my phone in the first place. Talk with me if you want to add me on something. 
-
-**16. What code editor do you use?**
+**12. What code editor do you use?**
 
 [Visual Studio Code](https://code.visualstudio.com).
 
-**17. How do you type so fast?**
+**13. How do you type so fast?**
 
 Too much time spent writing essays in an IB high school. 
 
-**18. Where can I apply to become a ULA for a CSE course?**
+**14. Where can I apply to become a ULA for this course?**
 
-[Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that.
+[Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that, if you're looking to become a ULA for another course.
 
-**19. Do you need a 4.0 to become a ULA for this class?**
+**15. Do you need a 4.0 to become a ULA for this class?**
 
 Maybe? I actually have no idea, that'd be a good question for Dr. Enbody. If I had to guess, I'd say 3.5-4.0. Maybe 3.0 if you answer questions on Piazza frequently. You should still answer questions on Piazza even if you're in good standing grade-wise, it'll show that you're eager to help others. 
 
-**20. Do you need to be a CSE major to become a ULA for this class?**
+**16. Do you need to be a CSE major to become a ULA for this class?**
 
 No, but Dr. Enbody probably wants you to be comfortable with programming in general. 
 
-**21. How much do you get paid?**
+**17. How much do you get paid?**
 
 $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
-**22. Can you give me a referral?**
+**18. Can you give me a referral?**
 
 If I think you got what it takes, then maybe. Talk to me about it. 
