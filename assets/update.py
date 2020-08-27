@@ -296,16 +296,16 @@ class CSE231GitHub(object):
                 pretty_date = self.__get_pretty_date(shifted_date)   # prettier date format for hovertext
 
                 if 'read' in td.lower():
-                    calendar[week_n][day]['html'] = '<a title="On: {}" href="{}">{}</a>'.format(pretty_date, self.course_info['week_urls'][str(week_n)], td)
+                    calendar[week_n][day]['html'] = '<a title="On: {}" href="{}" target="_blank">{}</a>'.format(pretty_date, self.course_info['week_urls'][str(week_n)], td)
                 elif 'exercise' in td.lower():
-                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="https://class.mimir.io">{}</a>'.format(pretty_date, td)
+                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="https://class.mimir.io" target="_blank">{}</a>'.format(pretty_date, td)
                 elif 'exam' in td.lower():
                     calendar[week_n][day]['html'] = '<a title="On: {}" href="#exam-information">{}</a>'.format(pretty_date, td)
 
                 elif 'proj' in td.lower():
                     proj_n = int(td[-2:])
                     project_dates['proj{:02d}'.format(proj_n)] = pretty_date
-                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
+                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="Project%20{n:02d}" target="_blank">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
                 
                 elif 'lab' in td.lower():
                     has_lab = True
@@ -314,7 +314,7 @@ class CSE231GitHub(object):
                     lab_dates['lab{:02d}'.format(lab_n)] = [pretty_date, None] 
 
                     if lab_n == 0:
-                        calendar[week_n][day]['html'] = '<a title="Due: {}" href="Lab%2000">Lab 00</a>'.format(pretty_date)
+                        calendar[week_n][day]['html'] = '<a title="Due: {}" href="Lab%2000" target="_blank">Lab 00</a>'.format(pretty_date)
                         lab_dates['lab00'][1] = calendar[week_n][day]['date']
 
                     if lab_day is None and prelab_day is None:  # if both are None, use date given on website
@@ -330,8 +330,8 @@ class CSE231GitHub(object):
 
             if lab_n == 0 or has_lab == False: continue  # skips pre-lab/lab insertion if lab 0 or if week has no lab
 
-            lab_html = '<a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a>'.format(calendar[week_n][lab_day]['date'], n=lab_n)
-            prelab_html = '<a title="Due: {}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>'.format(calendar[week_n][prelab_day]['date'], n=lab_n)
+            lab_html = '<a title="Due: {}" href="Lab%20{n:02d}" target="_blank">Lab {n:02d}</a>'.format(calendar[week_n][lab_day]['date'], n=lab_n)
+            prelab_html = '<a title="Due: {}" href="https://d2l.msu.edu/d2l/loginh/" target="_blank">Pre-Lab {n:02d}</a>'.format(calendar[week_n][prelab_day]['date'], n=lab_n)
 
             lab_dates['lab{:02d}'.format(lab_n)][1] = calendar[week_n][lab_day]['date']
             
@@ -665,6 +665,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    # github.update_readme()
+    github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
