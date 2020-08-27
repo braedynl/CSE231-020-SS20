@@ -31,6 +31,8 @@ from typing import Union
 from urllib.error import HTTPError
 from urllib.request import urlopen, urlretrieve
 
+from tqdm import tqdm
+
 import matplotlib.pyplot as plt
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -66,16 +68,14 @@ class CSE231GitHub(object):
             package : Option to enable/disable automatic packaging. 
         '''
 
-        print('Updating repository, this may take a few seconds...')
-        print((51 * '-') + '\n')
+        print('Updating repository, this may take a few seconds...\n')
 
         self.update_project_files(package)
         self.update_lab_files(package)
         self.update_readme()
         self.update_syllabus()
 
-        print(51 * '-')
-        print('Repository updated.\n')
+        print('Repository updated.')
 
     def update_syllabus(self) -> None:
         '''
@@ -155,7 +155,7 @@ class CSE231GitHub(object):
 
         lab_dates = json.load(open('assets/lab_dates.json', 'r'))
 
-        for folder_name in os.listdir():
+        for folder_name in tqdm(os.listdir()):
             if 'lab' in folder_name.lower() and '.' not in folder_name:
                 n = int(folder_name[-2:])
 
@@ -194,7 +194,7 @@ class CSE231GitHub(object):
         project_dates = json.load(open('assets/project_dates.json', 'r'))
         url = 'https://www.cse.msu.edu/~cse231/Online/Projects/Project{:02d}/'
 
-        for n in range(1, 13):  # project numbers (up to 12 to force HTTPError)
+        for n in tqdm(range(1, 13)):  # project numbers (up to 12 to force HTTPError)
             complete_url = url.format(n)
 
             name_expanded = 'Project {:02d}'.format(n)
@@ -268,8 +268,6 @@ class CSE231GitHub(object):
         Lab 01 is due on week 1, and lab_day="Thu", Lab 01 will be shifted to be
         due on Thursday of week 1. 
         '''
-
-        print('Updating "schedule.html" and "project_dates.json"...')
 
         soup = BeautifulSoup(urlopen(self.course_info['schedule_url']), features='html.parser')
         td_deltas = self.__get_td_deltas(soup.find('thead').find_all('th'))
@@ -359,8 +357,6 @@ class CSE231GitHub(object):
 
         self.__process_html_calendar(calendar)
 
-        print("Done.\n")
-
     def package(self, folder_type:Union['proj', 'lab']) -> None:
         '''
         Copies all lab or project files to a corresponding *.zip file in
@@ -376,7 +372,7 @@ class CSE231GitHub(object):
 
         print('Packaging all {} folders...'.format(folder_type))
 
-        for folder_name in os.listdir():
+        for folder_name in tqdm(os.listdir()):
             if folder_type in folder_name.lower() and '.' not in folder_name:
 
                 zip_file = zipfile.ZipFile('assets/packages/{}{}_content.zip'.format(folder_type, folder_name[-2:]), 'w')
@@ -426,7 +422,7 @@ class CSE231GitHub(object):
             str : The markdown file's text with proper substitutions. 
         '''
 
-        for key, value in self.course_info.items():
+        for key, value in tqdm(self.course_info.items()):
             try: text = text.replace(':{}:'.format(key), value)
             except: continue
 
@@ -464,7 +460,7 @@ class CSE231GitHub(object):
         filename = 'assets/covid_data.xlsx'
 
         soup = BeautifulSoup(urlopen('https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html'), features='html.parser')
-        link = 'https://www.michigan.gov' + soup.find('a', text='Cases by County by Date').get('href')
+        link = 'https://www.michigan.gov/' + soup.find('a', text='Cases and Deaths by County by Date').get('href')
         urlretrieve(link, filename=filename)
 
         df = pd.read_excel(filename, sheet_name='Data', dtype=str)
