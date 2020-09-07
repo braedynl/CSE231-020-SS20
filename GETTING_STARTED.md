@@ -140,7 +140,7 @@ All issues related to the final exam will follow the policies and schedule of th
 
 If there are in-person meetings: we will have paper multiple choice exams. See the [exam information section of the home README](README.md#exam-information) for locations/times. 
 
-If there are no in-person meetings: exams will be on Mimir, and will contain both multiple choice and coding questions. You will be proctored through Zoom. See the [exam information section of the home README](README.md#exam-information) for times. 
+If there are no in-person meetings: exams will be on Mimir, and will contain both multiple choice and coding questions. You will be proctored remotely. See the [exam information section of the home README](README.md#exam-information) for times. 
 
 You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
 
