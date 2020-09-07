@@ -480,7 +480,7 @@ class CSE231GitHub(object):
 
             ax.plot_date(dates, cases, '-', label=county)
 
-        ax.xaxis.set_major_formatter(DateFormatter('%m/%d/%Y'))
+        ax.xaxis.set_major_formatter(DateFormatter('%m/%d/%y'))
         ax.set_title('Confirmed Cases of COVID-19 in Michigan by County')
         ax.set_xlabel('Date')
         ax.set_ylabel('Confirmed Cases')
