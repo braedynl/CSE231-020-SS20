@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section TBA for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is completely optional. Everything on here can be found on the main course website. 
+This repository is for CSE231 - Introduction to Programming I, Section 023 for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is completely optional. Everything on here can be found on the main course website. 
 
 Main Course Website: https://web.cse.msu.edu/~cse231/
 
@@ -8,9 +8,9 @@ Logistics:
   - [Contact Information](#contact-information)
   - [Course Schedule](#course-schedule)
   - [Exam Information](#exam-information)
-  - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
+  - [Help Room Schedule](https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html)
   - [Honors](https://web.cse.msu.edu/~cse231/Online/Honors/)
-  - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html)
+  - [Lab Schedule](https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.FS20.html)
   - [Section Information](#section-information)
   - [Syllabus](SYLLABUS.md)
   - [Textbook](https://www.pearson.com/us/higher-education/product/Punch-Practice-of-Computing-Using-Python-The-3rd-Edition/9780134379760.html)
@@ -18,11 +18,9 @@ Logistics:
 
 Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
-  - [Discord](https://discord.com/new) (if summer semester)
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
-  - [Zoom](https://msu.zoom.us/meeting) (if no in-person meetings)
-
+  - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software) (if no in-person meetings)
 
 Help:
   - [Contact Information](#contact-information)
@@ -30,7 +28,7 @@ Help:
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [FAQ](FAQ.md)
   - [General Tips](#general-tips)
-  - [Help Room Schedule](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html)
+  - [Help Room Schedule](https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [Piazza](https://piazza.com/)
   - [PythonTutor](http://pythontutor.com/)
@@ -50,7 +48,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 08/27/2020 02:55 AM EST
+Last Refresh: 09/07/2020 11:44 AM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -58,7 +56,7 @@ Reading the book chapters and watching the lecture videos can be done at any poi
 
 If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
 
-<div align="center"><b>Semester Progress (0%)</b></div>
+<div align="center"><b>Semester Progress (6%)</b></div>
 <div align="center">⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜</div>
 
 &nbsp;
@@ -208,8 +206,8 @@ If you are in a different timezone, Mimir should automatically convert our assig
 <tr>
 <td align="center">14: 12/06</td>
 <td><a title="On: Sunday, December 6th (12/6/2020)" href="https://www.cse.msu.edu/~cse231/Online/exceptions.html">Read Ch. 14; More Files & Exceptions</a></td>
-<td align="center"><a title="Due: Monday, December 7th (12/7/2020)" href="Project%2011">Project 11</a></td>
 <td align="center"></td>
+<td align="center"><a title="Due: Tuesday, December 8th (12/8/2020)" href="Project%2011">Project 11</a></td>
 <td align="center"><a title="Due: Thursday, December 10th (12/10/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 13</a></td>
 <td align="center"><a title="Due: Friday, December 11th (12/11/2020)" href="Lab%2013">Lab 13</a></td>
 <td align="center"></td>
@@ -236,9 +234,9 @@ Leading Professors: Dr. Enbody / Dr. Zaabar
 
 Section Instructor: Braedyn Lettinga
 
-Section: TBA
+Section: 023
 
-Location/Time: TBA
+Location/Time: Online - Fridays, 12:40-2:30 PM EST
 
 ## Contact Information
 
@@ -266,19 +264,17 @@ Email: letting4@msu.edu
 
 Website: https://github.com/braedynl
 
-I sadly don't have an office or office hours since I'm a measly and pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Zoom, Discord, etc.), and I'll get back to you as soon as I can. 
+I sadly don't have an office or office hours since I'm a measly and pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Microsoft Teams, Discord, etc.), and I'll get back to you as soon as I can. You can go to the website link I have posted to check for my availability. 
 
-I will occasionally host help rooms of my own when I feel it to be necessary. This is dependent on how well the section is doing as a whole, however. 
+I will occasionally host "help rooms" of my own when I feel it to be necessary. This is dependent on how well the section is doing as a whole, however. 
 
-Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is online), I play no role in grading them. 
-
-If this is a summer semester: I will be sending out an email during the first week in regards to a Discord server for the section. The link to join said server will be in that email, and will not be posted on this page for sake of course privacy. I only host Discord servers for the summer sections, since the summer version of this course is harder. I would prefer student messages through Discord, since writing code in an email is glitchy.
+Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is online), I play no role in grading them.
 
 ## Exam Information
 
 There will be two midterms and a final examination during the semester, and will constitute 45% of your total course grade. You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
 
-If there are no in-person meetings, students will take exams remotely through Zoom. We require a camera (e.g., cellphone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
+If there are no in-person meetings, students will take exams remotely. We require a camera (e.g. phone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
 - Exam 1: Online - Tuesday, October 6th (10/6/20) at 7:00 PM EST
 - Exam 2: Online - Tuesday, November 10th (11/10/20) at 7:00 PM EST
 - Exam 3: TBA
@@ -308,12 +304,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 Stay safe. These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus). Code can be found [here](assets/update.py).
 
-- **Total Confirmed Cases:** 99,200
-- **Total COVID-19 Deaths:** 6,424
-- **Daily Confirmed Cases:** 761
-- **Daily COVID-19 Deaths:** 7
+- **Total Confirmed Cases:** 106,215
+- **Total COVID-19 Deaths:** 6,534
+- **Daily Confirmed Cases:** 838
+- **Daily COVID-19 Deaths:** 8
 
-Last Refresh: 08/27/2020 02:55 AM EST
+Last Refresh: 09/07/2020 11:44 AM EST
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 

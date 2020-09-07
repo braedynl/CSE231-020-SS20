@@ -31,13 +31,12 @@ from typing import Union
 from urllib.error import HTTPError
 from urllib.request import urlopen, urlretrieve
 
-from tqdm import tqdm
-
 import matplotlib.pyplot as plt
 import pandas as pd
 from bs4 import BeautifulSoup
 from matplotlib.dates import DateFormatter, drange
 from pytz import timezone
+from tqdm import tqdm
 
 import seaborn; seaborn.set()
 

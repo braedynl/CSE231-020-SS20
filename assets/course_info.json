@@ -1,14 +1,14 @@
 {
-    "section": "TBA",
+    "section": "023",
     "semester": "Fall",
     "year": "2020",
-    "section_details": "TBA",
+    "section_details": "Online - Fridays, 12:40-2:30 PM EST",
     "exam1_details": "Online - Tuesday, October 6th (10/6/20) at 7:00 PM EST",
     "exam2_details": "Online - Tuesday, November 10th (11/10/20) at 7:00 PM EST",
     "exam3_details": "TBA",
     "schedule_url": "https://www.cse.msu.edu/~cse231/Online/due_dates.html",
-    "help_room_url": "https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html",
-    "labs_url": "https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.SS20.html",
+    "help_room_url": "https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html",
+    "labs_url": "https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.FS20.html",
     "week_urls" : {
         "0": "https://www.cse.msu.edu/~cse231/Online/week0.html",
         "1": "https://www.cse.msu.edu/~cse231/Online/beginnings.html",

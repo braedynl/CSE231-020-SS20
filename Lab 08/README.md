@@ -16,7 +16,7 @@ Hard-coding a solution will net you a 0% grade for the lab. Wikipedia defines ha
 
 Some examples are (but not limited to): copying Mimir's expected output and printing it directly, copying a line or multiple lines directly from a file and placing it in your program, developing an algorithm that assumes too much about the inputs/data (and wouldn't work with other inputs/data that follow the same structure). 
 
-Labs are meant to be collaborative. I encourage you to contact [me](../README.md#braedyn-lettinga) or your friends/acquaintances. [Piazza](https://piazza.com/), and the [help room](https://web.cse.msu.edu/~cse231/Online/General/ta.consulting.SS20.html) are also great places to seek additional help. 
+Labs are meant to be collaborative. I encourage you to contact [me](../README.md#braedyn-lettinga) or your friends/acquaintances. [Piazza](https://piazza.com/), and the [help room](https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html) are also great places to seek additional help. 
 
 Read through **all** of the instructions _carefully **and** thoroughly_. If you are having trouble comprehending the instructions, please don't hesitate to ask us on Piazza.
 
