@@ -151,5 +151,3 @@ Last Refresh: :refresh:
 [View Source](https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html)
 
 *Counties were chosen based on the most populous [cities in Michigan](https://en.wikipedia.org/wiki/List_of_municipalities_in_Michigan).
-
-**Want your county represented? Feel free to [contact me](#braedyn-lettinga) about it!
