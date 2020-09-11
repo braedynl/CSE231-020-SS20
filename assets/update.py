@@ -469,7 +469,7 @@ class CSE231GitHub(object):
         _, ax = plt.subplots()
 
         for county in PLOT_COUNTIES:
-            county_data = df[df['COUNTY'] == county]
+            county_data = df[df['COUNTY'] == county].dropna()
 
             d1 = datetime.strptime(county_data.head(1)['Date'].values[0][:10], '%Y-%m-%d')
             d2 = datetime.strptime(county_data.tail(1)['Date'].values[0][:10], '%Y-%m-%d')
