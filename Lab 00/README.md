@@ -10,6 +10,6 @@ The submission page for all labs are on [Mimir](https://class.mimir.io/). You ca
 
 This lab simply has you set up Spyder and Python. There is also a [video made by Dr. Enbody](https://www.youtube.com/watch?v=_CqtctVJZnk&feature=youtu.be) if you'd prefer verbal instructions (there won't be lab videos from here on out). You are permitted to install a different code editor if you so choose, though bear in mind that we (the TAs and professors) may not know how some of them work.
 
-There is no meeting/presentation associated with this lab. For all future labs, you'll do them in-class with me and your fellow classmates at the alloted section time (whether that be in-person or through Zoom). If you are an online student, you'll do future labs on your own time before its respective due date. 
+There is no meeting/presentation associated with this lab. For all future labs, you'll do them in-class with me and your fellow classmates at the alloted section time (whether that be in-person or through Microsoft Teams). If you are an online student, you'll do future labs on your own time before its respective due date. 
 
 If you have any questions, please don't hesitate to contact me (letting4@msu.edu)!
