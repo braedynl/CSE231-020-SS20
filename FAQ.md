@@ -303,11 +303,11 @@ You can either take the punishment or appeal. Convictions are usually made with 
 
 **4. If you guys are constantly checking for similarities between hundreds of project files, isn't there bound to be at least two students who have similar code that have never spoken to each other?**
 
-It can, and has happened -- so yes, but it is exceedingly rare. Less-experienced programmers are actually _less likely_ to have similar code to other people because their solutions tend to involve odd uses of the language, or strange work-arounds to problems, for which there could be millions of methodologies. 
+It can, and has happened -- so yes, but it is exceedingly rare. Less-experienced programmers are actually _less likely_ to have similar code to other people because their solutions tend to involve odd uses of the language or strange work-arounds to problems, for which there could be millions of methodologies. 
 
 Experienced programmers are _more likely_ to have similar code to other people because they know the most efficient way of tackling a problem, which tends to be a very limited amount of methodologies. 
 
-It is easy for us to tell when a student plagiarizes in this course, since less-experienced programmers usually can't think of other/equivalent ways of programming an algorithm after seeing an already-implemented solution. The trouble really begins in later CSE courses, since students, by then, will know how to code equivalent expressions/algorithms from looking at their friend's solution.
+It is easy for us to tell when a student plagiarizes in this course, however, since less-experienced programmers usually can't think of other/equivalent ways of programming an algorithm after seeing an already-implemented version.
 
 
 ## Miscellaneous/Personal
@@ -316,7 +316,7 @@ It is easy for us to tell when a student plagiarizes in this course, since less-
 
 Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. Most engineering majors at MSU have to take a MatLab or R course at some point. After going through this class, they should be easy.
 
-**2. Can I forward your emails to my friends in other sections?**
+**2. Can I forward your emails to my friend in [some other section]?**
 
 Yes, you may. Though you should warn them that some details I may mention are TA-dependent (e.g. when project/lab grades come back, when D2L gets updated, and anything related to this GitHub repository).
 
