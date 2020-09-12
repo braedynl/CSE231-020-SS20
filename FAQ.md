@@ -125,19 +125,15 @@ Sometimes. I'm not sure when they happen, or for what reason. To me, it seems li
 
 There is no course code. Access Mimir from the link provided on our [D2L page](https://d2l.msu.edu/d2l/loginh/) and it should get everything sorted for you.
 
-**2. I missed this week's lab, what should I do?**
+**2. I missed [an assignment], what should I do?**
 
-If you missed lab due to illness or a personal emergency, please contact me (letting4@msu.edu). 
+If you missed it due to illness or a personal emergency, please contact me (letting4@msu.edu). 
 
-**3. I missed a project deadline, what should I do?**
+**3. I missed an exam, what should I do?**
 
-If you missed a project due to illness or a personal emergency, please contact me (letting4@msu.edu). 
+Please contact Dr. Enbody (enbody@cse.msu.edu) and/or Dr. Zaabar (zaabarim@cse.msu.edu).
 
-**4. I missed an exam, what should I do?**
-
-Contact Dr. Enbody (enbody@cse.msu.edu) and/or Dr. Zaabar (zaabarim@cse.msu.edu).
-
-**5. I need extra help.**
+**4. I need extra help.**
 
 All of the TAs staff help room at certain points during the week, I highly recommend attending (applies to Fall/Spring only). 
 
@@ -147,7 +143,7 @@ You may also contact me (letting4@msu.edu), or whoever your favorite TA is for m
 
 Some students want a tutor. The department does not have the resources to screen and train tutors, though some students have had luck finding one online through Facebook, universitytutor.com, and Reddit. Please be cautious with meeting people you find online -- only meet in public areas. Always ensure you're actually learning the content, and not just having the tutor do all of the work for you. 
 
-**6. Why does this class teach Python and not [some other programming language]?**
+**5. Why does this class teach Python and not [some other programming language]?**
 
 Python is probably the simplest programming language to understand for newcomers, while also being extremely useful and popular to use in real-world applications. Python syntax tends to use natural language expressions rather than complicated strings of characters, which helps a lot with mental links to programming concepts. 
 
@@ -177,7 +173,7 @@ Admittedly an extreme example, but yeah, Python tends to be easier to write in g
 
 Fun fact: CSE231 used to teach C++!
 
-**7. Are we allowed to use a code editor that's not Spyder?**
+**6. Are we allowed to use a code editor that's not Spyder?**
 
 Yep! Though bear in mind that the TAs and professors may not be familiar with how some of them work, you'll be on your own if you need help with it.
 
@@ -190,7 +186,7 @@ Other popular code editors:
 
 Certain projects pull from 3rd party libraries near the end of the semester, (namely `pylab`), Spyder comes packaged with it, which is why we use Spyder in the first place. You'll have to manually install `pylab` if you're on a different code editor, which I can show you how to do if you can't figure it out for yourself.
 
-**8. What do I do if I have a chromebook?**
+**7. What do I do if I have a chromebook?**
 
 You'll have to install the DECS RDP client on your chromebook and use Anaconda/Spyder remotely on the DECS servers. Instructions can be found [here](https://www.egr.msu.edu/decs/help-support/how-to/connect-decs-remote-desktop-services-rds-servers). 
 
@@ -200,33 +196,33 @@ Once installed, login to EGR RDP using your EGR credentials, and you should be f
 
 Alternatively, you can install MiniConda, though we don't recommend this because you'll be limited in terms of programming tools. Follow [these instructions](https://installpython3.com/chromebook/).
 
-**9. Is using w3schools.com and/or programiz.com okay as supplementary material?**
+**8. Is using w3schools.com and/or programiz.com okay as supplementary material?**
 
 Yes. Just be careful, websites like those may teach certain concepts in a different order, or may show some concepts that we don't teach at all. If you do come across something that we don't teach, it's usually safe to assume that you're not allowed to use it. If you're unsure if a concept may be used in an assignment, feel free to ask on Piazza.
 
-**10. Why are the online exams proctored? That's so stupid.**
+**9. Why are the online exams proctored? That's so stupid.**
 
 It *is* stupid, isn't it? You can ask the students who took this course in Spring 2020 for that answer.
 
 Spoiler: everyone cheated when we didn't proctor. 
 
-**11. Are there exam statistics?**
+**10. Are there exam statistics?**
 
 Dr. Enbody will have them in his post-exam email.
 
-**12. Do the TAs make exam questions?**
+**11. Do the TAs make exam questions?**
 
 No, they're all made by the professors. We review their questions/answers on occasion (mainly checking if there are any mistakes).
 
-**13. Do the TAs make the projects?**
+**12. Do the TAs make the projects?**
 
 Very, very rarely. There'll be one or two (at most) made by a TA, the rest are made by Dr. Enbody or Dr. Zaabar. 
 
-**14. Do the TAs make the labs?**
+**13. Do the TAs make the labs?**
 
 No, they were all made by the professors.
 
-**15. There's something on the repository that I think should be added/moved/removed. Can you do anything about it?**
+**14. There's something on the repository that I think should be added/moved/removed. Can you do anything about it?**
 
 Yes! I'd be happy to, as long as it's within the realm of possibility and I think it'd be a good change. Please email me (letting4@msu.edu) about it.
 
