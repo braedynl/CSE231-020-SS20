@@ -67,7 +67,7 @@ Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Cou
 
 **14. the past exams?**
 
-[Here](https://web.cse.msu.edu/~cse231/Online/Exams/), at the beginning of the home folder's README file, under the "Help" link category. 
+[Here](https://github.com/braedynl/CSE231-GITHUB/blob/master/README.md), at the beginning of the home folder's README file, under the "Help" link category. 
 
 **15. your lab slides?**
 
