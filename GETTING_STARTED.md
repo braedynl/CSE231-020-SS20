@@ -20,9 +20,9 @@ All lab and project materials can be found in the "Code" section of this reposit
 
 <div align="center"><img src="assets/images/master.png" width="600"></img></div>
 
-I typically use "slash notation" to represent folder/file paths in my logistical explanations. So `/Lab 01/` means I'm referring to the "Lab 01" folder, and `/Lab 01/presentation/` means the "presentation" folder inside the "Lab 01" folder. Whenever I use "XX", I'm typically referring to a variable number. So as an example, `/Lab XX/` refers to any and all lab folders, `/Project XX/` refers to any and all project folders, etc.. 
+I typically use "slash notation" to represent folder/file paths in my logistical explanations. So /Lab 01/ means I'm referring to the "Lab 01" folder, and /Lab 01/presentation/ means the "presentation" folder inside the "Lab 01" folder. Whenever I use "XX", I'm typically referring to a variable number. So as an example, /Lab XX/ refers to any and all lab folders, /Project XX/ refers to any and all project folders, etc.. 
 
-The file you're reading right now is contained within the home folder. Since it's a file, and not a folder, it would be expressed as `/GETTING_STARTED.md` with no slash at the end.
+The file you're reading right now is contained within the home folder. Since it's a file, and not a folder, it would be expressed as /GETTING_STARTED.md with no slash at the end.
 
 ## Grading
 
@@ -48,7 +48,7 @@ Grade breakdown (Summer Semester):
 
 Pre-lab, lab and project grades will be posted on D2L by yours truly. Mimir has a gradebook page of its own, which will simply serve as a reflection. Your "real" grades will be posted to D2L. 
 
-If you want to discuss a grade you had recently received, or if there is a mismatch between your Mimir and D2L grades, contact [me](README.md#braedyn-lettinga) -- not the professors. 
+If you want to discuss a grade you had recently received, or if there is a mismatch between your Mimir and D2L grades, contact [me](README.md#braedyn-lettinga) — not the professors. 
 
 Chapter exercises will not be put into our D2L system until the end of the semester, the reason for this is explained [above](#grading).
 
@@ -62,11 +62,11 @@ Chapter exercises will not be put into our D2L system until the end of the semes
 Pre-labs are small multiple choice assignments intended as warm-ups for the real lab. They're to get you thinking about the concepts, and double as practice for the exams (the exam questions follow a _very_ similar format). Pre-labs can be retaken an infinite number of times before the deadline. There is an associated pre-lab for every lab, and are (for some reason) hosted on D2L. 
 
 From the syllabus:
-> Pre-labs are "warm-ups" for the labs and are not expected to be perfect -- our expectation is intentionally fuzzy for the pre-labs. You are expected to get most of them correct, most of the time.
+> Pre-labs are "warm-ups" for the labs and are not expected to be perfect — our expectation is intentionally fuzzy for the pre-labs. You are expected to get most of them correct, most of the time.
 
 ### Labs
 
-- Hosted On: Submissions on Mimir, procedure and starter-code in folder `/Lab XX/`. 
+- Hosted On: Submissions on Mimir, procedure and starter-code in folder /Lab XX/. 
 - Graded By: Mimir, TA
 - Assignment Style: Coding
 - Collaboration: Allowed
@@ -111,7 +111,7 @@ The TAs do _not_ grade chapter exercises. Any and all points are accrued from th
 
 ### Projects (45%)
 
-- Hosted On: Submissions on Mimir, procedure and starter-code in folder `/Project XX/`.
+- Hosted On: Submissions on Mimir, procedure and starter-code in folder /Project XX/.
 - Graded By: Mimir, TA
 - Assignment Style: Coding
 - Collaboration: Disallowed

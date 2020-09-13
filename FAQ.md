@@ -4,12 +4,13 @@ Frequent student questions that I've been collecting over the years. If the answ
 
 Jump to section:
 1. [Where can I find...](#where-can-i-find)
-2. [Assignment/Exam Grades](#assignmentexam-grades)
+2. [Grades](#grades)
 3. [Meta](#meta)
 4. [CSE Computing System](#cse-computing-system)
 5. [Spyder](#spyder)
-6. [Academic Dishonesty Reports](#academic-dishonesty-reports)
-7. [Miscellaneous/Personal](#miscellaneouspersonal)
+6. [Programming](#programming)
+7. [Academic Dishonesty Reports](#academic-dishonesty-reports)
+8. [Miscellaneous/Personal](#miscellaneouspersonal)
 
 ## Where can I find...
 
@@ -49,21 +50,21 @@ Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Cou
 
 [Here](https://github.com/braedynl/CSE231-GITHUB#course-schedule), in the second section of the home folder's README file. 
 
-**10. the help room schedule?**
-
-[Here](https://github.com/braedynl/CSE231-GITHUB/blob/master/README.md), at the beginning of the home folder's README file, under the "Logistics" and "Help" link categories.  
-
-**11. our section information?**
+**10. our section information?**
 
 [Here](https://github.com/braedynl/CSE231-GITHUB#section-information), in the third section of the home folder's README file. 
 
-**12. contact information?**
+**11. contact information?**
 
 [Here](https://github.com/braedynl/CSE231-GITHUB#contact-information), in the fourth section of the home folder's README file. 
 
-**13. exam information?**
+**12. exam information?**
 
 [Here](https://github.com/braedynl/CSE231-GITHUB#exam-information), in the fifth section of the home folder's README file. 
+
+**13. the help room schedule?**
+
+[Here](https://github.com/braedynl/CSE231-GITHUB/blob/master/README.md), at the beginning of the home folder's README file, under the "Logistics" and "Help" link categories.  
 
 **14. the past exams?**
 
@@ -82,7 +83,7 @@ It will be in an email sent out to the section. The session details will not be 
 It will be in an email sent out to the section. The server details will not be posted here since this is a public page. 
 
 
-## Assignment/Exam Grades
+## Grades
 
 **1. Who do I contact about extensions?**
 
@@ -141,7 +142,7 @@ Piazza is the fastest way to get answers, and offers anonymity if that's somethi
 
 You may also contact me (letting4@msu.edu), or whoever your favorite TA is for more personal help. 
 
-Some students want a tutor. The department does not have the resources to screen and train tutors, though some students have had luck finding one online through Facebook, universitytutor.com, and Reddit. Please be cautious with meeting people you find online -- only meet in public areas. Always ensure you're actually learning the content, and not just having the tutor do all of the work for you. 
+Some students want a tutor. The department does not have the resources to screen and train tutors, though some students have had luck finding one online through Facebook, Reddit, and universitytutor.com. Please be cautious with meeting people you find online — only meet in public areas. Always ensure you're actually learning the content, and not just having the tutor do all of the work for you. 
 
 **5. Why does this class teach Python and not [some other programming language]?**
 
@@ -194,7 +195,9 @@ If you are experiencing issues installing the DECS Remote Client, take your chro
 
 Once installed, login to EGR RDP using your EGR credentials, and you should be free to use Anaconda/Spyder.
 
-Alternatively, you can install MiniConda, though we don't recommend this because you'll be limited in terms of programming tools. Follow [these instructions](https://installpython3.com/chromebook/).
+One student found [this article](https://chromebook.home.blog/2019/01/20/installing-anaconda-on-a-chromebook-no-dev-beta-or-crouton-needed/) that may be another viable option.
+
+I unfortunately don't know much about ChromeOS, so if you're encountering trouble, I'd post a question to Piazza. There's bound to be at least one student or TA who's familiar with the operating system.
 
 **8. Is using w3schools.com and/or programiz.com okay as supplementary material?**
 
@@ -247,7 +250,7 @@ See the [User File Backups](http://www.cse.msu.edu/Resources/Facilities/Policies
 
 **5. How do I access my CSE account remotely?**
 
-See the [Remote Access](https://www.cse.msu.edu/Resources/Facilities/Services/SSH.php) page (admittedly fairly advanced, feel free to ask us about how to do this).
+See the [Remote Access](https://www.cse.msu.edu/Resources/Facilities/Services/SSH.php) page (this is fairly advanced stuff, feel free to ask us about this).
 
 **6. Why can't I use Samba off campus?**
 
@@ -281,6 +284,279 @@ Try updating your Spyder installation (open Anaconda Navigator, click the gear i
 If the option is greyed-out and/or updating did not fix the issue, contact me (letting4@msu.edu).
 
 
+## Programming
+
+**1. How do print an empty line?**
+
+You can use `print()` with no arguments.
+
+Example:
+```python
+print("Line 1")
+print()
+print("Line 2")
+```
+Out:
+```
+Line 1
+
+Line 2
+```
+
+**2. Can you have multiple print statements display on the same line in console?**
+
+Yes. The `print()` function has a parameter called `end`, which specifies a `str` to concatenate to the back of the line that's being printed. It has a default value of `'\n'`, the newline character, which is why print statements on subsequent lines in your code display text on subsequent lines in the console. 
+
+Default behavior:
+```python
+print("Line 1")
+print("Line 2")
+```
+Out:
+```
+Line 1
+Line 2
+```
+
+Changing `end`:
+```python
+print("Line 1", end='')  # set to empty string
+print("Line 2")
+```
+Out:
+```
+Line 1Line2
+```
+
+**3. What's the best way to reverse a string/list?**
+
+Negative step indices.
+
+Example:
+```python
+my_str = 'hello'
+my_list = [1, 2, 3]
+
+print(my_str[::-1])
+print(my_list[::-1])
+```
+Out:
+```
+olleh
+[3, 2, 1]
+```
+
+**4. What are the immutable and mutable types?**
+
+Immutable: `int`, `str`, `float`, `bool`, `tuple`
+
+Mutable: `list`, `set`, `dict`
+
+**5. What's the difference between immutable and mutable types?**
+
+Immutable types _pass by copy_, while mutable types _pass by reference_.
+
+Consider the following example. Recall that strings are immutable, and lists are mutable. 
+```python
+def my_function(obj):
+    return obj
+
+my_str = 'hello'
+my_list = [1, 2, 3]
+
+# we're going to pass my_str and my_list to a function that simply returns its one parameter
+new_str = my_function(my_str)
+new_list = my_function(my_list)
+
+# All seems well at first.
+print("Before changes")
+print("---")
+print("my_str   = {}".format(my_str))
+print("new_str  = {}".format(new_str))
+print("my_list  = {}".format(my_list))
+print("new_list = {}".format(new_list))
+
+# now let's perform their corresponding appendation methods
+new_str = new_str + ' world!'
+new_list.append(4)
+
+# notice what changed?
+print("\nAfter changes")
+print("---")
+print("my_str   = {}".format(my_str))
+print("new_str  = {}".format(new_str))
+print("my_list  = {}".format(my_list))
+print("new_list = {}".format(new_list))
+```
+Out:
+```
+Before changes
+---
+my_str   = hello
+new_str  = hello
+my_list  = [1, 2, 3]
+new_list = [1, 2, 3]
+
+After changes
+---
+my_str   = hello
+new_str  = hello world!
+my_list  = [1, 2, 3, 4]
+new_list = [1, 2, 3, 4]
+```
+
+So what happened here? `my_str` was left _unchanged_, while `new_str` was _changed_. `my_list` was _changed_, but `new_list` was also _changed_.
+
+When `my_str` gets passed to `my_function()`, a _copy_ of `my_str`'s value gets passed to the `obj` parameter. We're taking that copy, and storing it in a new variable called `new_str` — and because it's a copy, changes made to `new_str` **_will not affect_** `my_str`. 
+
+When `my_list` gets passed to `my_function()`, a _reference_ of `my_list` gets passed to the `obj` parameter. We're taking that reference, and storing it in a new variable called `new_list` — and because it's a reference, changes made to `new_list` **_will affect_** `my_list`. 
+
+Note that this difference is also why many `list` method functions _don't_ require a variable reassignment. These are referred to as **in-place** method functions — only mutable types will have them for this reason. There are some operations between mutable and immutable types that may _seem_ identical at first, but have one or two key differences. For example:
+
+```python
+my_str = 'hello'
+my_list = [1, 2, 3]
+
+print(my_str[0])   # perfectly okay!
+print(my_list[0])  # perfectly okay!
+
+my_str[0] = 'y'  # RAISES ERROR, ALL HELL BREAKS LOOSE
+my_list[0] = 3   # perfectly okay!
+```
+
+**6. Is there a way to quickly unpack multiple list/tuple values?**
+
+Yep! This was a relatively recent Python addition, actually.
+
+```python
+def example(a, b, c, d, e, f):
+    print(a, b, c, d, e, f, sep='')
+
+my_list = [1, 2, 3, 4, 5, 6]
+
+# you use the asterisk symbol before the variable/value, 
+# it will unpack each value in order (so for this example,
+# it would be unpacked as a=1, b=2, c=3, etc.)
+example(*my_list)
+
+print("{}{}{}{}{}{}".format(*my_list))  # also convenient for filling up format-strings
+```
+
+**7. How do you sort a dictionary by key?**
+
+```python
+from operator import itemgetter
+
+my_dict = {'c': 3, 'a': 1, 'd': 4, 'b': 2}
+
+sorted_dict = dict(sorted(my_dict.items(), key=itemgetter(0)))
+
+print(sorted_dict)
+```
+Out:
+```
+{'a': 1, 'b': 2, 'c': 3, 'd': 4}
+```
+
+**8. How do you sort a dictionary by value?**
+
+```python
+from operator import itemgetter
+
+my_dict = {'c': 3, 'a': 1, 'd': 4, 'b': 2}
+
+sorted_dict = dict(sorted(my_dict.items(), key=itemgetter(1)))
+
+print(sorted_dict)
+```
+Out:
+```
+{'a': 1, 'b': 2, 'c': 3, 'd': 4}
+```
+
+**9. How do you reverse the sorting order of `.sort()` or `sorted()`?**
+
+You can supply `True` to the `reverse` parameter. 
+
+```python
+my_list = [1, 2, 3, 4]
+
+my_list.sort(reverse=True)
+
+print(my_list)
+```
+Out:
+```
+[4, 3, 2, 1]
+```
+
+**10. What is the difference between `.sort()` and `sorted()`?**
+
+`.sort()` is an in-place `list` method function. 
+
+`sorted()` is a generic function that returns a sorted `list` copy of the given iterable.
+
+**11. Is there a way to assign multiple variables to the same value in one line?**
+
+Yes, but I don't recommend doing this. It's much better to put assignments on subsequent lines for better readability. 
+
+```python
+a, b, c = 0, 0, 0
+
+a = b = c = 0
+
+a = 0; b = 0; c = 0
+```
+
+**12. Can you iterate through multiple collections at once?**
+
+Yes, you can with the `zip()` function. 
+
+```python
+a = [1, 2, 3]
+b = ['a', 'b', 'c']
+c = [3.14, 2.718, 9.8]
+
+for aval, bval, cval in zip(a, b, c):
+    print(aval, bval, cval)
+```
+Out:
+```
+1 a 3.14
+2 b 2.718
+3 c 9.8
+```
+
+**13. What is `self`?**
+
+`self`, in technical terms, is a _reference_ to the class instantiation. User-defined classes are, by default, _mutable_ types — and so the class needs a way to refer back to what it contains. 
+
+```python
+# let's say we have a simple Vector class
+class Vector(object):
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y 
+    
+    def mag(self):
+        return (x**2 + y**2)**(1/2)
+
+    def __str__(self):
+        return "<{}, {}>".format(self.x, self.y)
+
+# on instantiation, think of the parameter mapping as:
+#             self=Vector(), x=1, y=2
+v = Vector(1, 2)
+
+# for methods, think of self as being called by the instance being acted on:  
+#             self=v
+m = v.mag()
+```
+
+I know how different it is from what we've become accustomed to, so this is a way of _thinking_ about the mapping of parameters when dealing with a class. It might not necessarily be what's happening behind the scenes.
+
+
 ## Academic Dishonesty Reports
 
 **1. Do you know who has received an academic dishonesty report?**
@@ -291,19 +567,11 @@ I have caught plagiarizing students myself, however. I browse through at least o
 
 **2. Have you had students in your section recieve academic dishonesty reports?**
 
-Oh yes, many. It saddens me when it happens -- it feels like a failure on my part, which is why I stress doing your own work so much. I tend to have students that are very open with me, and so I'm aware of almost everyone in my past sections who has received one. I wish I could've stopped them. 
+Oh yes, many. It saddens me when it happens — it feels like a failure on my part, which is why I stress doing your own work so much. I tend to have students that are very open with me, and so I'm aware of almost everyone in my past sections who has received one. I wish I could've stopped them, but it's always too late 🤷
 
 **3. What should I do if I receive an academic dishonesty report?**
 
 You can either take the punishment or appeal. Convictions are usually made with strong evidence, however. I frankly don't know much about the ADR process, so I would visit the Office of the University Ombudsperson [website](https://ombud.msu.edu). 
-
-**4. If you guys are constantly checking for similarities between hundreds of project files, isn't there bound to be at least two students who have similar code that have never spoken to each other?**
-
-It can, and has happened -- so yes, but it is exceedingly rare. Less-experienced programmers are actually _less likely_ to have similar code to other people because their solutions tend to involve odd uses of the language or strange work-arounds to problems, for which there could be millions of methodologies. 
-
-Experienced programmers are _more likely_ to have similar code to other people because they know the most efficient way of tackling a problem, which tends to be a very limited amount of methodologies. 
-
-It is easy for us to tell when a student plagiarizes in this course, however, since less-experienced programmers usually can't think of other/equivalent ways of programming an algorithm after seeing an already-implemented version.
 
 
 ## Miscellaneous/Personal
@@ -336,7 +604,7 @@ The number of days in the semester is calculated from dates that I feed it, we'l
 
 There are three attributes to the progress bar: a width (14, at the time of writing. Was chosen so that it will display properly on most devices), a fill character (⬛, the black square emoji), and an empty character (⬜, the white square emoji). 
 
-The number of fill characters we need will be `p` (the percentage of completion) multiplied by the width, [floored](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions) -- i.e. the number that is `p` percent of the width. We floor this value because the number of fill characters can't be a decimal number, and we don't round because a value like 0.95 could be interpreted as 100%, which could be misleading. 
+The number of fill characters we need will be `p` (the percentage of completion) multiplied by the width, [floored](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions) — i.e. the number that is `p` percent of the width. We floor this value because the number of fill characters can't be a decimal number, and we don't round because a value like 0.95 could be interpreted as 100%, which could be misleading. 
 
 We store this number of fill characters, and subtract the total width from it to find the number of empty characters we need to complete the bar. We finally concatenate the two chunks of fill and empty character strings together. 
 
@@ -379,13 +647,13 @@ bar_str = (fill_num * bar['fill']) + (empty_num * bar['empty'])  # combine
 
 **9. How did you prepare for CSE231 exams?**
 
-I went through the past exams and took them as if they were the real deal -- timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
+I went through the past exams and took them as if they were the real deal — timer and all. I went back through questions I got wrong with PythonTutor, and asked about ones I didn't understand on Piazza. 
 
 Come exam day, I drank a ludicrous amount of coffee... though I don't recommend doing that. Drink coffee safely, [studies](https://link.springer.com/article/10.1007/s12603-014-0563-8) have shown that caffeine does indeed improve cognitive function. 
 
 **10. Do you know any other programming languages?**
 
-C, C++, JavaScript, and a minuscule amount of Java. I use Python the most, however.
+C, C++, and JavaScript. I use Python the most, however.
 
 **11. Does the programming language you use in the real-world matter?**
 
@@ -393,11 +661,11 @@ Yes, but not in the way you might expect. The language you should use is depende
 
 For example, if you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then you'll definitely be working with JavaScript (or TypeScript as of late). Python or Java can be used for *pretty much* everything else, though Java is mostly being phased out in favor of Python. 
 
-If you're interested in data science, machine learning, ethical hacking, web-scraping, or academic research, Python is your go-to. 
+If you're interested in data science, machine learning, cybersecurity, or research, Python is great option. 
 
 **12. What code editor do you use?**
 
-[Visual Studio Code](https://code.visualstudio.com).
+[Visual Studio Code](https://code.visualstudio.com). My installation may look slightly different because I have custom theme. I use "One Dark Pro", which you can find in the extensions marketplace.
 
 **13. How do you type so fast?**
 
@@ -421,4 +689,6 @@ $11/hour, though MSU had to reduce everyone's wage a little because of COVID-19.
 
 **18. Can you give me a referral?**
 
-If I think you got what it takes, then maybe. Talk to me about it. 
+If I don't know you that well, then my answer is _probably_ no. If I think your performance in the course is noteworthy, and you have some experience to back it up, then get in touch — you might change my mind. 
+
+I know that sounds pretentious of me, but the last thing I'd want to do is give a professor someone that just has no idea what they're doing.
