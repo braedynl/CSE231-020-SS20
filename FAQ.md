@@ -546,11 +546,11 @@ class Vector(object):
         return "<{}, {}>".format(self.x, self.y)
 
 # on instantiation, think of the parameter mapping as:
-#             self=Vector(), x=1, y=2
+# self=Vector(), x=1, y=2
 v = Vector(1, 2)
 
 # for methods, think of self as being called by the instance being acted on:  
-#             self=v
+# self=v
 m = v.mag()
 ```
 
