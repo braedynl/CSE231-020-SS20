@@ -661,7 +661,7 @@ Yes, but not in the way you might expect. The language you should use is depende
 
 For example, if you're making a desktop application, or need hyper-fast arithmetic, you'll want C or C++. If you're doing anything web-related, then you'll definitely be working with JavaScript (or TypeScript as of late). Python or Java can be used for *pretty much* everything else, though Java is mostly being phased out in favor of Python. 
 
-If you're interested in data science, machine learning, cybersecurity, or research, Python is great option. 
+If you're interested in data science, machine learning, cybersecurity, or research, Python is a great option. 
 
 **12. What code editor do you use?**
 
