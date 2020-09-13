@@ -143,7 +143,7 @@ Variables referenced in a function body should be local to that function. Global
 
 **Braedyn Addendum**
 
-It's important to note the difference between "global variables" and "global constants". Global *constants* are allowed as discussed in the [symbolic constants section (same thing as global constants)](#6.-symbolic-constants), but global *variables* aren't because it can lead to [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). There *are* reasons for why the `global` keyword exists, but none of those things apply to what we'll be doing in this course. 
+It's important to note the difference between "global variables" and "global constants". Global *constants* are allowed as discussed in the [symbolic constants section (same thing as global constants)](#6-symbolic-constants), but global *variables* aren't because it can lead to [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). There *are* reasons for why the `global` keyword exists, but none of those things apply to what we'll be doing in this course. 
 
 ### 10. Class Names
 
