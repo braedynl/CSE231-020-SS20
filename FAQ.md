@@ -498,7 +498,7 @@ Out:
 
 **11. Is there a way to assign multiple variables to the same value in one line?**
 
-Yes, but I don't recommend doing this. It's much better to put assignments on subsequent lines for better readability. 
+Yes, but I don't recommend doing this. It's much better to put assignments on subsequent lines for readability. 
 
 ```python
 a, b, c = 0, 0, 0
