@@ -2,6 +2,10 @@
 
 When you convert a design document into Python source code, one of your primary goals should be to write the source code and internal documentation such that it is easy to verify that the source code conforms to the design. It should be easy to debug, test, and maintain. The coding standard below is designed to assist you in achieving this goal.
 
+**Braedyn Addendum**
+
+I've included an [example project structure](#example-structure) at the bottom of this document. 
+
 ### 1. No Personal Information
 
 Do not include any personal information, such as your name or APID, in any of your source code files. All project solutions are sent off campus to a software system which compares source code files for similarities.
@@ -161,9 +165,9 @@ Guido van Rossum, the creator of Python, has a length style guide: https://www.p
 
 It's an excellent resource for more complex situations not described in this document. 
 
-**Braedyn Addendum**
+### Example Structure
 
-Here's a general layout for all project structures:
+User-defined class definitions will generally be in separate files by themselves.
 
 ```python
 '''
@@ -215,5 +219,3 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
-User-defined class definitions will generally be in separate files by themselves.
