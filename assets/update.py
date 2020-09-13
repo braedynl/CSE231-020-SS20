@@ -478,7 +478,10 @@ class CSE231GitHub(object):
             dates = drange(d1, d2 + delta, delta)
             cases = county_data['Cases'].to_numpy(dtype=int)
 
-            ax.plot_date(dates, cases, '-', label=county)
+            ax.plot_date(dates, cases, '-', label=county, alpha=0.9)
+
+        ax.axvline(x=d2, ymin=0.05, ymax=0.6, alpha=0.6, color='k', linestyle='--')
+        ax.text(x=d2 - timedelta(2), y=190, s=d2.strftime('%m/%d/%y'), ha='right')
 
         ax.xaxis.set_major_formatter(DateFormatter('%m/%d/%y'))
         ax.set_title('Confirmed Cases of COVID-19 in Michigan by County')
@@ -664,6 +667,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    # github.update_readme()
+    github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
