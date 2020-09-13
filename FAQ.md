@@ -434,8 +434,8 @@ def example(a, b, c, d, e, f):
 
 my_list = [1, 2, 3, 4, 5, 6]
 
-# you use the asterisk symbol before the variable/value, 
-# it will unpack each value in order (so for this example,
+# you use the asterisk symbol before the variable, it 
+# will unpack each value in order (so for this example,
 # it would be unpacked as a=1, b=2, c=3, etc.)
 example(*my_list)
 
