@@ -152,4 +152,4 @@ Last Refresh: :refresh:
 
 **Counties were chosen based on the most populous [cities in Michigan](https://en.wikipedia.org/wiki/List_of_municipalities_in_Michigan).*
 
-**Graph is a day behind since the State of Michigan updates their spreadsheets after all cases have been totalled.*
+**Graph may be slightly behind since the State of Michigan updates their spreadsheets after all cases have been totalled.*
