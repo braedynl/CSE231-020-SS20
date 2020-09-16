@@ -4,7 +4,7 @@
 
 Due: Monday, October 12th (10/12/2020) at 11:59 PM EST
 
-Video: https://www.youtube.com/watch?v=OqRQ8sJmNk8
+Video: VIDEO NOT FOUND
 
 ___
 
