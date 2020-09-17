@@ -4,7 +4,7 @@
 
 Due: Monday, October 12th (10/12/2020) at 11:59 PM EST
 
-Video: VIDEO NOT FOUND
+Video: https://mediaspace.msu.edu/media/Project+04/1_g75hcxfr
 
 ___
 

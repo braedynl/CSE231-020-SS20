@@ -212,7 +212,7 @@ class CSE231GitHub(object):
             for link in soup.find_all('a'):
                 href = link.get('href')
                 
-                if 'youtube' in href:
+                if 'youtube' in href or 'mediaspace' in href:
                     video = href
                     continue
 
