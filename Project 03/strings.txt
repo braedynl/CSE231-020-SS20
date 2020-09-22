@@ -8,9 +8,9 @@
 "Enter Level as freshman, sophomore, junior, senior: "
 "Invalid input. Try again."
 "Enter college as business, engineering, health, sciences, or none: "
-'Is your major CMSE ("Computational Mathematics and Engineering"ù (yes/no): '           
+'Is your major CMSE ("Computational Mathematics and Engineering") (yes/no): '         
 "Are you admitted to the College of Engineering (yes/no): "
-"Are you in the James Madison College (yes/no:) "
+"Are you in the James Madison College (yes/no): "
 "Credits: "
 "Invalid input. Try again."
 "Invalid input. Try again."
