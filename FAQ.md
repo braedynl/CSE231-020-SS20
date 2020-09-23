@@ -286,7 +286,7 @@ If the option is greyed-out and/or updating did not fix the issue, contact me (l
 
 ## Programming
 
-**1. How do print an empty line?**
+**1. How do you print an empty line?**
 
 You can use `print()` with no arguments.
 
