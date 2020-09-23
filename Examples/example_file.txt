@@ -1,0 +1,9 @@
+NAME    EXAM_SCORE      GPA
+Bobby   90              3.8
+Dina    92              3.9
+Wungus  84              3.5
+Donald  72              3.4
+Kyle    100             4.0
+Jack    60              3.0
+Lily    80              3.4
+Eva     85              3.9
