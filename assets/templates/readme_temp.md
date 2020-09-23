@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is completely optional. Everything on here can be found on the main course website. 
+This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is **completely optional**. Everything on here can be found on the main course website, with an exception for my lab presentations (though they're not much different from the ones Dr. Enbody gives the TAs).
 
 Main Course Website: https://web.cse.msu.edu/~cse231/
 

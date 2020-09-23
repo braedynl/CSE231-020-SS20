@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section 023 for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is completely optional. Everything on here can be found on the main course website. 
+This repository is for CSE231 - Introduction to Programming I, Section 023 for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is **completely optional**. Everything on here can be found on the main course website, with an exception for my lab presentations (though they're not much different from the ones Dr. Enbody gives the TAs).
 
 Main Course Website: https://web.cse.msu.edu/~cse231/
 
@@ -48,7 +48,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 09/22/2020 03:06 PM EST
+Last Refresh: 09/22/2020 08:24 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -304,12 +304,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 Stay safe! These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus).
 
-- **Total Confirmed Cases:** 117,406
-- **Total COVID-19 Deaths:** 6,665
-- **Daily Confirmed Cases:** 1,536
-- **Daily COVID-19 Deaths:** 12
+- **Total Confirmed Cases:** 117,910
+- **Total COVID-19 Deaths:** 6,680
+- **Daily Confirmed Cases:** 504
+- **Daily COVID-19 Deaths:** 15
 
-Last Refresh: 09/22/2020 03:06 PM EST
+Last Refresh: 09/22/2020 08:24 PM EST
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
