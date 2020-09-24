@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section 023 for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is **completely optional**. Everything on here can be found on the main course website, with an exception for my lab presentations (though they're not much different from the ones Dr. Enbody gives the TAs).
+This repository is for CSE231 - Introduction to Programming I, Section 023 for Fall 2020 at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is **optional**. Almost everything on here can be found on the main course website.
 
 Main Course Website: https://web.cse.msu.edu/~cse231/
 
@@ -18,9 +18,9 @@ Logistics:
 
 Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
+  - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software) (if no in-person meetings)
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
-  - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software) (if no in-person meetings)
 
 Help:
   - [Contact Information](#contact-information)
@@ -28,6 +28,7 @@ Help:
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [FAQ](FAQ.md)
   - [General Tips](#general-tips)
+  - [Helpful Scripts](Scripts)
   - [Help Room Schedule](https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [Piazza](https://piazza.com/)
@@ -48,7 +49,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 09/23/2020 05:56 PM EST
+Last Refresh: 09/23/2020 09:07 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -309,7 +310,7 @@ Stay safe! These trackers are updated on a daily basis, and are scraped directly
 - **Daily Confirmed Cases:** 705
 - **Daily COVID-19 Deaths:** 12
 
-Last Refresh: 09/23/2020 05:56 PM EST
+Last Refresh: 09/23/2020 09:07 PM EST
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 

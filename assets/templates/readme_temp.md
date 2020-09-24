@@ -1,5 +1,5 @@
 # CSE231 - Introduction to Programming I
-This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is **completely optional**. Everything on here can be found on the main course website, with an exception for my lab presentations (though they're not much different from the ones Dr. Enbody gives the TAs).
+This repository is for CSE231 - Introduction to Programming I, Section :section: for :semester: :year: at Michigan State University. It includes all presentations and example code used during my in-class lab. Usage of this repository is **optional**. Almost everything on here can be found on the main course website.
 
 Main Course Website: https://web.cse.msu.edu/~cse231/
 
@@ -18,9 +18,9 @@ Logistics:
 
 Essential Sites:
   - [D2L](https://d2l.msu.edu/d2l/home)
+  - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software) (if no in-person meetings)
   - [Mimir](https://class.mimir.io/)
   - [Piazza](https://piazza.com/)
-  - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software) (if no in-person meetings)
 
 Help:
   - [Contact Information](#contact-information)
@@ -28,6 +28,7 @@ Help:
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [FAQ](FAQ.md)
   - [General Tips](#general-tips)
+  - [Helpful Scripts](Scripts)
   - [Help Room Schedule](:help_room_url:)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [Piazza](https://piazza.com/)
