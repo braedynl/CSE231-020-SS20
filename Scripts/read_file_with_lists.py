@@ -24,20 +24,10 @@ def read_file_no_data_structures(fp):
 
     fp.readline()  # skips header line
 
-    # initialize some variables to hold our information as
-    # we find it. we'll start min variables arbitrarily high
-    # to keep minimizing with each row
-    avg_gpa = 0
-    max_gpa = 0
-    min_gpa = 10**6
-
-    avg_exam_score = 0
-    max_exam_score = 0
-    min_exam_score = 10**6
-
-    # we'll have this variable to keep track of the number of
-    # students in the file
-    n = 0
+    # we create two lists, one to hold all of the GPAs, and one
+    # to hold all of the exam scores
+    gpas = []
+    exam_scores = []
 
     # iterates through each line (type: str) beginning from Bobby,
     # since we skipped (or "read") the header on line 25
@@ -49,25 +39,24 @@ def read_file_no_data_structures(fp):
         exam_score = int(line[8:11])
         gpa = float(line[24:27])
 
-        avg_gpa += gpa  # continually add together all GPAs
-        if gpa > max_gpa:  # if we find a new, greater GPA
-            max_gpa = gpa  # that becomes the new max GPA
-        if gpa < min_gpa:  # similarly, if we find a new, lesser GPA
-            min_gpa = gpa  # that becomes the new min GPA
-
-        # same sort of deal with the exam scores
-        avg_exam_score += exam_score
-        if exam_score > max_exam_score:
-            max_exam_score = exam_score
-        if exam_score < min_exam_score:
-            min_exam_score = exam_score
-
-        n += 1  # increment number of students
+        # add our exam score and GPA to the lists 
+        exam_scores.append(exam_score)
+        gpas.append(gpa)
     
-    # we've now summed up all of the scores and GPAs,
-    # so we divide those sums by the number of students
-    avg_gpa /= n
-    avg_exam_score /= n
+    # with all of the GPAs and exam scores grouped together in lists,
+    # we can use some of the standard Python functions to do the
+    # arithmetic for us
+
+    # the length of the lists, in this case, is equivalent to the
+    # number of students in the file, since there will only be
+    # an appended score/GPA if the student was in the file at all
+    avg_exam_score = sum(exam_scores) / len(exam_scores)
+    max_exam_score = max(exam_scores)
+    min_exam_score = min(exam_scores)
+
+    avg_gpa = sum(gpas) / len(gpas)
+    max_gpa = max(gpas)
+    min_gpa = min(gpas)
 
     # we're done!
     print("EXAM_SCORE")
@@ -77,5 +66,5 @@ def read_file_no_data_structures(fp):
     print("Average: {}, Max: {}, Min: {}".format(avg_gpa, max_gpa, min_gpa))
 
 
-fp = open('Examples/example_file.txt', 'r')
+fp = open('Examples/read_file_data.txt', 'r')
 read_file_no_data_structures(fp)
