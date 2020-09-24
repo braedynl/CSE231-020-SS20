@@ -77,5 +77,5 @@ def read_file_no_data_structures(fp):
     print("Average: {}, Max: {}, Min: {}".format(avg_gpa, max_gpa, min_gpa))
 
 
-fp = open('Examples/read_file_data.txt', 'r')
+fp = open('Scripts/read_file_data.txt', 'r')
 read_file_no_data_structures(fp)
