@@ -1,0 +1,9 @@
+'Please input a file to use: '
+'Invalid filename, please try again'
+"{:3s} ({:2d}) {:6,d}: {}"
+"{:3s} ({:2d}) {:6,d}: {}"
+"Error in month_name, n="
+"XXX"
+"Actual deaths (D) vs. Expected Deaths (E)"
+"{:3s} ({:2s}) {:6s}"
+
