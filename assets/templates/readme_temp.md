@@ -145,12 +145,8 @@ Stay safe! These trackers are updated on a daily basis, and are scraped directly
 
 :covid_data:
 
-Last Refresh: :refresh:
-
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
 [View Source](https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html)
 
 **Counties were chosen based on the most populous [cities in Michigan](https://en.wikipedia.org/wiki/List_of_municipalities_in_Michigan).*
-
-**Graph may be slightly behind since the State of Michigan updates their spreadsheets after all cases have been totalled.*

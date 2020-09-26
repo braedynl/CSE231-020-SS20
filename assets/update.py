@@ -124,11 +124,17 @@ class CSE231GitHub(object):
 
         stat_container = soup.find('section', attrs={'class':'stat-container'}).find_all('p')
 
+        as_of = ''
+        for p_tag in stat_container:
+            if "Updated" in p_tag.text:
+                as_of = p_tag.text[p_tag.text.find(' ') + 1:]
+
         covid_data = ''
         covid_data += '- **Total Confirmed Cases:** {}\n'.format(stat_container[1].text.replace('*', ''))
         covid_data += '- **Total COVID-19 Deaths:** {}\n'.format(stat_container[3].text.replace('*', ''))
-        covid_data += '- **Daily Confirmed Cases:** {}\n'.format(stat_container[5].text.replace('*', ''))
-        covid_data += '- **Daily COVID-19 Deaths:** {}'.format(stat_container[7].text.replace('*', ''))
+        covid_data += '- **New Confirmed Cases:** {}\n'.format(stat_container[5].text.replace('*', ''))
+        covid_data += '- **New COVID-19 Deaths:** {}\n\n'.format(stat_container[7].text.replace('*', ''))
+        covid_data += 'As of: {}'.format(as_of)
     
         readme_text = self.__course_info_replace(
             self.readme_temp.replace(':schedule:', schedule_html).replace(':progressbar:', bar_html)\
@@ -484,9 +490,9 @@ class CSE231GitHub(object):
         ax.text(x=d2 - timedelta(2), y=190, s=d2.strftime('%m/%d/%y'), ha='right')
 
         ax.xaxis.set_major_formatter(DateFormatter('%m/%d/%y'))
-        ax.set_title('Confirmed Cases of COVID-19 in Michigan by County')
+        ax.set_title('New Confirmed Cases of COVID-19 in Michigan by County')
         ax.set_xlabel('Date')
-        ax.set_ylabel('Confirmed Cases')
+        ax.set_ylabel('New Confirmed Cases')
         ax.legend()
 
         plt.savefig('assets/images/covid_data.png')
