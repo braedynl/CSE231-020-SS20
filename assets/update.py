@@ -247,6 +247,8 @@ class CSE231GitHub(object):
             print(readme_text, file=readme)
             readme.close()
 
+            video = ''
+
             os.chdir('..')
         
         if package: self.package('proj')

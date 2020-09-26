@@ -49,7 +49,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 09/26/2020 05:10 PM EST
+Last Refresh: 09/26/2020 05:18 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -317,3 +317,4 @@ As of: 9/26/2020
 [View Source](https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html)
 
 **Counties were chosen based on the most populous [cities in Michigan](https://en.wikipedia.org/wiki/List_of_municipalities_in_Michigan).*
+
