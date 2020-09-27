@@ -1,6 +1,6 @@
 # Strings Cheatsheet
 
-In computer science, **strings** (`str`) are an ordered sequence of characters, generally considered to be one of the fundamental data types (the others are `int` and `float`). It is the only fundamental data type that is implemented as an array of bytes, making it a type of **container**.
+In computer science, **strings** (`str`) are an ordered sequence of characters, generally considered to be one of the fundamental data types (the others are `int`, `float` and `bool`). It is the only fundamental data type that is implemented as an array of bytes, making it a type of **container**.
 
 As with all containers, you can count the number of items within by using the `len()` function, (in this case, the number of characters in the string). This can be helpful in many circumstances:
 
