@@ -310,7 +310,7 @@ Stay safe! These trackers are updated on a daily basis, and are scraped directly
 - **New Confirmed Cases:** 1,308
 - **New COVID-19 Deaths:** 8
 
-As of: on cases (09/28/20): Today’s daily case count represents new referrals of confirmed cases to the MDSS since Saturday, September 26.  Over the two days, the average number of new confirmed cases is 654 per day.Updated
+As of: 09/28/20
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
