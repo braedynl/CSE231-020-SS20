@@ -49,7 +49,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 09/27/2020 02:24 PM EST
+Last Refresh: 09/29/2020 01:15 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -57,7 +57,7 @@ Reading the book chapters and watching the lecture videos can be done at any poi
 
 If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
 
-<div align="center"><b>Semester Progress (26%)</b></div>
+<div align="center"><b>Semester Progress (28%)</b></div>
 <div align="center">⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜</div>
 
 &nbsp;
@@ -305,12 +305,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 Stay safe! These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus).
 
-- **Total Confirmed Cases:** 121,427
-- **Total COVID-19 Deaths:** 6,723
-- **New Confirmed Cases:** 901
-- **New COVID-19 Deaths:** 15
+- **Total Confirmed Cases:** 122,735
+- **Total COVID-19 Deaths:** 6,731
+- **New Confirmed Cases:** 1,308
+- **New COVID-19 Deaths:** 8
 
-As of: 9/26/2020
+As of: on cases (09/28/20): Today’s daily case count represents new referrals of confirmed cases to the MDSS since Saturday, September 26.  Over the two days, the average number of new confirmed cases is 654 per day.Updated
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 

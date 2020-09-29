@@ -4,7 +4,7 @@
 
 Due: Monday, October 19th (10/19/2020) at 11:59 PM EST
 
-Video: 
+Video: https://mediaspace.msu.edu/media/proj05/1_p1umgk6b
 
 ___
 

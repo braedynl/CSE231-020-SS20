@@ -2,7 +2,7 @@ def open_file():
 	# insert doc string here
 	pass
 
-def str_plot(month,week,n,type):
+def str_plot(month_int,week_int,n_int,type_str):
 	# insert doc string here
 	pass
         
