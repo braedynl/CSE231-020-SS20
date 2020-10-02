@@ -49,7 +49,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 10/02/2020 02:17 PM EST
+Last Refresh: 10/02/2020 02:23 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -278,7 +278,7 @@ There will be two midterms and a final examination during the semester, and will
 If there are no in-person meetings, students will take exams remotely. We require a camera (e.g. phone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
 - Exam 1: Online - Tuesday, October 6th (10/6/20) at 7:00 PM EST
 - Exam 2: Online - Tuesday, November 10th (11/10/20) at 7:00 PM EST
-- Exam 3: TBA
+- Exam 3: Online - Wednesday, December 16th (12/16/20) at 5:45 PM EST
 
 All issues related to the final examination will follow the policies and schedule of the University.
 
