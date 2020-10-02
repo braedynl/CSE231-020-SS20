@@ -1,6 +1,6 @@
 # Project 5
 
-[Download this folder's content (*.zip file)](../assets/packages/proj05_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj05_content.zip).
 
 Due: Monday, October 19th (10/19/2020) at 11:59 PM EST
 

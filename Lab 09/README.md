@@ -1,6 +1,6 @@
 # Lab 9
 
-[Download this folder's content (*.zip file)](../assets/packages/lab09_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab09_content.zip).
 
 Due: by the end of class on Friday, November 6th (11/6/2020) if you have meetings. Friday, November 6th (11/6/2020) at 11:59 PM EST if you are online.
 

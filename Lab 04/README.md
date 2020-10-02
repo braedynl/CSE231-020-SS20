@@ -1,6 +1,6 @@
 # Lab 4
 
-[Download this folder's content (*.zip file)](../assets/packages/lab04_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab04_content.zip).
 
 Due: by the end of class on Friday, October 2nd (10/2/2020) if you have meetings. Friday, October 2nd (10/2/2020) at 11:59 PM EST if you are online.
 

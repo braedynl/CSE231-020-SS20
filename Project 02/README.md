@@ -1,6 +1,6 @@
 # Project 2
 
-[Download this folder's content (*.zip file)](../assets/packages/proj02_content.zip). This will bring you to another page, click "View raw" or the "Download" button at the top-right once you're there. 
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj02_content.zip).
 
 Due: Monday, September 21st (9/21/2020) at 11:59 PM EST
 
