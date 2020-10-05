@@ -54,7 +54,7 @@ def main():
     .      Outnumbered and outgunned,  the Rebellion burns across the   .    .
 .      vast reaches of space and a thousand-thousand worlds, with only     .
     . their great courage - and the mystical power known as the Force -
-     flaming a fire of hope.                                    .
+     flaming a fire of hope. a                                    .
 
               .------.
             .'::::::' `.
