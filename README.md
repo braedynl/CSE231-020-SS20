@@ -28,6 +28,7 @@ Help:
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
   - [FAQ](FAQ.md)
   - [General Tips](#general-tips)
+  - [Glossary](GLOSSARY.md)
   - [Helpful Scripts](Scripts)
   - [Help Room Schedule](https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
