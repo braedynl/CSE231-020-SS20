@@ -2,7 +2,7 @@
 
 ### Alternative title: What the f**k is Braedyn saying?
 
-As you learn the basics of programming, you'll find come to find that there is a *copious* amount of vocabulary to know. I tend to use proper jargon a lot, not because I'm trying to get you to read the book (though you should), but because it's extremely difficult to explain the concepts *without* the vocab in my mind. Obviously, this can be a hindrance at times, and so here is a complete guide to the programming vocab.
+As you learn the basics of programming, you'll come to find that there is a *copious* amount of vocabulary to know. I tend to use proper jargon a lot, not because I'm trying to get you to read the book (though you should), but because it's extremely difficult to explain the concepts *without* the vocab in my mind. Obviously, this can be a hindrance at times, and so here is a complete guide to the programming vocab.
 
 (Note that you won't be tested on vocab, I made this just so you can understand me and my slides better)
 
