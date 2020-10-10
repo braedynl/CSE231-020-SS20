@@ -10,11 +10,19 @@ def open_file():
     while True:
 
         try:
-            file_name = input("Enter a file name: ")  # ask for file name
-            fp = open(file_name, mode='r')            # attempt to open it ('r', read mode)
-            return fp                                 # return the file pointer (breaks loop)
-
-        except FileNotFoundError:                     # if FileNotFoundError occurred:
-            print("File does not exist. Try again.")  # print error message (loop continues)
+            # ask for file name (str)
+            file_name = input("Enter a file name: ")
+            
+            # attempt to open it ('r' = read mode)
+            fp = open(file_name, mode='r')
+            
+            # return the file pointer (breaks loop)
+            return fp  
+        
+        # if FileNotFoundError occurred:
+        except FileNotFoundError: 
+            
+            # print error message (loop continues)
+            print("File does not exist. Try again.")
 
 fp = open_file()
