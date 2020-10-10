@@ -38,7 +38,9 @@ def my_function(a, b):  # everything encapsulated within this
 my_variable = 1  # my_variable's *definition*
 ```
 
-**Immutable** - A class that passes by copy. See [question 5 of the FAQ's Programming section](FAQ.md#programming) for an example on the difference between mutable and immutable types.
+**Global Namespace** - The indentation level furthest to the left side of the Python script. Variables declared in this region can be accessed everywhere else in the program.
+
+**Immutable** - Describes a class that passes by copy. See [question 5 of the FAQ's Programming section](FAQ.md#programming) for an example on the difference between mutable and immutable types.
 
 **Keyword** - A word that the programming language interprets as the programmer defining, or examining some portion of code.
 
@@ -55,7 +57,7 @@ import string
 import math  # as is 'math'
 ```
 
-**Mutable** - A class that passes by reference. See [question 5 of the FAQ's Programming section](FAQ.md#programming) for an example on the difference between mutable and immutable types.
+**Mutable** - Describes a class that passes by reference. See [question 5 of the FAQ's Programming section](FAQ.md#programming) for an example on the difference between mutable and immutable types.
 
 **Operator** - A character, or small set of characters that the programming language interprets as the programmer performing some arithmetic, or short-hand operation with regards to an overloaded class. 
 
