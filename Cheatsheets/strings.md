@@ -70,7 +70,7 @@ print('hey' < 'hello')  # False
 
 ## Indexing
 
-Since strings are a type of container, they can be indexed to extract particular characters or subsets of characters (typically called **substrings**). 
+Strings can be indexed to extract particular characters or subsets of characters (typically called **substrings**). 
 
 If we had some string, `"Hello, world!"`, the indices for it would be as follows:
 
