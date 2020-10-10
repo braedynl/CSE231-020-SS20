@@ -1,4 +1,6 @@
 '''
+PROBLEM
+
 Given a text file with the following content:
 
 NAME    EXAM_SCORE      GPA
@@ -20,7 +22,7 @@ column is within the index bounds of [8:11], and the
 GPA column is within the index bounds of [24:27].
 '''
 
-def read_file_no_data_structures(fp):
+def read_file_no_containers(fp):
 
     fp.readline()  # skips header line
 
@@ -78,4 +80,5 @@ def read_file_no_data_structures(fp):
 
 
 fp = open('Scripts/read_file_data.txt', 'r')
-read_file_no_data_structures(fp)
+
+read_file_no_containers(fp)  # example call

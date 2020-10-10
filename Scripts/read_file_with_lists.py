@@ -1,4 +1,6 @@
 '''
+PROBLEM
+
 Given a text file with the following content:
 
 NAME    EXAM_SCORE      GPA
@@ -67,4 +69,5 @@ def read_file_with_lists(fp):
 
 
 fp = open('Scripts/read_file_data.txt', 'r')
-read_file_with_lists(fp)
+
+read_file_with_lists(fp)  # example call

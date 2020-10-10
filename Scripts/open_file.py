@@ -1,7 +1,9 @@
 '''
+PROBLEM
+
 Design a function, named open_file, that continually asks the user
 for a valid file name if the file does not exist, and otherwise returns
-the file pointer object if the file does exist. The function should 
+the opened file pointer instance if the file does exist. The function should 
 take no arguments, and print the string "File does not exist. Try again."
 if the file does not exist. 
 '''
@@ -25,4 +27,5 @@ def open_file():
             # print error message (loop continues)
             print("File does not exist. Try again.")
 
-fp = open_file()
+
+fp = open_file()  # example call

@@ -1,27 +1,33 @@
 '''
-This file simply contains a function that prints a 
-dictionary with proper indentation and newlines.
+This file contains a function that prints a dictionary 
+with prettier indentation and newline spacing.
 
-If you use print() to debug your code a lot, please
-feel free to bring this function into your program and
-use it for yourself. Python unfortunately doesn't do
-a good job of printing large and/or nested dictionaries, 
-so we have to make functions that will.
+If you use print() to debug your code a lot, feel free 
+to bring this function into your program and use it for yourself!
 
-The function uses some fairly advanced Python that is
+This function uses some fairly advanced Python that is
 unnecessary for you to know for the purposes of this
 course. Feel free to look into the concepts used here on
-your own, though — it takes advantage of recursion and 
-closures/inner-functions:
+your own, though — it takes advantage of recursion and
+nested functions:
 https://www.programiz.com/python-programming/recursion
 https://www.programiz.com/python-programming/closure
 '''
 
 def pretty_print_dict(dictionary: dict) -> None:
     '''
-    Prints a dictionary instance with better formatting.
+    Prints a dictionary with prettier indentation and
+    newline spacing.
 
     Copy and paste this function into your program!
+
+    Parameters
+    ----------
+        dictionary : The dictionary instance to print.
+
+    Returns
+    -------
+        None
     '''
 
     if not isinstance(dictionary, dict):
@@ -58,4 +64,4 @@ example = {
     }
 }
 
-pretty_print_dict(example)
+pretty_print_dict(example)  # example call
