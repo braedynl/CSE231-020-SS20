@@ -305,7 +305,7 @@ class CSE231GitHub(object):
                 if 'read' in td.lower():
                     calendar[week_n][day]['html'] = '<a title="On: {}" href="{}">{}</a>'.format(pretty_date, self.course_info['week_urls'][str(week_n)], td)
                 elif 'exercise' in td.lower():
-                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="https://class.mimir.io">{}</a>'.format(pretty_date, td)
+                    calendar[week_n][day]['html'] = '<a title="Due: {} @ 11:59 PM EST" href="https://class.mimir.io">{}</a>'.format(pretty_date, td)
                 elif 'exam' in td.lower():
                     calendar[week_n][day]['html'] = '<a title="On: {}" href="#exam-information">{}</a>'.format(pretty_date, td)
 
@@ -321,7 +321,7 @@ class CSE231GitHub(object):
                     lab_dates['lab{:02d}'.format(lab_n)] = [pretty_date, None] 
 
                     if lab_n == 0:
-                        calendar[week_n][day]['html'] = '<a title="Due: {}" href="Lab%2000">Lab 00</a>'.format(pretty_date)
+                        calendar[week_n][day]['html'] = '<a title="Due: {} @ 11:59 PM EST" href="Lab%2000">Lab 00</a>'.format(pretty_date)
                         lab_dates['lab00'][1] = calendar[week_n][day]['date']
 
                     if lab_day is None and prelab_day is None:  # if both are None, use date given on website

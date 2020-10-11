@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 10/10/2020 10:42 PM EST
+Last Refresh: 10/10/2020 10:44 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -85,7 +85,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"><a title="Due: Friday, September 4th (9/4/2020)" href="Lab%2000">Lab 00</a></td>
+<td align="center"><a title="Due: Friday, September 4th (9/4/2020) @ 11:59 PM EST" href="Lab%2000">Lab 00</a></td>
 <td align="center"></td>
 </tr>
 <tr>
@@ -95,7 +95,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"><a title="Due: Thursday, September 10th (9/10/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 01</a></td>
 <td align="center"><a title="Due: Friday, September 11th (9/11/2020)" href="Lab%2001">Lab 01</a></td>
-<td align="center"><a title="Due: Saturday, September 12th (9/12/2020)" href="https://class.mimir.io">Exercises: Ch. 01</a></td>
+<td align="center"><a title="Due: Saturday, September 12th (9/12/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 01</a></td>
 </tr>
 <tr>
 <td align="center">02: 09/13</td>
@@ -104,7 +104,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"><a title="Due: Thursday, September 17th (9/17/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 02</a></td>
 <td align="center"><a title="Due: Friday, September 18th (9/18/2020)" href="Lab%2002">Lab 02</a></td>
-<td align="center"><a title="Due: Saturday, September 19th (9/19/2020)" href="https://class.mimir.io">Exercises: Ch. 02</a></td>
+<td align="center"><a title="Due: Saturday, September 19th (9/19/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 02</a></td>
 </tr>
 <tr>
 <td align="center">03: 09/20</td>
@@ -113,7 +113,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"><a title="Due: Thursday, September 24th (9/24/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 03</a></td>
 <td align="center"><a title="Due: Friday, September 25th (9/25/2020)" href="Lab%2003">Lab 03</a></td>
-<td align="center"><a title="Due: Saturday, September 26th (9/26/2020)" href="https://class.mimir.io">Exercises: Ch. 04</a></td>
+<td align="center"><a title="Due: Saturday, September 26th (9/26/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 04</a></td>
 </tr>
 <tr>
 <td align="center">04: 09/27</td>
@@ -122,7 +122,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"><a title="Due: Thursday, October 1st (10/1/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 04</a></td>
 <td align="center"><a title="Due: Friday, October 2nd (10/2/2020)" href="Lab%2004">Lab 04</a></td>
-<td align="center"><a title="Due: Saturday, October 3rd (10/3/2020)" href="https://class.mimir.io">Exercises: Ch. 05</a></td>
+<td align="center"><a title="Due: Saturday, October 3rd (10/3/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 05</a></td>
 </tr>
 <tr>
 <td align="center">05: 10/04</td>
@@ -131,7 +131,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"><a title="On: Tuesday, October 6th (10/6/2020)" href="#exam-information">Exam 1</a></td>
 <td align="center"><a title="Due: Thursday, October 8th (10/8/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 05</a></td>
 <td align="center"><a title="Due: Friday, October 9th (10/9/2020)" href="Lab%2005">Lab 05</a></td>
-<td align="center"><a title="Due: Saturday, October 10th (10/10/2020)" href="https://class.mimir.io">Exercises: Ch. 06</a></td>
+<td align="center"><a title="Due: Saturday, October 10th (10/10/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 06</a></td>
 </tr>
 <tr>
 <td align="center">06: 10/11</td>
@@ -149,7 +149,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"><a title="Due: Thursday, October 22nd (10/22/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 07</a></td>
 <td align="center"><a title="Due: Friday, October 23rd (10/23/2020)" href="Lab%2007">Lab 07</a></td>
-<td align="center"><a title="Due: Saturday, October 24th (10/24/2020)" href="https://class.mimir.io">Exercises: Ch. 07</a></td>
+<td align="center"><a title="Due: Saturday, October 24th (10/24/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 07</a></td>
 </tr>
 <tr>
 <td align="center">08: 10/25</td>
@@ -167,7 +167,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"><a title="Due: Thursday, November 5th (11/5/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 09</a></td>
 <td align="center"><a title="Due: Friday, November 6th (11/6/2020)" href="Lab%2009">Lab 09</a></td>
-<td align="center"><a title="Due: Saturday, November 7th (11/7/2020)" href="https://class.mimir.io">Exercises: Ch. 08 and 09</a></td>
+<td align="center"><a title="Due: Saturday, November 7th (11/7/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 08 and 09</a></td>
 </tr>
 <tr>
 <td align="center">10: 11/08</td>
@@ -185,7 +185,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"></td>
 <td align="center"><a title="Due: Thursday, November 19th (11/19/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 11</a></td>
 <td align="center"><a title="Due: Friday, November 20th (11/20/2020)" href="Lab%2011">Lab 11</a></td>
-<td align="center"><a title="Due: Saturday, November 21st (11/21/2020)" href="https://class.mimir.io">Exercises: Ch. 11</a></td>
+<td align="center"><a title="Due: Saturday, November 21st (11/21/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 11</a></td>
 </tr>
 <tr>
 <td align="center">12: 11/22</td>
@@ -203,7 +203,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 <td align="center"><a title="Due: Tuesday, December 1st (12/1/2020) @ 11:59 PM EST" href="Project%2010">Project 10</a></td>
 <td align="center"><a title="Due: Thursday, December 3rd (12/3/2020)" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 12</a></td>
 <td align="center"><a title="Due: Friday, December 4th (12/4/2020)" href="Lab%2012">Lab 12</a></td>
-<td align="center"><a title="Due: Saturday, December 5th (12/5/2020)" href="https://class.mimir.io">Exercises: Ch. 12</a></td>
+<td align="center"><a title="Due: Saturday, December 5th (12/5/2020) @ 11:59 PM EST" href="https://class.mimir.io">Exercises: Ch. 12</a></td>
 </tr>
 <tr>
 <td align="center">14: 12/06</td>
