@@ -77,7 +77,7 @@ I categorize them by the lab week that they're associated with, so it'll be in t
 
 It will be in an email sent out to the section. The session details will not be posted here since this is a public page. 
 
-#### our Discord server information? (only applies to summer semesters)**
+#### our Discord server information? (only applies to summer semesters)
 
 It will be in an email sent out to the section. The server details will not be posted here since this is a public page. 
 
