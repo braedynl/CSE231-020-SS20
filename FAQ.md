@@ -661,7 +661,7 @@ If you're interested in data science, machine learning, cybersecurity, or resear
 
 #### What code editor do you use?
 
-[Visual Studio Code](https://code.visualstudio.com). My installation may look slightly different because I have custom theme. I use "One Dark Pro", which you can find in the extensions marketplace.
+[Visual Studio Code](https://code.visualstudio.com). My installation may look slightly different because I have custom a theme. I use "One Dark Pro", which you can find in the extensions marketplace.
 
 #### How do you type so fast?
 
