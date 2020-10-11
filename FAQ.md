@@ -247,7 +247,7 @@ If a reinstallation did not fix the problem, contact me (letting4@msu.edu).
 
 #### My program can't find this .txt/.csv file for some reason.
 
-Verify the following things:
+Verify the following things in your program before reading the instructions below:
 - Did you spell the file name correctly? (Letter casing matches?)
 - Did you include the file extension? (.txt, .csv, etc.)
 - Do you have the file downloaded, and stored on your computer?
