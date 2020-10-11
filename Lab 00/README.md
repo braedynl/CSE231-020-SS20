@@ -4,7 +4,7 @@
 
 Due: Friday, September 4th (9/4/2020) at 11:59 PM EST
 
-#
+## Logistics
 
 The submission page for all labs are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases).
 
