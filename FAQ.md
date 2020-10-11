@@ -535,6 +535,23 @@ m = v.mag()
 
 I know how different it is from what we've become accustomed to, so this is a way of _thinking_ about the mapping of parameters when dealing with a class. It might not necessarily be what's happening behind the scenes.
 
+#### Why is Mimir giving me a SIGPIPE error?
+
+A SIGPIPE error usually occurs for any of the following conditions:
+- Your program asked for an `input()` when Mimir wasn't expecting to input anything
+- Your program is running when Mimir wasn't expecting it to run
+- Your program is infinitely looping
+
+There are many projects that have this chunk at the bottom of the starter-code:
+
+```python
+if __name__ == "__main__":
+    main()
+```
+
+Deleting this chunk will result in a SIGPIPE error more often than not. 
+
+If you have this chunk, but you're still receiving a SIGPIPE error from Mimir, it's likely the first condition. Mimir *thinks* your program is infinitely looping because the `input()` function halts your program until the user enters something. Mimir wasn't expecting to enter anything since it assumes your program's structure will follow its set of pre-programmed inputs. Try replicating Mimir's test case on Spyder to see where you have an extra `input()` prompt.
 
 ## Academic Dishonesty Reports
 
