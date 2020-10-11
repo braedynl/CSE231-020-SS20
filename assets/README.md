@@ -1,0 +1,1 @@
+This folder contains programs and files for administrative purposes only. Nothing in here is relevant to you as a student, but feel free to look around! 😁
