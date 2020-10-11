@@ -50,13 +50,13 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 10/10/2020 01:04 AM EST
+Last Refresh: 10/10/2020 10:02 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
-Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
+Reading the weekly book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
 
-If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
+If you are in a different timezone, Mimir and D2L should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything.
 
 <div align="center"><b>Semester Progress (39%)</b></div>
 <div align="center">⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜</div>
@@ -266,22 +266,22 @@ Email: letting4@msu.edu
 
 Website: https://github.com/braedynl
 
-I sadly don't have an office or office hours since I'm a measly and pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Microsoft Teams, Discord, etc.), and I'll get back to you as soon as I can. You can go to the website link I have posted to check for my availability. 
+I sadly don't have an office or office hours because I'm a pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Microsoft Teams, Discord, etc.), and I'll get back to you as soon as I can. You can go to the website link I have posted to check for my availability. 
 
 I will occasionally host "help rooms" of my own when I feel it to be necessary. This is dependent on how well the section is doing as a whole, however. 
 
-Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is online), I play no role in grading them.
+Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if not in-person), I usually play no role in grading these assignments.
 
 ## Exam Information
 
-There will be two midterms and a final examination during the semester, and will constitute 45% of your total course grade. You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
+There will be three exams over the course of the semester. In total, they constitute 45% of your overall course grade, where the percentage of each exam grows as the semester goes on. For each, you are allowed to have a single 8.5x11 inch sheet of notes, but no electronic devices. Non-native English speakers may bring a paper dictionary.
 
-If there are no in-person meetings, students will take exams remotely. We require a camera (e.g. phone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
-- Exam 1: Online - Tuesday, October 6th (10/6/20) at 7:00 PM EST
-- Exam 2: Online - Tuesday, November 10th (11/10/20) at 7:00 PM EST
-- Exam 3: Online - Wednesday, December 16th (12/16/20) at 5:45 PM EST
+For no in-person meeting arrangements, we require a camera (e.g. phone camera) positioned such that you, your desk, and your computer screen is in view.
+- Exam 1 (10%): Online - Tuesday, October 6th (10/6/20) at 7:00 PM EST
+- Exam 2 (15%): Online - Tuesday, November 10th (11/10/20) at 7:00 PM EST
+- Exam 3 (20%): Online - Wednesday, December 16th (12/16/20) at 5:45 PM EST
 
-All issues related to the final examination will follow the policies and schedule of the University.
+All issues related to the final exam will follow the policies and schedule of the University.
 
 ## General Tips
 
@@ -306,12 +306,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 Stay safe! These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus).
 
-- **Total Confirmed Cases:** 133,134
-- **Total COVID-19 Deaths:** 6,876
-- **New Confirmed Cases:** 1,095
-- **New COVID-19 Deaths:** 7
+- **Total Confirmed Cases:** 134,656
+- **Total COVID-19 Deaths:** 6,891
+- **New Confirmed Cases:** 1,522
+- **New COVID-19 Deaths:** 15
 
-As of: 10/09/2020
+As of: 10/10/2020
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 

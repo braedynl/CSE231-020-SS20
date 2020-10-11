@@ -6,7 +6,7 @@ Due: Monday, October 19th (10/19/2020) at 11:59 PM EST
 
 Video: https://mediaspace.msu.edu/media/proj05/1_p1umgk6b
 
-___
+#
 
 The submission page for all projects are on [Mimir](https://class.mimir.io/). You can submit an infinite amount of times before the deadline. The _best_ submission is graded by the TAs (i.e. the one that passes the most test-cases). 
 

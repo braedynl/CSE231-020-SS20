@@ -54,9 +54,9 @@ Last Refresh: :refresh:
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
-Reading the book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
+Reading the weekly book chapters and watching the lecture videos can be done at any point during the week, though it's _prooobbbaaably_ a good idea to do it before coming to lab and starting the assignments. It should be assumed that all assignments are due by 11:59 PM EST on their respective days, unless specified otherwise. 
 
-If you are in a different timezone, Mimir should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything (though your assignments may be due at strange times of the day depending on where you live, sorry!).
+If you are in a different timezone, Mimir and D2L should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything.
 
 :progressbar:
 
@@ -104,22 +104,22 @@ Email: letting4@msu.edu
 
 Website: https://github.com/braedynl
 
-I sadly don't have an office or office hours since I'm a measly and pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Microsoft Teams, Discord, etc.), and I'll get back to you as soon as I can. You can go to the website link I have posted to check for my availability. 
+I sadly don't have an office or office hours because I'm a pitiful ULA. I do, however, meet with students on a regular basis. Send me an email requesting a time and means of communication (in-person, Microsoft Teams, Discord, etc.), and I'll get back to you as soon as I can. You can go to the website link I have posted to check for my availability. 
 
 I will occasionally host "help rooms" of my own when I feel it to be necessary. This is dependent on how well the section is doing as a whole, however. 
 
-Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if course is online), I play no role in grading them.
+Contact **me** with questions regarding most grades. I am the one that grades your labs and projects, not the professors. Chapter exercises and exam grades are based solely on the test cases (exams are conducted through Mimir if not in-person), I usually play no role in grading these assignments.
 
 ## Exam Information
 
-There will be two midterms and a final examination during the semester, and will constitute 45% of your total course grade. You will be allowed one sheet of notes (8.5x11 inches) both sides, but no electronic devices. Non-native English speakers may bring a paper dictionary.
+There will be three exams over the course of the semester. In total, they constitute 45% of your overall course grade, where the percentage of each exam grows as the semester goes on. For each, you are allowed to have a single 8.5x11 inch sheet of notes, but no electronic devices. Non-native English speakers may bring a paper dictionary.
 
-If there are no in-person meetings, students will take exams remotely. We require a camera (e.g. phone camera). The camera should be positioned such that you, your desk, and your entire screen is in view.
-- Exam 1: :exam1_details:
-- Exam 2: :exam2_details:
-- Exam 3: :exam3_details:
+For no in-person meeting arrangements, we require a camera (e.g. phone camera) positioned such that you, your desk, and your computer screen is in view.
+- Exam 1 (10%): :exam1_details:
+- Exam 2 (15%): :exam2_details:
+- Exam 3 (20%): :exam3_details:
 
-All issues related to the final examination will follow the policies and schedule of the University.
+All issues related to the final exam will follow the policies and schedule of the University.
 
 ## General Tips
 

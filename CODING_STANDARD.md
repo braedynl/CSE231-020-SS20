@@ -2,7 +2,7 @@
 
 When you convert a design document into Python source code, one of your primary goals should be to write the source code and internal documentation such that it is easy to verify that the source code conforms to the design. It should be easy to debug, test, and maintain. The coding standard below is designed to assist you in achieving this goal.
 
-**Braedyn Addendum**
+**Interjection from Braedyn**
 
 I've included an [example project structure](#example-structure) at the bottom of this document. 
 
@@ -68,7 +68,7 @@ Symbolic constants should be used instead of embedding arbitrary numeric and cha
 HEAT_OF_FUSION = 79.71  # calories to melt one gram of ice
 ```
 
-**Braedyn Addendum**
+**Interjection from Braedyn**
 
 You'd typically want to place constants in the global namespace (the indentation level furthest to the left) between your chunk of `import` statements and function definitions. Values declared as constants _should remain constant_ -- otherwise that kind of defeats the purpose, right?   
 
@@ -107,7 +107,7 @@ def add_assignment(grade_book, possible_pts):
     '''
 ```
 
-**Braedyn Addendum**
+**Interjection from Braedyn**
 
 This coding standard is a tad outdated, since there's some newer Python features that allow for in-code type hints. Example:
 
@@ -145,7 +145,7 @@ def my_function(param1:int, param2:str='default') -> list:
 
 Variables referenced in a function body should be local to that function. Global variables should never be used (i.e. don't use the `global` keyword).
 
-**Braedyn Addendum**
+**Interjection from Braedyn**
 
 It's important to note the difference between "global variables" and "global constants". Global *constants* are allowed as discussed in the [symbolic constants section (same thing as global constants)](#6-symbolic-constants), but global *variables* aren't because it can lead to [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). There *are* reasons for why the `global` keyword exists, but none of those things apply to what we'll be doing in this course. 
 
