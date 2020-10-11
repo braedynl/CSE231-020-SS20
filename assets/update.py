@@ -312,7 +312,7 @@ class CSE231GitHub(object):
                 elif 'proj' in td.lower():
                     proj_n = int(td[-2:])
                     project_dates['proj{:02d}'.format(proj_n)] = pretty_date
-                    calendar[week_n][day]['html'] = '<a title="Due: {}" href="Project%20{n:02d}">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
+                    calendar[week_n][day]['html'] = '<a title="Due: {} @ 11:59 PM EST" href="Project%20{n:02d}">Project {n:02d}</a>'.format(pretty_date, n=proj_n)
                 
                 elif 'lab' in td.lower():
                     has_lab = True
@@ -675,6 +675,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    # github.update_readme()
+    github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
