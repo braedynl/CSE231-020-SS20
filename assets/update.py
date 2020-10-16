@@ -338,7 +338,7 @@ class CSE231GitHub(object):
             if lab_n == 0 or has_lab == False: continue  # skips pre-lab/lab insertion if lab 0 or if week has no lab
 
             lab_html = '<a title="Due: {}" href="Lab%20{n:02d}">Lab {n:02d}</a>'.format(calendar[week_n][lab_day]['date'], n=lab_n)
-            prelab_html = '<a title="Due: {}" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>'.format(calendar[week_n][prelab_day]['date'], n=lab_n)
+            prelab_html = '<a title="Due: {} @ 11:59 PM EST" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab {n:02d}</a>'.format(calendar[week_n][prelab_day]['date'], n=lab_n)
 
             lab_dates['lab{:02d}'.format(lab_n)][1] = calendar[week_n][lab_day]['date']
             
@@ -675,6 +675,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    # github.update_readme()
+    github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
