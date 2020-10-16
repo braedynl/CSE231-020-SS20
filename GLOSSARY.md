@@ -156,6 +156,16 @@ my_variable = 2  # 'my_variable' is the variable
 BIG_TEXT = 3  # 'BIG_TEXT' is the variable
 ```
 
+#### Whitespace
+
+A region of a string that is filled with spaces, newlines, or tabs.
+
+Example:
+```python
+# everything surrounding the text, "spacious", is considered *whitespace*
+my_str = "\t  \n  spacious    \n" 
+```
+
 ## Functions
 
 #### Function
