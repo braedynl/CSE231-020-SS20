@@ -1,6 +1,6 @@
 # Strings Cheatsheet
 
-In computer science, **strings** (`str`) are an ordered sequence of characters, generally considered to be one of the fundamental data types (the others are `int`, `float` and `bool`). It is the only fundamental data type that is implemented as an array of bytes, making it a type of **container**.
+In computer science, **strings** (`str`) are an ordered sequence of characters considered to be one of the fundamental data types (the others are `int`, `float` and `bool`). It is the only fundamental data type that is implemented as an array of bytes, making it a type of **container**.
 
 As with all containers, you can count the number of items within by using the `len()` function, (in this case, the number of characters in the string). This can be helpful in many circumstances:
 
@@ -12,15 +12,23 @@ n = len(my_str)  # n : 13
 
 Important to note, is that punctuation and spaces *do* count towards the total number of characters. 
 
-Strings are **immutable**, meaning that they pass by copy. (Don't worry if you don't know what that means yet, it will be explained during weeks 6 and 7).
+Strings are **immutable**, meaning that they pass by copy. (Don't worry if you don't know what that means yet, it will be explained during week 7)
 
 ## Initialization
 
 In Python, strings can be declared using double or single quotation marks. A multi-line string can be declared with a set of three double/single quotation marks. 
 
 ```python
+# empty string
+my_str = ''
+
+# string with initial values (single quotes)
 my_str = "Hello, world!"
+
+# string with initial values (double quotes)
 my_str = 'Hello, world!'
+
+# multi-line string
 my_str = '''
     Hello,
     world!
@@ -30,8 +38,11 @@ my_str = '''
 A string can also be declared via its constructor function, or as a conversion from a different type. 
 
 ```python
-my_str = str(123)   # from int
-my_str = str(3.14)  # from float
+# int conversion
+my_str = str(123)  # my_str : '123'
+
+# float conversion
+my_str = str(3.14)  # my_str : '3.14'
 ```
 
 ## Operations
@@ -257,14 +268,14 @@ my_str = "{} : {} : {}".format(1, 2, 3)      # my_str : '1 : 2 : 3'
 ```python
 # {:[fill][align][field_width][,][.precision][style]}
 
-# align='>' ; field_width='10' ; , ; style='d'
+# [align='>'] [field_width='10'] [,] [style='d']
 my_str = "{:>10,d}".format(2000)         # my_str : '     2,000'
 
-# align='^' ; field_width='20' ; , ; .precision='.2' ; style='f'
+# [align='^'] [field_width='20'] [,] [.precision='.2'] [style='f']
 my_str = "{:^20,.2f}".format(2459.4678)  # my_str : '      2,459.47      '
 
-# fill='#' ; align='>' ; field_width='20' ; .precision='.3' ; style='f'
-my_str = "{:#>20.3f}".format(3.1415)     # my_str = '###############3.142'
+# [fill='#'] [align='>'] [field_width='20'] [.precision='.3'] [style='f']
+my_str = "{:#>20.3f}".format(3.1415)     # my_str : '###############3.142'
 ```
 
 ### `.index(sub[, start[, end]])`
@@ -390,4 +401,14 @@ Returns a copy of the string with all uppercased characters.
 my_str = 'HeLLo WoRlD'
 
 my_str = my_str.upper()  # my_str : 'HELLO WORLD'
+```
+
+### `.zfill(width)`
+
+Returns a copy of the string with padding `'0'` digits until the length of the string is equal to `width`. 
+
+```python
+my_str = '42'
+
+my_str = my_str.zfill(5)  # my_str : '00042'
 ```
