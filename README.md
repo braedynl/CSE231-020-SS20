@@ -311,7 +311,7 @@ Stay safe! These trackers are updated on a daily basis, and are scraped directly
 - **New Confirmed Cases:** 2,909
 - **New COVID-19 Deaths:** 21
 
-As of: 
+As of: 10/19/20
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
