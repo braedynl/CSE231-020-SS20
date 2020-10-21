@@ -54,7 +54,7 @@ Place comments to indicate:
 - The purpose of objects that have ambiguous variable names.
 - Where something is "tricky", "clever" or "unusual" -- if it required thought on your part, it should be commented. 
 
-General rule of thumb: if it was hard to write, it is probably hard to read -- a comment is probably necessary.
+General rule of thumb: if it was hard to write, it is probably hard to read. If it's hard to read, a comment is probably necessary.
 
 ### 5. Mnemonic Identifiers
 
