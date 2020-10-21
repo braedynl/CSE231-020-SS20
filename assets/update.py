@@ -492,11 +492,15 @@ class CSE231GitHub(object):
         ax.text(x=d2 - timedelta(2), y=190, s=d2.strftime('%m/%d/%y'), ha='right')
 
         ax.xaxis.set_major_formatter(DateFormatter('%m/%d/%y'))
+        ax.tick_params(axis='x', top=False, reset=True)
         ax.set_title('New Confirmed Cases of COVID-19 in Michigan by County')
         ax.set_xlabel('Date')
         ax.set_ylabel('New Confirmed Cases')
         ax.legend()
 
+        plt.tight_layout()
+        plt.xticks(rotation=15)
+        # plt.show()
         plt.savefig('assets/images/covid_data.png')
 
     def __process_html_calendar(self, calendar:dict) -> None:
@@ -675,6 +679,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    # github.update_readme()
+    github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
