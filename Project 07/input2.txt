@@ -1,0 +1,8 @@
+earthquake_data_small.csv
+1
+2016
+n
+1
+2020
+n
+4
