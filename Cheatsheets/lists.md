@@ -281,12 +281,20 @@ Sorts the elements of the list in-place. Ascending order by default.
 If `reverse` is set to `True`, the list will be sorted in descending order.
 
 ```python
-from operator import itemgetter
-
 my_list = [5, 2, 4, 3, 1]
 
 my_list.sort()  # my_list : [1, 2, 3, 4, 5]
 my_list.sort(reverse=True)  # my_list : [5, 4, 3, 2, 1]
+```
+
+```python
+from operator import itemgetter
+
+# with nested lists, you can supply a function to 'key'
+# to tell .sort() which element of the nested list should
+# be used to determine the order. in this example, we could
+# choose the first elements (the character strings), or the
+# second elements (the numbers)
 
 my_list = [
     ['b', 3],
@@ -295,14 +303,6 @@ my_list = [
     ['a', 4],
     ['e', 0]
 ]
-```
-
-```python
-# with nested lists, you can supply a function to 'key'
-# to tell .sort() which element of the nested list should
-# be used to determine the order. in this example, we could
-# choose the first elements (the character strings), or the
-# second elements (the numbers)
 
 # we create a function that takes one parameter -- that 
 # parameter should expect each element of the list to
@@ -330,7 +330,7 @@ my_list.sort(key=sort_by_number)
 # my_list : [['e', 0], ['d', 1], ['c', 2], ['b', 3], ['a', 4]]
 
 '''
-For CSE231 particularly, we recommend using
+For CSE 231 particularly, we recommend using
 the 'itemgetter()' function. This function
 does exactly what was just shown, but doesn't 
 require that you create functions. You can 
