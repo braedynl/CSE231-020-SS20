@@ -37,9 +37,9 @@ def get_totals(L):
     total_pop = 0
 
     # [1:] to skip the US row
-    for row in L[1:]:
+    for row_list in L[1:]:
         # strip the row of commas and '<' symbols if any, add to sum
-        total_pop += int(row[1].replace('<', '').replace(',', ''))
+        total_pop += int(row_list[1].replace('<', '').replace(',', ''))
 
     return us_pop, total_pop
 
@@ -52,11 +52,11 @@ def get_largest_states(L):
     largest_states = []
 
     # [1:] to skip the US row
-    for row in L[1:]:
+    for row_list in L[1:]:
         
         # extract necessary info from the row
-        state_name = row[0]
-        state_percent = float(row[2].replace('%', ''))
+        state_name = row_list[0]
+        state_percent = float(row_list[2].replace('%', ''))
 
         # if the state percent is greater than the US percent
         if state_percent > us_percent:
@@ -76,8 +76,8 @@ def get_industry_counts(L):
         industry_counts.append( [industry, 0] )
 
     # [1:] to skip the US row
-    for row in L[1:]:
-        industry = row[9]  # obtain the industry for the row we're on
+    for row_list in L[1:]:
+        industry = row_list[9]  # obtain the industry for the row we're on
 
         # We search through the industry_counts list to find the count
         # associated with whatever industry we have for this particular row.
