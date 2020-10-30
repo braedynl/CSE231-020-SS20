@@ -1,0 +1,8 @@
+Onions,copper,manganese,magnesium,phosphorus
+Tomatoes,copper,manganese,potassium
+Garlic,manganese
+Celery,manganese,potassium,sodium,salt
+Bell Peppers,copper,manganese
+Butter,sodium,salt
+Eggplant,copper,manganese
+Grapes,copper,manganese,potassium

@@ -1,0 +1,42 @@
+Kale,calcium,copper,iron,magnesium,manganese,phosphorus,potassium,zinc
+Spinach,calcium,copper,iron,magnesium,manganese,phosphorus,potassium,zinc
+Onions,copper,manganese,magnesium,phosphorus
+Mushrooms,copper,phosphorus,potassium,selenium,zinc
+Avocado,copper,iron,magnesium,manganese,phosphorus,potassium,zinc
+Tomatoes,copper,manganese,potassium
+Garlic,manganese
+Green Onions,calcium,copper,iron,magnesium,manganese,phosphorus,potassium
+Lentils,copper,iron,potassium,phosphorus,magnesium,zinc
+Milk,calcium,magnesium,phosphorus,potassium,selenium,sodium,salt,zinc
+Mozzarella Cheese,calcium,phosphorus,selenium,sodium,salt,zinc
+Multi-grain Bread,calcium,copper,iron,magnesium,manganese,phosphorus,selenium,sodium,salt,zinc
+Celery,manganese,potassium,sodium,salt
+Bell Peppers,copper,manganese
+Butter,sodium,salt
+Zucchini,copper,magnesium,manganese,phosphorus,potassium
+Eggplant,copper,manganese
+Bananas,copper,magnesium,manganese,phosphorus,potassium
+Grapes,copper,manganese,potassium
+Strawberry,copper,magnesium,manganese,phosphorus,potassium
+Peaches,copper,magnesium,manganese,phosphorus,potassium
+Plums,copper,manganese,potassium
+Raspberries,copper,magnesium,manganese,phosphorus,zinc
+Blueberries,copper,manganese
+Ground Beef,zinc,salt,sodium,selenium,potassium,phosphorus,magnesium,iron,copper
+Turkey,copper,magnesium,phosphorus,potassium,selenium,sodium,salt,zinc
+Porkleg,copper,iron,magnesium,phosphorus,potassium,selenium,sodium,salt,zinc
+Chicken Wings,copper,iron,magnesium,phosphorus,potassium,selenium,sodium,salt,zinc
+Eggs,iron,phosphorus,selenium,sodium,salt,zinc
+Cucumber,copper,manganese
+Green Peas,copper,iron,magnesium,manganese,phosphorus,potassium,zinc
+Potatoes,copper,magnesium,manganese,phosphorus,potassium,zinc
+Oranges,calcium,copper,magnesium,potassium
+Blackberries,calcium,copper,iron,magnesium,manganese,phosphorus,potassium,zinc
+Cabbage,manganese
+Carrots,copper,manganese,phosphorus,potassium,sodium,salt
+Ground Veal,zinc,selenium,potassium,phosphorus,magnesium,copper
+Rice,copper,magnesium,manganese,phosphorus,selenium,zinc
+Cauliflower,copper,magnesium,manganese,phosphorus,potassium
+Broccoli,copper,magnesium,manganese,phosphorus,potassium,zinc
+Quinoa,copper,iron,magnesium,manganese,phosphorus,potassium,zinc
+Chickpeas,calcium,copper,iron,magnesium,manganese,phosphorus,potassium,selenium,zinc

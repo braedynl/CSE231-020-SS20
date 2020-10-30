@@ -1,0 +1,7 @@
+"Please input a file to use: "
+"Invalid filename, please try again"
+"\nWe consider these {}:"
+"\nSpecify three types of minerals separated by &(and) or |(or)"
+"Please enter 3 minerals using a single operand type (or q to quit): "
+"Error in input."
+"\nFoods that contain iron, please eat these foods if you are anemic: "
