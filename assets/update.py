@@ -467,7 +467,7 @@ class CSE231GitHub(object):
         filename = 'assets/covid_data.xlsx'
 
         soup = BeautifulSoup(urlopen('https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html'), features='html.parser')
-        link = 'https://www.michigan.gov/' + soup.find('a', text='Cases and Deaths by County by Date').get('href')
+        link = 'https://www.michigan.gov/documents/coronavirus/Cases_and_Deaths_by_County_and_by_Date_of_Symptom_Onset_or_by_Date_of_Death2020-10-29_706545_7.xlsx'
         urlretrieve(link, filename=filename)
 
         df = pd.read_excel(filename, sheet_name='Data', dtype=str)
