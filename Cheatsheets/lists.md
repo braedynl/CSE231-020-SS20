@@ -1,5 +1,7 @@
 # Lists Cheatsheet
 
+[List/Tuple Lectures](https://www.cse.msu.edu/~cse231/Online/lists.html)
+
 In computer science, **lists** (type name: `list`) are an ordered sequence of elements, categorized as one of the basic data structures. Lists are a type of **container**. Unlike strings, however, they can hold *any* type, including multiple instances of themselves — what would generally be referred to as a **nested list** or **matrix**.
 
 The `len()` function can be used to determine the number of elements within a list:
@@ -36,6 +38,8 @@ Jump to section:
 4. [Iteration](#iteration)
 5. [Common Methods](#common-methods)
 6. [List Comprehensions](#list-comprehensions)
+
+Want to learn more? [Check out Programiz's article on lists!](https://www.programiz.com/python-programming/list)
 
 ## Initialization
 

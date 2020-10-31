@@ -1,5 +1,7 @@
 # Strings Cheatsheet
 
+[String Lectures](https://www.cse.msu.edu/~cse231/Online/strings.html)
+
 In computer science, **strings** (type name: `str`) are an ordered sequence of characters considered to be one of the fundamental data types (the others are `int`, `float` and `bool`). It is the only fundamental data type that is implemented as an array of bytes, making it a type of **container**.
 
 As with all containers, you can count the number of items within by using the `len()` function, (in this case, the number of characters in the string). This can be helpful in many circumstances:
@@ -20,6 +22,8 @@ Jump to section:
 3. [Indexing](#indexing)
 4. [Iteration](#iteration)
 5. [Common Methods](#common-methods)
+
+Want to learn more? [Check out Programiz's article on strings!](https://www.programiz.com/python-programming/string)
 
 ## Initialization
 
