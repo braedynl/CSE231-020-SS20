@@ -14,17 +14,23 @@ INDUSTRIES = ['Agriculture', 'Business services', 'Construction', 'Leisure/hospi
 
 def read_file(fp):
     reader = csv.reader(fp)
-    
-    for i in range(4):  # Skips the first 4 rows of the CSV
+
+    # a variable named "_" signifies an unused variable. 
+    # a for-loop will automatically yield a number representing 
+    # the iteration that it's on, but we're simply trying to call
+    # next() four times, we don't need the iteration number (what 
+    # we would typically name "i")
+
+    for _ in range(4):  # skips the first 4 rows of the CSV
         next(reader, None)
 
     L = []
 
-    # Grabs every row if it isn't empty, and creates a list
+    # grabs every row if it isn't empty, and creates a list
     # comprised of all rows as lists (a list of lists)
-    for row in reader:  # remember that every row with the CSV reader will already be a list
-        if row[0] != "":
-            L.append(row)
+    for row_list in reader:
+        if row_list[0] != "":  # checks the first item in the row
+            L.append(row_list)  # to ensure that the row isn't empty
 
     return L
 
@@ -66,7 +72,7 @@ def get_largest_states(L):
 
 
 def get_industry_counts(L):
-    # This creates a list of lists, where each inner-list contains
+    # this creates a list of lists, where each inner-list contains
     # a string of the industry at index 0, and an associated count
     # for that industry at index 1, alike:
     # [ [{industry name}, {count}], [{industry name}, {count}], ... ]
