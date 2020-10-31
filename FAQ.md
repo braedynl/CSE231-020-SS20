@@ -8,8 +8,7 @@ Jump to section:
 3. [Meta](#meta)
 4. [Spyder](#spyder)
 5. [Programming](#programming)
-6. [Academic Dishonesty Reports](#academic-dishonesty-reports)
-7. [Miscellaneous/Personal](#miscellaneouspersonal)
+6. [Miscellaneous/Personal](#miscellaneouspersonal)
 
 ## Where can I find...
 
@@ -35,7 +34,11 @@ Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Cou
 
 #### chapter exercise XX?
 
-Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Coursework. 
+Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Coursework.
+
+#### the lecture videos?
+
+[Here](https://github.com/braedynl/CSE231-GITHUB#course-schedule), linked on the home folder's README file, inside the course schedule.
 
 #### the coding standard?
 
@@ -104,11 +107,11 @@ If you took the paper exam: _usually_ up to a week after all students have taken
 
 #### When do lab/project grades come back?
 
-_Usually_ the day after everyone in the section has finished, including anyone who had an extension.
+*Usually* before the next lab/project due date. The day can vary wildly depending on how busy I am that week.
 
 #### How do I view your project feedback?
 
-Go to your project submission on Mimir, there should be a blue "View Feedback" button at the top-right of the page.
+Go to your project submission on Mimir, there should be a lightblue button at the top-right of the page titled "Feedback".
 
 #### Is there any leniency for close final grade boundaries?
 
@@ -139,15 +142,15 @@ All of the TAs staff help room at certain points during the week, I highly recom
 
 Piazza is the fastest way to get answers, and offers anonymity if that's something you'd prefer. 
 
-You may also contact me (letting4@msu.edu), or another TA if they're okay with you asking, if you need more personal help.
+You may also contact me (letting4@msu.edu), or another TA (assuming they're okay with you asking) if you need more personal help.
 
-Some students want a tutor. The department does not have the resources to screen and train tutors, though some students have had luck finding one online through Facebook, Reddit, and universitytutor.com. Please be cautious with meeting people you find online — only meet in public areas. Always ensure you're actually learning the content, and not just having the tutor do all of the work for you. 
+Some students want a tutor. The department does not have the resources to screen and train tutors, though some students have had luck finding one online through Facebook, Reddit, and universitytutor.com. Please be cautious with meeting people you find online — only meet in public areas.
 
 #### Why does this class teach Python and not [some other programming language]?
 
-Python is probably the simplest programming language to understand for newcomers, while also being extremely useful and popular to use in real-world applications. Python syntax tends to use natural language expressions rather than complicated strings of characters, which helps a lot with mental links to programming concepts. 
+Python is probably the simplest programming language to understand for newcomers, while also being popular to use in real-world applications. Python syntax tends to use natural language expressions rather than complicated strings of characters, which helps a lot with mental links to programming concepts.
 
-Just to show you how simple Python is, here's how you test if an `int` with value `5` is contained within an array, for which we then print our results to the console:
+Just to show how simple Python is, here's how you test if an `int` with value `5` is contained within an array, for which we then print our results to the console:
 ```python
 array = [1, 2, 3, 4, 5]
 
@@ -169,7 +172,7 @@ if (std::find(array.begin(), array.end(), 5) != array.end()) {
 }
 ```
 
-Admittedly an extreme example, but yeah, Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they get used to it.
+Admittedly an extreme example, but yeah, Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they usually get used to it.
 
 Fun fact: CSE231 used to teach C++!
 
@@ -198,7 +201,7 @@ I unfortunately don't know much about ChromeOS, so if you're encountering troubl
 
 #### Are we allowed to use w3schools.com and/or programiz.com as supplementary material?
 
-You're allowed to use any online resource that teaches Python — in fact, I often encourage students to use programiz.com if they're looking for more material. But be careful, many online courses and tutorials teach subjects on Python that we won't be covering. It's usually best to go through our reading and lectures, and then refer to online resources for reinforcement. 
+You're allowed to use any online resource that teaches Python — in fact, I often encourage students to use programiz.com if they're looking for more material. But be careful, many online courses and tutorials teach subjects on Python that we won't be covering. It's usually best to go through our reading and lectures, and then refer to online resources for reinforcement and/or reference. 
 
 #### Why are the online exams proctored?
 
@@ -553,23 +556,6 @@ Deleting this chunk will result in a SIGPIPE error more often than not.
 
 If you have this chunk, but you're still receiving a SIGPIPE error from Mimir, it's likely the first condition. Mimir *thinks* your program is infinitely looping because the `input()` function halts your program until the user enters something. Mimir wasn't expecting to enter anything since it assumes your program's structure will follow its set of pre-programmed inputs. Try replicating Mimir's test case on Spyder to see where you have an extra `input()` prompt.
 
-## Academic Dishonesty Reports
-
-#### Do you know who has received an academic dishonesty report?
-
-No, unless the student tells me (you don't have to). Academic dishonesty reports are kept private between the professors and the student in question, unless the TA was involved to some capacity.
-
-I have caught plagiarizing students myself, however. I browse through at least one hundred projects every week (all of the section's + students on Piazza), I will occasionally spot similar solutions. 
-
-#### Have you had students in your section recieve academic dishonesty reports?
-
-Oh yes, many. It saddens me when it happens — it feels like a failure on my part, which is why I stress doing your own work so much. I tend to have students that are very open with me, and so I'm aware of almost everyone in my past sections who has received one. I wish I could've stopped them, but it's always too late 🤷
-
-#### What should I do if I receive an academic dishonesty report?
-
-You can either take the punishment or appeal. Convictions are usually made with strong evidence, however. I frankly don't know much about the ADR process, so I would visit the Office of the University Ombudsperson [website](https://ombud.msu.edu). 
-
-
 ## Miscellaneous/Personal
 
 #### I'm a [major that's not computer science/engineering], will I ever need this?
@@ -665,7 +651,11 @@ If you're interested in data science, machine learning, cybersecurity, or resear
 
 #### How do you type so fast?
 
-Too much time spent writing essays in an IB high school. 
+Too much time spent writing essays in an IB high school.
+
+#### What is your ethnicity?
+
+50% Korean, 50% white.
 
 #### Where can I apply to become a ULA for this course?
 
