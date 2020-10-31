@@ -29,6 +29,14 @@ minimum = min(my_list)  # minimum : 1
 
 Lists are **mutable**, meaning that they pass by reference. (Don't worry if you don't know what that means yet, it will be explained during week 7)
 
+Jump to section:
+1. [Initialization](#initialization)
+2. [Operations](#operations)
+3. [Indexing](#indexing)
+4. [Iteration](#iteration)
+5. [Common Methods](#common-methods)
+6. [List Comprehensions](#list-comprehensions)
+
 ## Initialization
 
 In Python, lists can be declared using square brackets (`[]`).

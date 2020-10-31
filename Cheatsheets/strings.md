@@ -14,6 +14,13 @@ Important to note, is that punctuation and spaces *do* count towards the total n
 
 Strings are **immutable**, meaning that they pass by copy. (Don't worry if you don't know what that means yet, it will be explained during week 7)
 
+Jump to section:
+1. [Initialization](#initialization)
+2. [Operations](#operations)
+3. [Indexing](#indexing)
+4. [Iteration](#iteration)
+5. [Common Methods](#common-methods)
+
 ## Initialization
 
 In Python, strings can be declared using double or single quotation marks. A multi-line string can be declared with a set of three double/single quotation marks. 
