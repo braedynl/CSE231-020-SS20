@@ -145,8 +145,10 @@ class CSE231GitHub(object):
             name_expanded = 'Project {:02d}'.format(n)
             name_short = 'proj{:02d}'.format(n)
 
-            try: soup = BeautifulSoup(urlopen(complete_url), features='html.parser')
-            except HTTPError: break
+            try: 
+                soup = BeautifulSoup(urlopen(complete_url), features='html.parser')
+            except HTTPError: 
+                break
             
             subdir = '{}/'.format(name_expanded)
             if not os.path.exists(subdir):
@@ -458,7 +460,7 @@ class CSE231GitHub(object):
 if __name__ == "__main__":
     github = CSE231GitHub()
 
-    github.package('lab')
+    # github.package('lab')
     # github.update_readme()
     # github.update_project_files(True)
-    # github.update_all(True)
+    github.update_all(False)
