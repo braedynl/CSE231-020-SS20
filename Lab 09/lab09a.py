@@ -27,7 +27,7 @@ functions build_map() and display_map(). Feel free to create the functions
 from scratch if it makes more sense to you that way.
 
 Throughout the program, treat the variable `in_file1` as continents.txt,
-and treat the variable `in_file2` as cities.txt. Meaning that, to test
+and treat the variable `in_file2` as cities.txt. Meaning that, when testing
 the program locally, input "continents.txt" to the first prompt and
 "cities.txt" for the second prompt.
 

@@ -1,7 +1,7 @@
 # Let's pretend we have a CSV file of students with their names, ages, 
 # genders and years. However, there are duplicate entries in the file 
-# that we're given, in which the LATEST entry is the most updated
-# information for that student.
+# that we're given, in which the LATEST entry is the most recent (and
+# therefore desired) information for that student.
 
 # We're then tasked with creating a program that will print the LATEST
 # information for ALL students. The order in which students are printed
@@ -18,27 +18,25 @@ def update_dict(reader, student_dict):
     next(reader)  # skips header line
 
     for line_list in reader:
-        
-        # print(line_list)
 
         # extract all necessary info
         name = line_list[0]
-        age = line_list[1]
+        age = int(line_list[1])
         gender = line_list[2]
-        year = line_list[3]
+        year = int(line_list[3])
 
         if name == 'null':  # skip row if name is 'null'
             continue
         
         # if the name isn't a key in the outer-most dict,
         # we insert the name-key, with a dictionary of that individual's
-        # attributes for the current row
+        # attributes for the CURRENT row
         if name not in student_dict:
-            student_dict[name] = { 'age': int(age), 'gender': gender, 'year': int(year) }
+            student_dict[name] = { 'age': age, 'gender': gender, 'year': year }
         
-        # else if the name is already a key in the outer-most dict,
-        # we access all of the attributes and reassign/overwrite them, 
-        # since the LATEST entries in the CSV file are the "correct" ones.
+        # else if the name is ALREADY A KEY in the outer-most dict,
+        # we access all of the attributes and overwrite them, since 
+        # the LATEST entries in the CSV file are the "correct" ones.
         elif name in student_dict:
             student_dict[name]['age'] = age
             student_dict[name]['gender'] = gender
@@ -70,7 +68,7 @@ def print_dict(student_dict):
 
 def main():
     student_dict = {}
-    reader = csv.reader(open('Lab 09/presentation/students.csv', 'r'))
+    reader = csv.reader(open('students.csv', 'r'))
 
     update_dict(reader, student_dict)
     print_dict(student_dict)
