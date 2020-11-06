@@ -323,10 +323,7 @@ class CSE231GitHub(object):
         return (fill_w * self.progressbar['fill']) + (empty_w * self.progressbar['empty'])
 
     def __update_plot(self) -> None:
-        soup = BeautifulSoup(
-            urlopen('https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html'), 
-            features='html.parser'
-        )
+        soup = BeautifulSoup(urlopen('https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html'), features='html.parser')
 
         filename = 'assets/covid_data.xlsx'
 
@@ -357,15 +354,15 @@ class CSE231GitHub(object):
 
             ax.plot_date(dates, cases, '-', label=county, alpha=0.9)
 
-        ax.axvline(x=d2, ymin=0.05, ymax=0.6, alpha=0.6, color='k', linestyle='--')
-        ax.text(x=d2 - timedelta(2), y=190, s=d2.strftime('%m/%d/%y'), ha='right')
+        ax.axvline(x=d2, ymin=0, ymax=0.6, alpha=0.7, color='k', linestyle='--')
+        ax.text(x=d2 - timedelta(2), y=ax.get_ylim()[1] / 2, s=d2.strftime('%m/%d/%y'), ha='right')
 
         ax.xaxis.set_major_formatter(DateFormatter('%m/%d/%y'))
         ax.tick_params(axis='x', top=False, reset=True)
         ax.set_title('New Confirmed Cases of COVID-19 in Michigan by County')
         ax.set_xlabel('Date')
         ax.set_ylabel('New Confirmed Cases')
-        ax.legend()
+        ax.legend(loc=2)
 
         plt.tight_layout()
         plt.xticks(rotation=15)
@@ -462,6 +459,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    # github.update_readme()
+    github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
