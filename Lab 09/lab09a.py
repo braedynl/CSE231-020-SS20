@@ -91,7 +91,7 @@ def build_map( in_file1, in_file2 ):
             for continent in data_map:
                 if country in data_map[continent]:
 
-                    # IF `city` NOT IN THE `data_map[continent][country]` DICTIONARY:
+                    # IF `city` NOT IN THE `data_map[continent][country]` LIST:
                         # APPEND `city` TO THE LIST OF CITIES
 
     # RETURN `data_map`
