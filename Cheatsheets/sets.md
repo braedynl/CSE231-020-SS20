@@ -84,16 +84,16 @@ Sets are compatible with many unique operators, not often used by other classes.
 
 If `A` and `B` are sets...
 
-| Name | Operator | Example Usage | Returns | Description |
-| :---: | :---: | :---: | :---: | :---: |
-| Union | `|` | `A | B` | `set` | Returns a new set comprised of all elements from both operand sets |
-| Intersection | `&` | `A & B` | `set` | Returns a new set comprised of the elements shared between both operand sets |
-| Difference | `-` | `A - B` | `set` | Returns a new set comprised of all elements in `A` that are not in `B` |
-| Symmetric Difference | `^` | `A ^ B` | `set` | Returns a new set comprised of all elements unique to both operand sets |
-| Is Subset | `<=` | `A <= B` | `bool` | Tests whether every element in `A` is in `B` |
-| Is Proper Subset | `<` | `A < B` | `bool` | Tests whether every element in `A` is in `B`, but `A` does not equal `B` |
-| Is Superset | `>=` | `A >= B` | `bool` | Tests whether every element in `B` is in `A` |
-| Is Proper Superset | `>` | `A > B` | `bool` | Tests whether every element in `B` is in `A`, but `B` does not equal `A` |
+| Name                 | Operator | Example Usage | Returns | Description |
+| :---:                | :---:    | :---:         | :---:   | :---:       |
+| Union                | `\|`      | `A \| B`       | `set`   | Returns a new set comprised of all elements from both operand sets |
+| Intersection         | `&`      | `A & B`       | `set`   | Returns a new set comprised of the elements shared between both operand sets |
+| Difference           | `-`      | `A - B`       | `set`   | Returns a new set comprised of all elements in `A` that are not in `B` |
+| Symmetric Difference | `^`      | `A ^ B`       | `set`   | Returns a new set comprised of all elements unique to both operand sets |
+| Is Subset            | `<=`     | `A <= B`      | `bool`  | Tests whether every element in `A` is in `B` |
+| Is Proper Subset     | `<`      | `A < B`       | `bool`  | Tests whether every element in `A` is in `B`, but `A` does not equal `B` |
+| Is Superset          | `>=`     | `A >= B`      | `bool`  | Tests whether every element in `B` is in `A` |
+| Is Proper Superset   | `>`      | `A > B`       | `bool`  | Tests whether every element in `B` is in `A`, but `B` does not equal `A` |
 
 All operators have method function equivalents (see [Common Methods](#common-methods))
 
