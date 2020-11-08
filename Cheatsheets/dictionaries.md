@@ -191,7 +191,7 @@ for key, value in my_dict.items():
 
 ### `.clear()`
 
-Removes all key-values pairs from the dictionary.
+Removes all key-value pairs from the dictionary.
 
 ```python
 my_dict = {'a': 1, 'b': 2, 'c': 3}
