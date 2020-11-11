@@ -1,6 +1,6 @@
 # Helpful Scripts
 
-This folder contains Python scripts that you may find helpful in referencing for certain projects, exercises, and labs. These are not _answers_ to any particular assignment. Problems were made up for the purposes of demonstration.
+This folder contains Python scripts that you may find helpful in referencing for certain projects, exercises, and labs. These are not _answers_ to any particular assignment. Problems were made up for the purpose of demonstration.
 
 ### [invalid_input.py](invalid_input.py)
 
