@@ -4,7 +4,7 @@
 
 Due: Monday, November 16th (11/16/2020) at 11:59 PM EST
 
-Video: 
+Video: https://mediaspace.msu.edu/media/proj08/1_nvm9o8of
 
 ## Logistics
 
