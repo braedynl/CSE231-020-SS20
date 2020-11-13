@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 11/13/2020 01:17 PM EST
+Last Refresh: 11/13/2020 06:56 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -189,7 +189,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 </tr>
 <tr>
 <td align="center">12: 11/22</td>
-<td><a title="On: Sunday, November 22nd (11/22/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch. 12; Videos: More on Classes</a></td>
+<td><a title="On: Sunday, November 22nd (11/22/2020)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a></td>
 <td align="center"><a title="Due: Monday, November 23rd (11/23/2020) @ 11:59 PM EST" href="Project%2009">Project 09</a></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -198,7 +198,7 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 </tr>
 <tr>
 <td align="center">13: 11/29</td>
-<td><a title="On: Sunday, November 29th (11/29/2020)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a></td>
+<td><a title="On: Sunday, November 29th (11/29/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch. 12; Videos: More on Classes</a></td>
 <td align="center"></td>
 <td align="center"><a title="Due: Tuesday, December 1st (12/1/2020) @ 11:59 PM EST" href="Project%2010">Project 10</a></td>
 <td align="center"><a title="Due: Thursday, December 3rd (12/3/2020) @ 11:59 PM EST" href="https://d2l.msu.edu/d2l/loginh/">Pre-Lab 12</a></td>
@@ -306,12 +306,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 Stay safe! These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus).
 
-- **Total Confirmed Cases:** 236,225
-- **Total COVID-19 Deaths:** 7,811
-- **New Confirmed Cases:** 6,940
-- **New COVID-19 Deaths:** 45
+- **Total Confirmed Cases:** 244,741
+- **Total COVID-19 Deaths:** 7,929
+- **New Confirmed Cases:** 8,516
+- **New COVID-19 Deaths:** 118
 
-As of: 11/12/2020
+As of: 11/13/2020
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
