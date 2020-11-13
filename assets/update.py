@@ -36,6 +36,7 @@ from pytz import timezone
 
 import seaborn; seaborn.set()
 
+HEADING_ORDER = {'Week': 0, 'Sun': 1, 'Mon': 2, 'Tue': 3, 'Wed': 4, 'Thu': 5, 'Fri': 6, 'Sat': 7}
 DAY_DELTAS = {'Sun': 0, 'Mon': 1, 'Tue': 2, 'Wed': 3, 'Thu': 4, 'Fri': 5, 'Sat': 6}
 PLOT_COUNTIES = ['Wayne', 'Kent', 'Washtenaw', 'Ingham', 'Macomb']
 
@@ -64,15 +65,15 @@ class CSE231GitHub(object):
         syllabus.close()
     
     def update_readme(self) -> None:
-        self.__update_plot()
+        # self.__update_plot()
 
         schedule_html = open('assets/schedule.html', 'r').read()
 
-        today = datetime.now(tz=timezone('US/Eastern'))
-
+        tz = timezone('US/Eastern')
+        today = datetime.now(tz=tz)
         refresh = today.strftime('%m/%d/%Y %I:%M %p EST')
-        semester_start = datetime(*self.course_info['semester_start'], tzinfo=timezone('US/Eastern'))
-        semester_end = datetime(*self.course_info['semester_end'], tzinfo=timezone('US/Eastern'))
+        semester_start = datetime(*self.course_info['semester_start'], tzinfo=tz)
+        semester_end = datetime(*self.course_info['semester_end'], tzinfo=tz)
 
         N = semester_end - semester_start  # number of days in the semester
         n = semester_end - today     # number of days from now until the end of the semester
@@ -141,7 +142,6 @@ class CSE231GitHub(object):
 
         for n in range(1, 13):  # project numbers (up to 12 to force HTTPError)
             complete_url = url.format(n)
-
             name_expanded = 'Project {:02d}'.format(n)
             name_short = 'proj{:02d}'.format(n)
 
@@ -283,6 +283,14 @@ class CSE231GitHub(object):
         json.dump(lab_dates, lab_dates_fp, indent=4)
         lab_dates_fp.close()
 
+        # TEMP FIX TO ENBODY CALENDAR MIX-UP, WEEKS 12 & 13 URLS SWAPPED IN COURSE_INFO.json
+        calendar[12]['Sun']['html'] = '<a title="On: Sunday, November 22nd (11/22/2020)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a>'
+        calendar[13]['Sun']['html'] = '<a title="On: Sunday, November 29th (11/29/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch. 12; Videos: More on Classes</a>'
+
+        # orig:
+        # '<a title="On: Sunday, November 22nd (11/22/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch. 12; Videos: More on Classes</a>'
+        # '<a title="On: Sunday, November 29th (11/29/2020)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a>'
+
         self.__process_html_calendar(calendar)
 
     def package(self, folder_type:Union['proj', 'lab']) -> None:
@@ -377,21 +385,15 @@ class CSE231GitHub(object):
         # finds all day columns that are required to be present (don't ever write code like this lmao)
         headers = sorted(
             {'Week', } | {day for week_dict in calendar.values() for day, day_dict in week_dict.items() if day_dict['html'] != ''},
-            key=lambda head: {'Week': 0, 'Sun': 1, 'Mon': 2, 'Tue': 3, 'Wed': 4, 'Thu': 5, 'Fri': 6, 'Sat': 7}[head]
+            key=lambda head: HEADING_ORDER[head]
             )
 
-        print('<div align="center">', file=fp_out)
-        print('<table>', file=fp_out)
-        print('<thead>', file=fp_out)
-        print('<tr>', file=fp_out)
+        print('<div align="center">\n<table>\n<thead>\n<tr>', file=fp_out)
         for head in headers:
             print('<th align="center">{}</th>'.format(head), file=fp_out)
-        print('</tr>', file=fp_out)
-        print('</thead>', file=fp_out)
-        print('<tbody>', file=fp_out)
+        print('</tr>\n</thead>\n<tbody>', file=fp_out)
         for week_n, week_dict in calendar.items():
-            print('<tr>', file=fp_out)
-            print('<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(
+            print('<tr>\n<td align="center">{:02d}: {:02d}/{:02d}</td>'.format(
                 week_n, 
                 week_dict['Sun']['attributes'][1],  # month
                 week_dict['Sun']['attributes'][2]   # day
@@ -405,9 +407,7 @@ class CSE231GitHub(object):
                     else:
                         print('<td align="center">{}</td>'.format(day_dict['html']), file=fp_out)
             print('</tr>', file=fp_out)
-        print('</tbody>', file=fp_out)
-        print('</table>', file=fp_out)
-        print('</div>', file=fp_out)
+        print('</tbody>\n</table>\n</div>', file=fp_out)
 
         fp_out.close()
 
@@ -463,4 +463,4 @@ if __name__ == "__main__":
     # github.package('lab')
     # github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
