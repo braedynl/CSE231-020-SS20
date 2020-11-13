@@ -8,7 +8,7 @@ import cards
 # methods with the Deck class, but INTERNALLY think of the Deck class
 # as using a list. 
 
-d = cards.Deck()  # initialization, the constructor takes no parameters
+d = cards.Deck()  # initialization
 
 print(d)
 
@@ -30,6 +30,8 @@ d.display()
 c = d.deal()
 
 print(c)  # remember that this is a Card class instance! (refer back to L10-1)
+print(c.rank())
+print(c.suit())
 
 d.display()
 
@@ -39,11 +41,11 @@ d.display()
 # lastly, we can use the len() function on a Deck instance, to check how
 # many cards are present in the deck. 
 
-# Since there is typically one of each card in a classic deck, (13 ranks * 4 suits = 52 cards),
+# Since there is typically one of each card in a classic deck (52 cards),
 # and we dealt one, we should see that our Deck's length is 51
 
 print(len(d))
 
-# we can check if a deck is empty using .is_empty(), the same as checking if len(Deck) == 0
+# we can check if a deck is empty using .is_empty(), the same as checking if len(d) == 0
 
 print(d.is_empty())

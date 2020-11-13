@@ -38,6 +38,3 @@ else:
 c2 = cards.Card(1, 4)  # if I make another ace of spades...
 
 print(c == c2)  # you can see if two cards have the same rank and suit using the `==` operator
-
-# The Card class has more methods and attributes that we won't be talking about (namely the value and face-up features).
-# This is all you'll need to know with respect to the Card class.
