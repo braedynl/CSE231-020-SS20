@@ -1,4 +1,4 @@
-# Scripts
+# Examples
 
 This folder contains Python scripts that you may find helpful in referencing for certain projects, exercises, and labs. These are not _answers_ to any particular assignment. Problems were made up for the purpose of demonstration.
 
