@@ -1,5 +1,6 @@
 '''
 PROBLEM
+-------
 
 Given a text file with the following content:
 

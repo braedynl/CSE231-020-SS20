@@ -1,5 +1,6 @@
 '''
 PROBLEM
+-------
 
 Create a short program that asks the user for
 an integer value above 0. If the user's input

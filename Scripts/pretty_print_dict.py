@@ -3,7 +3,7 @@ This file contains a function that prints a dictionary
 with prettier indentation and newline spacing.
 
 If you use print() to debug your code a lot, feel free 
-to bring this function into your program and use it for yourself!
+to bring this function into your program and use it!
 
 This function uses some fairly advanced Python that is
 unnecessary for you to know for the purposes of this
@@ -14,40 +14,37 @@ https://www.programiz.com/python-programming/recursion
 https://www.programiz.com/python-programming/closure
 '''
 
-def pretty_print_dict(dictionary: dict) -> None:
+def pretty_print_dict(D: dict) -> None:
     '''
-    Prints a dictionary with prettier indentation and
-    newline spacing.
+    Prints a dictionary with indentation and newline 
+    separation.
 
-    Copy and paste this function into your program!
+    Copy and paste this function into your program
+    to get a better look at your dictionary!
 
     Parameters
     ----------
-        dictionary : The dictionary instance to print.
-
-    Returns
-    -------
-        None
+    D : dict
+        The dictionary instance to print.
     '''
+    if not isinstance(D, dict):
+        raise TypeError("argument {} not supported, must be <class 'dict'>".format(type(D)))
 
-    if not isinstance(dictionary, dict):
-        raise TypeError("argument {} not supported, must be <class 'dict'>".format(type(dictionary)))
-
-    def helper(dictionary: dict, layer: int) -> None:
+    def helper(D: dict, depth: int) -> None:
         print('{')
-        for key, value in dictionary.items():
-            print(layer * 4 * ' ' + '{} : '.format(repr(key)), end='')
+        for key, value in D.items():
+            print(depth * 4 * ' ' + '{} : '.format(repr(key)), end='')
             if isinstance(value, dict):
-                helper(value, layer + 1)
+                helper(value, depth + 1)
             else:
                 print(repr(value) + ',')
-        print((layer - 1) * 4 * ' ' + '}', end='')
-        if layer > 1:
+        print((depth - 1) * 4 * ' ' + '}', end='')
+        if depth > 1:
             print(',')
         else:
             print()
 
-    helper(dictionary, 1)
+    helper(D, 1)
 
 
 # fully capable of handling nested dictionaries!

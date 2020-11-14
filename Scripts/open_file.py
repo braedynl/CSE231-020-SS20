@@ -1,5 +1,6 @@
 '''
 PROBLEM
+-------
 
 Design a function, named open_file, that continually asks the user
 for a valid file name if the file does not exist, and otherwise returns
@@ -10,7 +11,6 @@ if the file does not exist.
 
 def open_file():
     while True:
-
         try:
             # ask for file name (str)
             file_name = input("Enter a file name: ")
