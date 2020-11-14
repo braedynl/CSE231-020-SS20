@@ -1,6 +1,6 @@
 # Project 8
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj08_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj08.zip).
 
 Due: Monday, November 16th (11/16/2020) at 11:59 PM EST
 

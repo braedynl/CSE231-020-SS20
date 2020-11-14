@@ -1,6 +1,6 @@
 # Project 7
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj07_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj07.zip).
 
 Due: Monday, November 2nd (11/2/2020) at 11:59 PM EST
 

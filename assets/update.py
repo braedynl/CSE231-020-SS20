@@ -292,7 +292,7 @@ class CSE231GitHub(object):
         for folder_name in os.listdir():
             if folder_type in folder_name.lower() and '.' not in folder_name:
 
-                zip_file = zipfile.ZipFile('assets/packages/{}{}_content.zip'.format(folder_type, folder_name[-2:]), 'w')
+                zip_file = zipfile.ZipFile('assets/packages/{}{}.zip'.format(folder_type, folder_name[-2:]), 'w')
 
                 paths = self.__walk_tree(folder_name)  # inefficient, but eh -- it works
 
@@ -455,4 +455,4 @@ if __name__ == "__main__":
     # github.package('lab')
     # github.update_readme()
     # github.update_project_files(True)
-    # github.update_all(True)
+    github.update_all(True)

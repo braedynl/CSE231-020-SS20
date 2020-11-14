@@ -1,6 +1,6 @@
 # Project :n:
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj:n02d:_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj:n02d:.zip).
 
 Due: :due: at 11:59 PM EST
 

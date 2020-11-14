@@ -1,6 +1,6 @@
 # Project 1
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj01_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj01.zip).
 
 Due: Monday, September 14th (9/14/2020) at 11:59 PM EST
 

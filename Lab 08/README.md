@@ -1,6 +1,6 @@
 # Lab 8
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab08_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab08.zip).
 
 Due: by the end of class on Friday, October 30th (10/30/2020) if you have meetings. Friday, October 30th (10/30/2020) at 11:59 PM EST if you are online.
 

@@ -1,6 +1,6 @@
 # Lab 11
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab11_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab11.zip).
 
 Due: by the end of class on Friday, November 20th (11/20/2020) if you have meetings. Friday, November 20th (11/20/2020) at 11:59 PM EST if you are online.
 

@@ -1,6 +1,6 @@
 # Lab 0
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab00_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab00.zip).
 
 Due: Friday, September 4th (9/4/2020) at 11:59 PM EST
 

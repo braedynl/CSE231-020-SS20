@@ -1,6 +1,6 @@
 # Lab :n:
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab:n02d:_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab:n02d:.zip).
 
 Due: by the end of class on :lab_date: if you have meetings. :online_date: at 11:59 PM EST if you are online.
 

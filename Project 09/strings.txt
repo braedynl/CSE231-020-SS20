@@ -1,0 +1,34 @@
+"Opening Data file for year {}: "
+'Invalid filename:'
+'\n{:<10s}{:<5d}'
+'Year:'
+'{:<10s}{:<s}'
+'Country:'
+'Rank:'
+'{:<10s}{:<5.2f}'
+'Score:'
+'Family:'
+'Health:'
+'Freedom:'
+'-'*20
+"\n{:<15s} {:>7s} {:>7s} {:>12s}"
+"Country"
+"{:<15s} {:>7d} {:>7d} {:>12.2f}"
+"Input Years comma-separated as A,B: "
+"Input Error: enter two years, comma-separated."
+"Incorrect input. Try again."
+"[ ? ] Please specify the country: "
+"[ ? ] Please specify the two countries (A,B): "
+"[ - ] Incorrect input. Try again."
+"[ ? ] Please specify the two countries (A,B): "
+"Invalid input. Try again."
+"[ ? ] Please specify the two countries (A,B): "
+"{:<20s} {:<9s} {:<8s} {:<8s} {:<8s}"
+"\nCountry"
+"Hap.Score"
+"Family"
+"Life Ex."
+"Freedom"
+"{:<20s} {:<9.2f} {:<8.2f} {:<8.2f} {:<8.2f}"
+"[ ? ] Plot (y/n)? "
+"[ - ] Incorrect input. Try again."

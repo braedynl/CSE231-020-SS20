@@ -1,6 +1,6 @@
 # Lab 3
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab03_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/lab03.zip).
 
 Due: by the end of class on Friday, September 25th (9/25/2020) if you have meetings. Friday, September 25th (9/25/2020) at 11:59 PM EST if you are online.
 

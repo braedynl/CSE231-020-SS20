@@ -1,6 +1,6 @@
 # Project 4
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj04_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj04.zip).
 
 Due: Monday, October 12th (10/12/2020) at 11:59 PM EST
 

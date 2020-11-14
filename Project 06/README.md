@@ -1,6 +1,6 @@
 # Project 6
 
-[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj06_content.zip).
+[Download this folder's content (*.zip file)](https://github.com/braedynl/CSE231-GITHUB/raw/master/assets/packages/proj06.zip).
 
 Due: Monday, October 26th (10/26/2020) at 11:59 PM EST
 
