@@ -128,16 +128,19 @@ def my_function(param1:int, param2:str='default') -> list:
 
     Parameters
     ----------
-        param1 : brief explanation
-        param2 : brief explanation
+    param1
+        brief explanation
+    param2
+        brief explanation
 
     Returns
     -------
-        list : brief explanation
+    list
+        brief explanation
     
     Notes
     -----
-        Any assumptions made, different return cases, etc.
+    Any assumptions made, different return cases, etc.
     '''
 ```
 
