@@ -22,7 +22,7 @@ Go to the code for this repository (the [home folder](https://github.com/braedyn
 
 #### lab XX's submission page?
 
-Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Coursework. 
+Go to our [Mimir](https://class.mimir.io/) site, and look through the Live Coursework. 
 
 #### project XX's files?
 
@@ -30,11 +30,11 @@ Go to the code for this repository (the [home folder](https://github.com/braedyn
 
 #### project XX's submission page?
 
-Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Coursework. 
+Go to our [Mimir](https://class.mimir.io/) site, and look through the Live Coursework. 
 
 #### chapter exercise XX?
 
-Go to our [Mimir](https://class.mimir.io/) site, and look through the Active Coursework.
+Go to our [Mimir](https://class.mimir.io/) site, and look through the Live Coursework.
 
 #### the lecture videos?
 
@@ -87,17 +87,11 @@ It will be in an email sent out to the section. The server details will not be p
 
 ## Grades
 
-#### Who do I contact about extensions?
-
-For exams: Dr. Enbody (enbody@cse.msu.edu) or Dr. Zaabar (zaabarim@cse.msu.edu)
-
-For everything else: me (letting4@msu.edu)
-
 #### Who do I contact about a grading dispute?
 
-For exams: Dr. Enbody (enbody@cse.msu.edu) or Dr. Zaabar (zaabarim@cse.msu.edu)
+For exams: [Dr. Enbody](mailto:enbody@cse.msu.edu) or [Dr. Zaabar](mailto:zaabarim@cse.msu.edu)
 
-For everything else: me (letting4@msu.edu)
+For everything else: [me](mailto:letting4@msu.edu)
 
 #### When do our exam grades come back?
 
@@ -107,11 +101,11 @@ If you took the paper exam: _usually_ up to a week after all students have taken
 
 #### When do lab/project grades come back?
 
-*Usually* before the next lab/project due date. The day can vary wildly depending on how busy I am that week.
+*Usually* sometime before the next lab/project due date. The day can vary wildly depending on how busy I am that week.
 
 #### How do I view your project feedback?
 
-Go to your project submission on Mimir, there should be a lightblue button at the top-right of the page titled "Feedback".
+Go to your project submission on Mimir, there should be a light-blue button at the top-right of the page titled "Feedback".
 
 #### Is there any leniency for close final grade boundaries?
 
@@ -119,68 +113,44 @@ Yes, actually. The professors will look for students who are at the edge of grad
 
 #### Are there any extra credit opportunities?
 
-Sometimes. I'm not sure when they happen, or for what reason. To me, it seems like it's just whenever Dr. Enbody feels like throwin' one out. Extra credit has historically been small in terms of point yield.
+Sometimes. I'm not sure when they happen, or for what reason. To me, it just seems like whenever Dr. Enbody feels like throwin' one out. Extra credit has historically been small in terms of point yield.
 
 
 ## Meta
 
+#### Who do I contact about an extension on [something]?
+
+For exams: [Dr. Enbody](mailto:enbody@cse.msu.edu) or [Dr. Zaabar](mailto:zaabarim@cse.msu.edu)
+
+For everything else: [me](mailto:letting4@msu.edu)
+
+#### I missed [something], what should I do?
+
+If you missed an exam, please contact [Dr. Enbody](mailto:enbody@cse.msu.edu) and/or [Dr. Zaabar](mailto:zaabar@cse.msu.edu).
+
+If you missed an assignment due to illness or a personal emergency, please contact [me](mailto:letting4@msu.edu). Other cases for missing an assignment will not be considered.
+
 #### Mimir is asking for a course code, what is ours?
 
-There is no course code. Access Mimir from the link provided on our [D2L page](https://d2l.msu.edu/d2l/loginh/) and it should get everything sorted for you.
+There is no course code. Access Mimir from the link provided on our [D2L](https://d2l.msu.edu/d2l/loginh/) page and it should get everything sorted for you.
 
-#### I missed [an assignment], what should I do?
-
-If you missed it due to illness or a personal emergency, please contact me (letting4@msu.edu). 
-
-#### I missed an exam, what should I do?
-
-Please contact Dr. Enbody (enbody@cse.msu.edu) and/or Dr. Zaabar (zaabarim@cse.msu.edu).
-
-#### I need extra help.
+#### I need extra help, any suggestions?
 
 All of the TAs staff help room at certain points during the week, I highly recommend attending (applies to Fall/Spring only). 
 
-Piazza is the fastest way to get answers, and offers anonymity if that's something you'd prefer. 
+Piazza is the fastest way to get answers, and offers anonymity if that's something you'd prefer.
 
-You may also contact me (letting4@msu.edu), or another TA (assuming they're okay with you asking) if you need more personal help.
+[Programiz](https://www.programiz.com/python-programming) provides a great Python tutorial that could work as supplementary material if you feel you're lacking in reinforcement of content.
+
+You may also contact [me](mailto:letting4@msu.edu), or another TA (assuming they're okay with you asking) if you need more personal help.
 
 Some students want a tutor. The department does not have the resources to screen and train tutors, though some students have had luck finding one online through Facebook, Reddit, and universitytutor.com. Please be cautious with meeting people you find online — only meet in public areas.
-
-#### Why does this class teach Python and not [some other programming language]?
-
-Python is probably the simplest programming language to understand for newcomers, while also being popular to use in real-world applications. Python syntax tends to use natural language expressions rather than complicated strings of characters, which helps a lot with mental links to programming concepts.
-
-Just to show how simple Python is, here's how you test if an `int` with value `5` is contained within an array, for which we then print our results to the console:
-```python
-array = [1, 2, 3, 4, 5]
-
-print(5 in array) 
-```
-
-... and here's how you do the same thing in C++:
-```c++
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-vector<int> array = {1, 2, 3, 4, 5};
-
-if (std::find(array.begin(), array.end(), 5) != array.end()) {
-  std::cout << "true" << std::endl;
-} else {
-  std::cout << "false" << std::endl;
-}
-```
-
-Admittedly an extreme example, but yeah, Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they usually get used to it.
-
-Fun fact: CSE231 used to teach C++!
 
 #### Are we allowed to use a code editor that's not Spyder?
 
 Yep! Though bear in mind that the TAs and professors may not be familiar with how some of them work, you'll be on your own if you need help with it.
 
-Other popular code editors:
+Other popular code editors that I've heard good things about:
 - [Atom](https://atom.io/)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Sublime Text](https://www.sublimetext.com/)
@@ -199,9 +169,9 @@ One student found [this tutorial](https://chromebook.home.blog/2019/01/20/instal
 
 I unfortunately don't know much about ChromeOS, so if you're encountering trouble, I'd post a question to Piazza. There's bound to be at least one student or TA who's familiar with the operating system.
 
-#### Are we allowed to use w3schools.com and/or programiz.com as supplementary material?
+#### Are we allowed to use W3Schools and/or Programiz as supplementary material?
 
-You're allowed to use any online resource that teaches Python — in fact, I often encourage students to use programiz.com if they're looking for more material. But be careful, many online courses and tutorials teach subjects on Python that we won't be covering. It's usually best to go through our reading and lectures, and then refer to online resources for reinforcement and/or reference. 
+You're allowed to use any online resource that teaches Python — in fact, I often encourage students to use Programiz if they're looking for more material. But be careful, many online courses and tutorials teach subjects on Python that we won't be covering. It's usually best to go through our readings and lectures, and then refer to online resources for reinforcement and/or reference. 
 
 #### Why are the online exams proctored?
 
@@ -227,7 +197,7 @@ No, they were all made by the professors.
 
 #### There's something on the repository that I think should be [added/moved/removed]. Can you do anything about it?
 
-Yes! I'd be happy to, as long as it's within the realm of possibility and I think it'd be a good change. Please email me (letting4@msu.edu) about it.
+Yes! I'd be happy to, as long as it's within the realm of possibility and I think it'd be a good change. Please email [me](mailto:letting4@msu.edu) about it.
 
 
 ## Spyder
@@ -246,7 +216,7 @@ You probably didn't set a breakpoint.
 
 Most problems with Spyder can be solved with a [reinstallation](https://docs.anaconda.com/anaconda/install/uninstall/). Ensure that your problem is with *Spyder itself* and not your program's execution (did you call your `main()` function? Did you call your other functions?). 
 
-If a reinstallation did not fix the problem, contact me (letting4@msu.edu).
+If a reinstallation did not fix the problem, contact [me](mailto:letting4@msu.edu).
 
 #### My program can't find this .txt/.csv file for some reason.
 
@@ -261,13 +231,17 @@ Any external file that your program is attempting to open has to be inside what'
 
 At the top-right of the Spyder window, there should be a folder path. This path is what Spyder believes to be your CWD. It's likely that this path is pointing somewhere else, so click the folder icon to the right to select the same folder you placed the Python file and the .txt/.csv file, and you should be all set.
 
-Contact me if this did not fix the issue (letting4@msu.edu).
+Contact [me](mailto:letting4@msu.edu) if this did not fix the issue.
 
-#### Spyder is saying that the `pylab` module could not be found.
+#### My program is saying that this external Python file could not be found.
 
-Try updating your Spyder installation (open Anaconda Navigator, click the gear icon at the top-right, and select "Update Application"). 
+See the above question, but replace '.txt/.csv file' with 'Python file' in your head.
 
-If the option is greyed-out and/or updating did not fix the issue, contact me (letting4@msu.edu).
+#### My program is saying that the `pylab` module could not be found.
+
+Try updating your Spyder installation (open Anaconda Navigator, click the gear icon at the top-right of Spyder's icon, and select "Update Application"). 
+
+If the option is greyed-out and/or updating did not fix the issue, contact [me](mailto:letting4@msu.edu).
 
 
 ## Programming
@@ -291,7 +265,7 @@ Line 2
 
 #### Can you have multiple print statements display on the same line in console?
 
-Yes. The `print()` function has a parameter called `end`, which specifies a `str` to concatenate to the back of the line that's being printed. It has a default value of `'\n'`, the newline character, which is why print statements on subsequent lines in your code display text on subsequent lines in the console. 
+Yes. The `print()` function has a parameter called `end`, which specifies a `str` to concatenate to the back of the line that's being printed. It has a default value of `'\n'`, (the newline character), which is why print statements on subsequent lines in your code display text on subsequent lines in the console. 
 
 Default behavior:
 ```python
@@ -316,7 +290,7 @@ Line 1Line2
 
 #### What's the best way to reverse a string/list?
 
-Negative step indices.
+Negative step indices. I think the `list` and `str` types also have a `.reverse()` method.
 
 Example:
 ```python
@@ -462,7 +436,7 @@ Out:
 
 #### How do you reverse the sorting order of `.sort()` or `sorted()`?
 
-You can supply `True` to the `reverse` parameter. 
+You can supply `True` to the `reverse` parameter.
 
 ```python
 my_list = [1, 2, 3, 4]
@@ -490,7 +464,7 @@ Yes, but I don't recommend doing this. It's much better to put assignments on su
 a = b = c = 0
 ```
 
-#### Can you iterate through multiple containers at once?
+#### Can you iterate through multiple containers simultaneously?
 
 Yes, you can with the `zip()` function. 
 
@@ -540,12 +514,12 @@ I know how different it is from what we've become accustomed to, so this is a wa
 
 #### Why is Mimir giving me a SIGPIPE error?
 
-A SIGPIPE error usually occurs for any of the following conditions:
+A SIGPIPE error usually occurs for one of the following reasons:
 - Your program asked for an `input()` when Mimir wasn't expecting to input anything
 - Your program is running when Mimir wasn't expecting it to run
 - Your program is infinitely looping
 
-There are many projects that have this chunk at the bottom of the starter-code:
+There are many projects that have this chunk at the bottom of their starter-code:
 
 ```python
 if __name__ == "__main__":
@@ -554,15 +528,45 @@ if __name__ == "__main__":
 
 Deleting this chunk will result in a SIGPIPE error more often than not. 
 
-If you have this chunk, but you're still receiving a SIGPIPE error from Mimir, it's likely the first condition. Mimir *thinks* your program is infinitely looping because the `input()` function halts your program until the user enters something. Mimir wasn't expecting to enter anything since it assumes your program's structure will follow its set of pre-programmed inputs. Try replicating Mimir's test case on Spyder to see where you have an extra `input()` prompt.
+If you have this chunk, but you're still receiving a SIGPIPE error on Mimir, it's likely the first condition. Mimir *thinks* your program is infinitely looping because the `input()` function halts your program until the user enters something. Mimir wasn't expecting to enter anything, since it assumes your program's structure will follow its set of pre-programmed inputs. Try replicating Mimir's test case on your code editor to see where you have an extra `input()` prompt.
 
 ## Miscellaneous/Personal
+
+#### Why does this class teach Python and not [some other programming language]?
+
+Python is likely the simplest programming language to understand for newcomers, while also being popular to use in real-world applications. Python syntax tends to use natural language expressions rather than complicated strings of characters, which helps a lot with mental links to programming concepts.
+
+Just to show how simple Python is, here's how you test if an `int` with value `5` is contained within an array, for which we then print our results to the console:
+```python
+array = [1, 2, 3, 4, 5]
+
+print(5 in array) 
+```
+
+... and here's how you do the same thing in C++:
+```c++
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+vector<int> array = {1, 2, 3, 4, 5};
+
+if (std::find(array.begin(), array.end(), 5) != array.end()) {
+  std::cout << "true" << std::endl;
+} else {
+  std::cout << "false" << std::endl;
+}
+```
+
+Admittedly an extreme example, but yeah, Python tends to be easier to write in general. Some students may find the indentation of Python annoying, but they usually get used to it.
+
+Fun fact: CSE231 used to teach C++!
 
 #### I'm a [major that's not computer science/engineering], will I ever need this?
 
 Probably, yeah. Programming is becoming more and more important everyday, to the point where most engineering fields use it to some capacity. Most engineering majors at MSU have to take a MatLab or R course at some point. After going through this class, they should be easy.
 
-#### Can I forward your emails to my friend in [some other section]?
+#### Can I forward your emails to my friends in [some other section]?
 
 Yes, you may. Though you should warn them that some details I may mention are TA-dependent (e.g. when project/lab grades come back, when D2L gets updated, and anything related to this GitHub repository).
 
@@ -595,11 +599,11 @@ Below is a psuedocode algorithm:
 ```python
 bar = {
   'width' : 14,
-  'fill' : '⬛',  # yes, you can store emojis in strings lmao
+  'fill' : '⬛',  # emojis can be stored as strings lmao
   'empty': '⬜'
 }
 
-today = ...  # using a date-fetching library
+today = ...  # use some date-fetching library
 semester_end = ...
 semester_start = ...
 
@@ -657,7 +661,7 @@ Too much time spent writing essays in an IB high school.
 
 50% Korean, 50% white.
 
-#### Where can I apply to become a ULA for this course?
+#### Where can I apply to become a ULA for this class?
 
 [Here](https://www.cse.msu.edu/Resources/EmploymentStudents.php). I had to finish CSE232 before Dr. Enbody would hire me for CSE231, I'm unsure if that rule still applies. I'm sure other professors have restrictions like that, if you're looking to become a ULA for another course.
 
