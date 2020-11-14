@@ -217,7 +217,7 @@ print(unit_v)  # <0.00, 1.00>
 Example Application Problem (just for fun)
 
 Eva and John are simultaneously pushing a crate on a frictionless floor. 
-Eva pushes the crate directly southward with force of 300 N, while John 
+Eva pushes the crate directly southward with a force of 300 N, while John 
 is pushing the crate directly eastward with a force of 400 N.
 
 1. What is the resultant force?
