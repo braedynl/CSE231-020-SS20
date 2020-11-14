@@ -282,15 +282,7 @@ class CSE231GitHub(object):
         lab_dates_fp = open('assets/lab_dates.json', 'w+')
         json.dump(lab_dates, lab_dates_fp, indent=4)
         lab_dates_fp.close()
-
-        # TEMP FIX TO ENBODY CALENDAR MIX-UP, WEEKS 12 & 13 URLS SWAPPED IN COURSE_INFO.json
-        calendar[12]['Sun']['html'] = '<a title="On: Sunday, November 22nd (11/22/2020)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a>'
-        calendar[13]['Sun']['html'] = '<a title="On: Sunday, November 29th (11/29/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch. 12; Videos: More on Classes</a>'
-
-        # orig:
-        # '<a title="On: Sunday, November 22nd (11/22/2020)" href="https://www.cse.msu.edu/~cse231/Online/classesII.html">Read Ch. 12; Videos: More on Classes</a>'
-        # '<a title="On: Sunday, November 29th (11/29/2020)" href="https://www.cse.msu.edu/~cse231/Online/scope.html">Read Section 9.6; Videos: Scope</a>'
-
+        
         self.__process_html_calendar(calendar)
 
     def package(self, folder_type:Union['proj', 'lab']) -> None:
@@ -461,6 +453,6 @@ if __name__ == "__main__":
     github = CSE231GitHub()
 
     # github.package('lab')
-    github.update_readme()
+    # github.update_readme()
     # github.update_project_files(True)
     # github.update_all(True)
