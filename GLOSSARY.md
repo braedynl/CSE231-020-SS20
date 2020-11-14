@@ -81,8 +81,8 @@ bubble_sort(my_list)  # my_list : [1, 2, 3, 4, 5]
 
 my_list.append(6)  # my_list : [1, 2, 3, 4, 5, 6]
 
-# 6 was appended to my_list directly. no return is necessary, and is
-# thereforce, *in-place*
+# 6 was appended to my_list directly. no return is necessary, and is,
+# therefore, *in-place*
 ```
 
 #### Keyword
