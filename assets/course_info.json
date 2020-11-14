@@ -2,10 +2,16 @@
     "section": "023",
     "semester": "Fall",
     "year": "2020",
+    "lab_day": "Fri",
+    "prelab_day": "Thu",
     "section_details": "Online - Fridays, 12:40-2:30 PM EST",
     "exam1_details": "Online - Tuesday, October 6th (10/6/20) at 7:00 PM EST",
     "exam2_details": "Online - Tuesday, November 10th (11/10/20) at 7:00 PM EST",
     "exam3_details": "Online - Wednesday, December 16th (12/16/20) at 5:45 PM EST",
+    "semester_start": [2020, 9, 2],
+    "semester_end": [2020, 12, 11],
+    "schedule_start": [2020, 8, 30],
+    "schedule_end" : [2020, 12, 19],
     "schedule_url": "https://www.cse.msu.edu/~cse231/Online/due_dates.html",
     "help_room_url": "https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html",
     "labs_url": "https://www.cse.msu.edu/~cse231/Online/General/schedule.labs.FS20.html",
@@ -25,11 +31,5 @@
         "12": "https://www.cse.msu.edu/~cse231/Online/scope.html",
         "13": "https://www.cse.msu.edu/~cse231/Online/classesII.html",
         "14": "https://www.cse.msu.edu/~cse231/Online/exceptions.html"
-    },
-    "semester_start": [2020, 9, 2],
-    "semester_end": [2020, 12, 11],
-    "schedule_start": [2020, 8, 30],
-    "schedule_end" : [2020, 12, 19],
-    "lab_day": "Fri",
-    "prelab_day": "Thu"
+    }
 }
