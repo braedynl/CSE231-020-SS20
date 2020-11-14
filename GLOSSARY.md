@@ -52,16 +52,37 @@ Describes a class that passes by copy. See [question 5 of the FAQ's Programming 
 
 #### In-Place
 
-A method function that edits the instantiation data without needing variable reassignment. In-place method functions only exist for mutable types (`list`, `set` and `dict`).
+A function that edits instantiation data without needing variable reassignment. In-place method functions only exist for mutable types (`list`, `set` and `dict`), and generic functions can only be in-place if manipulating a mutable type, since they pass by reference.
 
 Example:
 ```python
+def bubble_sort(li: list) -> None:
+    '''
+    Sorts a list of elements inefficiently.
+
+    Parameters
+    ----------
+    li
+        List instance to be sorted.
+    '''
+
+    n = len(li)
+    for i in range(n - 1):
+        for j in range(0, n - i - 1):
+            if li[j] > li[j + 1]:
+                li[j], li[j + 1] = li[j + 1], li[j]
+
 my_list = [5, 3, 2, 4, 1]
 
-my_list.sort()  # my_list : [1, 2, 3, 4, 5]
+bubble_sort(my_list)  # my_list : [1, 2, 3, 4, 5]
 
-# the instance changes without a variable reassignment,
-# the method is, therefore, *in-place*
+# the bubble_sort function edits the contents of the list directly.
+# no return is necessary, and is, therefore, *in-place*
+
+my_list.append(6)  # my_list : [1, 2, 3, 4, 5, 6]
+
+# 6 was appended to my_list directly. no return is necessary, and is
+# thereforce, *in-place*
 ```
 
 #### Keyword
