@@ -50,6 +50,20 @@ The indentation level furthest to the left side of the Python script. Variables 
 
 Describes a class that passes by copy. See [question 5 of the FAQ's Programming section](FAQ.md#programming) for an example on the difference between mutable and immutable types.
 
+#### In-Place
+
+A method function that edits the instantiation data without needing variable reassignment. In-place method functions only exist for mutable types (`list`, `set` and `dict`).
+
+Example:
+```python
+my_list = [5, 3, 2, 4, 1]
+
+my_list.sort()  # my_list : [1, 2, 3, 4, 5]
+
+# the instance changes without a variable reassignment,
+# the method is, therefore, *in-place*
+```
+
 #### Keyword
 
 A word that the programming language interprets as the programmer defining, or examining some portion of code.
@@ -158,7 +172,7 @@ BIG_TEXT = 3  # 'BIG_TEXT' is the variable
 
 #### Whitespace
 
-A region of a string that is filled with spaces, newlines, or tabs.
+Regions of text occupied by spaces, newlines, or tabs.
 
 Example:
 ```python
