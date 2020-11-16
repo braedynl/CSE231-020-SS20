@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 11/15/2020 01:14 AM EST
+Last Refresh: 11/16/2020 10:00 AM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -58,7 +58,7 @@ Reading the weekly book chapters and watching the lecture videos can be done at 
 
 If you are in a different timezone, Mimir and D2L should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything.
 
-<div align="center"><b>Semester Progress (75%)</b></div>
+<div align="center"><b>Semester Progress (76%)</b></div>
 <div align="center">⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜</div>
 
 &nbsp;

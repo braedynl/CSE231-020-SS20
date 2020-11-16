@@ -16,9 +16,9 @@ def pretty_print_dict(D: dict, info: bool=False) -> None:
 
     Parameters
     ----------
-    D : dict
+    D: dict
         The dictionary instance to print.
-    info : bool=False
+    info: bool=False
         Option to print additional information about the dictionary.
         Defaulted to False.
 
@@ -86,4 +86,4 @@ example = {
 pretty_print_dict(example)
 
 # to print extra information, supply True to the second argument
-pretty_print_dict(example, True)
+# pretty_print_dict(example, True)
