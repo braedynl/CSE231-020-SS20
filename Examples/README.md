@@ -29,3 +29,7 @@ Contains an example class implementation of a two-dimensional, euclidean vector.
 ### [RipoffSet.py](RipoffSet.py)
 
 Contains an example class meant to simulate the Python `set` type, but uses lists to accomplish the same effects as the Python `set`.
+
+### [Fraction.py](Fraction.py)
+
+Contains an example class that simulates fractions and fraction operation behaviour by only using the `int` type.
