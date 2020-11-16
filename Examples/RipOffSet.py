@@ -57,6 +57,15 @@ intersection(self, other:RipOffSet) -> RipOffSet
     shared between the RipOffSet and the passed-in RipOffSet instance.
     (Remember to remove duplicate elements!)
 
+difference(self, other:RipOffSet) -> RipOffSet
+
+    Creates a new RipOffSet instance composed of all elements
+    in this RipOffSet but not in the other RipOffSet.
+
+symmetric_difference(self, other:RipOffSet) -> RipOffSet
+
+    Creates a new RipOffSet instance composed of all elements
+    unique to both RipOffSets.
 
 EXAMPLE FUNCTIONALITY
 ---------------------
@@ -79,6 +88,12 @@ print(s_union_t)  # {1, 2, 3, 4, 5}
 
 s_int_t = s.intersection(t)
 print(s_int_t)  # {2, 3}
+
+s_diff_t = s.difference(t)
+print(s_diff_t)  # {1}
+
+s_symdiff_t = s.symmetric_difference(t)
+print(s_symdiff_t)  # {1, 4, 5}
 
 u = RipOffSet()
 print(u)  # {}
@@ -121,9 +136,9 @@ class RipOffSet():
 
     def remove(self, elem) -> None:
         try:
-            self.items.remove(elem)  # we can use the list remove method!
-        except ValueError:           # it raises ValueError if the element can't be found, so
-            raise KeyError           # we'll re-brand it as a KeyError
+            self.items.remove(elem)            # we can use the list remove method!
+        except ValueError:                     # it raises ValueError if the element can't be found, so
+            raise KeyError("{}".format(elem))  # we'll re-brand it as a KeyError
 
     def union(self, other:RipOffSet) -> RipOffSet:
         # remember that our constructor method discards duplicate values from a given 
@@ -139,6 +154,28 @@ class RipOffSet():
                 shared_items.append(elem)  # if they are, append to our shared list
 
         return RipOffSet(shared_items)     # create a new RipOffSet instance from that
+
+    def difference(self, other:RipOffSet) -> RipOffSet:
+        diff = []
+
+        for elem in self.items:          # notice how similar difference is to intersection?
+            if elem not in other.items:  # only append our elements to a new list if it's not in
+                diff.append(elem)        # the other RipOffSet
+        
+        return RipOffSet(diff)
+
+    def symmetric_difference(self, other:RipOffSet) -> RipOffSet:
+        sym_diff = []
+
+        for elem in self.items:          # iterate through our items,
+            if elem not in other.items:  # if not in the other RipOffSet,
+                sym_diff.append(elem)    # append
+        
+        for elem in other.items:         # iterate through the other RipOffSet,
+            if elem not in self.items:   # if not in our items,
+                sym_diff.append(elem)    # append
+        
+        return RipOffSet(sym_diff)
 
 
 s = RipOffSet([1, 2, 3, 3, 3])
@@ -159,6 +196,12 @@ print(s_union_t)  # {1, 2, 3, 4, 5}
 
 s_int_t = s.intersection(t)
 print(s_int_t)  # {2, 3}
+
+s_diff_t = s.difference(t)
+print(s_diff_t)  # {1}
+
+s_symdiff_t = s.symmetric_difference(t)
+print(s_symdiff_t)  # {1, 4, 5}
 
 u = RipOffSet()
 print(u)  # {}
