@@ -22,14 +22,22 @@ Contains a function called `read_file_with_lists()` that finds the average, maxi
 
 Contains a function called `pretty_print_dict()` that displays an input dictionary with proper indentation and newline spacing. If you typically use `print()` to debug, but can't get a good sense of what your massive and/or nested dictionary looks like, try copy-pasting this function into your program and using it!
 
-### [Vector.py](Vector.py)
-
-Contains an example class implementation of a two-dimensional, euclidean vector. (Also includes an example physics problem at the bottom, just for fun)
-
-### [RipoffSet.py](RipoffSet.py)
+### [RipOffSet.py](RipOffSet.py)
 
 Contains an example class meant to simulate the Python `set` type, but uses lists to accomplish the same effects as the Python `set`.
 
-### [Fraction.py](Fraction.py)
+### [VectorNoOverloads.py](VectorNoOverloads.py)
 
-Contains an example class that simulates fractions and fraction operation behaviour by only using the `int` type.
+Contains an example class implementation of a two-dimensional, euclidean vector with no overloads.
+
+### [VectorWithOverloads.py](VectorWithOverloads.py)
+
+Contains an example class implementation of a two-dimensional, euclidean vector with overloads.
+
+### [FractionNoOverloads.py](FractionNoOverloads.py)
+
+Contains an example class that simulates fractions and fraction operation behaviour by only using the `int` type, uses no overloads.
+
+### [FractionWithOverloads.py](FractionWithOverloads.py)
+
+Contains an example class that simulates fractions and fraction operation behaviour by only using the `int` type, uses overloads.

@@ -2,7 +2,7 @@
 PROBLEM
 -------
 
-Create a class called "RipoffSet" that simulates
+Create a class called "RipOffSet" that simulates
 the functionality of a traditional Python set,
 but uses lists internally.
 
@@ -14,12 +14,12 @@ The class should have the following method functions:
 __init__(self, li:list=None) -> None
 
     The constructor can take a list instance (li) to convert
-    into a RipoffSet. The constructor defaults this parameter
-    to None. If left as None, an empty RipoffSet is created.
+    into a RipOffSet. The constructor defaults this parameter
+    to None. If left as None, an empty RipOffSet is created.
 
 __str__(self) -> str
 
-    Represents the RipoffSet as a string. Just like the Python
+    Represents the RipOffSet as a string. Just like the Python
     set type, curly brackets should be used to represent the
     beginning and end of the contained elements. (Allows
     compatability with the str() and print() functions).
@@ -31,37 +31,37 @@ __repr__(self) -> str
 
 __len__(self) -> int
 
-    Returns the number of elements in the RipoffSet (allows 
+    Returns the number of elements in the RipOffSet (allows 
     compatability with the len() function).
 
 add(self, elem) -> None
 
-    Adds an element of any type to the RipoffSet. If the element
-    already exists in the RipoffSet, no appendation occurs.
+    Adds an element of any type to the RipOffSet. If the element
+    already exists in the RipOffSet, no appendation occurs.
 
 remove(self, elem) -> None
 
-    Removes an element from the RipoffSet. If the element doesn't
-    exist inside the RipoffSet, raise a KeyError.
+    Removes an element from the RipOffSet. If the element doesn't
+    exist inside the RipOffSet, raise a KeyError.
 
-union(self, other:RipoffSet) -> RipoffSet
+union(self, other:RipOffSet) -> RipOffSet
 
-    Combines the elements of the RipoffSet and another RipoffSet
+    Combines the elements of the RipOffSet and another RipOffSet
     instance. Returns the union of the two (all elements of the
-    two operand sets combined into one RipoffSet, remember to 
+    two operand sets combined into one RipOffSet, remember to 
     remove duplicate elements!).
 
-intersection(self, other:RipoffSet) -> RipoffSet
+intersection(self, other:RipOffSet) -> RipOffSet
 
-    Creates a new RipoffSet instance composed of the elements
-    shared between the RipoffSet and the passed-in RipoffSet instance.
+    Creates a new RipOffSet instance composed of the elements
+    shared between the RipOffSet and the passed-in RipOffSet instance.
     (Remember to remove duplicate elements!)
 
 
 EXAMPLE FUNCTIONALITY
 ---------------------
 
-s = RipoffSet([1, 2, 3, 3, 3])
+s = RipOffSet([1, 2, 3, 3, 3])
 print(s)  # {1, 2, 3}
 
 s.add(4)
@@ -71,7 +71,7 @@ s.remove(4)
 print(s)  # {1, 2, 3}
 print(len(s))  # 3
 
-t = RipoffSet([2, 3, 4, 5])
+t = RipOffSet([2, 3, 4, 5])
 print(t)  # {2, 3, 4, 5}
 
 s_union_t = s.union(t)
@@ -80,18 +80,18 @@ print(s_union_t)  # {1, 2, 3, 4, 5}
 s_int_t = s.intersection(t)
 print(s_int_t)  # {2, 3}
 
-u = RipoffSet()
+u = RipOffSet()
 print(u)  # {}
 '''
 
 from __future__ import annotations
 
 
-class RipoffSet():
+class RipOffSet():
 
     def __init__(self, li:list=None):
         # we'll use this data member to hold all contents
-        # of the RipoffSet instance
+        # of the RipOffSet instance
         self.items = []
 
         if li is not None:                   # iterate through the list if provided
@@ -125,23 +125,23 @@ class RipoffSet():
         except ValueError:           # it raises ValueError if the element can't be found, so
             raise KeyError           # we'll re-brand it as a KeyError
 
-    def union(self, other:RipoffSet) -> RipoffSet:
+    def union(self, other:RipOffSet) -> RipOffSet:
         # remember that our constructor method discards duplicate values from a given 
-        # list! we can concatenate the two RipoffSet .items members together, and pass 
+        # list! we can concatenate the two RipOffSet .items members together, and pass 
         # that to the constructor to make a new instance with all potential duplicates removed
-        return RipoffSet(self.items + other.items)
+        return RipOffSet(self.items + other.items)
 
-    def intersection(self, other:RipoffSet) -> RipoffSet:
+    def intersection(self, other:RipOffSet) -> RipOffSet:
         shared_items = []                  # we'll create a list of the shared items
 
         for elem in self.items:            # iterate through our items
             if elem in other.items:        # check if those elements are in the other set items
                 shared_items.append(elem)  # if they are, append to our shared list
 
-        return RipoffSet(shared_items)     # create a new RipoffSet instance from that
+        return RipOffSet(shared_items)     # create a new RipOffSet instance from that
 
 
-s = RipoffSet([1, 2, 3, 3, 3])
+s = RipOffSet([1, 2, 3, 3, 3])
 print(s)  # {1, 2, 3}
 
 s.add(4)
@@ -151,7 +151,7 @@ s.remove(4)
 print(s)  # {1, 2, 3}
 print(len(s))  # 3
 
-t = RipoffSet([2, 3, 4, 5])
+t = RipOffSet([2, 3, 4, 5])
 print(t)  # {2, 3, 4, 5}
 
 s_union_t = s.union(t)
@@ -160,5 +160,5 @@ print(s_union_t)  # {1, 2, 3, 4, 5}
 s_int_t = s.intersection(t)
 print(s_int_t)  # {2, 3}
 
-u = RipoffSet()
+u = RipOffSet()
 print(u)  # {}

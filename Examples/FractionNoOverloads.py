@@ -45,13 +45,12 @@ __repr__(self) -> str
     Identical to __str__. This method allows compatability
     with the repr() function.
 
-__neg__(self) -> Fraction
+negate(self) -> Fraction
 
     Returns a new Fraction instance that is the negative of
-    the current Fraction. This is an overload of the '-'
-    operator (-A form).
+    the current Fraction.
 
-__add__(self, other:Fraction) -> Fraction
+add(self, other:Fraction) -> Fraction
 
     Adds two Fraction instances and returns a new Fraction 
     instance. The denominators of two fractions must be 
@@ -59,8 +58,7 @@ __add__(self, other:Fraction) -> Fraction
     This can be done by finding the least common multiple
     between the two denominators, and scaling the numerators
     by the least common multiple, floor divided by the
-    denominator. This is an overload of the '+' operator.
-    Example:
+    denominator. Example:
 
         Let A = (1 / 2), B = (1 / 4). Then LCM(2, 4) = 4
 
@@ -82,7 +80,7 @@ __add__(self, other:Fraction) -> Fraction
 
         A + B = (2 / 4) + (1 / 4) = (3 / 4)
 
-__sub__(self, other:Fraction) -> Fraction
+sub(self, other:Fraction) -> Fraction
 
     Subtracts the Fraction by the other Fraction, and returns
     a new Fraction instance. Like __add__, the denominators
@@ -90,23 +88,19 @@ __sub__(self, other:Fraction) -> Fraction
     numerators.
     Hint: Think about how you can reuse __add__ and __neg__!
     Remember that:
-                        A + (-B) = A - B
-    
-    This is an overload of the '-' operator (A - B form).
+                    A + (-B) = A - B
 
-__mul__(self, other:Fraction) -> Fraction
+mul(self, other:Fraction) -> Fraction
 
     Multiplies the Fraction by the other Fraction, and returns
     a new Fraction instance. The numerators and denominators
-    can be multiplied directly. This is an overload of the '*'
-    operator.
+    can be multiplied directly.
 
-__truediv__(self, other:Fraction) -> Fraction
+div(self, other:Fraction) -> Fraction
 
     Divides the Fraction by the other Fraction, and returns
     a new Fraction instance. If 'A' and 'B' are fractions,
-    (A / B) is equivalent to A * reciprocal(B). This is an
-    overload of the '/' operator.
+    (A / B) is equivalent to A * reciprocal(B).
     Hint: Think about how you can reuse __mul__ and reciprocal()!
     (see the reciprocal() method description below)
 
@@ -132,21 +126,21 @@ is_improper(self) -> bool
 EXAMPLE FUNCTIONALITY
 ---------------------
 
-a = Fraction(5, 10)
+a = Fraction(5, 10)  # (5 / 10) gets simplified to (1 / 2)
 print(a)  # (1 / 2)
 
-b = Fraction(1, 2)
+b = Fraction(1, 2)  # (1 / 2) is irreducible
 print(b)  # (1 / 2)
 
-print(-a)  # (-1 / 2)
+print(a.negate())  # (-1 / 2)
 
-print(a + b)  # (1 / 1)
+print(a.add(b))  # (1 / 1)
 
-print(a - b)  # (0 / 2)
+print(a.sub(b))  # (0 / 1)
 
-print(a * b)  # (1 / 4)
+print(a.mul(b))  # (1 / 4)
 
-print(a / b)  # (1 / 1)
+print(a.div(b))  # (1 / 1)
 
 print(a.reciprocal())  # (2 / 1)
 
@@ -195,25 +189,25 @@ class Fraction():
     
     __repr__ = __str__
 
-    def __neg__(self) -> Fraction:  # -Fraction
+    def negate(self) -> Fraction:
         return Fraction(-self.num, self.den)
 
-    def __add__(self, other:Fraction) -> Fraction:  # Fraction + Fraction
+    def add(self, other:Fraction) -> Fraction:
         m = lcm(self.den, other.den)
         return Fraction((self.num * (m // self.den)) + (other.num * (m // other.den)), m)
     
-    def __sub__(self, other:Fraction) -> Fraction:  # Fraction - Fraction
+    def sub(self, other:Fraction) -> Fraction:
         # 'self' IS the class being acted on, think of it as being a variable
         # that is holding our instantiation
-        return self + (-other)
+        return self.add(other.negate())
 
-    def __mul__(self, other:Fraction) -> Fraction:  # Fraction * Fraction
+    def mul(self, other:Fraction) -> Fraction:
         return Fraction(self.num * other.num, self.den * other.den)
 
-    def __truediv__(self, other:Fraction) -> Fraction:  # Fraction / Fraction
+    def div(self, other:Fraction) -> Fraction:
         # same principle from __sub__ being used here. treat 'self' as just being
         # a variable that is holding the class being acted on 
-        return self * other.reciprocal()
+        return self.mul(other.reciprocal())
 
     def reciprocal(self) -> Fraction:
         return Fraction(self.den, self.num)
@@ -225,21 +219,21 @@ class Fraction():
         return self.num >= self.den
         
 
-a = Fraction(5, 10)
+a = Fraction(5, 10)  # (5 / 10) gets simplified to (1 / 2)
 print(a)  # (1 / 2)
 
-b = Fraction(1, 2)
+b = Fraction(1, 2)  # (1 / 2) is irreducible
 print(b)  # (1 / 2)
 
-print(-a)  # (-1 / 2)
+print(a.negate())  # (-1 / 2)
 
-print(a + b)  # (1 / 1)
+print(a.add(b))  # (1 / 1)
 
-print(a - b)  # (0 / 1)
+print(a.sub(b))  # (0 / 1)
 
-print(a * b)  # (1 / 4)
+print(a.mul(b))  # (1 / 4)
 
-print(a / b)  # (1 / 1)
+print(a.div(b))  # (1 / 1)
 
 print(a.reciprocal())  # (2 / 1)
 
