@@ -214,7 +214,7 @@ for elem in my_set:  # elem : 1 -> 3.14 -> ('hello', 'there')
 # acts as a simple counter; might be useful sometimes)
 
 # i : 0 -> 1 -> 2
-# # elem : 1 -> 3.14 -> ('hello', 'there')
+# elem : 1 -> 3.14 -> ('hello', 'there')
 for i, elem in enumerate(my_set):
     print(elem)
 ```
