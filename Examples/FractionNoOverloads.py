@@ -245,7 +245,7 @@ print(a.reciprocal().is_improper())  # True
 
 
 '''
-                Something to think about:
+                A question you might have:
         "Why would a class like this be necessary?"
 
 Floating point values in many programming languages can be imprecise 
