@@ -1,4 +1,4 @@
-class ComplexNumber(object):
+class ComplexNumber():
     
     def __init__(self, a, b):
         self.real = a
