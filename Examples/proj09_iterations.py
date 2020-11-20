@@ -151,7 +151,7 @@ print(header)
 print('-' * len(header))
 
 # year: 2015 -> 2016
-# subD: {'Western Europe': {...}} -> {'North America': {...}} -> {'Latin America and Caribbean': {...}}
+# subD: {'Western Europe': {...}, 'North America': {...}, 'Latin America and Caribbean': {...}}
 for year, subD in superD.items():
 
     # region: 'Western Europe' -> 'North America' -> 'Latin America and Caribbean'
