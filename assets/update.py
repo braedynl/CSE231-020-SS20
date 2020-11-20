@@ -417,8 +417,7 @@ class CSE231GitHub(object):
         start_date = datetime(*self.course_info['schedule_start'])
         end_date = datetime(*self.course_info['schedule_end'])
         calendar = {}
-        week_n = 0
-        dt = 0
+        week_n = dt = 0
 
         while (start_date + timedelta(dt)) < end_date:
             calendar[week_n] = {}
@@ -437,16 +436,13 @@ class CSE231GitHub(object):
     def __get_pretty_date(self, datet:datetime) -> str:
         date_str_exp = datet.strftime('%A, %B %d')
         date_str_num = datet.strftime('(%m/%d/%Y)') 
-
-        ordinal_suffix = self.__get_ordinal_suffix(int(date_str_exp[-2:]))
+        n = int(date_str_exp[-2:])
+        ordinal_suffix = {1: "st", 2: "nd", 3: "rd"}.get(n % 10 * (n % 100 not in [11, 12, 13]), "th")
 
         # All the .replace() methods are to get rid of leading 0s
         full_date = (date_str_exp + ordinal_suffix + ' ' + date_str_num).replace('(0', '(').replace('/0', '/').replace(' 0', ' ')
 
         return full_date
-
-    def __get_ordinal_suffix(self, num:int) -> str:
-        return {1: "st", 2: "nd", 3: "rd"}.get(num % 10 * (num % 100 not in [11, 12, 13]), "th")
 
 
 if __name__ == "__main__":
