@@ -22,6 +22,10 @@ Contains a function called `read_file_with_lists()` that finds the average, maxi
 
 Contains a function called `pretty_print_dict()` that displays an input dictionary with proper indentation and newline spacing. If you typically use `print()` to debug, but can't get a good sense of what your massive and/or nested dictionary looks like, try copy-pasting this function into your program and using it!
 
+### [proj09_iterations.py](proj09_iterations.py)
+
+Contains an example iteration of a Project 09 sub-dictionary and super-dictionary.
+
 ### [RipOffSet.py](RipOffSet.py)
 
 Contains an example class meant to simulate the Python `set` type, but uses lists to accomplish the same effects as the Python `set`.
