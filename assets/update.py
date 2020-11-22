@@ -282,6 +282,9 @@ class CSE231GitHub(object):
         lab_dates_fp = open('assets/lab_dates.json', 'w+')
         json.dump(lab_dates, lab_dates_fp, indent=4)
         lab_dates_fp.close()
+
+        calendar[15]['Sun']['html'] = '<a title="On: Wednesday, December 16th (12/16/20)" href="#exam-information">Final Exam</a>'
+        calendar[15]['Sun']['html'], calendar[15]['Wed']['html'] = calendar[15]['Wed']['html'], calendar[15]['Sun']['html']
         
         self.__process_html_calendar(calendar)
 
@@ -451,4 +454,4 @@ if __name__ == "__main__":
     # github.package('lab')
     # github.update_readme()
     # github.update_project_files(True)
-    github.update_all(True)
+    # github.update_all(True)
