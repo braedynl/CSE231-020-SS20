@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 11/21/2020 07:57 PM EST
+Last Refresh: 11/21/2020 08:14 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -232,10 +232,10 @@ If you are in a different timezone, Mimir and D2L should automatically convert o
 </tr>
 <tr>
 <td align="center">15: 12/13</td>
-<td align="center"><a title="On: Sunday, December 13th (12/13/2020)" href="#exam-information">Finals Week: Final exam is Wednesday, Dec 16 at 5:45pm - 7:45pm</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
+<td align="center"><a title="On: Wednesday, December 16th (12/16/20)" href="#exam-information">Final Exam</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
