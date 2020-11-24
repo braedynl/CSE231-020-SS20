@@ -4,7 +4,7 @@
 
 Due: Wednesday, December 2nd (12/2/2020) at 11:59 PM EST
 
-Video: 
+Video: https://mediaspace.msu.edu/media/proj10/1_p73sjyrr
 
 ## Logistics
 
