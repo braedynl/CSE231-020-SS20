@@ -1,0 +1,4 @@
+Would you like to have a pokemon battle? Nope
+Invalid option! Please enter a valid choice: Y/y, N/n or Q/q: quit
+Invalid option! Please enter a valid choice: Y/y, N/n or Q/q: q
+Well that's a shame, goodbye

@@ -1,0 +1,43 @@
+Would you like to have a pokemon battle? y
+Player 1, choose a pokemon by name or index: Bulbasaur
+pokemon1:
+bulbasaur      45             49             49             65             65             
+grass          poison         
+
+Player 2, choose a pokemon by name or index: Mewtwo
+pokemon2:
+mewtwo         106            110            90             154            90             
+psychic                       
+
+Player 1's turn
+bulbasaur      45             49             49             65             65             
+grass          poison         
+slam           smog           petal-dance    razor-leaf     
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': show pow
+80             30             120            55             
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 3
+selected move: petal-dance
+
+mewtwo hp before:106
+mewtwo hp after:51
+
+Player 2's turn
+mewtwo         51             110            90             154            90             
+psychic                       
+clamp          dream-eater    confusion      psychic        
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': show ele
+water          psychic        psychic        psychic        
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 4
+selected move: psychic
+
+bulbasaur hp before:45
+It's super effective!!!!
+bulbasaur hp after:0
+
+Player 1's pokemon fainted, Player 2 has won the pokemon battle!
+Battle over, would you like to have another? n
+Well that's a shame, goodbye

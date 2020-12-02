@@ -1,0 +1,71 @@
+Would you like to have a pokemon battle? Y
+Player 1, choose a pokemon by name or index: charmander
+pokemon1:
+charmander     39             52             43             60             50             
+fire                          
+
+Player 2, choose a pokemon by name or index: 4
+pokemon2:
+charmander     39             52             43             60             50             
+fire                          
+
+Player 1's turn
+charmander     39             52             43             60             50             
+fire                          
+slam           fire-blast     fire-spin      ember          
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 4
+selected move: ember
+
+charmander hp before:39
+Not very effective...
+charmander hp after:24
+
+Player 2's turn
+charmander     24             52             43             60             50             
+fire                          
+bite           fire-blast     flamethrower   fire-spin      
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 2
+selected move: fire-blast
+
+charmander hp before:39
+Not very effective...
+charmander hp after:0
+
+Player 1's pokemon fainted, Player 2 has won the pokemon battle!
+Battle over, would you like to have another? Y
+Player 1, choose a pokemon by name or index: Machamp
+pokemon1:
+machamp        90             130            80             65             85             
+fighting                      
+
+Player 2, choose a pokemon by name or index: Golem
+pokemon2:
+golem          80             120            130            55             65             
+rock           ground         
+
+Player 1's turn
+machamp        90             130            80             65             85             
+fighting                      
+egg-bomb       high-jump-kick jump-kick      rolling-kick   
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': show ele
+normal         fighting       fighting       fighting       
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': show acc
+75             90             95             85             
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': show pow
+100            130            100            60             
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 2
+selected move: high-jump-kick
+
+golem hp before:80
+It's super effective!!!!
+golem hp after:0
+
+Player 2's pokemon fainted, Player 1 has won the pokemon battle!
+Battle over, would you like to have another? N
+Well that's a shame, goodbye

@@ -1,0 +1,13 @@
+Y
+charmander
+4
+4
+2
+Y
+Machamp
+Golem
+show ele
+show acc
+show pow
+2
+N

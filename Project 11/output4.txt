@@ -1,0 +1,104 @@
+Would you like to have a pokemon battle? y
+Player 1, choose a pokemon by name or index: pikachu
+pokemon1:
+pikachu        35             55             40             50             50             
+electric                      
+
+Player 2, choose a pokemon by name or index: 18
+pokemon2:
+pidgeot        83             80             75             70             70             
+normal         flying         
+
+Player 1's turn
+pikachu        35             55             40             50             50             
+electric                      
+slam           thunder-punch  thunderbolt    thunder        
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 3
+selected move: thunderbolt
+
+pidgeot hp before:83
+It's super effective!!!!
+pidgeot hp after:0
+
+Player 2's pokemon fainted, Player 1 has won the pokemon battle!
+Battle over, would you like to have another? y
+Player 1, choose a pokemon by name or index: Rhydon
+pokemon1:
+rhydon         105            130            120            45             45             
+ground         rock           
+
+Player 2, choose a pokemon by name or index: 18
+pokemon2:
+pidgeot        83             80             75             70             70             
+normal         flying         
+
+Player 1's turn
+rhydon         105            130            120            45             45             
+ground         rock           
+bubble         rock-throw     bone-club      dig            
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': show ele
+water          rock           ground         ground         
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 3
+selected move: bone-club
+
+pidgeot hp before:83
+No effect!
+pidgeot hp after:83
+
+Player 2's turn
+pidgeot        83             80             75             70             70             
+normal         flying         
+wrap           horn-attack    self-destruct  egg-bomb       
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': show ele
+normal         normal         normal         normal         
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 4
+selected move: egg-bomb
+
+rhydon hp before:105
+Not very effective...
+rhydon hp after:84
+
+Player 1 hp after: 84
+Player 2 hp after: 83
+
+Player 1's turn
+rhydon         84             130            120            45             45             
+ground         rock           
+bubble         rock-throw     bone-club      dig            
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 4
+selected move: dig
+
+pidgeot hp before:83
+No effect!
+pidgeot hp after:83
+
+Player 2's turn
+pidgeot        83             80             75             70             70             
+normal         flying         
+wrap           horn-attack    self-destruct  egg-bomb       
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': 1
+selected move: wrap
+
+rhydon hp before:84
+Not very effective...
+rhydon hp after:80
+
+Player 1 hp after: 80
+Player 2 hp after: 83
+
+Player 1's turn
+rhydon         80             130            120            45             45             
+ground         rock           
+bubble         rock-throw     bone-club      dig            
+Show options: 'show ele', 'show pow', 'show acc'
+Select an attack between 1 and 4 or show option or 'q': q
+Player 1 quits, Player 2 has won the pokemon battle!
+Battle over, would you like to have another? n
+Well that's a shame, goodbye

@@ -1,0 +1,8 @@
+y
+Bulbasaur
+Mewtwo
+show pow
+3
+show ele
+4
+n
