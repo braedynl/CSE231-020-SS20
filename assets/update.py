@@ -75,8 +75,8 @@ class CSE231GitHub(object):
         semester_start = datetime(*self.course_info['semester_start'], tzinfo=tz)
         semester_end = datetime(*self.course_info['semester_end'], tzinfo=tz)
 
-        N = semester_end - semester_start  # number of days in the semester
-        n = semester_end - today     # number of days from now until the end of the semester
+        N = semester_end - semester_start        # number of days in the semester
+        n = semester_end - today + timedelta(1)  # number of days from now until the end of the semester
 
         p = 1 - (n.days / N.days)  # percentage of completion
         if p < 0: 
