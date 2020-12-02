@@ -26,10 +26,10 @@ Help:
   - [Contact Information](#contact-information)
   - [Debugging Guide](https://www.cse.msu.edu/~cse231/Online/debugging.pdf)
   - [Dr. Enbody's Exam-Taking Talk](https://www.youtube.com/watch?v=rLopE19HjTY&feature=youtu.be)
+  - [Examples](Examples)
   - [FAQ](FAQ.md)
   - [General Tips](#general-tips)
   - [Glossary](GLOSSARY.md)
-  - [Helpful Scripts](Scripts)
   - [Help Room Schedule](https://www.cse.msu.edu/~cse231/Online/General/ta.consulting.FS20.html)
   - [Past Exams](https://web.cse.msu.edu/~cse231/Online/Exams/)
   - [Piazza](https://piazza.com/)
@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 12/02/2020 02:43 PM EST
+Last Refresh: 12/02/2020 02:47 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
