@@ -50,7 +50,7 @@ Your co-pilot on this expedition through CSE231 will be the course schedule, whi
 
 ## Course Schedule
 
-Last Refresh: 12/06/2020 09:04 PM EST
+Last Refresh: 12/08/2020 05:33 PM EST
 
 The assignments listed on the schedule have links to the corresponding website they are hosted on. Links to Mimir and D2L assignments are not direct because a login is required. You can hover over the assignment's text to see its precise due date (sorry mobile users).
 
@@ -58,7 +58,7 @@ Reading the weekly book chapters and watching the lecture videos can be done at 
 
 If you are in a different timezone, Mimir and D2L should automatically convert our assigned times to your computer's local time, you shouldn't need to adjust anything.
 
-<div align="center"><b>Semester Progress (95%)</b></div>
+<div align="center"><b>Semester Progress (97%)</b></div>
 <div align="center">⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜</div>
 
 &nbsp;
@@ -323,12 +323,12 @@ Sometimes, you might be faced with a problem that you just have no idea how to i
 
 Stay safe! These trackers are updated on a daily basis, and are scraped directly from the State of Michigan's [website](https://www.michigan.gov/Coronavirus).
 
-- **Total Confirmed Cases:** 395,036
-- **Total COVID-19 Deaths:** 9,854
-- **New Confirmed Cases:** 6,004
-- **New COVID-19 Deaths:** 193
+- **Total Confirmed Cases:** 410,295
+- **Total COVID-19 Deaths:** 10,138
+- **New Confirmed Cases:** 5,909
+- **New COVID-19 Deaths:** 191
 
-As of: 12/05/2020
+As of: 12/08/2020
 
 <div align="center"><img src="assets/images/covid_data.png"></img></div>
 
