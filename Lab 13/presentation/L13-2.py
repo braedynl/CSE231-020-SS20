@@ -7,29 +7,42 @@ together as an example with some surface-level research.
 
 class Car(object):
     
-    def __init__(self, owner, model, plate):
+    def __init__(self, owner:str, model:str, plate:str):
         self.owner = owner
         self.model = model
         self.plate = plate
+
+    def __str__(self) -> str:
+        return "Car('{}', '{}', '{}')".format(self.owner, self.model, self.plate)
     
-    def get_acceleration(self, v0, v1, s):
+    def __repr__(self) -> str:
+        return self.__str__()
+
+    def get_acceleration(self, v0:float, v1:float, s:float) -> float:
         '''
-        Calculates the Car's acceleration.
-        
+        Given a starting velocity, v0, and an ending velocity, v1,
+        calculates the acceleration in m/s^2 in s amount of seconds.
+
         Parameters
         ----------
-            v0 (float): Initial velocity in km/h.
-            v1 (float): Ending velocity in km/h. 
-            s (float): Time (in s) required. 
-        
+        v0
+            Initial velocity in km/h
+        v1
+            Ending velocity in km/h
+        s
+            Time (in seconds) required to get from v0 to v1
+
         Returns
         -------
             float : Car's acceleration in m/s^2
         '''
-        return (((v1 - v0) * 1000) / 3600) / s
-    
-    def __str__(self):
-        return "Car('{}', '{}', '{}')".format(self.owner, self.model, self.plate)
+
+        # formula derivation:
+        # -> a = dv/dt
+        # -> a = (v1 - v0) / (t1 - t0)
+        dv = ((v1 - v0) * 1000) / 3600  # 1 km = 1000 m, 1 h = 3600 s
+        dt = s
+        return dv / dt
 
 
 class Ford(Car):
@@ -48,19 +61,21 @@ class Tesla(Car):
 
 
 # when methods are re-defined in child classes, calling that method
-# on the child will prioritize the child's definition 
+# on an instance of the child will prioritize the child's definition 
 
 ford = Ford('Jack Stratton', '2020 Ford Focus ST', 'ABC-1234')
 print(ford)
+print(repr(ford))  # what happens when the parent has the only method definition, but is calling an overwritten method?
 
-tesla = Tesla('Marques Brownlee', 'Model S', 'A12-BCD')
+tesla = Tesla('Marques Brownlee', 'Model S', 'A13-BIO')
 print(tesla)
+print(repr(tesla))
 
+car = Car('Hasan Piker', 'Toyota Camry LE', 'ABC-DEF')
 
-c = Car('', '', '')
-
-print("Car is instance of Ford:", isinstance(c, Ford))
-print("Ford is instance of Car:", isinstance(ford, Car))
+print("Variable `car` is an instance of Ford:", isinstance(car, Ford))    # False
+print("Variable `ford` is an instance of Car:", isinstance(ford, Car))    # True
+print("Variable `tesla` is an instance of Car:", isinstance(tesla, Car))  # True
 
 # you might want to think about the instance determination like this:
 # -> is a Car necessarily a Ford? -> No.
@@ -72,3 +87,14 @@ print("Ford is instance of Car:", isinstance(ford, Car))
 # If we have a super class, Fruit, and a sub class, Apple:
 # -> is Fruit necessarily an Apple? -> No.
 # -> is Apple necessarily a Fruit? -> Yes.
+
+my_bool = True
+my_int = 1
+
+print("Variable `my_int` is an instance of bool:", isinstance(my_int, bool))  # False
+print("Variable `my_bool` is an instance of int:", isinstance(my_bool, int))  # True
+
+# from these two ^ tests alone, we can find who is a sub-class of who.
+
+# if an int is not an instance of bool, but a bool is an instance of int,
+# then that must mean int is the super class, and bool is the sub class! 
