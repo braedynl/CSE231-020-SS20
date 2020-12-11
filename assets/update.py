@@ -451,7 +451,7 @@ class CSE231GitHub(object):
 if __name__ == "__main__":
     github = CSE231GitHub()
 
-    github.package('lab')
-    # github.update_readme()
+    # github.package('lab')
+    github.update_readme()
     # github.update_project_files(True)
     # github.update_all(True)
